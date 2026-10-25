@@ -20,6 +20,9 @@ def main():
     if login.returncode or not token:
         write_atomic(status_path,{'state':'requires_github_api_login','planned_jobs':len(plan['jobs']),'planned_bytes':plan['source_bytes'],'uploaded_jobs':0,'uploaded_bytes':0,'command':'gh auth login --hostname github.com --git-protocol ssh --web --skip-ssh-key','note':'No archive upload was attempted. SSH Git authentication alone cannot call the Releases API.'})
         print('GitHub CLI login is required. No archive upload attempted.');raise SystemExit(2)
+    if plan.get('payload_safety_status')!='verified':
+        write_atomic(status_path,{'state':'requires_payload_content_scan','planned_jobs':len(plan['jobs']),'planned_bytes':plan['source_bytes'],'uploaded_jobs':0,'note':'Archive contents and any embedded credentials must be checked before a full public upload. This is an automatic preparation task, not a request for the user to audit every file.'})
+        print('Payload content safety scan is pending; no archive upload attempted.');raise SystemExit(3)
     me=api(token,'user')
     if me.get('login','').lower()!='yifan-liu0715':raise SystemExit('GitHub CLI must be logged in as yifan-liu0715')
     repo=api(token,'repos/'+REPO)

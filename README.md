@@ -29,7 +29,7 @@ The repository is a preservation snapshot. Existing candidate/accepted/review-ne
 
 The Git push uses the user's existing SSH authentication. The Releases API additionally needs a GitHub CLI login as `yifan-liu0715`. No login token is stored in this repository or in manifests. The publisher does not change billing settings or upload data to Git LFS.
 
-On the user's Windows machine, after logging into GitHub CLI:
+On the user's Windows machine, log into GitHub CLI. The agent must finish the pending payload content scan before starting the publisher; it refuses to upload while that scan is pending:
 
 ```powershell
 gh auth login --hostname github.com --git-protocol ssh --web --skip-ssh-key

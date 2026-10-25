@@ -54,7 +54,7 @@ def main():
     assert len({j['asset_name'] for j in jobs})==len(jobs)
     assert sum(j['logical_bytes'] for j in jobs)==sum(r['size'] for r in rows)
     assert all(j.get('length',0)<2*1024**3 for j in jobs)
-    plan={'version':1,'created_at':time.strftime('%Y-%m-%dT%H:%M:%S%z'),'remote_root':'/nvmedata/workspace2/users/nina','remote_export_root':'/nvmedata/workspace2/users/nina_export_20261025','repository':'yifan-liu0715/VLM_exp','release_tag':'nina-workspace-20261025','source_files':len(rows),'source_bytes':sum(r['size'] for r in rows),'job_count':len(jobs),'upload_state':'pending_github_api_authentication','credential_policy':'Never include tokens, private keys, credential files, or unreviewed Git history. No token is written to the plan.','jobs':jobs}
+    plan={'version':1,'created_at':time.strftime('%Y-%m-%dT%H:%M:%S%z'),'remote_root':'/nvmedata/workspace2/users/nina','remote_export_root':'/nvmedata/workspace2/users/nina_export_20261025','repository':'yifan-liu0715/VLM_exp','release_tag':'nina-workspace-20261025','source_files':len(rows),'source_bytes':sum(r['size'] for r in rows),'job_count':len(jobs),'upload_state':'pending_github_api_authentication','payload_safety_status':'pending_archive_content_scan','credential_policy':'Never include tokens, private keys, credential files, or unreviewed Git history. No token is written to the plan.','jobs':jobs}
     (META/'release_transfer_plan.json').write_text(json.dumps(plan,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     counts=collections.Counter(j['category'] for j in jobs)
     print(json.dumps({'jobs':len(jobs),'files':len(rows),'bytes':plan['source_bytes'],'categories':counts},ensure_ascii=False))
