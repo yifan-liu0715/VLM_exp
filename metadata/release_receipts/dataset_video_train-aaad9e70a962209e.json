@@ -1,0 +1,15 @@
+{
+  "id": "dataset_video_train-aaad9e70a962209e",
+  "asset_name": "dataset_video_train-aaad9e70a962209e.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1071634377,
+  "sha256": "78ba40cd0e2cd5c694fe040819126f86bfa23f5f31434322afb94a6b24ed9fa1",
+  "logical_bytes": 1072442187,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675326663,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_video_train-aaad9e70a962209e.tar.zst",
+  "github_digest": "sha256:78ba40cd0e2cd5c694fe040819126f86bfa23f5f31434322afb94a6b24ed9fa1",
+  "uploaded_at": "2026-10-25T23:03:18+0800",
+  "payload_safety_receipt": "payload_safety/dataset_video_train-aaad9e70a962209e.json"
+}
