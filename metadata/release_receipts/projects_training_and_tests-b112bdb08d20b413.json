@@ -1,0 +1,15 @@
+{
+  "id": "projects_training_and_tests-b112bdb08d20b413",
+  "asset_name": "projects_training_and_tests-b112bdb08d20b413.bin",
+  "kind": "file_slice",
+  "bytes": 1610612736,
+  "sha256": "7ef986b2376027ebe01ea2df745c2926e382ebfec0265b0c4cc78004c6bdbada",
+  "logical_bytes": 1610612736,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675729033,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/projects_training_and_tests-b112bdb08d20b413.bin",
+  "github_digest": "sha256:7ef986b2376027ebe01ea2df745c2926e382ebfec0265b0c4cc78004c6bdbada",
+  "uploaded_at": "2026-10-26T02:01:47+0800",
+  "payload_safety_receipt": "payload_safety/projects_training_and_tests-b112bdb08d20b413.json"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "projects_training_and_tests-b156d83e632ea278",
+  "source_files": 1,
+  "logical_bytes": 1610612736,
+  "known_sensitive_values_checked": 8,
+  "gitleaks_candidates": 0,
+  "classified_false_positives": 0,
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T02:00:34+0800"
+}
