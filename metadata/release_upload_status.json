@@ -1,29 +1,29 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T02:39:36+0800",
+  "updated_at": "2026-10-26T02:41:21+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 245,
-  "uploaded_archive_bytes": 269066890544,
-  "uploaded_logical_bytes": 270080635794,
-  "remaining_logical_bytes": 169172655576,
-  "aggregate_logical_MB_per_second_since_start": 12.448,
-  "estimated_remaining_transfer_hours": 3.77,
+  "uploaded_jobs": 255,
+  "uploaded_archive_bytes": 269704675108,
+  "uploaded_logical_bytes": 270977605428,
+  "remaining_logical_bytes": 168275685942,
+  "aggregate_logical_MB_per_second_since_start": 12.429,
+  "estimated_remaining_transfer_hours": 3.76,
   "active_jobs": {
-    "batch_raw_pending_and_results-d8002b014a551ac4": {
+    "dataset_h3_capture_semantic_review_2050_coverage355_20260923-35de2f7c7b40a1f9": {
       "stage": "uploading",
-      "logical_bytes": 22328170,
-      "started_at": "2026-10-26T02:39:26+0800",
+      "logical_bytes": 150641277,
+      "started_at": "2026-10-26T02:41:07+0800",
       "attempt": 1
     },
-    "environments-c782e1a98ca7d941": {
+    "dataset_h3_capture_v1-2b341a22ef7afbc0": {
       "stage": "content_check",
-      "logical_bytes": 37124643,
-      "started_at": "2026-10-26T02:39:36+0800"
+      "logical_bytes": 153912580,
+      "started_at": "2026-10-26T02:41:21+0800"
     }
   },
   "held": [
@@ -36,6 +36,56 @@
       "id": "environments-82efe4c0b43b8820",
       "logical_bytes": 34502957,
       "reason": "payload has 3 unclassified secret candidates"
+    },
+    {
+      "id": "environments-c782e1a98ca7d941",
+      "logical_bytes": 37124643,
+      "reason": "payload has 3 unclassified secret candidates"
+    },
+    {
+      "id": "environments-2abf3af0c8f5815d",
+      "logical_bytes": 48713486,
+      "reason": "credential value or high-confidence credential pattern detected"
+    },
+    {
+      "id": "environments-dc107f35f78adb44",
+      "logical_bytes": 70386927,
+      "reason": "payload has 7 unclassified secret candidates"
+    },
+    {
+      "id": "environments-c390ad1be251e124",
+      "logical_bytes": 94462324,
+      "reason": "payload has 1 unclassified secret candidates"
+    },
+    {
+      "id": "environments-84c2f2dd037b6d95",
+      "logical_bytes": 115349812,
+      "reason": "credential value or high-confidence credential pattern detected"
+    },
+    {
+      "id": "environments-2725566539d4e2c8",
+      "logical_bytes": 115135694,
+      "reason": "payload has 1 unclassified secret candidates"
+    },
+    {
+      "id": "environments-d1c8b3303a8dda62",
+      "logical_bytes": 121597056,
+      "reason": "payload has 9 unclassified secret candidates"
+    },
+    {
+      "id": "environments-1cb8b928334840d2",
+      "logical_bytes": 131534552,
+      "reason": "credential value or high-confidence credential pattern detected"
+    },
+    {
+      "id": "environments-b0e0f8fb4292f2de",
+      "logical_bytes": 132435410,
+      "reason": "payload has 9 unclassified secret candidates"
+    },
+    {
+      "id": "environments-4b6c00def32d93d6",
+      "logical_bytes": 145651422,
+      "reason": "credential value or high-confidence credential pattern detected"
     }
   ],
   "failures": [
