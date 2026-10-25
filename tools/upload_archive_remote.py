@@ -46,7 +46,7 @@ def produce(job,root=ROOT,out=OUT):
         with part.open('wb') as dst:
             compressor=subprocess.Popen(['zstd','-q','-3','-T2','-c'],stdin=subprocess.PIPE,stdout=dst)
             try:
-                with tarfile.open(fileobj=compressor.stdin,mode='w|',format=tarfile.PAX_FORMAT) as tf:
+                with tarfile.open(fileobj=compressor.stdin,mode='w|',format=tarfile.PAX_FORMAT,dereference=True) as tf:
                     for row in job['files']:
                         source=safe_source(row,root);info=tf.gettarinfo(str(source),arcname='workspace/'+row['path'])
                         if not info.isfile():raise ValueError('only regular files are allowed in an archive')

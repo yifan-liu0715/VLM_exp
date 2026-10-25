@@ -1,0 +1,18 @@
+{
+  "cause": "Python tarfile emits hardlink entries for different regular source paths sharing one inode; the strict producer rejected those entries.",
+  "fix": "Serialize all planned regular paths as regular members using dereference=True. Source paths still pass symlink and root-boundary checks.",
+  "verification": {
+    "hardlink_restore_regression": {
+      "passed": 1,
+      "failed": 0
+    },
+    "existing_export_tool_checks": {
+      "passed": 8,
+      "failed": 0
+    }
+  },
+  "retry_job": "dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-b85a9b9d7921ab1a",
+  "original_workspace_modified": false,
+  "current_uploader_was_not_restarted": true,
+  "note": "The existing uploader keeps its imported module. This fix applies to explicit retries and future starts; historical status failures must be reconciled against verified receipts."
+}
