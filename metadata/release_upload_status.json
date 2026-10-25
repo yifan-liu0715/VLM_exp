@@ -1,33 +1,43 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T02:36:28+0800",
+  "updated_at": "2026-10-26T02:39:36+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 235,
-  "uploaded_archive_bytes": 265828534160,
-  "uploaded_logical_bytes": 266826168985,
-  "remaining_logical_bytes": 172427122385,
-  "aggregate_logical_MB_per_second_since_start": 12.405,
-  "estimated_remaining_transfer_hours": 3.86,
+  "uploaded_jobs": 245,
+  "uploaded_archive_bytes": 269066890544,
+  "uploaded_logical_bytes": 270080635794,
+  "remaining_logical_bytes": 169172655576,
+  "aggregate_logical_MB_per_second_since_start": 12.448,
+  "estimated_remaining_transfer_hours": 3.77,
   "active_jobs": {
-    "projects_training_and_tests-fe29844cec08f038": {
+    "batch_raw_pending_and_results-d8002b014a551ac4": {
       "stage": "uploading",
-      "logical_bytes": 1610612736,
-      "started_at": "2026-10-26T02:35:24+0800",
+      "logical_bytes": 22328170,
+      "started_at": "2026-10-26T02:39:26+0800",
       "attempt": 1
     },
-    "projects_training_and_tests-ff24127113add150": {
-      "stage": "uploading",
-      "logical_bytes": 1610612736,
-      "started_at": "2026-10-26T02:35:42+0800",
-      "attempt": 1
+    "environments-c782e1a98ca7d941": {
+      "stage": "content_check",
+      "logical_bytes": 37124643,
+      "started_at": "2026-10-26T02:39:36+0800"
     }
   },
-  "held": [],
+  "held": [
+    {
+      "id": "logs_and_tool_state-4e4edcd687d2798c",
+      "logical_bytes": 4835601,
+      "reason": "credential value or high-confidence credential pattern detected"
+    },
+    {
+      "id": "environments-82efe4c0b43b8820",
+      "logical_bytes": 34502957,
+      "reason": "payload has 3 unclassified secret candidates"
+    }
+  ],
   "failures": [
     {
       "id": "dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-b85a9b9d7921ab1a",

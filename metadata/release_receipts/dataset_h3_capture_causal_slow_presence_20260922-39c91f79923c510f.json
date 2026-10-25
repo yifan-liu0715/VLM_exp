@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_causal_slow_presence_20260922-39c91f79923c510f",
+  "asset_name": "dataset_h3_capture_causal_slow_presence_20260922-39c91f79923c510f.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 24640,
+  "sha256": "5a5adc6ae406eccb7cff14c998ed19606e4da904ae5c3f8ea787fc1fe0c55431",
+  "logical_bytes": 49051,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675812688,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_causal_slow_presence_20260922-39c91f79923c510f.tar.zst",
+  "github_digest": "sha256:5a5adc6ae406eccb7cff14c998ed19606e4da904ae5c3f8ea787fc1fe0c55431",
+  "uploaded_at": "2026-10-26T02:38:57+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_causal_slow_presence_20260922-39c91f79923c510f.json"
+}
