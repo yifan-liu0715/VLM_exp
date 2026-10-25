@@ -1,0 +1,15 @@
+{
+  "id": "dataset_video_train-fabed1209af74479",
+  "asset_name": "dataset_video_train-fabed1209af74479.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1071415334,
+  "sha256": "748a54e8b9e3c073da3239d84c4029c5f1e05db2536163c47c2bd07fee227cbf",
+  "logical_bytes": 1072709076,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675331187,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_video_train-fabed1209af74479.tar.zst",
+  "github_digest": "sha256:748a54e8b9e3c073da3239d84c4029c5f1e05db2536163c47c2bd07fee227cbf",
+  "uploaded_at": "2026-10-25T23:05:45+0800",
+  "payload_safety_receipt": "payload_safety/dataset_video_train-fabed1209af74479.json"
+}
