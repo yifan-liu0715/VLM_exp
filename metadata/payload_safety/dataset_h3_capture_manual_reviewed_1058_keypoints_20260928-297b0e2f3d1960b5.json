@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-297b0e2f3d1960b5",
+  "source_files": 423,
+  "logical_bytes": 1071819882,
+  "known_sensitive_values_checked": 8,
+  "gitleaks_candidates": 0,
+  "classified_false_positives": 0,
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-25T22:47:25+0800"
+}
