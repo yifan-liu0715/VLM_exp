@@ -1,29 +1,30 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-25T23:17:29+0800",
+  "updated_at": "2026-10-25T23:20:43+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 129,
-  "uploaded_archive_bytes": 110751781383,
-  "uploaded_logical_bytes": 111684198434,
-  "remaining_logical_bytes": 327569092936,
-  "aggregate_logical_MB_per_second_since_start": 11.664,
-  "estimated_remaining_transfer_hours": 7.8,
+  "uploaded_jobs": 132,
+  "uploaded_archive_bytes": 113989886857,
+  "uploaded_logical_bytes": 114922887672,
+  "remaining_logical_bytes": 324330403698,
+  "aggregate_logical_MB_per_second_since_start": 11.766,
+  "estimated_remaining_transfer_hours": 7.66,
   "active_jobs": {
-    "dataset_h3_capture_semantic_rescreen_v2_2045_coverage357_20260923-409d6532bc723dee": {
+    "batch_raw_pending_and_results-4441e8b7bb1fd515": {
       "stage": "uploading",
-      "logical_bytes": 1073712897,
-      "started_at": "2026-10-25T23:15:14+0800",
+      "logical_bytes": 1099031469,
+      "started_at": "2026-10-25T23:20:08+0800",
       "attempt": 1
     },
-    "batch_raw_pending_and_results-3e744077d408f6ac": {
-      "stage": "content_check",
-      "logical_bytes": 1075268631,
-      "started_at": "2026-10-25T23:17:29+0800"
+    "batch_raw_pending_and_results-0ba2f921b9f12edc": {
+      "stage": "uploading",
+      "logical_bytes": 1108320909,
+      "started_at": "2026-10-25T23:20:19+0800",
+      "attempt": 1
     }
   },
   "held": [],
