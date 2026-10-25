@@ -1,0 +1,15 @@
+{
+  "id": "dataset_video_train-2bd8308b250cebec",
+  "asset_name": "dataset_video_train-2bd8308b250cebec.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 769451778,
+  "sha256": "6c36a110da283671a82162194603423a02da179f1a04500353908367021681ab",
+  "logical_bytes": 772101762,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675052956,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_video_train-2bd8308b250cebec.tar.zst",
+  "github_digest": "sha256:6c36a110da283671a82162194603423a02da179f1a04500353908367021681ab",
+  "uploaded_at": "2026-10-25T20:59:29+0800",
+  "payload_safety_receipt": "payload_safety/dataset_video_train-2bd8308b250cebec.json"
+}
