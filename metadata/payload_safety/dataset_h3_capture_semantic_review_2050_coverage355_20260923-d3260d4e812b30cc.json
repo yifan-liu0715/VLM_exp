@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "dataset_h3_capture_semantic_review_2050_coverage355_20260923-d3260d4e812b30cc",
+  "source_files": 522,
+  "logical_bytes": 1073544372,
+  "known_sensitive_values_checked": 8,
+  "gitleaks_candidates": 0,
+  "classified_false_positives": 0,
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-25T23:13:10+0800"
+}
