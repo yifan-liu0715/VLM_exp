@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "environments-ac1d3ac79505aa6b",
+  "source_files": 1933,
+  "logical_bytes": 1072592098,
+  "known_sensitive_values_checked": 8,
+  "gitleaks_candidates": 6,
+  "classified_false_positives": 6,
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T03:20:32+0800"
+}
