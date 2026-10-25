@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_causal_v3_20260921_supplemental-d80bd9e1cf504551",
+  "asset_name": "dataset_h3_capture_causal_v3_20260921_supplemental-d80bd9e1cf504551.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1063682485,
+  "sha256": "8c964d29259ace099fbc26dd58f5beec9867bc4af95a61250d8db6abdd41f223",
+  "logical_bytes": 1064212180,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675245465,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_causal_v3_20260921_supplemental-d80bd9e1cf504551.tar.zst",
+  "github_digest": "sha256:8c964d29259ace099fbc26dd58f5beec9867bc4af95a61250d8db6abdd41f223",
+  "uploaded_at": "2026-10-25T22:27:39+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_causal_v3_20260921_supplemental-d80bd9e1cf504551.json"
+}
