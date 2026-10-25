@@ -1,0 +1,15 @@
+{
+  "id": "other_workspace_files-8b7a907d67042f0d",
+  "asset_name": "other_workspace_files-8b7a907d67042f0d.bin",
+  "kind": "file_slice",
+  "bytes": 707497431,
+  "sha256": "95c7b115f8dccd7f6646d3c4ccc5ce59e9ad4a085bca7b78b4883efeb858bd99",
+  "logical_bytes": 707497431,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675834880,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/other_workspace_files-8b7a907d67042f0d.bin",
+  "github_digest": "sha256:95c7b115f8dccd7f6646d3c4ccc5ce59e9ad4a085bca7b78b4883efeb858bd99",
+  "uploaded_at": "2026-10-26T03:41:56+0800",
+  "payload_safety_receipt": "payload_safety/other_workspace_files-8b7a907d67042f0d.json"
+}
