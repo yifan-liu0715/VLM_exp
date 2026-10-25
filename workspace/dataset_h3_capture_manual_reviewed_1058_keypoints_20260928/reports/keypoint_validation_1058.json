@@ -1,0 +1,15 @@
+{
+  "manifest_count": 1058,
+  "unique_clip_count": 1058,
+  "source_coverage_count": 91,
+  "valid_count": 1058,
+  "error_count": 0,
+  "zero_hand_count": 0,
+  "zero_hand_clip_ids": [],
+  "hand_keypoint_usable_count": 1058,
+  "zero_hand_training_status": "none",
+  "review_status_counts": {
+    "pending_user_review": 1058
+  },
+  "errors": []
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "policy_id": "h3-semantic-rescreen-v2-20260923",
+  "additions": [
+    {"parent_clip_id": "semantic_wave2_wave2_i0160_01", "action_family": "rotate", "manual_presence_override_reason": "Frame review confirms continuous hand contact rotating the foosball rod; the automatic hand detector missed most of the action.", "visual_review_artifact": "tmp/rescreen_20260923/0179_foosball_rotate.jpg"},
+    {"parent_clip_id": "semantic_wave2_wave2_i0161_01", "action_family": "rotate", "manual_presence_override_reason": "Frame review confirms continuous hand contact rotating a second foosball rod; the automatic hand detector missed most of the action.", "visual_review_artifact": "tmp/rescreen_20260923/0180_foosball_rotate.jpg"},
+    {"parent_clip_id": "semantic_v2_DJI_20260913123611_0024_D_lower_cat_front_01", "action_family": "animal_put_down", "manual_presence_override_reason": "Frame review shows the cat lowered from a held state until its paws return to the floor; the detector miss does not reflect absent hand contact.", "visual_review_artifact": "tmp/rescreen_20260923/0024_lower_cat.jpg"},
+    {"parent_clip_id": "semantic_v2_DJI_20260913123611_0024_D_lift_cat_01", "action_family": "animal_pick_up", "manual_presence_override_reason": "Frame review shows the cat lifted from paws-on-floor to fully supported upright; the detector miss does not reflect absent hand contact.", "visual_review_artifact": "tmp/rescreen_20260923/0024_lift_cat.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0192_01", "action_family": "pick_up", "manual_presence_override_reason": "Frame review shows both hands slide under the comic book and lift it clear of the shelf.", "visual_review_artifact": "tmp/rescreen_20260923/0214_pick_book.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0188_01", "action_family": "pick_up", "manual_presence_override_reason": "Frame review shows the cup lifted from the machine tray until the tray is visibly empty.", "visual_review_artifact": "tmp/rescreen_20260923/0209_pick_cup.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0188_02", "action_family": "put_down", "manual_presence_override_reason": "Frame review shows the cup returned to the tray and released in a stable standing state.", "visual_review_artifact": "tmp/rescreen_20260923/0209_put_cup.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0348_02", "action_family": "plush_pick_up", "manual_presence_override_reason": "Frame review confirms the hand changes to a distinct nearby rabbit ornament and lifts it; the automatic detector only covered the preceding ornament.", "visual_review_artifact": "tmp/rescreen_20260923/0408_two_rabbit_ornaments.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0171_02", "action_family": "put_down", "manual_presence_override_reason": "Frame review shows the raised dumbbell lowered and released beside the second dumbbell.", "visual_review_artifact": "tmp/rescreen_20260923/0191_dumbbell_cycle.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0177_01", "action_family": "press", "manual_presence_override_reason": "Frame review shows a finger press followed by the elevator button changing from unlit to illuminated.", "visual_review_artifact": "tmp/rescreen_20260923/0197_press_elevator.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0187_01", "action_family": "put_down", "manual_presence_override_reason": "Frame review shows the paper cup moved under the nozzle, placed on the tray, and released.", "visual_review_artifact": "tmp/rescreen_20260923/0208_put_cup.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0193_01", "action_family": "pull_open", "manual_presence_override_reason": "Frame review shows the comic book opened and pages turned continuously until a stable open spread is reached.", "visual_review_artifact": "tmp/rescreen_20260923/0215_open_comic.jpg"},
+    {"parent_clip_id": "semantic_followup_followup_i0237_01", "action_family": "squeeze", "manual_presence_override_reason": "Frame review shows repeated hand compression visibly deforming the slime in one continuous sequence.", "visual_review_artifact": "tmp/rescreen_20260923/0267_squeeze_slime.jpg"},
+    {"parent_clip_id": "semantic_wave2_wave2_r283_01", "action_family": "pick_up", "manual_presence_override_reason": "Frame review shows the bag lifted from hand carry until its strap rests on the shoulder.", "visual_review_artifact": "tmp/rescreen_20260923/0325_lift_bag.jpg"}
+  ],
+  "exclusions": [
+    {"candidate_id": "semantic_review_8a23d278b193411096af", "reason": "encoded_output_duplicate_and_fully_covered", "covered_by": "semantic_review_c74c69287d428f17d247"},
+    {"candidate_id": "semantic_review_1aee18317bd875a504cd", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_90815061ef3115f15e55"},
+    {"candidate_id": "semantic_review_2bffba97e3b0eb6bca51", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_552d0d735aa6ace569eb"},
+    {"candidate_id": "semantic_review_4e2f58dce5ea3327e0ae", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_0249c5f0de6189feb84c"},
+    {"candidate_id": "semantic_review_b91c2674fc17ea6f2bd1", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_3e45a781db573cdc6829"},
+    {"candidate_id": "semantic_review_0eb795b3a180ed57f504", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_e2ed805c313fdaab677c"},
+    {"candidate_id": "semantic_review_b1203d59404c04eb1972", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_aea89e7cf913d98dea7b"},
+    {"candidate_id": "semantic_review_c5dba17722920fe683ed", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_ee76d16b0b8962d36724"},
+    {"candidate_id": "semantic_review_9b4b19f5808f219242d9", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_d6861504ee6715484ab3"},
+    {"candidate_id": "semantic_review_bb240a7e58eceff2a2b9", "reason": "unverified_window_fully_covered_by_complete_semantic_action", "covered_by": "semantic_review_046f6d2c5082115c48fb"},
+    {"candidate_id": "semantic_review_e4c48961f51d7818da4c", "reason": "unverified_window_fully_covered_by_first_rabbit_ornament_action", "covered_by": "semantic_review_2b4fb244bce6b9adadd0"},
+    {"candidate_id": "semantic_review_a1d763328ad5cad4e233", "reason": "unverified_window_crosses_first_and_second_rabbit_ornament_actions", "covered_by": "rescreen_v2_semantic_followup_followup_i0348_02"},
+    {"candidate_id": "semantic_review_61058ab18ae4ba6f0632", "reason": "unverified_window_replaced_by_complete_foosball_rotation", "covered_by": "rescreen_v2_semantic_wave2_wave2_i0160_01"},
+    {"candidate_id": "semantic_review_cb65230d3c8965162052", "reason": "unverified_compound_window_replaced_by_separate_dumbbell_actions", "covered_by": "rescreen_v2_semantic_followup_followup_i0171_02"},
+    {"candidate_id": "semantic_review_d8fe9727c03c4f9248a1", "reason": "unverified_window_replaced_by_complete_cup_placement", "covered_by": "rescreen_v2_semantic_followup_followup_i0187_01"},
+    {"candidate_id": "semantic_review_256c468ecb88c1ce7e84", "reason": "unverified_window_replaced_by_complete_comic_opening", "covered_by": "rescreen_v2_semantic_followup_followup_i0193_01"},
+    {"candidate_id": "semantic_review_9362f889a52ae6e12b4b", "reason": "unverified_window_replaced_by_complete_slime_squeeze_sequence", "covered_by": "rescreen_v2_semantic_followup_followup_i0237_01"},
+    {"candidate_id": "semantic_review_81ff2f75ad274a042152", "reason": "unverified_window_replaced_by_complete_slime_squeeze_sequence", "covered_by": "rescreen_v2_semantic_followup_followup_i0237_01"},
+    {"candidate_id": "semantic_review_767f6ff645e8e92c4196", "reason": "unverified_window_replaced_by_complete_bag_lift", "covered_by": "rescreen_v2_semantic_wave2_wave2_r283_01"},
+    {"candidate_id": "semantic_review_23c40f0ce94e078c0fe3", "reason": "overflow_unverified_window_overlaps_complete_dumbbell_put_down", "covered_by": "rescreen_v2_semantic_followup_followup_i0171_02"}
+  ]
+}

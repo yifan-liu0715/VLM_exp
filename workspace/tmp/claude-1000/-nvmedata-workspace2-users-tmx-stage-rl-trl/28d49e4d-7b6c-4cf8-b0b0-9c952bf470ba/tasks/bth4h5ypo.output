@@ -1,0 +1,15 @@
+  iou30           634    150    164   0.7945     0.8087   0.8015
+  iou50           561    223    237   0.7030     0.7156   0.7092
+  iou80           334    450    464   0.4185     0.4260   0.4223
+
+  Defect samples (555): detect_rate=0.9946 R_cls=1.1369 R_loc=5.0064
+  Clean samples (445): correct_reject=0.9865
+
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7043   0.9555     562     537    798
+                  iou80   0.4185   0.9581     334     320    798
+======================================================================
+
+[Eval] Results saved to: results/exp044_notiny_ckpt5100.json
+[Eval] Detailed per-sample results: results/exp044_notiny_ckpt5100_details.json

@@ -1,0 +1,37 @@
+{
+  "sample_id": "mymotion__051",
+  "split": "test",
+  "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/output_video/mymotion__051.mp4",
+  "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/input_video/mymotion__051.mp4",
+  "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/reference/mymotion__051.jpg",
+  "prompt": "A man with salt-and-pepper hair in a black suit and tie sits beside a woman with blonde hair in a ponytail wearing a strapless lilac dress and pearl necklace. The man remains still with a subtle smirk, while the woman speaks, turning her head toward him before looking forward. They are positioned against a blurred, textured purple backdrop on what appears to be a talk show set.",
+  "height": 512,
+  "width": 1280,
+  "num_frames": 97,
+  "fps": 24.0,
+  "scheduler": "UniPCMultistepScheduler",
+  "flow_shift": 5.0,
+  "steps": 50,
+  "guidance_scale": 5.0,
+  "seed": 42,
+  "physical_gpu": "3",
+  "base_definition": "untrained V2V condition interface",
+  "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors",
+  "adapter_sha256": "9af3cf27350119eea4c3663d7192eae83deb22109ec49c94f8f84e067ddc33da",
+  "adapter_summary": {
+    "lora": 480,
+    "source_patch": 2,
+    "other": 0
+  },
+  "identical_initial_noise": true,
+  "identical_source_reference_conditions": true,
+  "geometry_preprocessing": "native_source_target_reference_aspect_fit_replicate_padding",
+  "outputs": {
+    "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_Source.mp4",
+    "target": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_Target.mp4",
+    "base": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_Base.mp4",
+    "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_NativeResolution_LoRA.mp4",
+    "comparison": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_comparison_4grid.mp4"
+  },
+  "quality_metrics_computed": false
+}

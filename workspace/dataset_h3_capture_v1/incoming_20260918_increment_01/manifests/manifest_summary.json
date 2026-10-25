@@ -1,0 +1,28 @@
+{
+  "increment_export_manifest": "capture_work_20260918_increment\\reports\\export_manifest_increment.jsonl",
+  "old_manifest": "capture_work_20260917\\manifests\\capture_hand_detection_full.jsonl",
+  "old_source_inventory": "capture_work_20260917\\reports\\source_inventory.jsonl",
+  "increment_source_inventory": "capture_work_20260918_increment\\reports\\source_inventory_increment.jsonl",
+  "increment_manifest_count": 109,
+  "old_manifest_count": 1900,
+  "full_pending_manifest_count": 2009,
+  "old_source_count": 282,
+  "increment_source_count": 54,
+  "full_pending_source_count": 336,
+  "increment_duration_min_sec": 4.125,
+  "increment_duration_max_sec": 5.0,
+  "increment_out_of_training_window_count": 0,
+  "old_short_duration_count_preserved": 11,
+  "source_overlap_count": 0,
+  "id_range": {
+    "first": "capture_000001",
+    "last": "capture_002009"
+  },
+  "outputs": {
+    "increment_manifest": "capture_hand_detection_increment.jsonl",
+    "increment_sha256": "clips_increment.sha256",
+    "full_pending_manifest": "capture_hand_detection_full_pending.jsonl",
+    "full_pending_sources": "source_inventory_full_pending.jsonl",
+    "full_pending_sha256": "clips_full_pending.sha256"
+  }
+}

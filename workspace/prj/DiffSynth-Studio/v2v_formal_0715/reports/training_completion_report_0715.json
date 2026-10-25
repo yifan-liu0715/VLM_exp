@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "training_started_cst": "2026-07-15T12:58:03+08:00",
+  "training_finished_cst": "2026-07-15T16:35:13+08:00",
+  "max_epochs_reached": 5,
+  "optimizer_steps": 3265,
+  "physical_gpus": [1, 2, 3],
+  "gpu0_excluded": true,
+  "inference_run": false,
+  "dataset": {
+    "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/metadata/metadata_full_paired_0715.csv",
+    "rows": 3916,
+    "source_splits": {"train": 2993, "val": 468, "test": 455},
+    "buckets": {"1280x512": 1032, "1280x704": 1225, "704x1280": 1659},
+    "missing_input_video": 0,
+    "missing_output_video": 0,
+    "missing_reference_image": 0,
+    "duplicate_sample_ids": 0,
+    "sha256": "4fd0a1cd72b263c20bbc9b66870ba8883125f10ff5817ed94cca16fb9a02a3be"
+  },
+  "training": {
+    "lora_rank": 64,
+    "lora_alpha": 64,
+    "trainable_parameters": 94964736,
+    "batch_size_per_gpu": 1,
+    "gradient_accumulation": 2,
+    "effective_batch_size": 6,
+    "num_frames": 33,
+    "precision": "bf16-mixed",
+    "seed": 42,
+    "epoch_losses": [0.16220654547214508, 0.13850681483745575, 0.13770852982997894, 0.13479167222976685, 0.1469765603542328],
+    "final_step_loss": 0.11179176717996597,
+    "all_step_losses_finite": true,
+    "formal_log_error_matches": 0
+  },
+  "final_adapter": {
+    "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/final_adapter/v2v_lora_and_source_patch.safetensors",
+    "file_bytes": 189991384,
+    "tensor_bytes": 189929472,
+    "tensor_count": 482,
+    "lora_tensor_count": 480,
+    "source_patch_tensor_count": 2,
+    "dtype": "bfloat16",
+    "all_tensors_finite": true,
+    "nonzero_tensor_count": 482,
+    "sha256": "8b4b2b5cdef9c4edce622519d5b4b6f4d894232776265e00d8931342ecd62db1"
+  },
+  "recovery_checkpoint": {
+    "global_step": 3000,
+    "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors",
+    "sha256": "c84904ec618f0a5578cd37a1c33e1f4f3ae27a922caf4d12fffc09171a6f02de"
+  },
+  "hashes": {
+    "training_config": "48dfac49362f8c4da8dea121573a21ad36cee47a98d8d4b22050c23b14c93114",
+    "formal_training_log": "4371052d3f29d7a5b72a01e00d5a62819b10cb42900c800a21500d3f1a449c7d",
+    "metrics_csv": "0cf4ec7520f33aa9f2db695060bbf991049f397654e970845317c5dc8d8240eb"
+  }
+}

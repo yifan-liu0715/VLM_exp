@@ -1,0 +1,23 @@
+{
+  "source_id": "dji__DJI_20261005190014_0088_D",
+  "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/dji__DJI_20261005190014_0088_D.MP4",
+  "source_sha256": "9072afa315a6bfdf420eb98b877ae7fd60438d00620095873de28cf2bbcb3aaa",
+  "duration_s": 7.573333,
+  "overview_sample_fps": 1,
+  "timestamps_are_coarse_localization_only": true,
+  "display_width": 3840,
+  "display_height": 2160,
+  "metadata_rotation_deg": 0.0,
+  "orientation_correction": "ffmpeg metadata autorotation exactly once",
+  "all_overview_frames": 7,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005190014_0088_D/overview_page_001.jpg"
+  ],
+  "state": "source_context_ready",
+  "overview_is_semantic_approval": false,
+  "normal_resolution_second_pass_required": true,
+  "output_crop_review_required": false,
+  "privacy_reviewed": false,
+  "keypoints_started": false,
+  "training_started": false
+}

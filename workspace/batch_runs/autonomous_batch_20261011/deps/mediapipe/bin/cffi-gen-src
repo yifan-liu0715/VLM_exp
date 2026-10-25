@@ -1,0 +1,6 @@
+#!/nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python
+import sys
+from cffi._cffi_gen_src import run
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(run())

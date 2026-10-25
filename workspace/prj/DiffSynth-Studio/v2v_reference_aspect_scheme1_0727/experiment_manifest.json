@@ -1,0 +1,27 @@
+{
+  "status": "training_complete",
+  "physical_gpus": [
+    "5"
+  ],
+  "train_rows": 2993,
+  "effective_global_batch": 1,
+  "teacher_reference_sha256": {
+    "README.md": "ec52291770b3198d80fffd51c33636aff5b8ddda52923617c1085a797e260060",
+    "configs/infer_teacher.yaml": "1488377bbd204b27c0959f32e5b5b57084a426a9d0248c9a2d4b4ee48c350e6c",
+    "configs/train_teacher.yaml": "d4dfebc718acf72440300e0cbc9b8e3a605cb90227800e313bf9fbf57659413f",
+    "environment.yaml": "f4a3bd4dc93f7c6a8428d3192f0b5b92263990c8d6d3662b67aeea6cf8e013b4",
+    "infer_teacher.sh": "38842ee996fc5fcee3899a6b66d85cc15b5fce42c897ea4f5ba0a5eaa881af41",
+    "models/wan2/attn_process.py": "b8dbddc7acef43817cb0345af9eaaf117eaf6a7e40288fe2b133aab68f1467fe",
+    "models/wan2/custom_pipeline.py": "e49fb83c493e26d9a7f33bc86ad1a97964396f6078ab4f9596aea13afce97e71",
+    "models/wan2/transformer_wan.py": "d632fca6171d186778eda2d914004ee4d50c28c867cf44ee8c0276ab85dfebab",
+    "models/wan2/wan_block.py": "538b45ce7293753169a682af022ad2ef34a2b918e99555cec963f3159f47880b",
+    "models/wan2/wan_embedder.py": "fe1ba001a1d098000a1d42731e40e168bfdea0fa45e2b7aa5cbf13d915390304",
+    "requirements.txt": "13f367ea4302be75ff87056c2356a15b1dd52bab66e31fa8f957c1731653358c",
+    "src/wan2_inference_testset.py": "37da592a8e0911707ff704a0a73ad02c672972a9fcce081d2e11d764c74013ff",
+    "src/wan2_trainer_plus.py": "1cca0916fbce2e3f4671de78aab359785bc5937e731ab1c8aeeb3c3e0f167768",
+    "tools/my_schedule.py": "0433157d7e88da31fd4e8a9a6492f1ec0aee472ded4979e9309505b2c79c6440",
+    "train_teacher.sh": "87575673f406e1cf8736baed034f2912d97cb63e1702e25b4d07bbfe302b293a"
+  },
+  "controlled_exception": "Native DiffSynth VAE/text encoder loading is retained because the complete Diffusers subfolders are unavailable.",
+  "global_step": 2000
+}

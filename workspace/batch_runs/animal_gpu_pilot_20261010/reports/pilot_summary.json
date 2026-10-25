@@ -1,0 +1,312 @@
+{
+  "completed_at": "2026-10-10T07:26:07+0800",
+  "pilot_status": "upload_cuda_inference_and_parity_verified",
+  "raw_sources_uploaded": 10,
+  "candidates_uploaded": 12,
+  "total_frames": 751,
+  "remote_root": "/nvmedata/workspace2/users/nina/batch_runs/animal_gpu_pilot_20261010",
+  "physical_gpu": 3,
+  "all_transferred_sha256_match": true,
+  "cuda_compute_verified": true,
+  "profiling_convolution_providers": {
+    "CUDAExecutionProvider": 39962
+  },
+  "detector_hit_total": 277,
+  "detector_hits_are_not_confirmed_human_faces": true,
+  "results": [
+    {
+      "source_id": "DJI_20260930201304_0108_D",
+      "event_id": "A",
+      "frames": 31,
+      "detector_hits": 23,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 9.1552734375e-05,
+        "max_score_difference": 5.960464477539062e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.00505317687986917,
+        "max_score_difference": 8.426475525125099e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930201304_0108_D",
+      "event_id": "B",
+      "frames": 67,
+      "detector_hits": 25,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 7.62939453125e-05,
+        "max_score_difference": 7.748603820800781e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.004969196319592584,
+        "max_score_difference": 9.897842406791924e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930201432_0109_D",
+      "event_id": "A",
+      "frames": 77,
+      "detector_hits": 26,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.0001373291015625,
+        "max_score_difference": 5.364418029785156e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.004972076416017046,
+        "max_score_difference": 6.921653747937739e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930201537_0110_D",
+      "event_id": "A",
+      "frames": 53,
+      "detector_hits": 98,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.000152587890625,
+        "max_score_difference": 8.940696716308594e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.005044555664056816,
+        "max_score_difference": 1.3658027648855153e-06,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930201537_0110_D",
+      "event_id": "B",
+      "frames": 21,
+      "detector_hits": 17,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.00012969970703125,
+        "max_score_difference": 6.556510925292969e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.005025749206538421,
+        "max_score_difference": 6.474533080780276e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930201641_0111_D",
+      "event_id": "A",
+      "frames": 87,
+      "detector_hits": 28,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.00018310546875,
+        "max_score_difference": 6.556510925292969e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.004947814941402839,
+        "max_score_difference": 1.116203308115793e-06,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "DJI_20260930202219_0114_D",
+      "event_id": "A",
+      "frames": 73,
+      "detector_hits": 7,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 4.57763671875e-05,
+        "max_score_difference": 3.5762786865234375e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.00470733642578125,
+        "max_score_difference": 3.421363830025115e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "video_20260928_185144",
+      "event_id": "A",
+      "frames": 55,
+      "detector_hits": 31,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.0001220703125,
+        "max_score_difference": 7.748603820800781e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.004937286376950567,
+        "max_score_difference": 7.697486877900062e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "video_20260928_185144",
+      "event_id": "B",
+      "frames": 66,
+      "detector_hits": 13,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 6.103515625e-05,
+        "max_score_difference": 4.76837158203125e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.005005378723140552,
+        "max_score_difference": 8.5616302492042e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "video_20260928_185438",
+      "event_id": "A",
+      "frames": 80,
+      "detector_hits": 1,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.000152587890625,
+        "max_score_difference": 4.172325134277344e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.0041455078124954525,
+        "max_score_difference": 3.1192779581523666e-08,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "video_20260928_185446",
+      "event_id": "A",
+      "frames": 91,
+      "detector_hits": 6,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.00018310546875,
+        "max_score_difference": 2.980232238769531e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.005181884765647737,
+        "max_score_difference": 1.2901687618249724e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    },
+    {
+      "source_id": "video_20260928_185454",
+      "event_id": "A",
+      "frames": 50,
+      "detector_hits": 2,
+      "cpu_gpu": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.0001220703125,
+        "max_score_difference": 2.384185791015625e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      },
+      "gpu_historical": {
+        "passed": true,
+        "mismatches": [],
+        "max_bbox_difference_pixels": 0.004125900268554528,
+        "max_score_difference": 5.464248656883441e-07,
+        "bbox_tolerance_pixels": 0.05,
+        "score_tolerance": 0.0001
+      }
+    }
+  ],
+  "local_cpu_decode_detect_seconds": 29.512899999856018,
+  "remote_gpu_decode_detect_seconds": 26.155507430434227,
+  "decode_detect_speed_ratio": 1.1283627388362258,
+  "local_cpu_detector_seconds": 26.873611698742025,
+  "remote_gpu_detector_seconds": 24.091567747294903,
+  "transfer_seconds": 145.84016750007868,
+  "transfer_bytes": 593425682,
+  "timing_excludes": [
+    "upload",
+    "environment_preparation",
+    "session_initialization",
+    "warmup",
+    "semantic_review",
+    "encoding",
+    "file_hashing",
+    "metadata_probe"
+  ],
+  "limitations": [
+    "One shared-GPU single-frame pilot, not a general throughput guarantee.",
+    "Both runtimes expose two OpenCV CPU threads; production CPU defaults may differ.",
+    "cuDNN reported fallback algorithm warnings, but profiling verified CUDA convolution execution, not CPU fallback.",
+    "No independent animal recognizer, keypoint detection, training or semantic/privacy approval was performed."
+  ],
+  "production_pipeline_switched": false,
+  "accepted_for_training": false,
+  "setup_fixes": [
+    "Existing ONNX Runtime 1.28 required unavailable CUDA13; installed isolated 1.20.2 CUDA12 runtime.",
+    "Selected bundled NVIDIA library directories to prevent incompatible system cuDNN graph library loading.",
+    "OpenCV video decoding produced 284 hits; restored production FFmpeg fps/scale decode, yielding historical 277 hits consistently."
+  ]
+}

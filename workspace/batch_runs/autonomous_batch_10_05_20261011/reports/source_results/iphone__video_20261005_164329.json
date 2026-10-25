@@ -1,0 +1,13 @@
+{
+  "source_id": "iphone__video_20261005_164329",
+  "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_164329.mp4",
+  "source_sha256": "0b54f6f3173b5f99a4be54a41cb720009f398521666b9639155935b10b309646",
+  "source_duration_s": 85.3885,
+  "collection": "iphone",
+  "started_at": "2026-10-11T17:16:59.586825+08:00",
+  "state": "review_needed",
+  "status": "review_needed",
+  "error": "AssertionError('decoder reported errors')",
+  "accepted_for_training": false,
+  "finished_at": "2026-10-11T17:17:21.857325+08:00"
+}

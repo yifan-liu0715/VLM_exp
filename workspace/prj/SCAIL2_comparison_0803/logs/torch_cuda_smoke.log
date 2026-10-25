@@ -1,0 +1,1 @@
+{"cuda_runtime": "12.6", "result_sum": 3680.0, "torch": "2.9.1+cu126", "torchvision": "0.24.1+cu126", "visible_device_count": 1, "visible_device_name": "NVIDIA A100-SXM4-80GB"}

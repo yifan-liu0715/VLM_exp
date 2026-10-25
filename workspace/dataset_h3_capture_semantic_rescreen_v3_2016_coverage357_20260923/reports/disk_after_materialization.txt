@@ -1,0 +1,2 @@
+Filesystem             Size  Used Avail Use% Mounted on
+/dev/mapper/myvg-mylv  9.9T  9.1T  305G  97% /nvmedata

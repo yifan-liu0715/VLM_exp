@@ -1,0 +1,66 @@
+[
+  {
+    "Path": "model/1",
+    "Size": 0
+  },
+  {
+    "Path": "model",
+    "Size": 0
+  },
+  {
+    "Path": "umt5-xxl",
+    "Size": 0
+  },
+  {
+    "Path": ".gitattributes",
+    "Size": 2487
+  },
+  {
+    "Path": "model/bias-aware-dpo-lora.pt",
+    "Size": 1227381060
+  },
+  {
+    "Path": "configuration.json",
+    "Size": 73
+  },
+  {
+    "Path": "model/1/fsdp2_rank_0000_checkpoint.pt",
+    "Size": 65582563395
+  },
+  {
+    "Path": "models_clip_open-clip-xlm-roberta-large-vit-huge-14-onlyvisual.pth",
+    "Size": 2528485611
+  },
+  {
+    "Path": "umt5-xxl/models_t5_umt5-xxl-enc-bf16.pth",
+    "Size": 11361920418
+  },
+  {
+    "Path": "README.md",
+    "Size": 3310
+  },
+  {
+    "Path": "model/relighting-lora.pt",
+    "Size": 1227381060
+  },
+  {
+    "Path": "umt5-xxl/special_tokens_map.json",
+    "Size": 6623
+  },
+  {
+    "Path": "umt5-xxl/spiece.model",
+    "Size": 4548313
+  },
+  {
+    "Path": "umt5-xxl/tokenizer.json",
+    "Size": 16837417
+  },
+  {
+    "Path": "umt5-xxl/tokenizer_config.json",
+    "Size": 61728
+  },
+  {
+    "Path": "Wan2.1_VAE.pth",
+    "Size": 507609880
+  }
+]

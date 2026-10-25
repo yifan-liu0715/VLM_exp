@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-12T23:52:24.582187",
+  "rows": 593,
+  "remaining_explicit_gaps": [
+    1,
+    5,
+    9,
+    504
+  ],
+  "groups": {
+    "P0|review_needed": 395,
+    "P0|semantic_backend_failed": 8,
+    "P1|review_needed": 186,
+    "P1|semantic_backend_failed": 4
+  },
+  "accepted_for_training": 0,
+  "note": "Ordering only. No semantic/privacy/training promotion."
+}

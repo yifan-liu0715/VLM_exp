@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-10T07:23:42+0800",
+  "cuda_visible_devices": "GPU-1672e605-3a89-298b-9bec-f6315bc324d8",
+  "library_paths": [
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cublas/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cuda_cupti/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cuda_nvrtc/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cuda_runtime/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cudnn/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cufft/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cufile/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/curand/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cusolver/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cusparse/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/cusparselt/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/nccl/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/nvjitlink/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/nvshmem/lib",
+    "/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/nvidia/nvtx/lib"
+  ],
+  "gpu_before": "index, uuid, name, memory.used [MiB], utilization.gpu [%], driver_version\n3, GPU-1672e605-3a89-298b-9bec-f6315bc324d8, NVIDIA A100-SXM4-80GB, 1 MiB, 0 %, 550.144.03\n"
+}

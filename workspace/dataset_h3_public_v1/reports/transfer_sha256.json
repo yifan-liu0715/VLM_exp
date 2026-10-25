@@ -1,0 +1,14 @@
+{
+  "manifests/epic_response_candidates.csv": "ed20029d04609be3b03014e128ddf0823af3fbc0495ce8bae8015bfeb61b4b3d",
+  "manifests/epic_response_candidates.jsonl": "46e9b404bde75171e89f5392043ac7b418ef6f3baa51b87d0fa1bb6bfcf92b8b",
+  "manifests/epic_review_pilot_100.jsonl": "e19042d9dfa5e2832f20601a37f2ddf662b8412ea03dc8dc6923f720db52d20b",
+  "reports/dataset_work_brief_2026-09-12.md": "96b039768899d3356c09ea98fd476ec797c7d8d7c092b2a9d6f1af0206285275",
+  "reports/epic_response_metadata_summary.json": "56c060e2c38d9c305a1377da8db0ce7876514e72ead0f0c0b16c6e7e9910cbbf",
+  "reports/response_screening_result_2026-09-12.md": "0f0289dd7d3997845e660287ba9e28523ad14c5aec3e47b8c4fdc5392b95afd5",
+  "metadata/epic/EPIC_100_train.csv": "a3a7ef2e397bd8af12bd0496b09d61b1f2c1f3f6e1726fa86af50a27f4855e87",
+  "metadata/epic/EPIC_100_validation.csv": "35f7932ba0a1127a96cac215a98d35398946f343e3cea9ad6688ed17eee9d75d",
+  "metadata/epic/EPIC_100_verb_classes.csv": "aab8bf210d0234b6facb9b191ae402c03a5f8965d123586b4762d3468a85033e",
+  "metadata/epic/EPIC_100_video_info.csv": "75fd040f6662cb407b4ca2eed4811ca94df280a1aba00b6bf8a5cd286deff382",
+  "metadata/epic/license.txt": "acb7384c3f73cc96367ac132bc0bd57efa38c4495c17781032a2cf1444b65ebe",
+  "scripts/audit_epic_metadata.py": "9792b728fac61069c992f37634d7dcda667124efd562232486bb755ef1299db8"
+}

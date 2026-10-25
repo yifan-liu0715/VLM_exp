@@ -1,0 +1,14 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791701523.644829  804233 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791701523.700839  804440 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791701523.725112  804407 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791701523.733555  804415 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791701524.041326  804402 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"done": 1, "total": 2, "source_id": "dji__DJI_20261008190537_0009_D", "state": "source_context_ready", "proposals": 0, "error": null}
+I0000 00:00:1791701538.161600  804233 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791701538.178396  804920 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791701538.194514  804869 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791701538.202824  804894 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 2, "total": 2, "source_id": "iphone__video_20261005_155721", "state": "source_context_ready", "proposals": 1, "error": null}
+{"stage": "smoke", "sources": 2, "source_context_ready": 2, "failed_sources": [], "mechanical_proposal_count": 1, "second_pass_count": 2, "accepted_for_training": 0, "semantic_reviewed_sources": 0, "finished_at": "2026-10-11T14:52:43.381857+08:00", "needs_visual_semantic_boundary_and_crop_review": true, "keypoints_started": false, "training_started": false, "vlm_used": false}

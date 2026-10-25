@@ -1,0 +1,17 @@
+{
+  "clip_id": "semantic_review_036caeb5525aaaa2d014",
+  "boundary_signature": "d16989318b833676ff33301f886287fc808df6ba5ecdcbc6c3dbab8c7fff8310",
+  "export_signature": "3d44345f50f3d7699b5779220a06296c43108a3466cb86858b52e5ce90df3f50",
+  "output_sha256": "0bd00beff72240776d92b1476743c8b501d611a19354ec86ac09f24213e6da18",
+  "output": {
+    "duration_sec": 4.959,
+    "size_bytes": 2385172,
+    "codec": "h264",
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "nb_frames": 119,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

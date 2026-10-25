@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+  "python_executable": "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/bin/python",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "pytorch_lightning": "2.6.5",
+    "diffusers": "0.38.0",
+    "transformers": "5.9.0",
+    "peft": "0.19.1",
+    "omegaconf": "2.3.0",
+    "decord": "0.6.0",
+    "safetensors": "0.8.0-rc.0"
+  }
+}

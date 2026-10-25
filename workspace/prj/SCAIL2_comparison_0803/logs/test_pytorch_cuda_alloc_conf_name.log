@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/cuda/__init__.py", line 410, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Unrecognized CachingAllocator option: definitely_invalid
+[W809 22:01:46.721289048 AllocatorConfig.cpp:28] Warning: PYTORCH_CUDA_ALLOC_CONF is deprecated, use PYTORCH_ALLOC_CONF instead (function operator())
+terminate called after throwing an instance of 'c10::Error'
+  what():  i < config_.size() INTERNAL ASSERT FAILED at "/pytorch/c10/core/AllocatorConfig.h":116, please report a bug to PyTorch. Index out of bounds in ConfigTokenizer
+Exception raised from checkIndex at /pytorch/c10/core/AllocatorConfig.h:116 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f41c917cb80 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x65 (0x7f41c910efbf in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #2: c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*) + 0x42 (0x7f41c9179522 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #3: c10::CachingAllocator::AcceleratorAllocatorConfig::parseArgs(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x8f1 (0x7f41c9113271 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #4: <unknown function> + 0x343d8 (0x7f41c91133d8 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #5: c10::CachingAllocator::AcceleratorAllocatorConfig::instance() + 0x58 (0x7f41c91137d8 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #6: <unknown function> + 0x117d0f4 (0x7f41729bd0f4 in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0x1175d3b (0x7f41729b5d3b in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/lib/libtorch_cuda.so)
+frame #8: <unknown function> + 0x45495 (0x7f41ca1a4495 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #9: on_exit + 0 (0x7f41ca1a4610 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #10: <unknown function> + 0x29d97 (0x7f41ca188d97 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #11: __libc_start_main + 0x80 (0x7f41ca188e40 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #12: _start + 0x2e (0x55c15918906e in /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/bin/python)
+

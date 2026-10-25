@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260913201745_0131_D_push_right_door",
+  "boundary_signature": "53dff5d046c2f680895efd7653e0de511960c7f797c22cdddfb9d2b99c6029c7",
+  "export_signature": "60e1b678a239cc559bbc34e13e3c9841710089e2c3cbd45f4c552f028677083e",
+  "output_sha256": "48363f634d4aec331a99a253d741091755a6297009c06e9debf53c938a023df6",
+  "output": {
+    "duration_sec": 7.417,
+    "size_bytes": 1868509,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 178,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

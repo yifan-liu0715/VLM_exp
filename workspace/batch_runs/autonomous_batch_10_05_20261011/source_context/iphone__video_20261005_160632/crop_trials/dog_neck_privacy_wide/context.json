@@ -1,0 +1,26 @@
+{
+  "source_id": "iphone__video_20261005_160632",
+  "source_sha256": "de97339a76a763b66d0eab7f2ec5fcb7c305a8f0e3682a47291f001f2124ebde",
+  "job": {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 0.375,
+    "end_s": 4.375,
+    "fps": 8,
+    "crop": [
+      2752,
+      1548,
+      0,
+      0
+    ],
+    "job_id": "dog_neck_privacy_wide"
+  },
+  "frames": 32,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_160632/crop_trials/dog_neck_privacy_wide/page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_160632/crop_trials/dog_neck_privacy_wide/page_002.jpg"
+  ],
+  "orientation_correction": "metadata autorotation exactly once, then crop in display coordinates",
+  "privacy_reviewed": false,
+  "semantic_reviewed": false,
+  "updated_at": "2026-10-11T17:01:57.571074+08:00"
+}

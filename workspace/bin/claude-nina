@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export CLAUDE_CONFIG_DIR="/nvmedata/workspace2/users/nina/claude-config"
+export TMPDIR="/nvmedata/workspace2/users/nina/tmp"
+exec /home/student/.local/bin/claude "$@"

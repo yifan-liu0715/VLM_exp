@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260919121452_0399_D_scrub_wok",
+  "boundary_signature": "3a157791957fedb46b01ffa75c2aaf21dad6845aecd861f58d21642240259144",
+  "export_signature": "57f7b529f53054b71bfd42d263274e7ed2fc0f411356cd98a473026288e0f9c4",
+  "output_sha256": "c1d0b1e96c7a0cf5372bbd431cd83976d6d2a80fde419696ee0bb53b4ba7d821",
+  "output": {
+    "duration_sec": 15.0,
+    "size_bytes": 4439148,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 360,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

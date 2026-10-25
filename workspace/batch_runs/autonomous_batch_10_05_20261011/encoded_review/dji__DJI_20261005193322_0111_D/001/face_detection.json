@@ -1,0 +1,171 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 93,
+  "frames_with_faces": 13,
+  "face_count_detected": 14,
+  "hits": [
+    {
+      "frame_index": 4,
+      "time_s": 0.25,
+      "bbox_xywh": [
+        674.37,
+        75.83,
+        246.15,
+        238.03
+      ],
+      "score": 0.719305
+    },
+    {
+      "frame_index": 5,
+      "time_s": 0.3125,
+      "bbox_xywh": [
+        683.62,
+        76.81,
+        225.71,
+        235.82
+      ],
+      "score": 0.772458
+    },
+    {
+      "frame_index": 6,
+      "time_s": 0.375,
+      "bbox_xywh": [
+        680.81,
+        62.98,
+        235.0,
+        261.42
+      ],
+      "score": 0.740911
+    },
+    {
+      "frame_index": 7,
+      "time_s": 0.4375,
+      "bbox_xywh": [
+        679.13,
+        75.86,
+        230.43,
+        242.57
+      ],
+      "score": 0.643001
+    },
+    {
+      "frame_index": 8,
+      "time_s": 0.5,
+      "bbox_xywh": [
+        688.85,
+        74.49,
+        218.47,
+        249.44
+      ],
+      "score": 0.61863
+    },
+    {
+      "frame_index": 10,
+      "time_s": 0.625,
+      "bbox_xywh": [
+        791.99,
+        55.71,
+        155.06,
+        156.39
+      ],
+      "score": 0.609984
+    },
+    {
+      "frame_index": 10,
+      "time_s": 0.625,
+      "bbox_xywh": [
+        1092.87,
+        154.24,
+        64.19,
+        72.26
+      ],
+      "score": 0.600236
+    },
+    {
+      "frame_index": 46,
+      "time_s": 2.875,
+      "bbox_xywh": [
+        716.91,
+        2.43,
+        436.44,
+        341.27
+      ],
+      "score": 0.626111
+    },
+    {
+      "frame_index": 58,
+      "time_s": 3.625,
+      "bbox_xywh": [
+        684.51,
+        141.26,
+        240.65,
+        214.72
+      ],
+      "score": 0.606007
+    },
+    {
+      "frame_index": 59,
+      "time_s": 3.6875,
+      "bbox_xywh": [
+        683.09,
+        136.43,
+        242.92,
+        220.77
+      ],
+      "score": 0.60481
+    },
+    {
+      "frame_index": 60,
+      "time_s": 3.75,
+      "bbox_xywh": [
+        687.6,
+        137.55,
+        228.93,
+        216.87
+      ],
+      "score": 0.692895
+    },
+    {
+      "frame_index": 64,
+      "time_s": 4.0,
+      "bbox_xywh": [
+        671.81,
+        113.54,
+        236.49,
+        249.35
+      ],
+      "score": 0.661396
+    },
+    {
+      "frame_index": 74,
+      "time_s": 4.625,
+      "bbox_xywh": [
+        705.06,
+        8.85,
+        74.66,
+        86.64
+      ],
+      "score": 0.663556
+    },
+    {
+      "frame_index": 81,
+      "time_s": 5.0625,
+      "bbox_xywh": [
+        702.94,
+        1.63,
+        75.62,
+        86.83
+      ],
+      "score": 0.744193
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/dji__DJI_20261005193322_0111_D/dji__DJI_20261005193322_0111_D__001__000000625-000006438__stroke_cat_head.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 93
+}

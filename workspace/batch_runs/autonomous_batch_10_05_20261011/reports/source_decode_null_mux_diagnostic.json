@@ -1,0 +1,60 @@
+[
+  {
+    "source_id": "iphone__video_20261005_160949",
+    "mode": "original_null_mux",
+    "command": [
+      "ffmpeg",
+      "-nostdin",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-xerror",
+      "-threads",
+      "2",
+      "-hwaccel",
+      "cuda",
+      "-hwaccel_device",
+      "0",
+      "-i",
+      "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_160949.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit": 0,
+    "stderr": "[null @ 0x5616a6ca6fc0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 3725 >= 3725\n"
+  },
+  {
+    "source_id": "iphone__video_20261005_160949",
+    "mode": "frame_passthrough",
+    "command": [
+      "ffmpeg",
+      "-nostdin",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-xerror",
+      "-threads",
+      "2",
+      "-hwaccel",
+      "cuda",
+      "-hwaccel_device",
+      "0",
+      "-i",
+      "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_160949.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-vsync",
+      "0",
+      "-f",
+      "null",
+      "-"
+    ],
+    "exit": 0,
+    "stderr": "[null @ 0x557d30ab0740] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 3725 >= 3725\n"
+  }
+]

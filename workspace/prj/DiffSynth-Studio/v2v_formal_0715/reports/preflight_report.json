@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "date": "2026-07-15",
+  "model_contract": "source_video + reference_image + caption -> target_video",
+  "base_model": "Wan2.2-TI2V-5B",
+  "trainable_parameters": 94964736,
+  "transformer_parameters_with_adapter": 5094752448,
+  "dataset_samples": 3916,
+  "single_gpu": {
+    "physical_gpu": 1,
+    "batches": 1,
+    "finite_loss": 0.010,
+    "forward_backward_optimizer_step": "passed",
+    "compact_checkpoint_bytes": 189991384
+  },
+  "ddp": {
+    "physical_gpus": [1, 2, 3],
+    "gpu0_used": false,
+    "batches_per_rank": 1,
+    "finite_synced_loss": 0.803,
+    "forward_backward_optimizer_step": "passed",
+    "rank0_compact_checkpoint": "passed",
+    "observed_memory_used_mib": {
+      "gpu1": 28158,
+      "gpu2": 27701,
+      "gpu3": 27599
+    }
+  },
+  "resolved_issues": [
+    "Materialized Wan2.2 VAE mean/std tensors after meta-device loading.",
+    "Computed flow-loss weights on the scheduler timestep device.",
+    "Replaced oversized Lightning optimizer checkpoints with an atomically overwritten compact adapter checkpoint.",
+    "Replaced a 7.1GB cloned Conda environment with a validated shared Conda runtime plus private per-run dependencies."
+  ]
+}

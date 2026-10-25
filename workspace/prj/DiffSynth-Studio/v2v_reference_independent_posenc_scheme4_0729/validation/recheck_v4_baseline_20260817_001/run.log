@@ -1,0 +1,172 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  2.25it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.26it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.35it/s]
+[base] 01/50 elapsed=2.9s
+[base] 02/50 elapsed=5.8s
+[base] 03/50 elapsed=8.7s
+[base] 04/50 elapsed=11.5s
+[base] 05/50 elapsed=14.4s
+[base] 06/50 elapsed=17.3s
+[base] 07/50 elapsed=20.2s
+[base] 08/50 elapsed=23.1s
+[base] 09/50 elapsed=26.0s
+[base] 10/50 elapsed=28.8s
+[base] 11/50 elapsed=31.7s
+[base] 12/50 elapsed=34.6s
+[base] 13/50 elapsed=37.5s
+[base] 14/50 elapsed=40.4s
+[base] 15/50 elapsed=43.3s
+[base] 16/50 elapsed=46.2s
+[base] 17/50 elapsed=49.1s
+[base] 18/50 elapsed=52.0s
+[base] 19/50 elapsed=54.9s
+[base] 20/50 elapsed=57.8s
+[base] 21/50 elapsed=60.6s
+[base] 22/50 elapsed=63.5s
+[base] 23/50 elapsed=66.4s
+[base] 24/50 elapsed=69.3s
+[base] 25/50 elapsed=72.2s
+[base] 26/50 elapsed=75.1s
+[base] 27/50 elapsed=78.0s
+[base] 28/50 elapsed=80.9s
+[base] 29/50 elapsed=83.8s
+[base] 30/50 elapsed=86.7s
+[base] 31/50 elapsed=89.6s
+[base] 32/50 elapsed=92.5s
+[base] 33/50 elapsed=95.4s
+[base] 34/50 elapsed=98.3s
+[base] 35/50 elapsed=101.2s
+[base] 36/50 elapsed=104.1s
+[base] 37/50 elapsed=107.0s
+[base] 38/50 elapsed=109.9s
+[base] 39/50 elapsed=112.8s
+[base] 40/50 elapsed=115.7s
+[base] 41/50 elapsed=118.6s
+[base] 42/50 elapsed=121.5s
+[base] 43/50 elapsed=124.4s
+[base] 44/50 elapsed=127.3s
+[base] 45/50 elapsed=130.2s
+[base] 46/50 elapsed=133.1s
+[base] 47/50 elapsed=136.0s
+[base] 48/50 elapsed=138.9s
+[base] 49/50 elapsed=141.8s
+[base] 50/50 elapsed=144.7s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'reference_position': 0, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[scheme3] 01/50 elapsed=2.9s
+[scheme3] 02/50 elapsed=5.8s
+[scheme3] 03/50 elapsed=8.7s
+[scheme3] 04/50 elapsed=11.6s
+[scheme3] 05/50 elapsed=14.5s
+[scheme3] 06/50 elapsed=17.4s
+[scheme3] 07/50 elapsed=20.4s
+[scheme3] 08/50 elapsed=23.3s
+[scheme3] 09/50 elapsed=26.2s
+[scheme3] 10/50 elapsed=29.1s
+[scheme3] 11/50 elapsed=32.0s
+[scheme3] 12/50 elapsed=34.9s
+[scheme3] 13/50 elapsed=37.8s
+[scheme3] 14/50 elapsed=40.7s
+[scheme3] 15/50 elapsed=43.6s
+[scheme3] 16/50 elapsed=46.5s
+[scheme3] 17/50 elapsed=49.4s
+[scheme3] 18/50 elapsed=52.3s
+[scheme3] 19/50 elapsed=55.3s
+[scheme3] 20/50 elapsed=58.2s
+[scheme3] 21/50 elapsed=61.1s
+[scheme3] 22/50 elapsed=64.0s
+[scheme3] 23/50 elapsed=66.9s
+[scheme3] 24/50 elapsed=69.8s
+[scheme3] 25/50 elapsed=72.7s
+[scheme3] 26/50 elapsed=75.6s
+[scheme3] 27/50 elapsed=78.5s
+[scheme3] 28/50 elapsed=81.4s
+[scheme3] 29/50 elapsed=84.3s
+[scheme3] 30/50 elapsed=87.2s
+[scheme3] 31/50 elapsed=90.2s
+[scheme3] 32/50 elapsed=93.1s
+[scheme3] 33/50 elapsed=96.0s
+[scheme3] 34/50 elapsed=98.9s
+[scheme3] 35/50 elapsed=101.8s
+[scheme3] 36/50 elapsed=104.7s
+[scheme3] 37/50 elapsed=107.6s
+[scheme3] 38/50 elapsed=110.5s
+[scheme3] 39/50 elapsed=113.4s
+[scheme3] 40/50 elapsed=116.3s
+[scheme3] 41/50 elapsed=119.2s
+[scheme3] 42/50 elapsed=122.2s
+[scheme3] 43/50 elapsed=125.1s
+[scheme3] 44/50 elapsed=128.0s
+[scheme3] 45/50 elapsed=130.9s
+[scheme3] 46/50 elapsed=133.8s
+[scheme3] 47/50 elapsed=136.7s
+[scheme3] 48/50 elapsed=139.6s
+[scheme3] 49/50 elapsed=142.5s
+[scheme3] 50/50 elapsed=145.4s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'reference_position': 3, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors
+[scheme4] 01/50 elapsed=2.9s
+[scheme4] 02/50 elapsed=5.8s
+[scheme4] 03/50 elapsed=8.7s
+[scheme4] 04/50 elapsed=11.6s
+[scheme4] 05/50 elapsed=14.6s
+[scheme4] 06/50 elapsed=17.5s
+[scheme4] 07/50 elapsed=20.4s
+[scheme4] 08/50 elapsed=23.3s
+[scheme4] 09/50 elapsed=26.2s
+[scheme4] 10/50 elapsed=29.1s
+[scheme4] 11/50 elapsed=32.0s
+[scheme4] 12/50 elapsed=34.9s
+[scheme4] 13/50 elapsed=37.8s
+[scheme4] 14/50 elapsed=40.7s
+[scheme4] 15/50 elapsed=43.6s
+[scheme4] 16/50 elapsed=46.6s
+[scheme4] 17/50 elapsed=49.5s
+[scheme4] 18/50 elapsed=52.4s
+[scheme4] 19/50 elapsed=55.3s
+[scheme4] 20/50 elapsed=58.2s
+[scheme4] 21/50 elapsed=61.1s
+[scheme4] 22/50 elapsed=64.0s
+[scheme4] 23/50 elapsed=66.9s
+[scheme4] 24/50 elapsed=69.8s
+[scheme4] 25/50 elapsed=72.7s
+[scheme4] 26/50 elapsed=75.6s
+[scheme4] 27/50 elapsed=78.6s
+[scheme4] 28/50 elapsed=81.5s
+[scheme4] 29/50 elapsed=84.4s
+[scheme4] 30/50 elapsed=87.3s
+[scheme4] 31/50 elapsed=90.2s
+[scheme4] 32/50 elapsed=93.1s
+[scheme4] 33/50 elapsed=96.0s
+[scheme4] 34/50 elapsed=98.9s
+[scheme4] 35/50 elapsed=101.8s
+[scheme4] 36/50 elapsed=104.7s
+[scheme4] 37/50 elapsed=107.6s
+[scheme4] 38/50 elapsed=110.6s
+[scheme4] 39/50 elapsed=113.5s
+[scheme4] 40/50 elapsed=116.4s
+[scheme4] 41/50 elapsed=119.3s
+[scheme4] 42/50 elapsed=122.2s
+[scheme4] 43/50 elapsed=125.1s
+[scheme4] 44/50 elapsed=128.0s
+[scheme4] 45/50 elapsed=130.9s
+[scheme4] 46/50 elapsed=133.8s
+[scheme4] 47/50 elapsed=136.7s
+[scheme4] 48/50 elapsed=139.6s
+[scheme4] 49/50 elapsed=142.5s
+[scheme4] 50/50 elapsed=145.4s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:04<00:04,  4.40s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.49s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.63s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:04<00:04,  4.34s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.46s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.60s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:04<00:04,  4.34s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.46s/it]VAE decoding: 100%|██████████| 2/2 [00:07<00:00,  3.60s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:12,  7.52it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  69%|██████▉   | 67/97 [00:00<00:00, 344.01it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 347.76it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  40%|████      | 39/97 [00:00<00:00, 387.38it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 508.00it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  40%|████      | 39/97 [00:00<00:00, 389.28it/s]Saving video:  92%|█████████▏| 89/97 [00:00<00:00, 446.85it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 450.06it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  40%|████      | 39/97 [00:00<00:00, 389.08it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 518.85it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  40%|████      | 39/97 [00:00<00:00, 385.65it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 507.30it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  25%|██▍       | 24/97 [00:00<00:00, 236.93it/s]Saving video:  79%|███████▉  | 77/97 [00:00<00:00, 407.86it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 406.25it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  27%|██▋       | 26/97 [00:00<00:00, 256.35it/s]Saving video:  88%|████████▊ | 85/97 [00:00<00:00, 447.05it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 421.33it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/recheck_v4_baseline_20260817_001/mymotion__humandance__batch1_mingxing_cropped__002/videos/comparison_base_scheme4_4grid.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/recheck_v4_baseline_20260817_001/mymotion__humandance__batch1_mingxing_cropped__002/run_manifest.json

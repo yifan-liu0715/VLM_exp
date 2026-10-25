@@ -1,0 +1,220 @@
+{
+  "created_at": "2026-10-11T23:37:32.858030+08:00",
+  "original_proposals": 894,
+  "nonoverlap_windows": 860,
+  "reduction": 34,
+  "overlap_pairs": 34,
+  "overlap_clusters": 31,
+  "encoded_success": 860,
+  "encoded_failed": 0,
+  "reused_from_v1": 783,
+  "total_output_duration_s": 6931.432,
+  "overlap_examples": [
+    {
+      "source_id": "dji__DJI_20261005161859_0010_D",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005163401_0020_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005163401_0020_D",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005163437_0021_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005163533_0022_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005163533_0022_D",
+      "a": 3,
+      "b": 4,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005163533_0022_D",
+      "a": 4,
+      "b": 5,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "dji__DJI_20261005165142_0031_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005165421_0032_D",
+      "a": 3,
+      "b": 4,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005165737_0035_D",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005165817_0036_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005165817_0036_D",
+      "a": 3,
+      "b": 4,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005171418_0046_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005172016_0051_D",
+      "a": 4,
+      "b": 5,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "dji__DJI_20261005172016_0051_D",
+      "a": 5,
+      "b": 6,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005172231_0053_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005172556_0056_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005172725_0059_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005172755_0060_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005193642_0116_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005193854_0118_D",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005194245_0124_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261005195010_0129_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "dji__DJI_20261005203904_0150_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261005220336_0167_D",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261008181458_0003_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "dji__DJI_20261008181514_0004_D",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "dji__DJI_20261008182204_0005_D",
+      "a": 3,
+      "b": 4,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "dji__DJI_20261008182204_0005_D",
+      "a": 5,
+      "b": 6,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "dji__DJI_20261008182204_0005_D",
+      "a": 7,
+      "b": 8,
+      "overlap_s": 0.084
+    },
+    {
+      "source_id": "iphone__video_20261005_161136",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "iphone__video_20261005_161214",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.083
+    },
+    {
+      "source_id": "iphone__video_20261005_161938",
+      "a": 2,
+      "b": 3,
+      "overlap_s": 0.25
+    },
+    {
+      "source_id": "iphone__video_20261005_163038",
+      "a": 1,
+      "b": 2,
+      "overlap_s": 0.25
+    }
+  ],
+  "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/motion_proposal_manifest_v2_nonoverlap.jsonl",
+  "output_root": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/motion_proposal_clips_v2_nonoverlap"
+}

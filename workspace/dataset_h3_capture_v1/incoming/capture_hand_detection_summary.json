@@ -1,0 +1,9 @@
+{
+  "export_manifest": "capture_work_20260917\\reports\\export_manifest.jsonl",
+  "input_count": 1882,
+  "accepted_count": 1882,
+  "rejected_count": 0,
+  "rejected": [],
+  "duration_min_sec": 4.0833,
+  "duration_max_sec": 5.0
+}

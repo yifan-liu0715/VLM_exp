@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "source_checkpoint": "weights/SCAIL-2/model/bias-aware-dpo-lora.pt",
+  "source_checkpoint_sha256": "cf29934c72fee6b24c3a5a82e8a9a4f3f4e93d76d988c9a20fac4e2b19e8fa09",
+  "source_checkpoint_size_bytes": 1227381060,
+  "source_format": "SAT DeepSpeed checkpoint",
+  "source_audit": {
+    "tensor_count": 802,
+    "lora_tensor_count": 800,
+    "lora_dtype": "torch.bfloat16",
+    "lora_rank": 128,
+    "transformer_layers": 40,
+    "all_audit_tensors_loaded_on_meta_device": true
+  },
+  "official_wan_source": {
+    "repository": "https://github.com/zai-org/SCAIL-2.git",
+    "branch": "wan-scail2",
+    "commit": "5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5",
+    "codeload_zip_sha256": "2ec1a12633505e987d7ca7afaefec462bab69de22d2563efe07d125deaeee9b1",
+    "converter": "convert_lora.py"
+  },
+  "compatibility_fix": {
+    "reason": "PyTorch 2.6+ defaults torch.load(weights_only=True), while the trusted official DeepSpeed checkpoint contains NumPy RNG metadata.",
+    "change": "Explicitly use torch.load(weights_only=False) only after checking the official source checkpoint SHA256.",
+    "wrapper": "scripts/convert_scail2_lora_py29.py",
+    "official_converter_key_mapping_reused": true
+  },
+  "output": "weights/converted/bias-aware-dpo-lora.safetensors",
+  "output_sha256": "9c317e5c1f8174ea2799b7ca1a81a36fbd80c5f0787379d9103ced3fe3b94785",
+  "output_size_bytes": 1226936520,
+  "output_tensor_count": 800,
+  "output_dtype": "torch.bfloat16",
+  "inference_interface": "generate.py --lora_path <output> --lora_alpha 1.0"
+}

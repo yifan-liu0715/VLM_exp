@@ -1,0 +1,28 @@
+[controller] 2026-07-27T08:36:43+08:00 starting Scheme-2 training on physical GPU 5
+[launch] Scheme 2; physical GPU=5; GPU0 is forbidden; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme2_0727/configs/train_scheme2_2000.yaml
+Seed set to 1234
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.26s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.17it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.61it/s]
+[model] transformer parameters=5,141,938,368; trainable parameters=142,150,656
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 142 M                                                                                                                                                          
+Non-trainable params: 11.4 B                                                                                                                                                     
+Total params: 11.5 B                                                                                                                                                             
+Total estimated model params size (MB): 46,110.149                                                                                                                               
+Modules in train mode: 2400                                                                                                                                                      
+Modules in eval mode: 1615                                                                                                                                                       
+Total FLOPs: 0                                                                                                                                                                   
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme2_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 500, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme2_0727/checkpoints/recovery.ckpt

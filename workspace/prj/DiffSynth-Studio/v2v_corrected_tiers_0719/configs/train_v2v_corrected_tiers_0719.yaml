@@ -1,0 +1,55 @@
+experiment_name: wan2.2_ti2v_5b_corrected_paired_v2v_lora_tiers_0719
+
+model:
+  transformer: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer
+  text_encoder: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth
+  vae: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth
+  tokenizer: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/google/umt5-xxl
+
+data:
+  manifest: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/metadata/metadata_corrected_direction_0719.csv
+  num_frames: 33
+  batch_size: 1
+  num_workers: 4
+  bucket_target_sizes:
+    1280x512: [256, 640]
+    1280x704: [320, 576]
+    704x1280: [576, 320]
+
+lora:
+  rank: 64
+  alpha: 64
+  dropout: 0.0
+
+optimizer:
+  learning_rate: 0.0001
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.01
+  eps: 1.0e-8
+  warmup_steps: 250
+
+training:
+  seed: 42
+  max_steps: 20000
+  max_epochs: -1
+  accumulate_grad_batches: 2
+  precision: bf16-mixed
+  gradient_checkpointing: true
+  gradient_clip_val: 1.0
+  flow_shift: 5.0
+  checkpoint_every_n_steps: 500
+  deterministic: false
+  milestones:
+    3265: quick
+    6530: conservative
+    20000: recommended
+
+inference:
+  sample_id: mymotion__002
+  num_frames: 33
+  steps: 30
+  seed: 42
+
+output:
+  root: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719

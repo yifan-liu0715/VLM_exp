@@ -1,0 +1,523 @@
+{
+  "model": "DOVER-Mobile v0.5.0",
+  "official_source": "https://github.com/VQAssessment/DOVER",
+  "device": "cpu",
+  "variants": [
+    "formal_v2_step-750",
+    "formal_v2_step-5250",
+    "formal_v2_step-4500"
+  ],
+  "per_video": [
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__360_base.mp4",
+      "dover_technical": 0.11245299130678177,
+      "dover_aesthetic": -0.04392639920115471,
+      "dover_fused": 0.6026135555665346
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__360_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11508652567863464,
+      "dover_aesthetic": -0.04082454368472099,
+      "dover_fused": 0.615441550153448
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__360_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11422430723905563,
+      "dover_aesthetic": -0.04398158937692642,
+      "dover_fused": 0.6059924645727318
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__360_formal_v2_step-750.mp4",
+      "dover_technical": 0.11520583182573318,
+      "dover_aesthetic": -0.04033522307872772,
+      "dover_fused": 0.6168704157974881
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__445_base.mp4",
+      "dover_technical": 0.11472894251346588,
+      "dover_aesthetic": -0.04445541277527809,
+      "dover_fused": 0.6058245097247645
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__445_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11735943704843521,
+      "dover_aesthetic": -0.03922252357006073,
+      "dover_fused": 0.6237851053813158
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__445_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11851011216640472,
+      "dover_aesthetic": -0.04077884927392006,
+      "dover_fused": 0.6222545372450058
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__445_formal_v2_step-750.mp4",
+      "dover_technical": 0.11954738199710846,
+      "dover_aesthetic": -0.0370948500931263,
+      "dover_fused": 0.633153170021821
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__468_base.mp4",
+      "dover_technical": 0.11247973889112473,
+      "dover_aesthetic": -0.05786455050110817,
+      "dover_fused": 0.5677560385167644
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__468_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11643687635660172,
+      "dover_aesthetic": -0.051475320011377335,
+      "dover_fused": 0.5918214110142108
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__468_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11757875233888626,
+      "dover_aesthetic": -0.053346507251262665,
+      "dover_fused": 0.5894421951057283
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__468_formal_v2_step-750.mp4",
+      "dover_technical": 0.11572221666574478,
+      "dover_aesthetic": -0.0573171004652977,
+      "dover_fused": 0.5757285534595535
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__498_base.mp4",
+      "dover_technical": 0.1138046383857727,
+      "dover_aesthetic": -0.051421668380498886,
+      "dover_fused": 0.5866681952385497
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__498_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11218118667602539,
+      "dover_aesthetic": -0.04181934893131256,
+      "dover_fused": 0.6072727788540888
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__498_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11274123936891556,
+      "dover_aesthetic": -0.04133860766887665,
+      "dover_fused": 0.6095624956393577
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__498_formal_v2_step-750.mp4",
+      "dover_technical": 0.1140018105506897,
+      "dover_aesthetic": -0.04147125780582428,
+      "dover_fused": 0.6117242456025895
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__514_base.mp4",
+      "dover_technical": 0.11625759303569794,
+      "dover_aesthetic": -0.04624055325984955,
+      "dover_fused": 0.6044524765444462
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__514_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11502192914485931,
+      "dover_aesthetic": -0.04171671345829964,
+      "dover_fused": 0.613132305771186
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__514_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11661296337842941,
+      "dover_aesthetic": -0.041410721838474274,
+      "dover_fused": 0.6170063714967301
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__humandance__batch1_mote_cropped__514_formal_v2_step-750.mp4",
+      "dover_technical": 0.11566930264234543,
+      "dover_aesthetic": -0.03924788162112236,
+      "dover_fused": 0.6204260590805902
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__073_base.mp4",
+      "dover_technical": 0.1195572018623352,
+      "dover_aesthetic": -0.04723033308982849,
+      "dover_fused": 0.6085492624151803
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__073_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11929784715175629,
+      "dover_aesthetic": -0.03990386053919792,
+      "dover_fused": 0.6259073557170891
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__073_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11781036108732224,
+      "dover_aesthetic": -0.04104596748948097,
+      "dover_fused": 0.6202392391649498
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__073_formal_v2_step-750.mp4",
+      "dover_technical": 0.11811567842960358,
+      "dover_aesthetic": -0.042686719447374344,
+      "dover_fused": 0.6168406449533747
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__133_base.mp4",
+      "dover_technical": 0.1185547336935997,
+      "dover_aesthetic": -0.03322316333651543,
+      "dover_fused": 0.6404915637190429
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__133_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11835147440433502,
+      "dover_aesthetic": -0.030806899070739746,
+      "dover_fused": 0.6458290579277821
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__133_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11944751441478729,
+      "dover_aesthetic": -0.030226198956370354,
+      "dover_fused": 0.6492732096639928
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__133_formal_v2_step-750.mp4",
+      "dover_technical": 0.11807027459144592,
+      "dover_aesthetic": -0.02848035655915737,
+      "dover_fused": 0.6507730513369696
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__143_base.mp4",
+      "dover_technical": 0.11501698940992355,
+      "dover_aesthetic": -0.04539185017347336,
+      "dover_fused": 0.60408552815519
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__143_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11741665750741959,
+      "dover_aesthetic": -0.03879079595208168,
+      "dover_fused": 0.6249417588456008
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__143_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11746080964803696,
+      "dover_aesthetic": -0.037573978304862976,
+      "dover_fused": 0.6279670076363819
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__143_formal_v2_step-750.mp4",
+      "dover_technical": 0.11695247143507004,
+      "dover_aesthetic": -0.03961489722132683,
+      "dover_fused": 0.6220403190271293
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__156_base.mp4",
+      "dover_technical": 0.11951742321252823,
+      "dover_aesthetic": -0.03490489721298218,
+      "dover_fused": 0.6383308306081812
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__156_formal_v2_step-4500.mp4",
+      "dover_technical": 0.12130779772996902,
+      "dover_aesthetic": -0.03897979483008385,
+      "dover_fused": 0.6320261922170695
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__156_formal_v2_step-5250.mp4",
+      "dover_technical": 0.12092792987823486,
+      "dover_aesthetic": -0.038768257945775986,
+      "dover_fused": 0.6318008466991992
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__156_formal_v2_step-750.mp4",
+      "dover_technical": 0.11968819051980972,
+      "dover_aesthetic": -0.036180708557367325,
+      "dover_fused": 0.6356130178128113
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__339_base.mp4",
+      "dover_technical": 0.11929183453321457,
+      "dover_aesthetic": -0.03425005078315735,
+      "dover_fused": 0.6394585241334755
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__339_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11874356120824814,
+      "dover_aesthetic": -0.033967237919569016,
+      "dover_fused": 0.6390824943267123
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__339_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11960967630147934,
+      "dover_aesthetic": -0.03447229415178299,
+      "dover_fused": 0.6395377213380549
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__339_formal_v2_step-750.mp4",
+      "dover_technical": 0.11968941241502762,
+      "dover_aesthetic": -0.033429451286792755,
+      "dover_fused": 0.6421678213681371
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__351_base.mp4",
+      "dover_technical": 0.1125970408320427,
+      "dover_aesthetic": -0.039969827979803085,
+      "dover_fused": 0.6126362321604751
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__351_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11460845172405243,
+      "dover_aesthetic": -0.03949779272079468,
+      "dover_fused": 0.6177414979223095
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__351_formal_v2_step-5250.mp4",
+      "dover_technical": 0.111923448741436,
+      "dover_aesthetic": -0.04017072916030884,
+      "dover_fused": 0.6108158606233774
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__multi_talking_face_video_copy__351_formal_v2_step-750.mp4",
+      "dover_technical": 0.11618507653474808,
+      "dover_aesthetic": -0.038918085396289825,
+      "dover_fused": 0.6222341852662736
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__004_base.mp4",
+      "dover_technical": 0.1177569255232811,
+      "dover_aesthetic": -0.03987395018339157,
+      "dover_fused": 0.6229807499691555
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__004_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11838391423225403,
+      "dover_aesthetic": -0.030458323657512665,
+      "dover_fused": 0.6467132226016052
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__004_formal_v2_step-5250.mp4",
+      "dover_technical": 0.1178680881857872,
+      "dover_aesthetic": -0.0314033217728138,
+      "dover_fused": 0.643499695779967
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__004_formal_v2_step-750.mp4",
+      "dover_technical": 0.11655319482088089,
+      "dover_aesthetic": -0.031663715839385986,
+      "dover_fused": 0.6403735654891812
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__017_base.mp4",
+      "dover_technical": 0.11940085142850876,
+      "dover_aesthetic": -0.043315332382917404,
+      "dover_fused": 0.6178272617418069
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__017_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11750266700983047,
+      "dover_aesthetic": -0.044683508574962616,
+      "dover_fused": 0.610748337913098
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__017_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11867555975914001,
+      "dover_aesthetic": -0.04326901212334633,
+      "dover_fused": 0.6165180630294259
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__017_formal_v2_step-750.mp4",
+      "dover_technical": 0.11894585192203522,
+      "dover_aesthetic": -0.044555120170116425,
+      "dover_fused": 0.6139061175756264
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__046_base.mp4",
+      "dover_technical": 0.11919394135475159,
+      "dover_aesthetic": -0.03578702732920647,
+      "dover_fused": 0.6356042731687133
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__046_formal_v2_step-4500.mp4",
+      "dover_technical": 0.12040936201810837,
+      "dover_aesthetic": -0.03140382468700409,
+      "dover_fused": 0.6483220214333029
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__046_formal_v2_step-5250.mp4",
+      "dover_technical": 0.12067366391420364,
+      "dover_aesthetic": -0.03248647600412369,
+      "dover_fused": 0.6462711681162339
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__046_formal_v2_step-750.mp4",
+      "dover_technical": 0.12049953639507294,
+      "dover_aesthetic": -0.034843362867832184,
+      "dover_fused": 0.6403567100916748
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__082_base.mp4",
+      "dover_technical": 0.11473659425973892,
+      "dover_aesthetic": -0.0412253737449646,
+      "dover_fused": 0.6137735489391479
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "formal_v2_step-4500",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__082_formal_v2_step-4500.mp4",
+      "dover_technical": 0.11801522225141525,
+      "dover_aesthetic": -0.036814332008361816,
+      "dover_fused": 0.6308693760450229
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__082_formal_v2_step-5250.mp4",
+      "dover_technical": 0.11678297072649002,
+      "dover_aesthetic": -0.0380156934261322,
+      "dover_fused": 0.6255843628792641
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "formal_v2_step-750",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/mymotion__single_talking_face__datatrain_youtube_clip__082_formal_v2_step-750.mp4",
+      "dover_technical": 0.1164766401052475,
+      "dover_aesthetic": -0.04006310924887657,
+      "dover_fused": 0.6200219506684505
+    }
+  ],
+  "aggregate": [
+    {
+      "variant": "base",
+      "samples": 15,
+      "mean_dover_technical": 0.11635649601618449,
+      "mean_dover_aesthetic": -0.04260535935560862,
+      "mean_dover_fused": 0.6134035033734286
+    },
+    {
+      "variant": "formal_v2_step-4500",
+      "samples": 15,
+      "mean_dover_technical": 0.11734152734279632,
+      "mean_dover_aesthetic": -0.03869098797440529,
+      "mean_dover_fused": 0.6249089644082562
+    },
+    {
+      "variant": "formal_v2_step-5250",
+      "samples": 15,
+      "mean_dover_technical": 0.11738982647657395,
+      "mean_dover_aesthetic": -0.03921921364963055,
+      "mean_dover_fused": 0.62371768259936
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "samples": 15,
+      "mean_dover_technical": 0.11742152472337088,
+      "mean_dover_aesthetic": -0.03906012264390787,
+      "mean_dover_fused": 0.6241486551701113
+    }
+  ],
+  "interpretation": "Secondary learned quality signal; blind human review remains decisive."
+}

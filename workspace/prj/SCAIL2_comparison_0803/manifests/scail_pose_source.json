@@ -1,0 +1,18 @@
+{
+  "status": "source_verified_conditioning_blocked",
+  "official_parent_submodule_commit": "0733e4f856a8b9d712ec050fd7de98eea98fe59a",
+  "checked_out_commit": "0733e4f856a8b9d712ec050fd7de98eea98fe59a",
+  "official_remote_master_inspected": "519c7f54cb972e7f92684213b7ef6c3e05a8f3b2",
+  "source_bundle_sha256": "02cc992b8eadc4e22eacfb647c940a5e6b064fd1b8cb8d96ae85d7c0bd1b74ad",
+  "immutable_checkout_preserved": true,
+  "finding": "The SCAIL-2 pinned submodule lacks the documented one-command SCAIL-2 mask pipeline. Official SCAIL-Pose master adds process_animation_aio.py and TrackSam3.",
+  "official_recommended_mode": "end-to-end: rendered_v2.mp4 copies driving.mp4; rendered_mask_v2.mp4 and ref_mask.jpg are produced by SAM3",
+  "conditioning_blocker": {
+    "missing_weight": "facebook/sam3 sam3.pt",
+    "expected_size_bytes_approx": 3450000000,
+    "license_gate": "Hugging Face contact-sharing agreement required",
+    "searched_user_scope": "/nvmedata/workspace2/users/nina",
+    "found_existing_weight": false,
+    "ultralytics_installed": false
+  }
+}

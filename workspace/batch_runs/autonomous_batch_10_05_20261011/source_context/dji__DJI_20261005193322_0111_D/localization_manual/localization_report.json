@@ -1,0 +1,14 @@
+{
+  "source_id": "dji__DJI_20261005193322_0111_D",
+  "source_sha256": "4e156ecb2c36d9f199437453109a53df750e390301c7f17cdf4875e81605cc09",
+  "duration_s": 19.456,
+  "sample_fps": 1,
+  "mechanical_localization_only": true,
+  "native_resolution_review_pending": true,
+  "frames": 19,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005193322_0111_D/localization_manual/page_001.jpg"
+  ],
+  "source_decode_error": "",
+  "time": "2026-10-11T15:09:56.986593+08:00"
+}

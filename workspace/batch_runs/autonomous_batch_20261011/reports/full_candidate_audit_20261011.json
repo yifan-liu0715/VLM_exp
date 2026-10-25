@@ -1,0 +1,1698 @@
+{
+  "run_id": "autonomous_batch_20261011",
+  "created_at": "2026-10-11T19:56:51+0800",
+  "remote_root": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011",
+  "source_inventory": {
+    "manifest_count": 130,
+    "unique_source_ids": 130,
+    "clip_dirs": 130,
+    "clip_dirs_missing": [],
+    "clip_dirs_extra": [],
+    "receipt_count": 130,
+    "verified_receipts": 130,
+    "receipt_failures": []
+  },
+  "candidate_inventory": {
+    "candidate_records": 597,
+    "candidate_paths_in_manifests": 596,
+    "rows_missing_file_field": 1,
+    "candidate_files_existing": 596,
+    "missing_files": [],
+    "all_mp4_files_under_clips": 596,
+    "temp_encoding_files": [],
+    "duplicate_manifest_paths": {}
+  },
+  "run_log_inventory": {
+    "run_entries": 97,
+    "unique_sources_in_runs": 84,
+    "duplicate_source_entries": {
+      "DJI_20261004205501_0126_D": 2,
+      "DJI_20261004170726_0018_D": 2,
+      "DJI_20261004170621_0015_D": 2,
+      "DJI_20261004173539_0043_D": 2,
+      "DJI_20261004174250_0048_D": 2,
+      "DJI_20261004190023_0071_D": 2,
+      "DJI_20261004170124_0009_D": 2,
+      "DJI_20261004165648_0007_D": 2,
+      "DJI_20261004215044_0133_D": 2,
+      "DJI_20261004213635_0129_D": 2,
+      "DJI_20261004214634_0132_D": 2,
+      "DJI_20261004215601_0134_D": 2,
+      "DJI_20261004215931_0135_D": 2
+    },
+    "sources_missing_from_run_logs": [
+      "DJI_20261004193221_0078_D",
+      "DJI_20261004193326_0079_D",
+      "DJI_20261004194409_0080_D",
+      "DJI_20261004194543_0081_D",
+      "DJI_20261004194805_0082_D",
+      "DJI_20261004194920_0083_D",
+      "DJI_20261004194957_0084_D",
+      "DJI_20261004195113_0085_D",
+      "DJI_20261004195143_0086_D",
+      "DJI_20261004195302_0087_D",
+      "DJI_20261004195339_0088_D",
+      "DJI_20261004195508_0090_D",
+      "DJI_20261004195546_0091_D",
+      "DJI_20261004195619_0092_D",
+      "DJI_20261004195644_0093_D",
+      "DJI_20261004195716_0094_D",
+      "DJI_20261004195821_0095_D",
+      "DJI_20261004195937_0096_D",
+      "DJI_20261004200008_0097_D",
+      "DJI_20261004200114_0098_D",
+      "DJI_20261004200306_0099_D",
+      "DJI_20261004200323_0100_D",
+      "DJI_20261004200440_0102_D",
+      "DJI_20261004200642_0103_D",
+      "DJI_20261004201059_0104_D",
+      "DJI_20261004201343_0105_D",
+      "DJI_20261004202124_0106_D",
+      "DJI_20261004202325_0107_D",
+      "DJI_20261004202428_0108_D",
+      "DJI_20261004202512_0109_D",
+      "DJI_20261004202630_0110_D",
+      "DJI_20261004202738_0111_D",
+      "DJI_20261004202945_0112_D",
+      "DJI_20261004203019_0113_D",
+      "DJI_20261004203050_0114_D",
+      "DJI_20261004203100_0115_D",
+      "DJI_20261004203140_0116_D",
+      "DJI_20261004203207_0117_D",
+      "DJI_20261004203429_0118_D",
+      "DJI_20261004203537_0119_D",
+      "DJI_20261004203613_0120_D",
+      "DJI_20261004204049_0121_D",
+      "DJI_20261004204323_0122_D",
+      "DJI_20261004205351_0125_D",
+      "DJI_20261004205551_0127_D",
+      "DJI_20261004213217_0128_D"
+    ]
+  },
+  "candidate_states": {
+    "motion_proposal": 597
+  },
+  "detector_statuses": {
+    "ready": 596,
+    "no_hands_detected": 1
+  },
+  "detector_failed_rows": [],
+  "no_hand_rows": [
+    {
+      "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004205501_0126_D.MP4",
+      "file": null
+    }
+  ],
+  "review_reasons": {
+    "recognizable_face_remaining_or_fixed_crop_required": 518,
+    "no_detector_hits; full-timeline visual privacy review still required": 78,
+    "no_hand_proposal; review stable-hand animal-led events and detector misses": 1
+  },
+  "privacy_and_training_gates": {
+    "face_count_nonnull": 596,
+    "face_hit_candidate_records": 518,
+    "privacy_reviewed_true": 0,
+    "semantic_valid_true": 0,
+    "keypoint_ready_true": 0,
+    "accepted_for_training_true": 0,
+    "second_pass_required_true": 597
+  },
+  "format_validation": {
+    "validated_files": 596,
+    "format_verified": 596,
+    "format_failed": 0,
+    "decode_verified": 596,
+    "decode_failed": 0,
+    "format_failed_files": [],
+    "decode_failed_files": []
+  },
+  "source_rollup": [
+    {
+      "source_id": "DJI_20261004164644_0002_D",
+      "candidate_records": 11,
+      "candidate_files": 11,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 11
+      },
+      "face_hits": 11,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004164926_0003_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004165059_0004_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 5,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004165255_0005_D",
+      "candidate_records": 8,
+      "candidate_files": 8,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 8
+      },
+      "face_hits": 7,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004165648_0007_D",
+      "candidate_records": 6,
+      "candidate_files": 6,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 6
+      },
+      "face_hits": 6,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004165820_0008_D",
+      "candidate_records": 24,
+      "candidate_files": 24,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 24
+      },
+      "face_hits": 24,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170124_0009_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170304_0010_D",
+      "candidate_records": 6,
+      "candidate_files": 6,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 6
+      },
+      "face_hits": 6,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170418_0011_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170433_0012_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170454_0013_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170557_0014_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170621_0015_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170631_0016_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170712_0017_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170726_0018_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 0,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170736_0019_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170752_0020_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170855_0021_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004170942_0022_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004171001_0023_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004171052_0024_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 0,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004171110_0025_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004171755_0026_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004171900_0027_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172109_0028_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172218_0029_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172302_0030_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172325_0031_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172358_0032_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172430_0033_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172449_0034_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172500_0035_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 0,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172513_0036_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172525_0037_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172625_0038_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004172835_0039_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173143_0040_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173321_0041_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173522_0042_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173539_0043_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173556_0044_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173926_0045_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004173948_0046_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004174009_0047_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004174250_0048_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004175505_0049_D",
+      "candidate_records": 7,
+      "candidate_files": 7,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 7
+      },
+      "face_hits": 7,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004183427_0050_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004183656_0051_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004183831_0052_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004184024_0053_D",
+      "candidate_records": 33,
+      "candidate_files": 33,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 33
+      },
+      "face_hits": 32,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004184518_0054_D",
+      "candidate_records": 20,
+      "candidate_files": 20,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 20
+      },
+      "face_hits": 18,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185120_0055_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185159_0056_D",
+      "candidate_records": 19,
+      "candidate_files": 19,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 19
+      },
+      "face_hits": 9,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185402_0057_D",
+      "candidate_records": 20,
+      "candidate_files": 20,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 20
+      },
+      "face_hits": 15,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185500_0058_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185513_0059_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185526_0060_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185539_0061_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185556_0062_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185616_0063_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185657_0064_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185723_0065_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185733_0066_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185747_0067_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185811_0068_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185856_0069_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004185954_0070_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004190023_0071_D",
+      "candidate_records": 6,
+      "candidate_files": 6,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 6
+      },
+      "face_hits": 5,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004190104_0072_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004190125_0073_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004190154_0074_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004192447_0075_D",
+      "candidate_records": 9,
+      "candidate_files": 9,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 9
+      },
+      "face_hits": 7,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004192634_0076_D",
+      "candidate_records": 19,
+      "candidate_files": 19,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 19
+      },
+      "face_hits": 11,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004192922_0077_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004193221_0078_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004193326_0079_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004194409_0080_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004194543_0081_D",
+      "candidate_records": 10,
+      "candidate_files": 10,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 10
+      },
+      "face_hits": 6,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004194805_0082_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004194920_0083_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004194957_0084_D",
+      "candidate_records": 7,
+      "candidate_files": 7,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 7
+      },
+      "face_hits": 7,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195113_0085_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195143_0086_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195302_0087_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195339_0088_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195508_0090_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195546_0091_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195619_0092_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195644_0093_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195716_0094_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195821_0095_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004195937_0096_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200008_0097_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200114_0098_D",
+      "candidate_records": 13,
+      "candidate_files": 13,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 13
+      },
+      "face_hits": 12,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200306_0099_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200323_0100_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 3,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200440_0102_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004200642_0103_D",
+      "candidate_records": 15,
+      "candidate_files": 15,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 15
+      },
+      "face_hits": 15,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004201059_0104_D",
+      "candidate_records": 17,
+      "candidate_files": 17,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 17
+      },
+      "face_hits": 17,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004201343_0105_D",
+      "candidate_records": 6,
+      "candidate_files": 6,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 6
+      },
+      "face_hits": 5,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202124_0106_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202325_0107_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202428_0108_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202512_0109_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 0,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202630_0110_D",
+      "candidate_records": 9,
+      "candidate_files": 9,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 9
+      },
+      "face_hits": 6,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202738_0111_D",
+      "candidate_records": 6,
+      "candidate_files": 6,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 6
+      },
+      "face_hits": 5,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004202945_0112_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203019_0113_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203050_0114_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203100_0115_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203140_0116_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203207_0117_D",
+      "candidate_records": 8,
+      "candidate_files": 8,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 8
+      },
+      "face_hits": 6,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203429_0118_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203537_0119_D",
+      "candidate_records": 3,
+      "candidate_files": 3,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 3
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004203613_0120_D",
+      "candidate_records": 10,
+      "candidate_files": 10,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 10
+      },
+      "face_hits": 7,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004204049_0121_D",
+      "candidate_records": 5,
+      "candidate_files": 5,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 5
+      },
+      "face_hits": 5,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004204323_0122_D",
+      "candidate_records": 4,
+      "candidate_files": 4,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 4
+      },
+      "face_hits": 4,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004204650_0124_D",
+      "candidate_records": 20,
+      "candidate_files": 20,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 20
+      },
+      "face_hits": 19,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004205351_0125_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004205501_0126_D",
+      "candidate_records": 1,
+      "candidate_files": 0,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "no_hands_detected": 1
+      },
+      "face_hits": 0,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004205551_0127_D",
+      "candidate_records": 1,
+      "candidate_files": 1,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 1
+      },
+      "face_hits": 1,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004213217_0128_D",
+      "candidate_records": 12,
+      "candidate_files": 12,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 12
+      },
+      "face_hits": 12,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004213635_0129_D",
+      "candidate_records": 8,
+      "candidate_files": 8,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 8
+      },
+      "face_hits": 8,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004213942_0130_D",
+      "candidate_records": 9,
+      "candidate_files": 9,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 9
+      },
+      "face_hits": 9,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004214257_0131_D",
+      "candidate_records": 12,
+      "candidate_files": 12,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 12
+      },
+      "face_hits": 12,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004214634_0132_D",
+      "candidate_records": 17,
+      "candidate_files": 17,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 17
+      },
+      "face_hits": 14,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004215044_0133_D",
+      "candidate_records": 18,
+      "candidate_files": 18,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 18
+      },
+      "face_hits": 16,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004215601_0134_D",
+      "candidate_records": 13,
+      "candidate_files": 13,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 13
+      },
+      "face_hits": 12,
+      "privacy_reviewed_true": 0
+    },
+    {
+      "source_id": "DJI_20261004215931_0135_D",
+      "candidate_records": 2,
+      "candidate_files": 2,
+      "format_failed": 0,
+      "decode_failed": 0,
+      "detector_statuses": {
+        "ready": 2
+      },
+      "face_hits": 2,
+      "privacy_reviewed_true": 0
+    }
+  ],
+  "notes": [
+    "All automatic rows remain motion_proposal/second_pass_required and require human semantic/privacy review.",
+    "No keypoint extraction or training was started.",
+    "Face detection evidence is not privacy approval; privacy_reviewed remains false.",
+    "A no-hand detector result remains a review item, not an automatic rejection or acceptance."
+  ],
+  "elapsed_s": 49.49
+}

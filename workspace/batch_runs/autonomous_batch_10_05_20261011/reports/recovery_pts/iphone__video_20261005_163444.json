@@ -1,0 +1,5 @@
+{
+  "source_id": "iphone__video_20261005_163444",
+  "error": "RuntimeError('[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5562ae34fec0] moov atom not found\\n/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/recovery_normalized_pts/iphone__video_20261005_163444.mp4: Invalid data found when processing input\\n')",
+  "finished_at": "2026-10-11T20:04:48.325137+08:00"
+}

@@ -1,0 +1,5 @@
+TTA Eval:   1%|          | 7/1000 [00:13<28:24,  1.72s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   1%|          | 8/1000 [00:16<34:01,  2.06s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   1%|          | 9/1000 [00:19<37:57,  2.30s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   1%|          | 10/1000 [00:21<40:49,  2.47s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   1%|          | 11/1000 [00:22<33:01,  2.00s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

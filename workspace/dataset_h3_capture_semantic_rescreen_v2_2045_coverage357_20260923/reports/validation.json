@@ -1,0 +1,14 @@
+{
+  "manifest_count": 2045,
+  "unique_clip_id_count": 2045,
+  "valid_count": 2045,
+  "error_count": 0,
+  "hand_keypoints_required": false,
+  "source_sha_verified": true,
+  "review_status_counts": {
+    "pending_user_review": 2045
+  },
+  "boundary_policy_sha256_values": [],
+  "approved_trial_ids": [],
+  "errors": []
+}

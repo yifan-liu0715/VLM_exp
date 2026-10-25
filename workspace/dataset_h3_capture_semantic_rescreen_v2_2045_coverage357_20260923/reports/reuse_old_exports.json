@@ -1,0 +1,22 @@
+{
+  "input_count": 2045,
+  "linked_existing_count": 2031,
+  "new_export_count": 14,
+  "new_clip_ids": [
+    "semantic_review_02e98b08228fd382a9c8",
+    "semantic_review_1f081cd41492c520aedc",
+    "semantic_review_3be6aff66ded9c9341a3",
+    "semantic_review_4f5aa2aebb1bd1ab75d9",
+    "semantic_review_504f815985468071bc00",
+    "semantic_review_587643262a68a1ef77f4",
+    "semantic_review_7d4165ce936da037ee94",
+    "semantic_review_95de70686c2b0e1f48cb",
+    "semantic_review_ae77d1ccec87ca8c7e0e",
+    "semantic_review_b601a9299b7a963e2e22",
+    "semantic_review_b7fab682098d47e8f047",
+    "semantic_review_b8d886afa16f8632a939",
+    "semantic_review_ce92d59be4af87999468",
+    "semantic_review_dce80b249e56a206c066"
+  ],
+  "link_mode": "hardlink"
+}

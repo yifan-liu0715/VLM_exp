@@ -1,0 +1,7257 @@
+{
+  "status": "passed",
+  "checkpoint": "weights/SCAIL-2/model/bias-aware-dpo-lora.pt",
+  "checkpoint_size_bytes": 1227381060,
+  "top_level_type": "dict",
+  "top_level_keys": [
+    "buffer_names",
+    "client_lr_scheduler",
+    "cuda_rng_state",
+    "data_sampler",
+    "dp_world_size",
+    "ds_config",
+    "ds_version",
+    "frozen_param_fragments",
+    "frozen_param_shapes",
+    "global_samples",
+    "global_steps",
+    "iteration",
+    "lr_scheduler",
+    "module",
+    "mp_world_size",
+    "np_rng_state",
+    "optimizer",
+    "param_shapes",
+    "random_ltd",
+    "random_rng_state",
+    "shared_params",
+    "skipped_steps",
+    "sparse_tensor_module_names",
+    "torch_rng_state"
+  ],
+  "tensor_count": 802,
+  "total_numel": 613422032,
+  "dtypes": {
+    "torch.bfloat16": 800,
+    "torch.uint8": 2
+  },
+  "all_tensors_meta": true,
+  "tensors": [
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.0.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.1.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.2.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.3.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.4.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.5.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.6.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.7.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.8.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.9.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.10.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.11.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.12.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.13.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.14.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.15.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.16.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.17.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.18.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.19.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.20.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.21.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.22.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.23.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.24.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.25.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.26.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.27.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.28.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.29.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.30.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.31.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.32.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.33.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.34.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.35.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.36.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.37.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.38.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.2.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.query_key_value.lora_layer.2.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.query.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.query.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.key_value.lora_layer.0.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.key_value.lora_layer.0.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.key_value.lora_layer.1.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.key_value.lora_layer.1.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.dense.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.cross_attention.dense.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.mlp.dense_h_to_4h.lora_layer.down.weight",
+      "shape": [
+        128,
+        5120
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.mlp.dense_h_to_4h.lora_layer.up.weight",
+      "shape": [
+        13824,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.mlp.dense_4h_to_h.lora_layer.down.weight",
+      "shape": [
+        128,
+        13824
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 1769472
+    },
+    {
+      "path": "module.model.diffusion_model.transformer.layers.39.mlp.dense_4h_to_h.lora_layer.up.weight",
+      "shape": [
+        5120,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "numel": 655360
+    },
+    {
+      "path": "torch_rng_state",
+      "shape": [
+        5056
+      ],
+      "dtype": "torch.uint8",
+      "numel": 5056
+    },
+    {
+      "path": "cuda_rng_state",
+      "shape": [
+        16
+      ],
+      "dtype": "torch.uint8",
+      "numel": 16
+    }
+  ]
+}

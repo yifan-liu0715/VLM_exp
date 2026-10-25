@@ -1,0 +1,125 @@
+{
+  "verified_at": "2026-10-10T07:18:36+0800",
+  "remote_root": "/nvmedata/workspace2/users/nina/batch_runs/animal_gpu_pilot_20261010",
+  "files": [
+    {
+      "relative": "staging/raw/DJI_20260930201304_0108_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201304_0108_D__A__000000750-000002688__raise_and_rotate_joined_fingers_near_cat.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201304_0108_D__B__000002688-000006875__show_spread_hand_high_then_lower_palm_to_cat.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/DJI_20260930201432_0109_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201432_0109_D__A__000003375-000008188__approach_and_touch_cat_crown_with_fingertips.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/DJI_20260930201537_0110_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201537_0110_D__A__000000375-000003688__offer_small_food_between_fingers_and_withdraw.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201537_0110_D__B__000003625-000004938__renew_small_food_offer_between_fingers.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/DJI_20260930201641_0111_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930201641_0111_D__A__000000500-000005938__present_same_small_food_on_palm_and_adjust_distance.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/DJI_20260930201719_0112_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/DJI_20260930202219_0114_D.MP4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/DJI_20260930202219_0114_D__A__000000375-000004938__extend_palm_and_present_hand_to_white_patterned_cat.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/video_20260928_185144.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/video_20260928_185144__A__000001125-000004562__rub_cat_neck_and_chest_with_both_hands.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/video_20260928_185144__B__000004438-000008562__present_pinched_fingers_then_open_palm_below_cat.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/video_20260928_185438.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/video_20260928_185438__A__000000938-000005938__repeatedly_touch_and_stroke_cat_front_paw.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/video_20260928_185446.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/video_20260928_185446__A__000000250-000005938__touch_cat_tail_base_and_withdraw.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "staging/raw/video_20260928_185454.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "candidates/video_20260928_185454__A__000000625-000003750__stroke_cat_chest_side_toward_flank.mp4",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "relative": "face_detection_yunet_2023mar.onnx",
+      "exists": true,
+      "matches": true
+    }
+  ],
+  "all_sha256_match": true,
+  "transferred_bytes": 593425682,
+  "transfer_seconds": 145.84016750007868,
+  "transfer_MiB_per_s": 3.8805141362646705
+}

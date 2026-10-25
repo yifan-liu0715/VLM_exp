@@ -1,0 +1,44 @@
+{
+  "status": "launching",
+  "created_at_utc": "2026-08-16T14:53:35.345073+00:00",
+  "experiment_root": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816",
+  "comparison": "SCAIL-2 Replacement vs Scheme4 V4",
+  "common_conditions": {
+    "source": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/source.mp4",
+    "source_sha256": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "reference": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/reference.png",
+    "reference_sha256": "e624338792ada3cda07d772e0c2bcd8a01038beba4996a3f5637308d22734f66",
+    "target": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/target.mp4",
+    "target_usage": "evaluation-only; excluded from generation conditioning",
+    "frames": 65,
+    "fps": 16,
+    "width": 512,
+    "height": 928,
+    "solver": "UniPC",
+    "steps": 40,
+    "guidance_scale": 5.0,
+    "shift": 3.0,
+    "seed": 42
+  },
+  "scail2": {
+    "physical_gpu": 1,
+    "python": "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/bin/python",
+    "model": "SCAIL-14B",
+    "weight": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/converted/SCAIL-2.safetensors",
+    "weight_sha256": "8b844f026510f0b94d3209d66444b403a089ec179dc149d85513c13b2fa37118",
+    "runner_sha256": "895542392165d533adbcabec01e10af4d659d50cecd65e84dcc95fc94571f73c",
+    "output": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/scail2/outputs/scail2_replacement.mp4"
+  },
+  "v4_scheme4": {
+    "physical_gpu": 2,
+    "python": "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/bin/python",
+    "base_model": "Wan2.2-TI2V-5B",
+    "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+    "adapter_sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+    "entrypoint_sha256": "9dde241bc6a2731b4cffcbd645f3937ec5a8b05969ebaaa734be9d38b46cdf64",
+    "runner_sha256": "8310edbbf14494a549d6d46f902e773e7ec21d820f8aa7d05800a71881b8f40b",
+    "output": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/outputs/v4_scheme4_replacement.mp4"
+  },
+  "launch_mode": "direct SSH background via setsid; no tmux",
+  "preservation": "old inputs and weights referenced read-only; no old outputs or logs overwritten"
+}

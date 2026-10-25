@@ -1,0 +1,5 @@
+upstream=https://github.com/zai-org/SCAIL-2.git
+branch=sat-scail2
+commit=3dee8c4808057690393a189836c508b966ec282b
+relay_bundle_sha256=804b5d20ae7032dd7765cb2b4d4274b56d61b3155a38223aa72904ae70b6d2df
+worktree_status_lines=0

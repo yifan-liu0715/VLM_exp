@@ -1,0 +1,29 @@
+# exp047 — 从 exp040 ckpt-3300 继续训，β=0.3 + K=8
+# 同时加强 KL 约束和增加采样数
+_parent: "configs/base.yaml"
+infra:
+  gpus: "2,3"
+  num_gpus: 2
+  distributed: true
+  master_port: 29627
+model:
+  name_or_path: "outputs/exp040_full_lr5e7_beta01_resume/checkpoint-3300"
+initial_steps: 3300
+training:
+  learning_rate: 5e-7
+  beta: 0.3
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 4
+  max_completion_length: 128
+  num_generations: 8
+  save_steps: 300
+  save_total_limit: 5
+deepspeed: "configs/deepspeed/zero2_95g.json"
+lora:
+  enabled: false
+resume:
+  enabled: false
+dataset:
+  path: "/nvmedata/workspace2/users/tmx/train_annotations/qwen25vl_annotations_train_split_no_tiny.json"
+reward:
+  funcs: ["accuracy"]

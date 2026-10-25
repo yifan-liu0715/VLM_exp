@@ -1,0 +1,21 @@
+{
+  "pid": 915393,
+  "started_at": "2026-10-11T16:22:21.732238+08:00",
+  "source_workers": 1,
+  "ffmpeg_threads": 2,
+  "cuda_visible_devices": "1",
+  "decode_backend": "FFmpeg CUDA input decode; CPU output filters",
+  "semantic_approval": false,
+  "keypoints_started": false,
+  "training_started": false,
+  "state": "finished",
+  "total_non_pilot": 209,
+  "pilot_sources_reserved": 10,
+  "context_prepared": 199,
+  "failed": 10,
+  "waiting_for_upload": 0,
+  "ready": 0,
+  "updated_at": "2026-10-11T18:17:32.241795+08:00",
+  "semantically_accepted": 0,
+  "accepted_for_training": 0
+}

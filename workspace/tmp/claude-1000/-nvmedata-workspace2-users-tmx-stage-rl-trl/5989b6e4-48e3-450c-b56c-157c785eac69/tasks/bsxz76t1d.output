@@ -1,0 +1,30 @@
+=== exp042_ckpt1500 ===
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7068   0.9504     564     536    798
+                  iou80   0.4135   0.9545     330     315    798
+======================================================================
+
+[Eval] Results saved to: results/exp042_ckpt1500.json
+[Eval] Detailed per-sample results: results/exp042_ckpt1500_details.json
+
+=== exp044_ckpt1200 ===
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7043   0.9573     562     538    798
+                  iou80   0.4185   0.9551     334     319    798
+======================================================================
+
+[Eval] Results saved to: results/exp044_ckpt1200.json
+[Eval] Detailed per-sample results: results/exp044_ckpt1200_details.json
+
+=== exp044_ckpt1500 ===
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7055   0.9574     563     539    798
+                  iou80   0.4286   0.9561     342     327    798
+======================================================================
+
+[Eval] Results saved to: results/exp044_ckpt1500.json
+[Eval] Detailed per-sample results: results/exp044_ckpt1500_details.json
+

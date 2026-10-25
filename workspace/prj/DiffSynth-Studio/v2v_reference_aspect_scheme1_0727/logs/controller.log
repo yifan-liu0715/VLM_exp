@@ -1,0 +1,390 @@
+[controller] 2026-07-27T00:39:38+08:00 starting Scheme-1 training on physical GPU 5
+[launch] Scheme 1; physical GPU=5; GPU0 forbidden; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/configs/train_scheme1_2000.yaml
+Seed set to 1234
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.11it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.92it/s]
+[model] transformer parameters=5,141,938,368; trainable parameters=142,150,656
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 142 M                                                                                                                                                          
+Non-trainable params: 11.4 B                                                                                                                                                     
+Total params: 11.5 B                                                                                                                                                             
+Total estimated model params size (MB): 46,110.149                                                                                                                               
+Modules in train mode: 2400                                                                                                                                                      
+Modules in eval mode: 1615                                                                                                                                                       
+Total FLOPs: 0                                                                                                                                                                   
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 500, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 1000, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 1500, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 2000, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/checkpoints/recovery.ckpt
+`Trainer.fit` stopped: `max_steps=2000` reached.
+[final] wrote adapter: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 2000, 'epoch': 1}
+Epoch 0/-2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2000/2000 5:09:52 • 0:00:00 0.08it/s v_num: 0.000 train/loss_step: 0.226 train/loss_epoch: 0.134
+[controller] 2026-07-27T05:50:09+08:00 training complete; starting held-out inference
+[controller] 2026-07-27T05:50:09+08:00 inference sample=mymotion__051
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.31it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.29s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.22it/s]
+[base] 01/50 elapsed=2.2s
+[base] 02/50 elapsed=4.3s
+[base] 03/50 elapsed=6.4s
+[base] 04/50 elapsed=8.5s
+[base] 05/50 elapsed=10.7s
+[base] 06/50 elapsed=12.8s
+[base] 07/50 elapsed=14.9s
+[base] 08/50 elapsed=17.0s
+[base] 09/50 elapsed=19.1s
+[base] 10/50 elapsed=21.3s
+[base] 11/50 elapsed=23.4s
+[base] 12/50 elapsed=25.5s
+[base] 13/50 elapsed=27.6s
+[base] 14/50 elapsed=29.8s
+[base] 15/50 elapsed=31.9s
+[base] 16/50 elapsed=34.0s
+[base] 17/50 elapsed=36.1s
+[base] 18/50 elapsed=38.3s
+[base] 19/50 elapsed=40.4s
+[base] 20/50 elapsed=42.5s
+[base] 21/50 elapsed=44.7s
+[base] 22/50 elapsed=46.8s
+[base] 23/50 elapsed=48.9s
+[base] 24/50 elapsed=51.1s
+[base] 25/50 elapsed=53.2s
+[base] 26/50 elapsed=55.3s
+[base] 27/50 elapsed=57.4s
+[base] 28/50 elapsed=59.6s
+[base] 29/50 elapsed=61.7s
+[base] 30/50 elapsed=63.8s
+[base] 31/50 elapsed=66.0s
+[base] 32/50 elapsed=68.1s
+[base] 33/50 elapsed=70.2s
+[base] 34/50 elapsed=72.4s
+[base] 35/50 elapsed=74.5s
+[base] 36/50 elapsed=76.6s
+[base] 37/50 elapsed=78.8s
+[base] 38/50 elapsed=80.9s
+[base] 39/50 elapsed=83.0s
+[base] 40/50 elapsed=85.2s
+[base] 41/50 elapsed=87.3s
+[base] 42/50 elapsed=89.4s
+[base] 43/50 elapsed=91.5s
+[base] 44/50 elapsed=93.7s
+[base] 45/50 elapsed=95.8s
+[base] 46/50 elapsed=97.9s
+[base] 47/50 elapsed=100.1s
+[base] 48/50 elapsed=102.2s
+[base] 49/50 elapsed=104.3s
+[base] 50/50 elapsed=106.5s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=2.1s
+[adapter] 02/50 elapsed=4.3s
+[adapter] 03/50 elapsed=6.4s
+[adapter] 04/50 elapsed=8.6s
+[adapter] 05/50 elapsed=10.7s
+[adapter] 06/50 elapsed=12.8s
+[adapter] 07/50 elapsed=15.0s
+[adapter] 08/50 elapsed=17.1s
+[adapter] 09/50 elapsed=19.3s
+[adapter] 10/50 elapsed=21.4s
+[adapter] 11/50 elapsed=23.5s
+[adapter] 12/50 elapsed=25.7s
+[adapter] 13/50 elapsed=27.8s
+[adapter] 14/50 elapsed=29.9s
+[adapter] 15/50 elapsed=32.1s
+[adapter] 16/50 elapsed=34.2s
+[adapter] 17/50 elapsed=36.3s
+[adapter] 18/50 elapsed=38.5s
+[adapter] 19/50 elapsed=40.6s
+[adapter] 20/50 elapsed=42.7s
+[adapter] 21/50 elapsed=44.9s
+[adapter] 22/50 elapsed=47.0s
+[adapter] 23/50 elapsed=49.2s
+[adapter] 24/50 elapsed=51.3s
+[adapter] 25/50 elapsed=53.4s
+[adapter] 26/50 elapsed=55.6s
+[adapter] 27/50 elapsed=57.7s
+[adapter] 28/50 elapsed=59.8s
+[adapter] 29/50 elapsed=62.0s
+[adapter] 30/50 elapsed=64.1s
+[adapter] 31/50 elapsed=66.2s
+[adapter] 32/50 elapsed=68.4s
+[adapter] 33/50 elapsed=70.5s
+[adapter] 34/50 elapsed=72.7s
+[adapter] 35/50 elapsed=74.8s
+[adapter] 36/50 elapsed=77.0s
+[adapter] 37/50 elapsed=79.1s
+[adapter] 38/50 elapsed=81.2s
+[adapter] 39/50 elapsed=83.4s
+[adapter] 40/50 elapsed=85.5s
+[adapter] 41/50 elapsed=87.6s
+[adapter] 42/50 elapsed=89.8s
+[adapter] 43/50 elapsed=91.9s
+[adapter] 44/50 elapsed=94.1s
+[adapter] 45/50 elapsed=96.2s
+[adapter] 46/50 elapsed=98.3s
+[adapter] 47/50 elapsed=100.5s
+[adapter] 48/50 elapsed=102.6s
+[adapter] 49/50 elapsed=104.7s
+[adapter] 50/50 elapsed=106.9s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:03<00:03,  3.51s/it]VAE decoding: 100%|██████████| 2/2 [00:06<00:00,  3.17s/it]VAE decoding: 100%|██████████| 2/2 [00:06<00:00,  3.22s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:03<00:03,  3.50s/it]VAE decoding: 100%|██████████| 2/2 [00:06<00:00,  3.11s/it]VAE decoding: 100%|██████████| 2/2 [00:06<00:00,  3.17s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:40,  2.38it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  64%|██████▍   | 62/97 [00:00<00:00, 156.34it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 152.76it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:18,  5.06it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  67%|██████▋   | 65/97 [00:00<00:00, 270.35it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 283.18it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:11,  8.70it/s]Saving video:  77%|███████▋  | 75/97 [00:00<00:00, 413.10it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 337.56it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:13,  7.38it/s]Saving video:  44%|████▍     | 43/97 [00:00<00:00, 217.07it/s]Saving video:  89%|████████▊ | 86/97 [00:00<00:00, 305.08it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 240.14it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:12,  7.89it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  26%|██▌       | 25/97 [00:00<00:00, 130.41it/s]Saving video:  77%|███████▋  | 75/97 [00:00<00:00, 285.53it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 152.32it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__051/videos/mymotion__051_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__051/reports/mymotion__051_run_manifest.json
+[controller] 2026-07-27T05:54:38+08:00 inference sample=mymotion__single_talking_face__datatrain__002
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.57s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.49s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.68s/it]
+[base] 01/50 elapsed=3.8s
+[base] 02/50 elapsed=7.4s
+[base] 03/50 elapsed=11.1s
+[base] 04/50 elapsed=14.8s
+[base] 05/50 elapsed=18.5s
+[base] 06/50 elapsed=22.2s
+[base] 07/50 elapsed=25.9s
+[base] 08/50 elapsed=29.6s
+[base] 09/50 elapsed=33.3s
+[base] 10/50 elapsed=37.0s
+[base] 11/50 elapsed=40.8s
+[base] 12/50 elapsed=44.5s
+[base] 13/50 elapsed=48.2s
+[base] 14/50 elapsed=51.9s
+[base] 15/50 elapsed=55.6s
+[base] 16/50 elapsed=59.3s
+[base] 17/50 elapsed=63.0s
+[base] 18/50 elapsed=66.8s
+[base] 19/50 elapsed=70.5s
+[base] 20/50 elapsed=74.2s
+[base] 21/50 elapsed=77.9s
+[base] 22/50 elapsed=81.6s
+[base] 23/50 elapsed=85.3s
+[base] 24/50 elapsed=89.1s
+[base] 25/50 elapsed=92.8s
+[base] 26/50 elapsed=96.5s
+[base] 27/50 elapsed=100.2s
+[base] 28/50 elapsed=103.9s
+[base] 29/50 elapsed=107.6s
+[base] 30/50 elapsed=111.3s
+[base] 31/50 elapsed=115.0s
+[base] 32/50 elapsed=118.7s
+[base] 33/50 elapsed=122.5s
+[base] 34/50 elapsed=126.2s
+[base] 35/50 elapsed=129.9s
+[base] 36/50 elapsed=133.6s
+[base] 37/50 elapsed=137.3s
+[base] 38/50 elapsed=141.0s
+[base] 39/50 elapsed=144.7s
+[base] 40/50 elapsed=148.4s
+[base] 41/50 elapsed=152.1s
+[base] 42/50 elapsed=155.9s
+[base] 43/50 elapsed=159.6s
+[base] 44/50 elapsed=163.3s
+[base] 45/50 elapsed=167.0s
+[base] 46/50 elapsed=170.7s
+[base] 47/50 elapsed=174.4s
+[base] 48/50 elapsed=178.1s
+[base] 49/50 elapsed=181.8s
+[base] 50/50 elapsed=185.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=3.7s
+[adapter] 02/50 elapsed=7.4s
+[adapter] 03/50 elapsed=11.2s
+[adapter] 04/50 elapsed=14.9s
+[adapter] 05/50 elapsed=18.6s
+[adapter] 06/50 elapsed=22.3s
+[adapter] 07/50 elapsed=26.1s
+[adapter] 08/50 elapsed=29.8s
+[adapter] 09/50 elapsed=33.5s
+[adapter] 10/50 elapsed=37.2s
+[adapter] 11/50 elapsed=41.0s
+[adapter] 12/50 elapsed=44.7s
+[adapter] 13/50 elapsed=48.4s
+[adapter] 14/50 elapsed=52.1s
+[adapter] 15/50 elapsed=55.8s
+[adapter] 16/50 elapsed=59.6s
+[adapter] 17/50 elapsed=63.3s
+[adapter] 18/50 elapsed=67.0s
+[adapter] 19/50 elapsed=70.7s
+[adapter] 20/50 elapsed=74.5s
+[adapter] 21/50 elapsed=78.2s
+[adapter] 22/50 elapsed=81.9s
+[adapter] 23/50 elapsed=85.6s
+[adapter] 24/50 elapsed=89.3s
+[adapter] 25/50 elapsed=93.1s
+[adapter] 26/50 elapsed=96.8s
+[adapter] 27/50 elapsed=100.5s
+[adapter] 28/50 elapsed=104.2s
+[adapter] 29/50 elapsed=107.9s
+[adapter] 30/50 elapsed=111.7s
+[adapter] 31/50 elapsed=115.4s
+[adapter] 32/50 elapsed=119.1s
+[adapter] 33/50 elapsed=122.8s
+[adapter] 34/50 elapsed=126.6s
+[adapter] 35/50 elapsed=130.3s
+[adapter] 36/50 elapsed=134.0s
+[adapter] 37/50 elapsed=137.7s
+[adapter] 38/50 elapsed=141.4s
+[adapter] 39/50 elapsed=145.2s
+[adapter] 40/50 elapsed=148.9s
+[adapter] 41/50 elapsed=152.6s
+[adapter] 42/50 elapsed=156.3s
+[adapter] 43/50 elapsed=160.0s
+[adapter] 44/50 elapsed=163.8s
+[adapter] 45/50 elapsed=167.5s
+[adapter] 46/50 elapsed=171.2s
+[adapter] 47/50 elapsed=174.9s
+[adapter] 48/50 elapsed=178.6s
+[adapter] 49/50 elapsed=182.4s
+[adapter] 50/50 elapsed=186.1s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:05<00:05,  5.04s/it]VAE decoding: 100%|██████████| 2/2 [00:09<00:00,  4.49s/it]VAE decoding: 100%|██████████| 2/2 [00:09<00:00,  4.57s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:04<00:04,  4.98s/it]VAE decoding: 100%|██████████| 2/2 [00:09<00:00,  4.42s/it]VAE decoding: 100%|██████████| 2/2 [00:09<00:00,  4.51s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:17,  5.62it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  38%|███▊      | 37/97 [00:00<00:00, 163.09it/s]Saving video:  74%|███████▍  | 72/97 [00:00<00:00, 233.36it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 204.48it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   3%|▎         | 3/97 [00:00<00:03, 29.57it/s]Saving video:  41%|████      | 40/97 [00:00<00:00, 212.30it/s]Saving video:  65%|██████▍   | 63/97 [00:00<00:00, 217.12it/s]Saving video:  96%|█████████▌| 93/97 [00:00<00:00, 247.73it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 223.20it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:17,  5.42it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  34%|███▍      | 33/97 [00:00<00:00, 140.62it/s]Saving video:  63%|██████▎   | 61/97 [00:00<00:00, 192.58it/s]Saving video:  96%|█████████▌| 93/97 [00:00<00:00, 235.37it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 189.95it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   4%|▍         | 4/97 [00:00<00:02, 39.94it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 181.01it/s]Saving video:  64%|██████▍   | 62/97 [00:00<00:00, 234.88it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 246.05it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   5%|▌         | 5/97 [00:00<00:01, 48.88it/s]Saving video:  47%|████▋     | 46/97 [00:00<00:00, 256.46it/s]Saving video:  79%|███████▉  | 77/97 [00:00<00:00, 280.35it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 225.87it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__single_talking_face__datatrain__002/videos/mymotion__single_talking_face__datatrain__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__single_talking_face__datatrain__002/reports/mymotion__single_talking_face__datatrain__002_run_manifest.json
+[controller] 2026-07-27T06:01:54+08:00 inference sample=mymotion__humandance__batch1_mingxing_cropped__002
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.50s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.42s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.04it/s]
+[base] 01/50 elapsed=3.7s
+[base] 02/50 elapsed=7.4s
+[base] 03/50 elapsed=11.1s
+[base] 04/50 elapsed=14.8s
+[base] 05/50 elapsed=18.4s
+[base] 06/50 elapsed=22.1s
+[base] 07/50 elapsed=25.8s
+[base] 08/50 elapsed=29.5s
+[base] 09/50 elapsed=33.2s
+[base] 10/50 elapsed=36.9s
+[base] 11/50 elapsed=40.6s
+[base] 12/50 elapsed=44.3s
+[base] 13/50 elapsed=48.0s
+[base] 14/50 elapsed=51.7s
+[base] 15/50 elapsed=55.4s
+[base] 16/50 elapsed=59.1s
+[base] 17/50 elapsed=62.8s
+[base] 18/50 elapsed=66.5s
+[base] 19/50 elapsed=70.2s
+[base] 20/50 elapsed=73.9s
+[base] 21/50 elapsed=77.6s
+[base] 22/50 elapsed=81.3s
+[base] 23/50 elapsed=85.0s
+[base] 24/50 elapsed=88.7s
+[base] 25/50 elapsed=92.4s
+[base] 26/50 elapsed=96.1s
+[base] 27/50 elapsed=99.8s
+[base] 28/50 elapsed=103.5s
+[base] 29/50 elapsed=107.2s
+[base] 30/50 elapsed=110.9s
+[base] 31/50 elapsed=114.6s
+[base] 32/50 elapsed=118.3s
+[base] 33/50 elapsed=122.0s
+[base] 34/50 elapsed=125.7s
+[base] 35/50 elapsed=129.4s
+[base] 36/50 elapsed=133.1s
+[base] 37/50 elapsed=136.8s
+[base] 38/50 elapsed=140.5s
+[base] 39/50 elapsed=144.2s
+[base] 40/50 elapsed=147.9s
+[base] 41/50 elapsed=151.6s
+[base] 42/50 elapsed=155.3s
+[base] 43/50 elapsed=159.0s
+[base] 44/50 elapsed=162.7s
+[base] 45/50 elapsed=166.4s
+[base] 46/50 elapsed=170.1s
+[base] 47/50 elapsed=173.8s
+[base] 48/50 elapsed=177.5s
+[base] 49/50 elapsed=181.2s
+[base] 50/50 elapsed=184.9s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=3.7s
+[adapter] 02/50 elapsed=7.4s
+[adapter] 03/50 elapsed=11.1s
+[adapter] 04/50 elapsed=14.9s
+[adapter] 05/50 elapsed=18.6s
+[adapter] 06/50 elapsed=22.3s
+[adapter] 07/50 elapsed=26.0s
+[adapter] 08/50 elapsed=29.7s
+[adapter] 09/50 elapsed=33.4s
+[adapter] 10/50 elapsed=37.1s
+[adapter] 11/50 elapsed=40.8s
+[adapter] 12/50 elapsed=44.6s
+[adapter] 13/50 elapsed=48.3s
+[adapter] 14/50 elapsed=52.0s
+[adapter] 15/50 elapsed=55.7s
+[adapter] 16/50 elapsed=59.4s
+[adapter] 17/50 elapsed=63.1s
+[adapter] 18/50 elapsed=66.8s
+[adapter] 19/50 elapsed=70.5s
+[adapter] 20/50 elapsed=74.3s
+[adapter] 21/50 elapsed=78.0s
+[adapter] 22/50 elapsed=81.7s
+[adapter] 23/50 elapsed=85.4s
+[adapter] 24/50 elapsed=89.1s
+[adapter] 25/50 elapsed=92.8s
+[adapter] 26/50 elapsed=96.5s
+[adapter] 27/50 elapsed=100.2s
+[adapter] 28/50 elapsed=103.9s
+[adapter] 29/50 elapsed=107.7s
+[adapter] 30/50 elapsed=111.4s
+[adapter] 31/50 elapsed=115.1s
+[adapter] 32/50 elapsed=118.8s
+[adapter] 33/50 elapsed=122.5s
+[adapter] 34/50 elapsed=126.2s
+[adapter] 35/50 elapsed=129.9s
+[adapter] 36/50 elapsed=133.6s
+[adapter] 37/50 elapsed=137.3s
+[adapter] 38/50 elapsed=141.1s
+[adapter] 39/50 elapsed=144.8s
+[adapter] 40/50 elapsed=148.5s
+[adapter] 41/50 elapsed=152.2s
+[adapter] 42/50 elapsed=155.9s
+[adapter] 43/50 elapsed=159.6s
+[adapter] 44/50 elapsed=163.3s
+[adapter] 45/50 elapsed=167.0s
+[adapter] 46/50 elapsed=170.8s
+[adapter] 47/50 elapsed=174.5s
+[adapter] 48/50 elapsed=178.2s
+[adapter] 49/50 elapsed=181.9s
+[adapter] 50/50 elapsed=185.6s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:05<00:05,  5.03s/it]VAE decoding: 100%|██████████| 2/2 [00:08<00:00,  4.32s/it]VAE decoding: 100%|██████████| 2/2 [00:08<00:00,  4.43s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:04<00:04,  4.93s/it]VAE decoding: 100%|██████████| 2/2 [00:08<00:00,  4.27s/it]VAE decoding: 100%|██████████| 2/2 [00:08<00:00,  4.37s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:26,  3.59it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  21%|██        | 20/97 [00:00<00:01, 65.91it/s]Saving video:  57%|█████▋    | 55/97 [00:00<00:00, 156.21it/s]Saving video:  88%|████████▊ | 85/97 [00:00<00:00, 200.68it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 154.55it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:22,  4.33it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  24%|██▎       | 23/97 [00:00<00:00, 85.47it/s]Saving video:  67%|██████▋   | 65/97 [00:00<00:00, 201.70it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 195.03it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:14,  6.65it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  35%|███▌      | 34/97 [00:00<00:00, 163.04it/s]Saving video:  64%|██████▍   | 62/97 [00:00<00:00, 210.14it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 218.68it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   2%|▏         | 2/97 [00:00<00:04, 19.68it/s]Saving video:  36%|███▌      | 35/97 [00:00<00:00, 197.52it/s]Saving video:  70%|███████   | 68/97 [00:00<00:00, 256.41it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 249.29it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:10,  9.24it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  34%|███▍      | 33/97 [00:00<00:00, 185.28it/s]Saving video:  75%|███████▌  | 73/97 [00:00<00:00, 277.09it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 237.67it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__humandance__batch1_mingxing_cropped__002/videos/mymotion__humandance__batch1_mingxing_cropped__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme1_0727/validation/mymotion__humandance__batch1_mingxing_cropped__002/reports/mymotion__humandance__batch1_mingxing_cropped__002_run_manifest.json
+[controller] 2026-07-27T06:09:07+08:00 Scheme-1 training and inference complete

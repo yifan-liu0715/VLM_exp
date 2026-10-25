@@ -1,0 +1,11 @@
+{
+  "pid": 915393,
+  "started_at": "2026-10-11T16:22:21.732238+08:00",
+  "source_workers": 1,
+  "ffmpeg_threads": 2,
+  "cuda_visible_devices": "1",
+  "decode_backend": "FFmpeg CUDA input decode; CPU output filters",
+  "semantic_approval": false,
+  "keypoints_started": false,
+  "training_started": false
+}

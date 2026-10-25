@@ -1,0 +1,29 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:02,  1.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.96s/it]
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 364, in <module>
+    main()
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 293, in main
+    model, processor = load_model(args.checkpoint, args.base_model)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 34, in load_model
+    model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/transformers/modeling_utils.py", line 317, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5069, in from_pretrained
+    ) = cls._load_pretrained_model(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5532, in _load_pretrained_model
+    _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/transformers/modeling_utils.py", line 975, in load_shard_file
+    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/transformers/modeling_utils.py", line 880, in _load_state_dict_into_meta_model
+    _load_parameter_into_model(model, param_name, param.to(param_device))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 79.32 GiB of which 82.25 MiB is free. Process 1450099 has 48.81 GiB memory in use. Process 3442866 has 16.20 GiB memory in use. Including non-PyTorch memory, this process has 14.10 GiB memory in use. Of the allocated memory 13.69 GiB is allocated by PyTorch, and 9.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

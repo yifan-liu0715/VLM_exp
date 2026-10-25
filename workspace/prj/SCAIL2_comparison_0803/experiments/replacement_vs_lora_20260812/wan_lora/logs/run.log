@@ -1,0 +1,7 @@
+physical_gpu=5
+variant=latest_lora
+gpu_sharing_allowed=true
+preexisting_compute_pids=1939451
+free_mib_at_launch=79723
+adapter_sha256=dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a
+/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/scripts/run_lora_replacement_shared_gpu5.sh: line 69: 420400 Segmentation fault      (core dumped) "$PYTHON" "$ROOT/wan_lora/scripts/infer_scheme4_lora_only.py" --input-manifest "$ROOT/wan_lora/manifests/input_manifest.json" --adapter "$ADAPTER" --expected-adapter-sha256 "$EXPECTED_ADAPTER_SHA256" --output-file "$OUTPUT" --run-manifest "$MANIFEST"

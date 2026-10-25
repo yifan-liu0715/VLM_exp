@@ -1,0 +1,375 @@
+[launch] physical GPUs=1,2,4; GPU0 forbidden; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/configs/train_v2v_corrected_tiers_0719.yaml
+Seed set to 42
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/3
+[rank: 1] Seed set to 42
+[rank: 2] Seed set to 42
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/3
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/3
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 3 processes
+----------------------------------------------------------------------------------------------------
+
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.12s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.16it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.65it/s]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [1,2,4]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1,2,4]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [1,2,4]
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 95.0 M                                                        
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 45,921.406                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 500, 'epoch': 0}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 500, 'epoch': 0}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1000, 'epoch': 1}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1000, 'epoch': 1}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1500, 'epoch': 2}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1500, 'epoch': 2}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2000, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2000, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2500, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2500, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3000, 'epoch': 4}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3000, 'epoch': 4}
+[milestone] wrote immutable tier: {'tier': 'quick', 'global_step': 3265, 'adapter': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/quick/final_adapter/v2v_lora_and_source_patch.safetensors', 'metadata': {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/quick/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3265, 'epoch': 4}}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3500, 'epoch': 5}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3500, 'epoch': 5}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 4000, 'epoch': 6}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 4000, 'epoch': 6}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 4500, 'epoch': 6}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 4500, 'epoch': 6}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 5000, 'epoch': 7}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 5000, 'epoch': 7}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 5500, 'epoch': 8}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 5500, 'epoch': 8}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 6000, 'epoch': 9}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 6000, 'epoch': 9}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 6500, 'epoch': 9}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 6500, 'epoch': 9}
+[milestone] wrote immutable tier: {'tier': 'conservative', 'global_step': 6530, 'adapter': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/conservative/final_adapter/v2v_lora_and_source_patch.safetensors', 'metadata': {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/conservative/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 6530, 'epoch': 9}}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 7000, 'epoch': 10}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 7000, 'epoch': 10}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 7500, 'epoch': 11}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 7500, 'epoch': 11}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 8000, 'epoch': 12}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 8000, 'epoch': 12}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 8500, 'epoch': 13}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 8500, 'epoch': 13}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 9000, 'epoch': 13}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 9000, 'epoch': 13}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 9500, 'epoch': 14}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 9500, 'epoch': 14}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 10000, 'epoch': 15}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 10000, 'epoch': 15}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 10500, 'epoch': 16}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 10500, 'epoch': 16}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 11000, 'epoch': 16}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 11000, 'epoch': 16}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 11500, 'epoch': 17}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 11500, 'epoch': 17}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 12000, 'epoch': 18}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 12000, 'epoch': 18}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 12500, 'epoch': 19}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 12500, 'epoch': 19}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 13000, 'epoch': 19}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 13000, 'epoch': 19}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 13500, 'epoch': 20}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 13500, 'epoch': 20}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 14000, 'epoch': 21}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 14000, 'epoch': 21}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 14500, 'epoch': 22}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 14500, 'epoch': 22}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 15000, 'epoch': 22}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 15000, 'epoch': 22}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 15500, 'epoch': 23}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 15500, 'epoch': 23}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 16000, 'epoch': 24}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 16000, 'epoch': 24}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 16500, 'epoch': 25}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 16500, 'epoch': 25}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 17000, 'epoch': 26}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 17000, 'epoch': 26}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 17500, 'epoch': 26}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 17500, 'epoch': 26}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 18000, 'epoch': 27}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 18000, 'epoch': 27}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 18500, 'epoch': 28}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 18500, 'epoch': 28}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 19000, 'epoch': 29}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 19000, 'epoch': 29}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 19500, 'epoch': 29}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 19500, 'epoch': 29}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 20000, 'epoch': 30}
+[milestone] wrote immutable tier: {'tier': 'recommended', 'global_step': 20000, 'adapter': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'metadata': {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 20000, 'epoch': 30}}
+`Trainer.fit` stopped: `max_steps=20000` reached.
+[milestone] ensured final recommended adapter: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 20000, 'epoch': 31}
+Epoch 30/-2 ━━━━━━━━━━━━━━━━ 820/410 0:14:05 •        0.47it/s v_num: 0.000     
+                                     0:00:00                   train/loss_step: 
+                                                               0.051            
+                                                               train/loss_epoch:
+                                                               0.123            
+[run] physical_gpu=1 sample=mymotion__002
+[run] source=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4 target=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4 reference=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.19it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.25it/s]
+[base] step 01/30 elapsed=0.3s
+[base] step 02/30 elapsed=0.6s
+[base] step 03/30 elapsed=0.9s
+[base] step 04/30 elapsed=1.2s
+[base] step 05/30 elapsed=1.6s
+[base] step 06/30 elapsed=1.9s
+[base] step 07/30 elapsed=2.2s
+[base] step 08/30 elapsed=2.5s
+[base] step 09/30 elapsed=2.8s
+[base] step 10/30 elapsed=3.1s
+[base] step 11/30 elapsed=3.5s
+[base] step 12/30 elapsed=3.8s
+[base] step 13/30 elapsed=4.1s
+[base] step 14/30 elapsed=4.4s
+[base] step 15/30 elapsed=4.7s
+[base] step 16/30 elapsed=5.1s
+[base] step 17/30 elapsed=5.4s
+[base] step 18/30 elapsed=5.7s
+[base] step 19/30 elapsed=6.0s
+[base] step 20/30 elapsed=6.4s
+[base] step 21/30 elapsed=6.7s
+[base] step 22/30 elapsed=7.0s
+[base] step 23/30 elapsed=7.3s
+[base] step 24/30 elapsed=7.6s
+[base] step 25/30 elapsed=8.0s
+[base] step 26/30 elapsed=8.3s
+[base] step 27/30 elapsed=8.6s
+[base] step 28/30 elapsed=8.9s
+[base] step 29/30 elapsed=9.2s
+[base] step 30/30 elapsed=9.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0}
+[lora] step 01/30 elapsed=0.3s
+[lora] step 02/30 elapsed=0.6s
+[lora] step 03/30 elapsed=0.9s
+[lora] step 04/30 elapsed=1.2s
+[lora] step 05/30 elapsed=1.6s
+[lora] step 06/30 elapsed=1.9s
+[lora] step 07/30 elapsed=2.2s
+[lora] step 08/30 elapsed=2.5s
+[lora] step 09/30 elapsed=2.8s
+[lora] step 10/30 elapsed=3.1s
+[lora] step 11/30 elapsed=3.5s
+[lora] step 12/30 elapsed=3.8s
+[lora] step 13/30 elapsed=4.2s
+[lora] step 14/30 elapsed=4.5s
+[lora] step 15/30 elapsed=4.8s
+[lora] step 16/30 elapsed=5.1s
+[lora] step 17/30 elapsed=5.4s
+[lora] step 18/30 elapsed=5.8s
+[lora] step 19/30 elapsed=6.1s
+[lora] step 20/30 elapsed=6.4s
+[lora] step 21/30 elapsed=6.7s
+[lora] step 22/30 elapsed=7.0s
+[lora] step 23/30 elapsed=7.4s
+[lora] step 24/30 elapsed=7.7s
+[lora] step 25/30 elapsed=8.0s
+[lora] step 26/30 elapsed=8.3s
+[lora] step 27/30 elapsed=8.7s
+[lora] step 28/30 elapsed=9.0s
+[lora] step 29/30 elapsed=9.3s
+[lora] step 30/30 elapsed=9.6s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.40s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.35s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:05,  6.38it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 164.49it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  88%|████████▊ | 29/33 [00:00<00:00, 288.94it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 311.88it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  21%|██        | 7/33 [00:00<00:00, 68.74it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 203.11it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   9%|▉         | 3/33 [00:00<00:01, 29.50it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 221.68it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  18%|█▊        | 6/33 [00:00<00:00, 59.57it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 212.29it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/quick/validation/videos/mymotion__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/quick/validation/reports/mymotion__002_run_manifest.json
+[run] physical_gpu=1 sample=mymotion__002
+[run] source=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4 target=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4 reference=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.38s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.08s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.33it/s]
+[base] step 01/30 elapsed=0.3s
+[base] step 02/30 elapsed=0.6s
+[base] step 03/30 elapsed=0.9s
+[base] step 04/30 elapsed=1.2s
+[base] step 05/30 elapsed=1.6s
+[base] step 06/30 elapsed=1.9s
+[base] step 07/30 elapsed=2.2s
+[base] step 08/30 elapsed=2.5s
+[base] step 09/30 elapsed=2.9s
+[base] step 10/30 elapsed=3.2s
+[base] step 11/30 elapsed=3.5s
+[base] step 12/30 elapsed=3.8s
+[base] step 13/30 elapsed=4.1s
+[base] step 14/30 elapsed=4.5s
+[base] step 15/30 elapsed=4.8s
+[base] step 16/30 elapsed=5.1s
+[base] step 17/30 elapsed=5.4s
+[base] step 18/30 elapsed=5.7s
+[base] step 19/30 elapsed=6.1s
+[base] step 20/30 elapsed=6.4s
+[base] step 21/30 elapsed=6.7s
+[base] step 22/30 elapsed=7.0s
+[base] step 23/30 elapsed=7.3s
+[base] step 24/30 elapsed=7.7s
+[base] step 25/30 elapsed=8.0s
+[base] step 26/30 elapsed=8.3s
+[base] step 27/30 elapsed=8.6s
+[base] step 28/30 elapsed=8.9s
+[base] step 29/30 elapsed=9.2s
+[base] step 30/30 elapsed=9.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0}
+[lora] step 01/30 elapsed=0.3s
+[lora] step 02/30 elapsed=0.6s
+[lora] step 03/30 elapsed=0.9s
+[lora] step 04/30 elapsed=1.2s
+[lora] step 05/30 elapsed=1.5s
+[lora] step 06/30 elapsed=1.9s
+[lora] step 07/30 elapsed=2.2s
+[lora] step 08/30 elapsed=2.5s
+[lora] step 09/30 elapsed=2.8s
+[lora] step 10/30 elapsed=3.1s
+[lora] step 11/30 elapsed=3.5s
+[lora] step 12/30 elapsed=3.8s
+[lora] step 13/30 elapsed=4.1s
+[lora] step 14/30 elapsed=4.4s
+[lora] step 15/30 elapsed=4.8s
+[lora] step 16/30 elapsed=5.1s
+[lora] step 17/30 elapsed=5.5s
+[lora] step 18/30 elapsed=5.8s
+[lora] step 19/30 elapsed=6.1s
+[lora] step 20/30 elapsed=6.4s
+[lora] step 21/30 elapsed=6.7s
+[lora] step 22/30 elapsed=7.1s
+[lora] step 23/30 elapsed=7.4s
+[lora] step 24/30 elapsed=7.7s
+[lora] step 25/30 elapsed=8.0s
+[lora] step 26/30 elapsed=8.4s
+[lora] step 27/30 elapsed=8.7s
+[lora] step 28/30 elapsed=9.0s
+[lora] step 29/30 elapsed=9.4s
+[lora] step 30/30 elapsed=9.7s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.37s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.54s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.24s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.28s/it]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:03,  8.01it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 165.94it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  42%|████▏     | 14/33 [00:00<00:00, 139.50it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 230.05it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  21%|██        | 7/33 [00:00<00:00, 68.92it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 206.43it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  33%|███▎      | 11/33 [00:00<00:00, 109.80it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 204.91it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  18%|█▊        | 6/33 [00:00<00:00, 59.01it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 166.04it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/conservative/validation/videos/mymotion__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/conservative/validation/reports/mymotion__002_run_manifest.json
+[run] physical_gpu=1 sample=mymotion__002
+[run] source=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4 target=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4 reference=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.29s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.56it/s]
+[base] step 01/30 elapsed=0.3s
+[base] step 02/30 elapsed=0.6s
+[base] step 03/30 elapsed=0.9s
+[base] step 04/30 elapsed=1.3s
+[base] step 05/30 elapsed=1.5s
+[base] step 06/30 elapsed=1.9s
+[base] step 07/30 elapsed=2.2s
+[base] step 08/30 elapsed=2.6s
+[base] step 09/30 elapsed=2.9s
+[base] step 10/30 elapsed=3.2s
+[base] step 11/30 elapsed=3.5s
+[base] step 12/30 elapsed=3.8s
+[base] step 13/30 elapsed=4.2s
+[base] step 14/30 elapsed=4.5s
+[base] step 15/30 elapsed=4.8s
+[base] step 16/30 elapsed=5.1s
+[base] step 17/30 elapsed=5.4s
+[base] step 18/30 elapsed=5.7s
+[base] step 19/30 elapsed=6.1s
+[base] step 20/30 elapsed=6.4s
+[base] step 21/30 elapsed=6.7s
+[base] step 22/30 elapsed=7.0s
+[base] step 23/30 elapsed=7.3s
+[base] step 24/30 elapsed=7.7s
+[base] step 25/30 elapsed=8.0s
+[base] step 26/30 elapsed=8.3s
+[base] step 27/30 elapsed=8.6s
+[base] step 28/30 elapsed=9.0s
+[base] step 29/30 elapsed=9.3s
+[base] step 30/30 elapsed=9.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0}
+[lora] step 01/30 elapsed=0.3s
+[lora] step 02/30 elapsed=0.6s
+[lora] step 03/30 elapsed=0.9s
+[lora] step 04/30 elapsed=1.3s
+[lora] step 05/30 elapsed=1.6s
+[lora] step 06/30 elapsed=1.9s
+[lora] step 07/30 elapsed=2.2s
+[lora] step 08/30 elapsed=2.5s
+[lora] step 09/30 elapsed=2.9s
+[lora] step 10/30 elapsed=3.2s
+[lora] step 11/30 elapsed=3.5s
+[lora] step 12/30 elapsed=3.8s
+[lora] step 13/30 elapsed=4.1s
+[lora] step 14/30 elapsed=4.5s
+[lora] step 15/30 elapsed=4.8s
+[lora] step 16/30 elapsed=5.1s
+[lora] step 17/30 elapsed=5.4s
+[lora] step 18/30 elapsed=5.7s
+[lora] step 19/30 elapsed=6.1s
+[lora] step 20/30 elapsed=6.4s
+[lora] step 21/30 elapsed=6.7s
+[lora] step 22/30 elapsed=7.0s
+[lora] step 23/30 elapsed=7.4s
+[lora] step 24/30 elapsed=7.7s
+[lora] step 25/30 elapsed=8.0s
+[lora] step 26/30 elapsed=8.3s
+[lora] step 27/30 elapsed=8.6s
+[lora] step 28/30 elapsed=9.0s
+[lora] step 29/30 elapsed=9.4s
+[lora] step 30/30 elapsed=9.6s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.49s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.21s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.25s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.55s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.19s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:03,  8.22it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 197.86it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   3%|▎         | 1/33 [00:00<00:03,  9.97it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 226.49it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  67%|██████▋   | 22/33 [00:00<00:00, 218.42it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 268.60it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  48%|████▊     | 16/33 [00:00<00:00, 159.80it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 254.95it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:04,  7.75it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 156.50it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/validation/videos/mymotion__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/validation/reports/mymotion__002_run_manifest.json
+[complete] corrected tiered training and all three comparisons finished

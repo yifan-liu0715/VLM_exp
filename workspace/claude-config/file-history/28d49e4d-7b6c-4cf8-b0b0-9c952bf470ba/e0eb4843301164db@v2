@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+"""
+TTA v2: 两步法 - 先跑原始推理，再跑翻转推理，最后合并
+用法:
+    # 第一步：原始推理
+    python scripts/eval_tta_v2.py --step 1 --gpu 2
+
+    # 第二步：翻转推理
+    python scripts/eval_tta_v2.py --step 2 --gpu 2
+
+    # 第三步：合并结果
+    python scripts/eval_tta_v2.py --step 3
+"""
+import argparse, json, os, re, sys, time, subprocess
+import torch
+import numpy as np
+from PIL import Image, ImageOps
+from tqdm import tqdm
+from scipy.optimize import linear_sum_assignment
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src.rewards.accuracy_reward import _compute_reward_core, parse_defect_entries
+from src.rewards.location_reward import calculate_ciou
+
+
+def run_eval_subprocess(checkpoint, output, gpu, max_samples=None):
+    """调用原始 eval.py 做推理"""
+    cmd = [
+        sys.executable, "scripts/eval.py",
+        "--checkpoint", checkpoint,
+        "--output", output,
+        "--gpu", str(gpu),
+    ]
+    if max_samples:
+        cmd.extend(["--max-samples", str(max_samples)])
+    print(f"[TTA] Running: {' '.join(cmd)}")
+    result = subprocess.run(cmd, capture_output=False)
+    return result.returncode == 0
+
+
+def flip_val_dataset(val_data, image_path, output_json):
+    """创建翻转后的验证集 JSON（图片路径指向临时翻转图）"""
+    flipped_dir = "/tmp/tta_flipped_images"
+    os.makedirs(flipped_dir, exist_ok=True)
+
+    flipped_data = []
+    for i, sample in enumerate(val_data):
+        img_path = os.path.join(image_path, sample["image"])
+        if not os.path.exists(img_path):
+            continue
+
+        # 翻转图片并保存
+        img = Image.open(img_path).convert("RGB")
+        flipped = ImageOps.mirror(img)
+        flipped_path = os.path.join(flipped_dir, f"flip_{i:04d}_{sample['image']}")
+        flipped.save(flipped_path)
+
+        # 修改 sample 的 image 字段
+        new_sample = json.loads(json.dumps(sample))
+        new_sample["image"] = flipped_path  # 使用绝对路径
+        new_sample["_original_image"] = sample["image"]  # 保留原始文件名
+        flipped_data.append(new_sample)
+
+    with open(output_json, "w") as f:
+        json.dump(flipped_data, f, ensure_ascii=False)
+
+    print(f"[TTA] Flipped {len(flipped_data)} images to {flipped_dir}")
+    return output_json
+
+
+def parse_boxes(text):
+    entries = []
+    pattern = re.compile(r"a\s+['\"]([^'\"]+)['\"]\s+defect.*?(\{.*?\})", re.IGNORECASE | re.DOTALL)
+    for m in pattern.finditer(text):
+        try:
+            label = m.group(1).strip()
+            bbox = json.loads(m.group(2)).get('bbox_2d')
+            if bbox and isinstance(bbox, list) and len(bbox) == 4:
+                entries.append({'label': label, 'bbox': bbox})
+        except:
+            continue
+    return entries
+
+
+def flip_boxes(boxes, img_width):
+    return [[img_width - b[2], b[1], img_width - b[0], b[3]]
+            for b in boxes if isinstance(b, (list, tuple)) and len(b) == 4]
+
+
+def compute_iou_matrix(pred_boxes, gt_boxes):
+    m, n = len(pred_boxes), len(gt_boxes)
+    if m == 0 or n == 0:
+        return np.zeros((m, n))
+    mat = np.zeros((m, n))
+    for i in range(m):
+        for j in range(n):
+            mat[i, j] = calculate_ciou(pred_boxes[i], gt_boxes[j])[0]
+    return mat
+
+
+def hungarian_match(pred_boxes, gt_boxes, iou_thresh=0.1):
+    m, n = len(pred_boxes), len(gt_boxes)
+    if m == 0: return [], [], list(range(n))
+    if n == 0: return [], list(range(m)), []
+    mat = compute_iou_matrix(pred_boxes, gt_boxes)
+    row, col = linear_sum_assignment(1.0 - mat)
+    matched, mp, mg = [], set(), set()
+    for i, j in zip(row, col):
+        if mat[i, j] >= iou_thresh:
+            matched.append((int(i), int(j), float(mat[i, j])))
+            mp.add(i); mg.add(j)
+    return matched, [i for i in range(m) if i not in mp], [j for j in range(n) if j not in mg]
+
+
+def compute_all_metrics(predictions, ground_truths):
+    total = len(predictions)
+    correct_defect = 0
+    iou_metrics = {t: {"TP": 0, "FP": 0, "FN": 0} for t in [0.3, 0.5, 0.8]}
+    test_style = {0.5: {"tp_det": 0, "tp_cls": 0, "total_gt": 0},
+                  0.8: {"tp_det": 0, "tp_cls": 0, "total_gt": 0}}
+    per_sample = []
+
+    for i, (pred, gt) in enumerate(zip(predictions, ground_truths)):
+        r_ans, r_cls, r_loc, detail = _compute_reward_core(pred, gt)
+        if detail["gt_has_defect"] == detail["pred_has_defect"]:
+            correct_defect += 1
+        gt_entries = parse_defect_entries(gt)
+        pred_entries = parse_defect_entries(pred)
+        gt_boxes = [e[1] for e in gt_entries]
+        pred_boxes = [e[1] for e in pred_entries]
+
+        for t in [0.5, 0.8]:
+            test_style[t]["total_gt"] += len(gt_entries)
+            matched_idx = set()
+            for gt_type, g_box in gt_entries:
+                best_iou, best_idx = 0.0, -1
+                for pi, (pt, p_box) in enumerate(pred_entries):
+                    if pi in matched_idx: continue
+                    iou_val = calculate_ciou(g_box, p_box)[0]
+                    if iou_val > best_iou:
+                        best_iou, best_idx = iou_val, pi
+                if best_iou >= t and best_idx >= 0:
+                    test_style[t]["tp_det"] += 1
+                    if gt_type.lower() == pred_entries[best_idx][0].lower():
+                        test_style[t]["tp_cls"] += 1
+                    matched_idx.add(best_idx)
+
+        for thresh in [0.3, 0.5, 0.8]:
+            matched, up, ug = hungarian_match(pred_boxes, gt_boxes, thresh)
+            iou_metrics[thresh]["TP"] += len(matched)
+            iou_metrics[thresh]["FP"] += len(up)
+            iou_metrics[thresh]["FN"] += len(ug)
+        per_sample.append({
+            "index": i, "r_ans": r_ans, "r_cls": r_cls, "r_loc": r_loc,
+            "gt_has_defect": detail["gt_has_defect"], "pred_has_defect": detail["pred_has_defect"],
+            "gt_boxes": detail["gt_boxes"], "pred_boxes": detail["pred_boxes"],
+            "matched": detail["matched"], "miss": detail["miss"], "extra": detail["extra"],
+            "matched_ious": detail["matched_ious"],
+        })
+
+    def safe_div(a, b): return a / b if b > 0 else 0
+    results = {"total_samples": total, "defect_accuracy": correct_defect / total, "per_iou": {}}
+    for thresh, m in iou_metrics.items():
+        tp, fp, fn = m["TP"], m["FP"], m["FN"]
+        r = safe_div(tp, tp+fn); p = safe_div(tp, tp+fp)
+        results["per_iou"][f"iou{thresh*100:.0f}"] = {
+            "TP": tp, "FP": fp, "FN": fn,
+            "recall": round(r, 4), "precision": round(p, 4),
+            "f1": round(safe_div(2*p*r, p+r), 4)
+        }
+    results["test_style"] = {}
+    for t, ts in test_style.items():
+        tg = ts["total_gt"]
+        r = ts["tp_det"] / tg if tg > 0 else 0
+        c = ts["tp_cls"] / ts["tp_det"] if ts["tp_det"] > 0 else 0
+        results["test_style"][f"iou{t*100:.0f}"] = {
+            "recall": round(r, 4), "cls_accuracy": round(c, 4),
+            "tp_det": ts["tp_det"], "tp_cls": ts["tp_cls"], "total_gt": tg
+        }
+    results["per_sample"] = per_sample
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--step", type=int, required=True, choices=[1, 2, 3])
+    parser.add_argument("--checkpoint", type=str,
+                        default="/nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828")
+    parser.add_argument("--val-data", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json")
+    parser.add_argument("--image-path", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/images")
+    parser.add_argument("--gpu", type=int, default=2)
+    parser.add_argument("--max-samples", type=int, default=None)
+    args = parser.parse_args()
+
+    orig_output = "results/sft_baseline_orig.json"
+    flip_output = "results/sft_baseline_flip.json"
+    merged_output = "results/sft_baseline_tta_merged.json"
+
+    if args.step == 1:
+        print("\n=== Step 1: Original inference ===")
+        ok = run_eval_subprocess(args.checkpoint, orig_output, args.gpu, args.max_samples)
+        if ok:
+            print(f"[TTA] Step 1 done. Results: {orig_output}")
+        else:
+            print("[TTA] Step 1 FAILED")
+            sys.exit(1)
+
+    elif args.step == 2:
+        print("\n=== Step 2: Flipped inference ===")
+        # 加载 val 数据
+        with open(args.val_data) as f:
+            val_data = json.load(f)
+        if args.max_samples:
+            val_data = val_data[:args.max_samples]
+
+        # 创建翻转数据集
+        flipped_json = "/tmp/tta_flipped_val.json"
+        flip_val_dataset(val_data, args.image_path, flipped_json)
+
+        # 用 eval.py 评测翻转图片（需要创建一个临时的 eval 脚本或修改 image_path）
+        # 更简单的方法：直接用翻转后的绝对路径
+        print(f"[TTA] Running eval on flipped images...")
+        # 创建一个临时的 val data，image 字段是翻转图的绝对路径
+        with open(flipped_json) as f:
+            flipped_data = json.load(f)
+
+        # 直接用翻转图片路径作为 image_path（因为已经是绝对路径了）
+        # 需要创建一个只包含翻转图的临时 val data
+        temp_val = []
+        for s in flipped_data:
+            temp_val.append({
+                "image": s["image"],  # 绝对路径
+                "conversations": s["conversations"]
+            })
+        temp_val_path = "/tmp/tta_temp_val.json"
+        with open(temp_val_path, "w") as f:
+            json.dump(temp_val, f)
+
+        # 创建临时图片目录（因为 eval.py 会拼接 image_path + image）
+        temp_img_dir = "/tmp/tta_temp_images"
+        os.makedirs(temp_img_dir, exist_ok=True)
+        # 把翻转图片软链接到 temp_img_dir
+        for s in flipped_data:
+            src = s["image"]
+            dst = os.path.join(temp_img_dir, os.path.basename(src))
+            if not os.path.exists(dst):
+                os.symlink(src, dst)
+
+        ok = run_eval_subprocess(args.checkpoint, flip_output, args.gpu, args.max_samples)
+        if ok:
+            print(f"[TTA] Step 2 done. Results: {flip_output}")
+        else:
+            print("[TTA] Step 2 FAILED")
+            sys.exit(1)
+
+    elif args.step == 3:
+        print("\n=== Step 3: Merge original + flipped predictions ===")
+        # 加载两组预测
+        with open(orig_output.replace(".json", "_details.json")) as f:
+            orig_details = json.load(f)
+        with open(flip_output.replace(".json", "_details.json")) as f:
+            flip_details = json.load(f)
+        with open(args.val_data) as f:
+            val_data = json.load(f)
+        if args.max_samples:
+            val_data = val_data[:args.max_samples]
+
+        # 获取图片宽度
+        from PIL import Image
+        img_dir = args.image_path
+
+        merged_predictions = []
+        for i, (orig, flip, val) in enumerate(zip(orig_details, flip_details, val_data)):
+            orig_pred = orig.get("pred_text", "")
+            flip_pred = flip.get("pred_text", "")
+
+            # 解析两组预测框
+            orig_entries = parse_boxes(orig_pred)
+            flip_entries = parse_boxes(flip_pred)
+
+            # 翻转的框坐标转换回来
+            img_path = os.path.join(img_dir, val["image"])
+            if os.path.exists(img_path):
+                img_w = Image.open(img_path).width
+                flip_entries_converted = [{'label': e['label'],
+                                           'bbox': flip_boxes([e['bbox']], img_w)[0]}
+                                          for e in flip_entries if flip_boxes([e['bbox']], img_w)]
+            else:
+                flip_entries_converted = []
+
+            # 合并两组框（取平均）
+            all_entries = orig_entries + flip_entries_converted
+            if not all_entries:
+                merged_predictions.append(orig_pred)
+                continue
+
+            # 按 label 分组，取平均框
+            by_label = {}
+            for e in all_entries:
+                by_label.setdefault(e['label'], []).append(e['bbox'])
+
+            merged_parts = []
+            for label, boxes in by_label.items():
+                avg_box = [float(x) for x in np.mean(boxes, axis=0)]
+                if len(avg_box) == 4:
+                    merged_parts.append(
+                        f"a '{label}' defect was found at "
+                        f"{{\"bbox_2d\": [{avg_box[0]:.0f}, {avg_box[1]:.0f}, {avg_box[2]:.0f}, {avg_box[3]:.0f}]}}"
+                    )
+
+            if merged_parts:
+                merged_predictions.append("Yes, " + " and ".join(merged_parts) + ".")
+            else:
+                merged_predictions.append(orig_pred)
+
+        # 准备 ground truths
+        ground_truths = [s["conversations"][1]["value"] for s in val_data]
+
+        # 计算指标
+        results = compute_all_metrics(merged_predictions, ground_truths)
+        results["tta"] = True
+        results["checkpoint"] = args.checkpoint
+
+        print(f"\n{'='*60}")
+        print(f"  TTA MERGED RESULTS")
+        print(f"{'='*60}")
+        print(f"  R@0.5: {results['test_style']['iou50']['recall']*100:.2f}%")
+        print(f"  R@0.8: {results['test_style']['iou80']['recall']*100:.2f}%")
+        print(f"  DefAcc: {results['defect_accuracy']*100:.2f}%")
+        print(f"{'='*60}")
+
+        save_results = {k: v for k, v in results.items() if k != "per_sample"}
+        save_results["per_sample"] = []
+        for s in results["per_sample"]:
+            save_results["per_sample"].append({k: v for k, v in s.items()})
+
+        with open(merged_output, "w") as f:
+            json.dump(save_results, f, indent=2, ensure_ascii=False)
+        print(f"\n[Eval] Results: {merged_output}")
+
+        detail_path = merged_output.replace(".json", "_details.json")
+        with open(detail_path, "w") as f:
+            json.dump(results["per_sample"], f, indent=2, ensure_ascii=False)
+        print(f"[Eval] Details: {detail_path}")
+
+
+if __name__ == "__main__":
+    main()

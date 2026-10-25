@@ -1,0 +1,14 @@
+{
+  "manifest_count": 7,
+  "unique_clip_id_count": 7,
+  "valid_count": 7,
+  "error_count": 0,
+  "hand_keypoints_required": false,
+  "source_sha_verified": true,
+  "review_status_counts": {
+    "pending_user_review": 7
+  },
+  "boundary_policy_sha256_values": [],
+  "approved_trial_ids": [],
+  "errors": []
+}

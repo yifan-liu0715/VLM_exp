@@ -1,0 +1,57 @@
+{
+  "source_metadata": "/nvmedata/workspace2/users/nina/dataset_video_train/metadata.csv",
+  "seed": 20260712,
+  "ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "group_rule": "IDs with >=4 __-separated parts and a numeric suffix are grouped without the suffix; generic IDs stay independent.",
+  "splits": {
+    "train": {
+      "rows": 3004,
+      "ratio": 0.7671092951991828,
+      "groups": 842,
+      "bucket_counts": {
+        "1280x512": 869,
+        "1280x704": 896,
+        "704x1280": 1239
+      },
+      "reference_is_fallback": {
+        "False": 2793,
+        "True": 211
+      },
+      "sample_id_sha256": "4f0fde3438998019cbee026abece796d6ec115db8c5c8ddb0ce3ddbf571ca423"
+    },
+    "val": {
+      "rows": 454,
+      "ratio": 0.11593462717058223,
+      "groups": 74,
+      "bucket_counts": {
+        "1280x512": 83,
+        "1280x704": 208,
+        "704x1280": 163
+      },
+      "reference_is_fallback": {
+        "False": 419,
+        "True": 35
+      },
+      "sample_id_sha256": "0eca57c828b4e5f18f41a98c377b5f282820b9e92563f20f1934ebf1a15e67bf"
+    },
+    "test": {
+      "rows": 458,
+      "ratio": 0.11695607763023494,
+      "groups": 9,
+      "bucket_counts": {
+        "1280x512": 80,
+        "1280x704": 121,
+        "704x1280": 257
+      },
+      "reference_is_fallback": {
+        "False": 430,
+        "True": 28
+      },
+      "sample_id_sha256": "6a84efeee66ea5b4a86d8e25b64379e6c1c6c72b379a2a563fec68441b8e7379"
+    }
+  }
+}

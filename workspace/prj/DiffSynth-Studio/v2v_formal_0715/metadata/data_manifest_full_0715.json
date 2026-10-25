@@ -1,0 +1,21 @@
+{
+  "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/metadata/metadata_full_paired_0715.csv",
+  "manifest_sha256": "4fd0a1cd72b263c20bbc9b66870ba8883125f10ff5817ed94cca16fb9a02a3be",
+  "source_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_v2v_formal_0713/metadata_full_paired_0713.csv",
+  "source_manifest_sha256": "2d698ad19f293dbafc81611137c86d893eecac4ab644bff326e526126d8cfaa4",
+  "dataset_root": "/nvmedata/workspace2/users/nina/dataset_video_train",
+  "sample_count": 3916,
+  "buckets": {
+    "1280x512": 1032,
+    "1280x704": 1225,
+    "704x1280": 1659
+  },
+  "source_splits": {
+    "test": 455,
+    "train": 2993,
+    "val": 468
+  },
+  "minimum_frames": 33,
+  "path_mode": "absolute",
+  "pair_contract": "input_video -> output_video, conditioned by reference_image and caption"
+}

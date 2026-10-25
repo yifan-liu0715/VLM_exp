@@ -1,0 +1,29 @@
+{
+  "source_id": "iphone__video_20261005_163316",
+  "source_sha256": "7fd7e608aa8175f3f875ec6090af060ff2b792a91d50175968bf9640039366f0",
+  "job": {
+    "source_id": "iphone__video_20261005_163316",
+    "start_s": 0,
+    "end_s": 13.8125,
+    "fps": 8,
+    "crop": [
+      2144,
+      1206,
+      8,
+      1780
+    ],
+    "job_id": "portrait_first_cat"
+  },
+  "frames": 111,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_163316/crop_trials/portrait_first_cat/page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_163316/crop_trials/portrait_first_cat/page_002.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_163316/crop_trials/portrait_first_cat/page_003.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_163316/crop_trials/portrait_first_cat/page_004.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_163316/crop_trials/portrait_first_cat/page_005.jpg"
+  ],
+  "orientation_correction": "metadata autorotation exactly once, then crop in display coordinates",
+  "privacy_reviewed": false,
+  "semantic_reviewed": false,
+  "updated_at": "2026-10-11T16:31:15.532057+08:00"
+}

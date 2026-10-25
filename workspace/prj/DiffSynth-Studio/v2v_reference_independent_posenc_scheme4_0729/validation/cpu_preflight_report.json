@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "scheme": "reference_independent_posenc_scheme4",
+  "samples": [
+    {
+      "bucket": "1280x512",
+      "sample_id": "mymotion__001",
+      "source_shape": [
+        3,
+        97,
+        384,
+        960
+      ],
+      "target_shape": [
+        3,
+        97,
+        384,
+        960
+      ],
+      "reference_shape": [
+        3,
+        384,
+        960
+      ],
+      "video_latent": [
+        48,
+        25,
+        24,
+        60
+      ],
+      "video_patch_grid": [
+        25,
+        12,
+        30
+      ],
+      "reference_latent": [
+        48,
+        1,
+        24,
+        60
+      ],
+      "reference_grid": [
+        1,
+        12,
+        30
+      ]
+    },
+    {
+      "bucket": "1280x704",
+      "sample_id": "mymotion__002",
+      "source_shape": [
+        3,
+        97,
+        352,
+        640
+      ],
+      "target_shape": [
+        3,
+        97,
+        352,
+        640
+      ],
+      "reference_shape": [
+        3,
+        352,
+        640
+      ],
+      "video_latent": [
+        48,
+        25,
+        22,
+        40
+      ],
+      "video_patch_grid": [
+        25,
+        11,
+        20
+      ],
+      "reference_latent": [
+        48,
+        1,
+        22,
+        40
+      ],
+      "reference_grid": [
+        1,
+        11,
+        20
+      ]
+    },
+    {
+      "bucket": "704x1280",
+      "sample_id": "mymotion__humandance2__batch1_mote2_1__1007",
+      "source_shape": [
+        3,
+        97,
+        640,
+        352
+      ],
+      "target_shape": [
+        3,
+        97,
+        640,
+        352
+      ],
+      "reference_shape": [
+        3,
+        640,
+        352
+      ],
+      "video_latent": [
+        48,
+        25,
+        40,
+        22
+      ],
+      "video_patch_grid": [
+        25,
+        20,
+        11
+      ],
+      "reference_latent": [
+        48,
+        1,
+        40,
+        22
+      ],
+      "reference_grid": [
+        1,
+        20,
+        11
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "path": "weights/converted/SCAIL-2.safetensors",
+  "file_size_bytes": 65582313560,
+  "header_size_bytes": 136016,
+  "tensor_count": 1307,
+  "total_numel": 16395544384,
+  "dtypes": {
+    "F32": 1307
+  },
+  "payload_bytes": 65582177536,
+  "expected_file_size_bytes": 65582313560,
+  "sample_tensors": [
+    {
+      "key": "blocks.0.cross_attn.k.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.k.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.k_img.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.k_img.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.norm_k.weight",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.norm_k_img.weight",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.norm_q.weight",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.o.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.o.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.q.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.q.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.v.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.v.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.v_img.bias",
+      "dtype": "F32",
+      "shape": [
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.cross_attn.v_img.weight",
+      "dtype": "F32",
+      "shape": [
+        5120,
+        5120
+      ]
+    },
+    {
+      "key": "blocks.0.ffn.0.bias",
+      "dtype": "F32",
+      "shape": [
+        13824
+      ]
+    }
+  ]
+}

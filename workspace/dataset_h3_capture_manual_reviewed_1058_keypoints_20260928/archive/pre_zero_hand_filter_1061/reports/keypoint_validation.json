@@ -1,0 +1,19 @@
+{
+  "manifest_count": 1061,
+  "unique_clip_count": 1061,
+  "source_coverage_count": 91,
+  "valid_count": 1061,
+  "error_count": 0,
+  "zero_hand_count": 3,
+  "zero_hand_clip_ids": [
+    "semantic_review_e79bd78c90e341de86a7",
+    "semantic_review_ebfe86a7b93fe0471640",
+    "semantic_review_f6f249f016a53feab880"
+  ],
+  "hand_keypoint_usable_count": 1058,
+  "zero_hand_training_status": "exclude_pending_manual_review",
+  "review_status_counts": {
+    "pending_user_review": 1061
+  },
+  "errors": []
+}

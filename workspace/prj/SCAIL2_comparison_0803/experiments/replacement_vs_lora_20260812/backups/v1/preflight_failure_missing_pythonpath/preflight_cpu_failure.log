@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/scripts/infer_scheme4_lora_only.py", line 382, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/scripts/infer_scheme4_lora_only.py", line 373, in main
+    payload, record = preflight(args)
+                      ^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/scripts/infer_scheme4_lora_only.py", line 153, in preflight
+    source_probe = inspect_video(Path(payload["source_video"]))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/scripts/infer_scheme4_lora_only.py", line 118, in inspect_video
+    from decord import VideoReader, cpu
+ModuleNotFoundError: No module named 'decord'

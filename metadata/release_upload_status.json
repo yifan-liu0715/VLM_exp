@@ -1,0 +1,9 @@
+{
+  "state": "requires_github_api_login",
+  "planned_jobs": 410,
+  "planned_bytes": 439253291370,
+  "uploaded_jobs": 0,
+  "uploaded_bytes": 0,
+  "command": "gh auth login --hostname github.com --git-protocol ssh --web --skip-ssh-key",
+  "note": "No archive upload was attempted. SSH Git authentication alone cannot call the Releases API."
+}

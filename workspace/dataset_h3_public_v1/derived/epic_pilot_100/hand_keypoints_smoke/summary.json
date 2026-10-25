@@ -1,0 +1,18 @@
+[
+  {
+    "video": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/derived/epic_review_pilot/source/P03_26.MP4",
+    "frames_read": 667,
+    "fps": 59.94005994005994,
+    "duration_sec": 11.127783333333333,
+    "width": 1920,
+    "height": 1080,
+    "frames_with_any_hand": 7,
+    "hand_visible_rate": 0.010494752623688156,
+    "frames_with_one_hand": 7,
+    "frames_with_two_hands": 0,
+    "two_hand_rate": 0.0,
+    "mean_center_step": 0.00810132148772574,
+    "p95_center_step": 0.010456586241521815,
+    "landmarker": "MediaPipe Hand Landmarker 1.0.1"
+  }
+]

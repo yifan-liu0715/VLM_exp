@@ -1,0 +1,9 @@
+[00:32:29] exp042_ckpt2400
+/bin/bash: line 22: 2422757 Killed                  $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[00:33:01] exp042_ckpt2400 FAILED (exit 137)
+[00:33:01] exp044_ckpt2700
+/bin/bash: line 22: 2423799 Killed                  $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[00:33:31] exp044_ckpt2700 FAILED (exit 137)
+[00:33:31] exp044_ckpt3000
+/bin/bash: line 22: 2424757 Killed                  $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[00:34:02] exp044_ckpt3000 FAILED (exit 137)

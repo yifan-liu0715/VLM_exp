@@ -1,0 +1,107 @@
+[11:44:01] exp042_ckpt3300
+/bin/bash: line 35: 3019435 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:44:19] exp042_ckpt3300 partial: 250, attempt 1
+/bin/bash: line 35: 3020039 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:44:49] exp042_ckpt3300 partial: 250, attempt 2
+/bin/bash: line 35: 3020860 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:45:19] exp042_ckpt3300 partial: 250, attempt 3
+/bin/bash: line 35: 3021740 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:45:49] exp042_ckpt3300 partial: 250, attempt 4
+/bin/bash: line 35: 3022488 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:46:19] exp042_ckpt3300 partial: 250, attempt 5
+/bin/bash: line 35: 3023383 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:46:50] exp042_ckpt3300 partial: 250, attempt 6
+/bin/bash: line 35: 3024111 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:47:20] exp042_ckpt3300 partial: 250, attempt 7
+/bin/bash: line 35: 3025069 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:47:50] exp042_ckpt3300 partial: 250, attempt 8
+/bin/bash: line 35: 3025907 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:48:20] exp042_ckpt3300 partial: 250, attempt 9
+/bin/bash: line 35: 3026713 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:48:51] exp042_ckpt3300 partial: 250, attempt 10
+/bin/bash: line 35: 3027527 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:49:21] exp042_ckpt3300 partial: 250, attempt 11
+/bin/bash: line 35: 3028322 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:49:51] exp042_ckpt3300 partial: 250, attempt 12
+/bin/bash: line 35: 3029170 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:50:21] exp042_ckpt3300 partial: 250, attempt 13
+/bin/bash: line 35: 3030139 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:50:51] exp042_ckpt3300 partial: 250, attempt 14
+/bin/bash: line 35: 3030854 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:51:22] exp042_ckpt3300 partial: 250, attempt 15
+/bin/bash: line 35: 3031730 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:51:52] exp042_ckpt3300 partial: 250, attempt 16
+/bin/bash: line 35: 3032458 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:52:22] exp042_ckpt3300 partial: 250, attempt 17
+/bin/bash: line 35: 3033347 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:52:53] exp042_ckpt3300 partial: 250, attempt 18
+/bin/bash: line 35: 3034177 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:53:23] exp042_ckpt3300 partial: 250, attempt 19
+/bin/bash: line 35: 3035034 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:53:53] exp042_ckpt3300 partial: 250, attempt 20
+/bin/bash: line 35: 3035850 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:54:23] exp042_ckpt3300 partial: 250, attempt 21
+/bin/bash: line 35: 3036742 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:54:54] exp042_ckpt3300 partial: 250, attempt 22
+/bin/bash: line 35: 3037657 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:55:24] exp042_ckpt3300 partial: 250, attempt 23
+/bin/bash: line 35: 3038553 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:55:54] exp042_ckpt3300 partial: 250, attempt 24
+/bin/bash: line 35: 3039309 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:56:25] exp042_ckpt3300 partial: 250, attempt 25
+/bin/bash: line 35: 3040265 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:56:55] exp042_ckpt3300 partial: 250, attempt 26
+/bin/bash: line 35: 3040990 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:57:25] exp042_ckpt3300 partial: 250, attempt 27
+/bin/bash: line 35: 3041907 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:57:56] exp042_ckpt3300 partial: 250, attempt 28
+/bin/bash: line 35: 3042741 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:58:26] exp042_ckpt3300 partial: 250, attempt 29
+/bin/bash: line 35: 3043541 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:58:56] exp042_ckpt3300 partial: 250, attempt 30
+/bin/bash: line 35: 3044429 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:59:27] exp042_ckpt3300 partial: 250, attempt 31
+/bin/bash: line 35: 3045345 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[11:59:57] exp042_ckpt3300 partial: 250, attempt 32
+/bin/bash: line 35: 3046339 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:00:27] exp042_ckpt3300 partial: 250, attempt 33
+/bin/bash: line 35: 3047253 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:00:57] exp042_ckpt3300 partial: 250, attempt 34
+/bin/bash: line 35: 3047978 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:01:28] exp042_ckpt3300 partial: 250, attempt 35
+/bin/bash: line 35: 3048842 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:01:58] exp042_ckpt3300 partial: 250, attempt 36
+/bin/bash: line 35: 3049634 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:02:28] exp042_ckpt3300 partial: 250, attempt 37
+/bin/bash: line 35: 3050524 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:02:59] exp042_ckpt3300 partial: 250, attempt 38
+/bin/bash: line 35: 3051350 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:03:29] exp042_ckpt3300 partial: 250, attempt 39
+/bin/bash: line 35: 3052161 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:03:59] exp042_ckpt3300 partial: 250, attempt 40
+/bin/bash: line 35: 3053001 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:04:30] exp042_ckpt3300 partial: 250, attempt 41
+/bin/bash: line 35: 3053950 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:05:00] exp042_ckpt3300 partial: 250, attempt 42
+/bin/bash: line 35: 3054863 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:05:30] exp042_ckpt3300 partial: 250, attempt 43
+/bin/bash: line 35: 3055764 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:06:01] exp042_ckpt3300 partial: 250, attempt 44
+/bin/bash: line 35: 3056499 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:06:31] exp042_ckpt3300 partial: 250, attempt 45
+/bin/bash: line 35: 3057378 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:07:01] exp042_ckpt3300 partial: 250, attempt 46
+/bin/bash: line 35: 3058752 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:07:32] exp042_ckpt3300 partial: 250, attempt 47
+/bin/bash: line 35: 3060252 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:08:02] exp042_ckpt3300 partial: 250, attempt 48
+/bin/bash: line 35: 3061237 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:08:32] exp042_ckpt3300 partial: 250, attempt 49
+/bin/bash: line 35: 3062009 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:09:03] exp042_ckpt3300 partial: 250, attempt 50
+/bin/bash: line 35: 3062890 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:09:33] exp042_ckpt3300 partial: 250, attempt 51
+/bin/bash: line 35: 3063706 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:10:03] exp042_ckpt3300 partial: 250, attempt 52
+/bin/bash: line 35: 3064548 Killed                  CUDA_VISIBLE_DEVICES=1 $PY -u scripts/eval.py --checkpoint "$ckpt" --gpu 1 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[12:10:33] exp042_ckpt3300 partial: 10, attempt 53

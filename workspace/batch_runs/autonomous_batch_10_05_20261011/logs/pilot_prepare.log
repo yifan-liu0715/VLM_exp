@@ -1,0 +1,40 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791703172.422829  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791703172.470469  821505 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791703172.511523  821455 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791703172.520258  821479 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791703172.771996  821473 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"done": 1, "total": 10, "source_id": "dji__DJI_20261005193322_0111_D", "state": "source_context_ready", "proposals": 2, "error": null}
+I0000 00:00:1791704541.009519  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791704541.026178  841118 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791704541.042024  841073 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791704541.049649  841094 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 2, "total": 10, "source_id": "dji__DJI_20261005205003_0153_D", "state": "source_context_ready", "proposals": 52, "error": null}
+I0000 00:00:1791707217.603192  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791707217.640542  936103 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791707217.656443  936069 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791707217.664245  936081 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 3, "total": 10, "source_id": "dji__DJI_20261005220906_0169_D", "state": "source_context_ready", "proposals": 4, "error": null}
+I0000 00:00:1791707370.541353  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791707370.564512  946824 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791707370.578163  946776 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791707370.586438  946799 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 4, "total": 10, "source_id": "dji__DJI_20261008185830_0007_D", "state": "source_context_ready", "proposals": 0, "error": null}
+I0000 00:00:1791707443.119993  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791707443.195103  951544 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791707443.210270  951510 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791707443.217631  951518 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 7, "total": 10, "source_id": "iphone__video_20261005_160632", "state": "source_context_ready", "proposals": 2, "error": null}
+I0000 00:00:1791707581.208165  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791707581.243451  957459 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791707581.259131  957411 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791707581.266555  957433 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 8, "total": 10, "source_id": "iphone__video_20261005_161938", "state": "source_context_ready", "proposals": 4, "error": null}
+I0000 00:00:1791707919.955517  820995 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791707919.971772  975354 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+W0000 00:00:1791707919.980700  975313 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791707919.990835  975328 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"done": 9, "total": 10, "source_id": "iphone__video_20261005_163316", "state": "source_context_ready", "proposals": 7, "error": null}
+{"done": 10, "total": 10, "source_id": "iphone__video_20261005_163444", "state": "review_needed", "proposals": 0, "error": "AssertionError('decoder reported errors')"}
+{"stage": "pilot", "sources": 10, "source_context_ready": 9, "failed_sources": ["iphone__video_20261005_163444"], "mechanical_proposal_count": 72, "second_pass_count": 127, "accepted_for_training": 0, "semantic_reviewed_sources": 0, "finished_at": "2026-10-11T17:01:03.880176+08:00", "needs_visual_semantic_boundary_and_crop_review": true, "keypoints_started": false, "training_started": false, "vlm_used": false}

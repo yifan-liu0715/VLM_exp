@@ -1,0 +1,39 @@
+{
+  "checkpoints": {
+    "sam2": {
+      "expected_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+      "name": "sam2.1_hiera_large",
+      "path": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/sam2_fallback/sam2.1_hiera_large.pt",
+      "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+      "size": 898083611,
+      "url": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt",
+      "verified": true
+    },
+    "yolox": {
+      "expected_sha256": "7860ae79de6c89a3c1eb72ae9a2756c0ccfbe04b7791bb5880afabd97855a411",
+      "name": "yolox_l",
+      "path": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/sam2_fallback/yolox_l.onnx",
+      "sha256": "7860ae79de6c89a3c1eb72ae9a2756c0ccfbe04b7791bb5880afabd97855a411",
+      "size": 216746733,
+      "url": "https://huggingface.co/yzd-v/DWPose/resolve/f7c16a3d45ad3783db41471848c80fbc281cabac/yolox_l.onnx?download=true",
+      "verified": true
+    }
+  },
+  "generated_at": "2026-08-08T12:14:01.598069+00:00",
+  "manifest_version": 1,
+  "sources": {
+    "dwpose": {
+      "commit": "3dca5db79d9f9ffdd378753ddf6ec66535aace88",
+      "path": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/DWPose-3dca5db79d9f9ffdd378753ddf6ec66535aace88",
+      "repository": "https://github.com/IDEA-Research/DWPose.git",
+      "verified": true
+    },
+    "sam2": {
+      "commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "path": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/sam2-2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "repository": "https://github.com/facebookresearch/sam2.git",
+      "verified": true
+    }
+  },
+  "status": "verified"
+}

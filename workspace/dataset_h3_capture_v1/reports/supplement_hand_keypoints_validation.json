@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "manifest_samples": 18,
+    "clips_present": 18,
+    "json_present": 18,
+    "json_valid": 18,
+    "hand_visible_ge_30": 14,
+    "hand_visible_ge_50": 13,
+    "hand_visible_ge_70": 7,
+    "hand_visible_ge_80": 6,
+    "two_hand_ge_50": 3,
+    "invalid_reasons": {
+      "valid": 18
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "capture_001883",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001884",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.8,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001885",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.09090909090909091,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001886",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.26666666666666666,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001887",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.7543859649122807,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001888",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.5263157894736842,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001889",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.3157894736842105,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001890",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.06896551724137931,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001891",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.8833333333333333,
+      "two_hand_rate": 0.8666666666666667
+    },
+    {
+      "sample_id": "capture_001892",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.6724137931034483,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001893",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.8936170212765957
+    },
+    {
+      "sample_id": "capture_001894",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.559322033898305,
+      "two_hand_rate": 0.13559322033898305
+    },
+    {
+      "sample_id": "capture_001895",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.6190476190476191,
+      "two_hand_rate": 0.023809523809523808
+    },
+    {
+      "sample_id": "capture_001896",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.10638297872340426,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001897",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.6744186046511628,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001898",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.9574468085106383,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001899",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.8571428571428571,
+      "two_hand_rate": 0.1836734693877551
+    },
+    {
+      "sample_id": "capture_001900",
+      "clip_exists": true,
+      "json_exists": true,
+      "json_valid": true,
+      "hand_visible_rate": 0.5757575757575758,
+      "two_hand_rate": 0.0
+    }
+  ]
+}

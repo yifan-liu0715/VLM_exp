@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260913201745_0131_D_pull_right_door",
+  "boundary_signature": "ad89c896532e804f6db6bcb90e4b6e8cc9f00060b3d6fdd0a6740704eba9873e",
+  "export_signature": "86a8ed96a0c940fae1d7addabf4c145880fdb1512fadef38c3def9b6009338dd",
+  "output_sha256": "c69390328efff3c9fa2bd51269d95e7d6b89507d93ec1c5ceabd07a759822240",
+  "output": {
+    "duration_sec": 9.709,
+    "size_bytes": 2132044,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 233,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

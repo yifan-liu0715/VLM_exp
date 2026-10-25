@@ -1,0 +1,29 @@
+# exp047 — 从最佳 checkpoint (exp044 ckpt2700) 继续训，β=0.3 加强 KL 约束
+# 验证退化是否因为 KL 约束太弱
+_parent: "configs/base.yaml"
+infra:
+  gpus: "2,3"
+  num_gpus: 2
+  distributed: true
+  master_port: 29627
+model:
+  name_or_path: "/nvmedata/workspace2/users/tmx/stage_rl_trl/outputs/exp044_no_tiny_lr5e7_beta01/checkpoint-2700"
+initial_steps: 2700
+training:
+  learning_rate: 5e-7
+  beta: 0.3
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 4
+  max_completion_length: 128
+  num_generations: 4
+  save_steps: 300
+  save_total_limit: 2
+deepspeed: "configs/deepspeed/zero2_95g.json"
+lora:
+  enabled: false
+resume:
+  enabled: false
+dataset:
+  path: "/nvmedata/workspace2/users/tmx/train_annotations/qwen25vl_annotations_train_split_no_tiny.json"
+reward:
+  funcs: ["accuracy"]

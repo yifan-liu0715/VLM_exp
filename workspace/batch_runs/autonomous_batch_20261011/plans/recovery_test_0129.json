@@ -1,0 +1,17 @@
+[
+  {
+    "source_id": "DJI_20261004213635_0129_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004213635_0129_D.MP4",
+    "source_relative": "DJI_20261004213635_0129_D.MP4",
+    "bytes": 1120538487,
+    "size_bytes": 1120538487,
+    "edge_sha256": "84e9feffcc96b3faada3f0f7e05a227adb9d8689b1b4ebfcdecd1f867b61dafe",
+    "sha256": "84e9feffcc96b3faada3f0f7e05a227adb9d8689b1b4ebfcdecd1f867b61dafe",
+    "duration": 181.653333,
+    "width": 3840,
+    "height": 2160,
+    "landscape": true,
+    "reference_available": false,
+    "status": "pending"
+  }
+]

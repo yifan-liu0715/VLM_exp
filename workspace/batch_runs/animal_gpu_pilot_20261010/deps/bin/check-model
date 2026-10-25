@@ -1,0 +1,6 @@
+#!/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/bin/python
+import sys
+from onnx.bin.checker import check_model
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(check_model())

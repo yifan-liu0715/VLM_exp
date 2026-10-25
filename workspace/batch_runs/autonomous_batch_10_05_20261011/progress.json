@@ -1,0 +1,21 @@
+{
+  "run_id": "autonomous_batch_10_05_20261011",
+  "state": "motion_proposals_v2_nonoverlap_review_needed",
+  "source_count": 209,
+  "motion_proposal_intervals": 860,
+  "motion_proposal_encoded": 860,
+  "motion_proposal_local_sha256_verified": 860,
+  "overlap_pairs_after_rebuild": 0,
+  "overlap_clusters_merged": 31,
+  "risk_queue": 492,
+  "normal_queue": 368,
+  "semantic_reviewed": 0,
+  "privacy_reviewed": 0,
+  "accepted_for_training": 0,
+  "keypoints_started": false,
+  "training_started": false,
+  "output_root": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\motion_proposal_clips",
+  "manifest": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\motion_proposal_manifest.jsonl",
+  "review_page": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\review\\review.html",
+  "old_v1_archive": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\archive\\motion_proposal_clips_v1_overlapping_20261011"
+}

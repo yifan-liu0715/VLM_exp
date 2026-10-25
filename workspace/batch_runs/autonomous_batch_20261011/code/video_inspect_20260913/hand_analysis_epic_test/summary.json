@@ -1,0 +1,18 @@
+[
+  {
+    "video": "C:\\Users\\86173\\Documents\\project\\epic_review_samples\\epic_P03_26_1_open_fridge.mp4",
+    "frames_read": 242,
+    "fps": 59.94005994005994,
+    "duration_sec": 4.037366666666666,
+    "width": 640,
+    "height": 360,
+    "frames_with_any_hand": 19,
+    "hand_visible_rate": 0.07851239669421488,
+    "frames_with_one_hand": 19,
+    "frames_with_two_hands": 0,
+    "two_hand_rate": 0.0,
+    "mean_center_step": 0.016446852025313322,
+    "p95_center_step": 0.06838020036715854,
+    "landmarker": "MediaPipe Hand Landmarker 1.0.1"
+  }
+]

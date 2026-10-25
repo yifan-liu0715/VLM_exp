@@ -1,0 +1,18 @@
+{
+  "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+  "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+  "width": 512,
+  "height": 928,
+  "num_frames": 65,
+  "fps": 16,
+  "frame_indices_manifest": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/manifests/frame_indices.json",
+  "target_usage": "evaluation-only; excluded from generation conditioning",
+  "source_video": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/source.mp4",
+  "target_video": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/target.mp4",
+  "reference_image": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/reference.png",
+  "generation_conditioning": [
+    "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/source.mp4",
+    "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/reference.png",
+    "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture."
+  ]
+}

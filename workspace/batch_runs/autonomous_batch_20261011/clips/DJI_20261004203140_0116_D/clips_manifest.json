@@ -1,0 +1,580 @@
+[
+  {
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004203140_0116_D.MP4",
+    "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004203140_0116_D/DJI_20261004203140_0116_D__001__000000917-000017877__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+    "start_s": 0.917,
+    "end_s": 17.877,
+    "state": "motion_proposal",
+    "status": "motion_proposal",
+    "next_state": "second_pass_required",
+    "second_pass_required": true,
+    "second_pass_completed": false,
+    "action": "unreviewed_hand_activity",
+    "response": "unreviewed_animal_response",
+    "interaction_mode": null,
+    "animal_type": null,
+    "caption_text": null,
+    "caption_verified": false,
+    "semantic_valid": false,
+    "training_ready": false,
+    "semantic_reviewed": false,
+    "privacy_reviewed": false,
+    "accepted_for_training": false,
+    "keypoint_ready": false,
+    "pipeline_version": "autonomous_batch_20261011-hand-presence-motion-proposals-v4",
+    "analysis": {
+      "sample_fps": 6.0,
+      "detector_backend": "mediapipe_solutions_hands",
+      "detector_version": "0.10.21",
+      "model_sha256": null,
+      "detector_status": "ready",
+      "hand_frames": 86,
+      "frames": 107,
+      "proposal_count": 1,
+      "sample_times_s": [
+        0.0,
+        0.16666666666666666,
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666,
+        0.8333333333333334,
+        1.0,
+        1.1666666666666667,
+        1.3333333333333333,
+        1.5,
+        1.6666666666666667,
+        1.8333333333333333,
+        2.0,
+        2.1666666666666665,
+        2.3333333333333335,
+        2.5,
+        2.6666666666666665,
+        2.8333333333333335,
+        3.0,
+        3.1666666666666665,
+        3.3333333333333335,
+        3.5,
+        3.6666666666666665,
+        3.8333333333333335,
+        4.0,
+        4.166666666666667,
+        4.333333333333333,
+        4.5,
+        4.666666666666667,
+        4.833333333333333,
+        5.0,
+        5.166666666666667,
+        5.333333333333333,
+        5.5,
+        5.666666666666667,
+        5.833333333333333,
+        6.0,
+        6.166666666666667,
+        6.333333333333333,
+        6.5,
+        6.666666666666667,
+        6.833333333333333,
+        7.0,
+        7.166666666666667,
+        7.333333333333333,
+        7.5,
+        7.666666666666667,
+        7.833333333333333,
+        8.0,
+        8.166666666666666,
+        8.333333333333334,
+        8.5,
+        8.666666666666666,
+        8.833333333333334,
+        9.0,
+        9.166666666666666,
+        9.333333333333334,
+        9.5,
+        9.666666666666666,
+        9.833333333333334,
+        10.0,
+        10.166666666666666,
+        10.333333333333334,
+        10.5,
+        10.666666666666666,
+        10.833333333333334,
+        11.0,
+        11.166666666666666,
+        11.333333333333334,
+        11.5,
+        11.666666666666666,
+        11.833333333333334,
+        12.0,
+        12.166666666666666,
+        12.333333333333334,
+        12.5,
+        12.666666666666666,
+        12.833333333333334,
+        13.0,
+        13.166666666666666,
+        13.333333333333334,
+        13.5,
+        13.666666666666666,
+        13.833333333333334,
+        14.0,
+        14.166666666666666,
+        14.333333333333334,
+        14.5,
+        14.666666666666666,
+        14.833333333333334,
+        15.0,
+        15.166666666666666,
+        15.333333333333334,
+        15.5,
+        15.666666666666666,
+        15.833333333333334,
+        16.0,
+        16.166666666666668,
+        16.333333333333332,
+        16.5,
+        16.666666666666668,
+        16.833333333333332,
+        17.0,
+        17.166666666666668,
+        17.333333333333332,
+        17.5,
+        17.666666666666668
+      ],
+      "hand_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_sampled_frames_decoded": true
+    },
+    "source_orientation": "landscape",
+    "source_coverage_status": "proposal_only",
+    "face_count_detected": 25,
+    "face_removal_method": "fixed_crop_or_reject_required",
+    "faces_remaining_after_crop": null,
+    "subject_clarity_after_crop": null,
+    "review_reason": "recognizable_face_remaining_or_fixed_crop_required",
+    "boundary_evidence": {
+      "hand_transition_checked": false,
+      "split_or_merge_reason": "broad hand-presence proposal; semantic review required",
+      "causal_start_s": null,
+      "action_or_condition_onset_s": null,
+      "response_onset_s": null,
+      "response_evidence_s": null,
+      "tail_checked_until_s": null,
+      "response_complete": false,
+      "source_end_truncated": null,
+      "temporal_envelope": "motion_proposal",
+      "encoded_format_verified": true,
+      "encoded_semantics_verified": false
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": "16/1",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "duration": 16.875,
+    "decoded_frames": 270,
+    "normalized_frame_count": 270,
+    "audio": false,
+    "face_detection": {
+      "status": "faces_detected_fixed_crop_or_reject",
+      "detector_backend": "opencv_yunet",
+      "detector_version": "4.13.0",
+      "all_frames_checked": true,
+      "frames_checked": 270,
+      "frames_with_faces": 24,
+      "face_count_detected": 25,
+      "hits": [
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            694.69,
+            292.29,
+            78.62,
+            81.38
+          ],
+          "score": 0.748765
+        },
+        {
+          "frame_index": 18,
+          "time_s": 1.125,
+          "bbox_xywh": [
+            685.13,
+            288.26,
+            82.75,
+            86.39
+          ],
+          "score": 0.612414
+        },
+        {
+          "frame_index": 19,
+          "time_s": 1.1875,
+          "bbox_xywh": [
+            673.21,
+            276.07,
+            88.14,
+            91.2
+          ],
+          "score": 0.701031
+        },
+        {
+          "frame_index": 20,
+          "time_s": 1.25,
+          "bbox_xywh": [
+            668.5,
+            275.37,
+            90.73,
+            88.47
+          ],
+          "score": 0.624371
+        },
+        {
+          "frame_index": 21,
+          "time_s": 1.3125,
+          "bbox_xywh": [
+            662.68,
+            263.77,
+            86.69,
+            88.13
+          ],
+          "score": 0.669345
+        },
+        {
+          "frame_index": 22,
+          "time_s": 1.375,
+          "bbox_xywh": [
+            661.1,
+            259.88,
+            82.51,
+            88.18
+          ],
+          "score": 0.790148
+        },
+        {
+          "frame_index": 114,
+          "time_s": 7.125,
+          "bbox_xywh": [
+            660.31,
+            171.41,
+            479.31,
+            525.36
+          ],
+          "score": 0.61025
+        },
+        {
+          "frame_index": 192,
+          "time_s": 12.0,
+          "bbox_xywh": [
+            95.19,
+            11.9,
+            226.66,
+            235.0
+          ],
+          "score": 0.668167
+        },
+        {
+          "frame_index": 222,
+          "time_s": 13.875,
+          "bbox_xywh": [
+            646.28,
+            177.65,
+            71.21,
+            92.57
+          ],
+          "score": 0.627042
+        },
+        {
+          "frame_index": 223,
+          "time_s": 13.9375,
+          "bbox_xywh": [
+            650.31,
+            178.22,
+            64.87,
+            88.67
+          ],
+          "score": 0.622037
+        },
+        {
+          "frame_index": 225,
+          "time_s": 14.0625,
+          "bbox_xywh": [
+            654.43,
+            191.58,
+            65.45,
+            84.78
+          ],
+          "score": 0.729905
+        },
+        {
+          "frame_index": 226,
+          "time_s": 14.125,
+          "bbox_xywh": [
+            651.58,
+            200.83,
+            64.65,
+            82.11
+          ],
+          "score": 0.647862
+        },
+        {
+          "frame_index": 229,
+          "time_s": 14.3125,
+          "bbox_xywh": [
+            103.38,
+            130.93,
+            379.9,
+            389.57
+          ],
+          "score": 0.670839
+        },
+        {
+          "frame_index": 234,
+          "time_s": 14.625,
+          "bbox_xywh": [
+            36.65,
+            19.06,
+            403.56,
+            449.97
+          ],
+          "score": 0.617378
+        },
+        {
+          "frame_index": 236,
+          "time_s": 14.75,
+          "bbox_xywh": [
+            52.73,
+            14.57,
+            424.74,
+            461.77
+          ],
+          "score": 0.601154
+        },
+        {
+          "frame_index": 251,
+          "time_s": 15.6875,
+          "bbox_xywh": [
+            827.55,
+            244.38,
+            487.54,
+            517.94
+          ],
+          "score": 0.620417
+        },
+        {
+          "frame_index": 252,
+          "time_s": 15.75,
+          "bbox_xywh": [
+            231.88,
+            -2.2,
+            74.27,
+            93.89
+          ],
+          "score": 0.628745
+        },
+        {
+          "frame_index": 252,
+          "time_s": 15.75,
+          "bbox_xywh": [
+            862.09,
+            297.85,
+            374.85,
+            406.15
+          ],
+          "score": 0.612908
+        },
+        {
+          "frame_index": 258,
+          "time_s": 16.125,
+          "bbox_xywh": [
+            125.94,
+            -1.83,
+            99.66,
+            78.01
+          ],
+          "score": 0.74696
+        },
+        {
+          "frame_index": 260,
+          "time_s": 16.25,
+          "bbox_xywh": [
+            196.2,
+            152.75,
+            78.14,
+            91.84
+          ],
+          "score": 0.720434
+        },
+        {
+          "frame_index": 261,
+          "time_s": 16.3125,
+          "bbox_xywh": [
+            183.97,
+            152.92,
+            83.07,
+            93.91
+          ],
+          "score": 0.703429
+        },
+        {
+          "frame_index": 262,
+          "time_s": 16.375,
+          "bbox_xywh": [
+            166.04,
+            143.12,
+            82.7,
+            96.02
+          ],
+          "score": 0.779034
+        },
+        {
+          "frame_index": 263,
+          "time_s": 16.4375,
+          "bbox_xywh": [
+            156.6,
+            146.48,
+            90.5,
+            100.01
+          ],
+          "score": 0.674672
+        },
+        {
+          "frame_index": 264,
+          "time_s": 16.5,
+          "bbox_xywh": [
+            147.96,
+            147.8,
+            91.02,
+            98.38
+          ],
+          "score": 0.751826
+        },
+        {
+          "frame_index": 265,
+          "time_s": 16.5625,
+          "bbox_xywh": [
+            147.74,
+            150.64,
+            84.35,
+            97.58
+          ],
+          "score": 0.770068
+        }
+      ],
+      "error": null,
+      "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004203140_0116_D/DJI_20261004203140_0116_D__001__000000917-000017877__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+      "scan_fps": 16.0,
+      "width": 1280,
+      "height": 720,
+      "expected_frames": 270
+    },
+    "face_crop_required": true,
+    "source_edge_sha256": "4661d758cb5c7a89ec70c6908bfb6abfee6a673e90d95bc60664d37984ff9e4a",
+    "source_bytes": 108146312
+  }
+]

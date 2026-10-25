@@ -1,0 +1,4 @@
+**/__pycache__/
+**/*.private.json
+**/.credentials.json
+**/.env

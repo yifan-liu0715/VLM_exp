@@ -1,0 +1,34 @@
+{
+  "manifest_count": 2050,
+  "unique_clip_id_count": 2050,
+  "empty_clip_id_count": 0,
+  "source_coverage_count": 355,
+  "export_ok_count": 2050,
+  "export_error_count": 0,
+  "cache_status_counts": {
+    "generated": 2050
+  },
+  "unique_output_path_count": 2050,
+  "missing_output_count": 0,
+  "missing_output_examples": [],
+  "unexpected_clip_file_count": 0,
+  "unexpected_clip_file_examples": [],
+  "valid_output_sha256_count": 2050,
+  "unique_output_sha256_count": 2049,
+  "duplicate_output_sha256_group_count": 1,
+  "duplicate_output_sha256_row_count": 2,
+  "duplicate_output_sha256_examples": {
+    "59f2f9843ff6a34ab358021aff195d6c24666327cb074e781e08813892c5a907": [
+      "semantic_review_c74c69287d428f17d247",
+      "semantic_review_8a23d278b193411096af"
+    ]
+  },
+  "total_output_size_bytes": 4409169673,
+  "duration_total_sec": 10426.025457,
+  "review_status_counts": {
+    "pending_user_review": 2050
+  },
+  "semantic_feedback_verified_nonfalse_count": 0,
+  "hand_keypoint_file_count": 0,
+  "training_run": false
+}

@@ -1,0 +1,84 @@
+{
+  "lora": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_quick_v2v_0713/step-4096.safetensors",
+  "pairs": [
+    {
+      "sample_id": "mymotion__002",
+      "split": "heldout_v2v_test",
+      "source_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__002_source_degraded.mp4",
+      "target_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__002_target.mp4",
+      "original_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+      "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__002.jpg",
+      "prompt": "Two women sit in green armchairs indoors. On the left, a woman with long blonde hair wears a denim jacket over an orange patterned dress, speaking and gesturing actively. On the right, a woman with short, wavy brown hair in a white sleeveless top listens while resting her hand near a small white dog sitting between them. The background features a wooden table with books, a Cafe Society sign, and a large window overlooking a city.",
+      "source_recipe": "fps=15,trim=end_frame=33,setpts=PTS-STARTPTS,scale=288:160:flags=area,gblur=sigma=1.2,scale=576:320:flags=bicubic,format=yuv420p; libx264 crf=32",
+      "source_sha256": "6d676ef9299b6b00f7fc52246de3cbfb84284cf671c2d73711bf99595c51c244",
+      "target_sha256": "3f86fc5244d5bb5fc186c3b0e5b052a4cb8cc151c14b3486f4fe77ca9a1a1487"
+    },
+    {
+      "sample_id": "mymotion__012",
+      "split": "heldout_v2v_test",
+      "source_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__012_source_degraded.mp4",
+      "target_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__012_target.mp4",
+      "original_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__012.mp4",
+      "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__012.jpg",
+      "prompt": "Two men sit for an interview against a promotional film backdrop. The man on the left has curly black hair, a full beard, and a medium build, wearing a black button-down shirt. The man on the right is slender with wavy hair and a beard, also in a black shirt. He speaks while gesturing with his hands and briefly adjusts his hair. The background consists of blue and white posters for the movie Valatty, featuring release dates and a character portrait. The setting is a brightly lit press event.",
+      "source_recipe": "fps=15,trim=end_frame=33,setpts=PTS-STARTPTS,scale=288:160:flags=area,gblur=sigma=1.2,scale=576:320:flags=bicubic,format=yuv420p; libx264 crf=32",
+      "source_sha256": "3a404e86a65f65a605f6414f56019a8e1cdc39ee7a27e311ccf3be652ca744b5",
+      "target_sha256": "7abb2b496230644f336edd7814f3527b5ca08a1e7a1202c4de3a39191d451f1d"
+    },
+    {
+      "sample_id": "mymotion__015",
+      "split": "heldout_v2v_test",
+      "source_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__015_source_degraded.mp4",
+      "target_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__015_target.mp4",
+      "original_video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__015.mp4",
+      "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__015.jpg",
+      "prompt": "Two slim women sit on a black leather sofa. The woman on the left has long black hair and wears a black tube top, while the woman on the right has short black hair, green nail polish, and a black t-shirt with sunglasses on her head. The woman on the right talks and gestures with her right hand while her companion listens and smiles. The background features a bookshelf and wall posters in a dimly lit indoor room.",
+      "source_recipe": "fps=15,trim=end_frame=33,setpts=PTS-STARTPTS,scale=288:160:flags=area,gblur=sigma=1.2,scale=576:320:flags=bicubic,format=yuv420p; libx264 crf=32",
+      "source_sha256": "602a4d36c9e7859de1ba17479395c089760b1d47f355994270054c59344c0d06",
+      "target_sha256": "e8893ce989729c2c65f6a0c5364a289c043ba4464dc865faaa246d2caa9c7631"
+    }
+  ],
+  "output_dir": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713",
+  "parameters": {
+    "height": 320,
+    "width": 576,
+    "num_frames": 33,
+    "seed": 42,
+    "tiled": true,
+    "denoising_strength": 0.45,
+    "num_inference_steps": 30
+  },
+  "outputs": [
+    {
+      "sample_id": "mymotion__002",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__002_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__012",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__012_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__015",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__015_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__002",
+      "variant": "lora",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__002_lora.mp4"
+    },
+    {
+      "sample_id": "mymotion__012",
+      "variant": "lora",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__012_lora.mp4"
+    },
+    {
+      "sample_id": "mymotion__015",
+      "variant": "lora",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__015_lora.mp4"
+    }
+  ],
+  "method_note": "Native input_video V2V. The source video initializes the noisy latent; LoRA was trained on held-out-disjoint target-domain videos."
+}

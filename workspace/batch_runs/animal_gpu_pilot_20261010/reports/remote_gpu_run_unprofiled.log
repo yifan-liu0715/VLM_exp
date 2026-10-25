@@ -1,0 +1,66 @@
+[0;93m2026-10-10 07:22:14.187294012 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_0) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.295012296 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_2) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.295606712 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_3) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.309354904 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_6) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.309875877 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_7) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.310928153 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_9) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.311214556 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_10) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.312698960 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_12) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.312977741 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_13) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.314239154 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_15) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.314512026 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_16) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.316545342 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_19) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.316847509 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_20) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.318856576 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_22) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.319138790 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_23) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.321130808 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_26) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.321392033 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_27) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.323505342 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_29) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.323780611 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_30) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.325968589 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_33) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.326242889 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_34) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.328339010 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_36) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.328629628 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_37) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.330720401 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_39) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.330980928 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_40) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.333136527 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_76) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.333399961 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_77) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.388377443 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_45) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.388973802 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_46) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.391244142 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_74) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.391506555 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_75) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.392427550 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_51) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.392731609 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_52) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.394724295 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_72) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.394996579 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_73) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.396014314 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_64) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.396265791 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_65) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.396905430 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_62) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.397142833 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_63) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.397722778 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_60) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.397983955 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_61) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.398484424 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_70) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.398773580 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_71) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.399404170 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_68) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.399655798 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_69) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.400208455 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_66) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.400471111 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_67) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.400822332 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_58) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.401055782 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_59) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.401607881 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_56) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.401840383 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_57) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.402383291 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_54) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-10 07:22:14.402643523 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(Conv_55) running in Fallback mode. May be extremely slow.[m
+{"source_id": "DJI_20260930201304_0108_D", "event_id": "A", "frames": 31, "sha256": "e3784bc9db50f80494fddc0eb855ee2bd00e297836b563f7556899927537b551", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 1.0182175245136023, "decode_and_detect_seconds": 1.0602867677807808}
+{"source_id": "DJI_20260930201304_0108_D", "event_id": "B", "frames": 67, "sha256": "74655ea7ecaece45a08e5611b8c3d0af1dc2ead21b3307f8ffbdc4de109e2575", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.3693335223942995, "decode_and_detect_seconds": 2.4618050269782543}
+{"source_id": "DJI_20260930201432_0109_D", "event_id": "A", "frames": 77, "sha256": "27e9d4a017741663446107f88742e01f6509c737769e2a31727ea56d47986a34", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.6963011380285025, "decode_and_detect_seconds": 2.8187101762741804}
+{"source_id": "DJI_20260930201537_0110_D", "event_id": "A", "frames": 53, "sha256": "2f43350ee60ccd3dae5e2b78556abf1e1bfd141808ead1f4b6d69f0ac1ef589d", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 1.8664385508745909, "decode_and_detect_seconds": 1.935415331274271}
+{"source_id": "DJI_20260930201537_0110_D", "event_id": "B", "frames": 21, "sha256": "ed58e479c8310ab3a0b0366659e56560537f0d1440431f537dd070717bce5d9b", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 0.7248424552381039, "decode_and_detect_seconds": 0.7544591594487429}
+{"source_id": "DJI_20260930201641_0111_D", "event_id": "A", "frames": 87, "sha256": "6c924b7429e879bc658e84da53a57b26251895c88e75b7ce0a043cce3a12f5da", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.9869349505752325, "decode_and_detect_seconds": 3.079524904489517}
+{"source_id": "DJI_20260930202219_0114_D", "event_id": "A", "frames": 73, "sha256": "c24fd2e84e9e5c6de7bb7157721671e225cd5d7202e74b3670edffd5423bfe4c", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.538472617045045, "decode_and_detect_seconds": 2.6192304398864508}
+{"source_id": "video_20260928_185144", "event_id": "A", "frames": 55, "sha256": "ad7749a1a29210e9b8cdb50e196dc658ce0582b0be8c88caa6d4012d5117cb71", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.0146332252770662, "decode_and_detect_seconds": 2.084994789212942}
+{"source_id": "video_20260928_185144", "event_id": "B", "frames": 66, "sha256": "22ca1314ef7c1208cae7b45558a4f5b6b49e946ab0cab635361ea17611d6c3ed", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.4515636935830116, "decode_and_detect_seconds": 2.5333507377654314}
+{"source_id": "video_20260928_185438", "event_id": "A", "frames": 80, "sha256": "daad41ee67226670386b0f11b7dfa8a91f480eb213e1b1965084840b7b5d207f", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 2.806305581703782, "decode_and_detect_seconds": 2.894861727952957}
+{"source_id": "video_20260928_185446", "event_id": "A", "frames": 91, "sha256": "a75459207883c1e6625c3a58fca6c87e91d80cfb8debede37181d1647e235348", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 3.1602385602891445, "decode_and_detect_seconds": 3.25290459766984}
+{"source_id": "video_20260928_185454", "event_id": "A", "frames": 50, "sha256": "d87de6138a2819c1f77b61fdc34b7cb2281395c3f28f5d8764010c524ccae21c", "width": 1280, "height": 720, "all_frames_checked": true, "detector_seconds": 1.7422725763171911, "decode_and_detect_seconds": 1.798322232440114}
+{"mode": "remote_gpu", "opencv": "4.10.0", "opencv_threads": 2, "batch_size": 1, "score_threshold": 0.6, "nms_threshold": 0.3, "accepted_for_training": false, "privacy_reviewed": false, "semantic_reviewed": false, "model_original_sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4", "onnxruntime": "1.20.2", "cuda_build": "12.6", "cuda_visible_devices": "GPU-1672e605-3a89-298b-9bec-f6315bc324d8", "providers": ["CUDAExecutionProvider", "CPUExecutionProvider"], "gpu_name": "NVIDIA A100-SXM4-80GB", "cuda_memory_arena_limit_bytes": 1073741824, "model_weights_unchanged": true, "dynamic_model_sha256": "522551c29050f52f8c9a37717b895fc2a08dac4fe1007ae1a78d96901157405c", "cuda_compute_verified_in_prior_profile": true, "prior_profile_path": "/nvmedata/workspace2/users/nina/batch_runs/animal_gpu_pilot_20261010/reports/cuda_profile_2026-10-10_07-21-01.json", "total_frames": 751, "detector_seconds": 26.375554395839572, "decode_and_detect_seconds": 27.293865891173482, "session_init_seconds": 0.29801149666309357, "warmup_seconds": 0.3056595176458359, "completed_at": "2026-10-10T07:22:41+0800", "profiling_enabled": false}

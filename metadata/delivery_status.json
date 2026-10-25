@@ -1,0 +1,18 @@
+{
+  "snapshot_date": "2026-10-25",
+  "repository": "yifan-liu0715/VLM_exp",
+  "remote_source_root": "/nvmedata/workspace2/users/nina",
+  "source_regular_files": 233053,
+  "source_logical_bytes": 479313035408,
+  "git_text_files": 32009,
+  "git_text_state": "included_in_this_snapshot",
+  "payload_source_files": 194807,
+  "payload_source_bytes": 439253291370,
+  "payload_planned_jobs": 410,
+  "payload_uploaded_verified_jobs": 0,
+  "payload_state": "pending_github_api_authentication_and_payload_safety_checks",
+  "all_requested_content_uploaded": false,
+  "original_workspace_modified": false,
+  "lfs_uploads_performed": 0,
+  "billing_settings_modified": false
+}

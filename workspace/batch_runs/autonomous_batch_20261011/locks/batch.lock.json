@@ -1,0 +1,11 @@
+{
+  "run_id": "autonomous_batch_20261011",
+  "created_at": "2026-10-11T09:51:36+0800",
+  "host": "is-nina",
+  "pid": 976,
+  "state": "closed_pending_human_review",
+  "source_count": 130,
+  "failure_count": 0,
+  "closed_at": "2026-10-11T20:05:00+08:00",
+  "final_report": "reports/final_report_20261011.md"
+}

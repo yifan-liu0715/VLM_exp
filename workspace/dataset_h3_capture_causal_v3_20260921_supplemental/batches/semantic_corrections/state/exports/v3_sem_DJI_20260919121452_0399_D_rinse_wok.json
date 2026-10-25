@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260919121452_0399_D_rinse_wok",
+  "boundary_signature": "c96c7fed324dd5160bc335601218fa8e1bf931a0286c2167d69139b098a7c32f",
+  "export_signature": "e0fb4e3e8b448bb1621622aa603ec78639094425ae0fc9f26a24c167764e61e5",
+  "output_sha256": "1faf6ea7491b2f617bde8d38aea5eabc3fabb6620903127b69a7d4d19b4856d6",
+  "output": {
+    "duration_sec": 8.0,
+    "size_bytes": 2656222,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 192,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 40,
+  "frames_with_faces": 2,
+  "face_count_detected": 2,
+  "hits": [
+    {
+      "frame_index": 7,
+      "time_s": 0.4375,
+      "bbox_xywh": [
+        489.86,
+        -73.36,
+        454.51,
+        551.36
+      ],
+      "score": 0.685805
+    },
+    {
+      "frame_index": 8,
+      "time_s": 0.5,
+      "bbox_xywh": [
+        449.92,
+        -75.12,
+        487.02,
+        551.05
+      ],
+      "score": 0.666214
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_161938/iphone__video_20261005_161938__001__000000000-000002500__rub_cat_head.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 40
+}

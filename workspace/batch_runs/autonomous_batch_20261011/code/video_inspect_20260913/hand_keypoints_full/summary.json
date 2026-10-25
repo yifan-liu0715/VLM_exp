@@ -1,0 +1,34 @@
+[
+  {
+    "video": "C:\\Users\\86173\\Documents\\project\\video_inspect_20260913\\0053\\0053_h264.mp4",
+    "frames_read": 1711,
+    "fps": 29.97002997002997,
+    "duration_sec": 57.09036666666667,
+    "width": 1280,
+    "height": 720,
+    "frames_with_any_hand": 1472,
+    "hand_visible_rate": 0.8603156049094097,
+    "frames_with_one_hand": 142,
+    "frames_with_two_hands": 1330,
+    "two_hand_rate": 0.7773232028053769,
+    "mean_center_step": 0.007548466738920171,
+    "p95_center_step": 0.02206041446239117,
+    "landmarker": "MediaPipe Hand Landmarker 1.0.1"
+  },
+  {
+    "video": "C:\\Users\\86173\\Documents\\project\\video_inspect_20260913\\0057\\0057_h264.mp4",
+    "frames_read": 2155,
+    "fps": 29.97002997002997,
+    "duration_sec": 71.90516666666667,
+    "width": 1280,
+    "height": 720,
+    "frames_with_any_hand": 1900,
+    "hand_visible_rate": 0.8816705336426914,
+    "frames_with_one_hand": 1136,
+    "frames_with_two_hands": 764,
+    "two_hand_rate": 0.3545243619489559,
+    "mean_center_step": 0.012668575626868314,
+    "p95_center_step": 0.04421520589428406,
+    "landmarker": "MediaPipe Hand Landmarker 1.0.1"
+  }
+]

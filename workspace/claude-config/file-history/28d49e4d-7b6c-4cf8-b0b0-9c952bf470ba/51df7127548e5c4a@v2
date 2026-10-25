@@ -1,0 +1,89 @@
+@inproceedings{shao2024deepseekmath,
+  title={DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models},
+  author={Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Zhang, Mingchuan and Li, YK and Wu, Y and Guo, Daya},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2024}
+}
+
+@article{ouyang2022training,
+  title={Training language models to follow instructions with human feedback},
+  author={Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={27730--27744},
+  year={2022}
+}
+
+@inproceedings{rafailov2023direct,
+  title={Direct preference optimization: Your language model is secretly a reward model},
+  author={Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2023}
+}
+
+@article{bergmann2019mvtec,
+  title={MVTec AD--a comprehensive real-world dataset for unsupervised anomaly detection},
+  author={Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9592--9600},
+  year={2019}
+}
+
+@article{roth2022towards,
+  title={Towards total recall in industrial anomaly detection},
+  author={Roth, Karsten and Pemula, Ladislau and Zepeda, Joaquin and Sch{\"o}nweiss, Thomas and Goldluecke, Bastian and Schiele, Bernt},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14318--14328},
+  year={2022}
+}
+
+@article{li2023industrial,
+  title={Industrial anomaly detection with vision language models: A survey},
+  author={Li, Zhe and Wang, Xinyu and Li, Junyi and Zhang, Qi and Fu, Yanwei},
+  journal={arXiv preprint arXiv:2312.12709},
+  year={2023}
+}
+
+@article{he2016deep,
+  title={Deep residual learning for image recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={770--778},
+  year={2016}
+}
+
+@inproceedings{beyer2020better,
+  title={Better baselines for ImageNet},
+  author={Beyer, Lucas and Zhai, Xiaohua and Kolesnikov, Alexander},
+  booktitle={NeurIPS Workshop on Self-Supervised Learning},
+  year={2020}
+}
+
+@article{touvron2023llama,
+  title={LLaMA: Open and efficient foundation language models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\'e}e and Rozi{\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},
+  journal={arXiv preprint arXiv:2302.13971},
+  year={2023}
+}
+
+@article{achiam2023gpt4,
+  title={GPT-4 technical report},
+  author={Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others},
+  journal={arXiv preprint arXiv:2303.08774},
+  year={2023}
+}
+
+@article{schulman2017proximal,
+  title={Proximal policy optimization algorithms},
+  author={Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg},
+  journal={arXiv preprint arXiv:1707.06347},
+  year={2017}
+}
+
+@article{bai2022training,
+  title={Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback},
+  author={Bai, Yuntao and Jones, Andy and Ndousse, Kamal and Askell, Amanda and Chen, Anna and DaSilva, Nova and Drain, Dawn and Fort, Stanislav and Ganguli, Deep and Henighan, Tom and others},
+  journal={arXiv preprint arXiv:2204.05862},
+  year={2022}
+}

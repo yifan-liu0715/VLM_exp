@@ -1,0 +1,72 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 194,
+  "frames_with_faces": 5,
+  "face_count_detected": 5,
+  "hits": [
+    {
+      "frame_index": 145,
+      "time_s": 9.0625,
+      "bbox_xywh": [
+        430.29,
+        76.49,
+        385.21,
+        420.21
+      ],
+      "score": 0.640945
+    },
+    {
+      "frame_index": 146,
+      "time_s": 9.125,
+      "bbox_xywh": [
+        424.73,
+        63.82,
+        397.03,
+        438.31
+      ],
+      "score": 0.691093
+    },
+    {
+      "frame_index": 148,
+      "time_s": 9.25,
+      "bbox_xywh": [
+        530.31,
+        145.6,
+        272.77,
+        322.62
+      ],
+      "score": 0.684444
+    },
+    {
+      "frame_index": 149,
+      "time_s": 9.3125,
+      "bbox_xywh": [
+        465.53,
+        125.13,
+        338.41,
+        381.42
+      ],
+      "score": 0.782179
+    },
+    {
+      "frame_index": 193,
+      "time_s": 12.0625,
+      "bbox_xywh": [
+        621.96,
+        79.1,
+        410.79,
+        477.72
+      ],
+      "score": 0.701665
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_161938/iphone__video_20261005_161938__002__000002250-000014375__cup_cat_chin.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 194
+}

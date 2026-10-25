@@ -1,0 +1,83 @@
+Seed set to 42
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+`Trainer(limit_train_batches=1)` was configured so 1 batch per epoch will be used.
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+[model] loading tokenizer
+[model] loading native UMT5 encoder
+[model] loading native Wan2.2 VAE38
+[model] loading converted Wan transformer
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  2.02it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.04it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.01it/s]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+Loading `train_dataloader` to estimate number of stepping batches.
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 95.0 M                                                        
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 45,921.406                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/utilities/data.py:79: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 1. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+[checkpoint] filtered state_dict 1745 -> 482 tensors, 181.1 MiB
+Epoch 0/0  ━━━━━━━━━━━━━━━━━━ 1/1 0:00:07 • 0:00:00 0.00it/s v_num: 3.000       
+                                                             train/loss_step:   
+                                                             0.010              
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 362, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 358, in main
+    trainer.fit(system, train_dataloaders=loader, ckpt_path=args.resume)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+    call._call_and_handle_interrupt(
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1123, in _run_stage
+    self.fit_loop.run()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 217, in run
+    self.advance()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 469, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 153, in run
+    self.advance(data_fetcher)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 375, in advance
+    call._call_callback_hooks(trainer, "on_train_batch_end", batch_output, batch, batch_idx)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 228, in _call_callback_hooks
+    fn(trainer, trainer.lightning_module, *args, **kwargs)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py", line 484, in on_train_batch_end
+    self._save_topk_checkpoint(trainer, monitor_candidates)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py", line 591, in _save_topk_checkpoint
+    self._save_none_monitor_checkpoint(trainer, monitor_candidates)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py", line 942, in _save_none_monitor_checkpoint
+    self._save_checkpoint(trainer, filepath)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py", line 600, in _save_checkpoint
+    trainer.save_checkpoint(filepath, self.save_weights_only)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1464, in save_checkpoint
+    self.strategy.save_checkpoint(checkpoint, filepath, storage_options=storage_options)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/strategies/strategy.py", line 491, in save_checkpoint
+    self.checkpoint_io.save_checkpoint(checkpoint, filepath, storage_options=storage_options)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/lightning_fabric/plugins/io/torch_io.py", line 58, in save_checkpoint
+    _atomic_save(checkpoint, path)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/lightning_fabric/utilities/cloud_io.py", line 117, in _atomic_save
+    f.write(bytesbuffer.getvalue())
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/fsspec/implementations/local.py", line 473, in write
+    return self.f.write(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device

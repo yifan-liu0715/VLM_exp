@@ -1,0 +1,17 @@
+# Runtime-only external assets
+code/
+weights/
+inputs/
+validation/
+logs/
+
+# Large model and checkpoint formats
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/

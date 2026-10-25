@@ -1,0 +1,22 @@
+{
+  "source_id": "iphone__video_20261005_162646",
+  "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_162646.mp4",
+  "processing_source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/recovery_normalized_pts/iphone__video_20261005_162646.mp4",
+  "source_sha256": "71790bcd833c3d531cf7dd4ba5d26d382044f1ef05b2ce38d71da8a680332ca2",
+  "state": "source_context_ready",
+  "status": "source_context_ready",
+  "source_duration_s": 111.3683,
+  "processing_duration_s": 111.375,
+  "analysis": {
+    "detector_status": "detector_failed",
+    "detector_error": "No module named 'mediapipe'",
+    "hand_frames": 0,
+    "frames": 0
+  },
+  "mechanical_proposal_count": 0,
+  "second_pass_count": 0,
+  "second_pass_items": [],
+  "source_pts_normalized": true,
+  "finished_at": "2026-10-11T20:00:47.198120+08:00",
+  "error": null
+}

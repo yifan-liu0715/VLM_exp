@@ -1,0 +1,78 @@
+[run] physical_gpu=1 sample=mymotion__002
+[run] source=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4 target=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4 reference=/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.29s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.56it/s]
+[base] step 01/30 elapsed=0.3s
+[base] step 02/30 elapsed=0.6s
+[base] step 03/30 elapsed=0.9s
+[base] step 04/30 elapsed=1.3s
+[base] step 05/30 elapsed=1.5s
+[base] step 06/30 elapsed=1.9s
+[base] step 07/30 elapsed=2.2s
+[base] step 08/30 elapsed=2.6s
+[base] step 09/30 elapsed=2.9s
+[base] step 10/30 elapsed=3.2s
+[base] step 11/30 elapsed=3.5s
+[base] step 12/30 elapsed=3.8s
+[base] step 13/30 elapsed=4.2s
+[base] step 14/30 elapsed=4.5s
+[base] step 15/30 elapsed=4.8s
+[base] step 16/30 elapsed=5.1s
+[base] step 17/30 elapsed=5.4s
+[base] step 18/30 elapsed=5.7s
+[base] step 19/30 elapsed=6.1s
+[base] step 20/30 elapsed=6.4s
+[base] step 21/30 elapsed=6.7s
+[base] step 22/30 elapsed=7.0s
+[base] step 23/30 elapsed=7.3s
+[base] step 24/30 elapsed=7.7s
+[base] step 25/30 elapsed=8.0s
+[base] step 26/30 elapsed=8.3s
+[base] step 27/30 elapsed=8.6s
+[base] step 28/30 elapsed=9.0s
+[base] step 29/30 elapsed=9.3s
+[base] step 30/30 elapsed=9.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0}
+[lora] step 01/30 elapsed=0.3s
+[lora] step 02/30 elapsed=0.6s
+[lora] step 03/30 elapsed=0.9s
+[lora] step 04/30 elapsed=1.3s
+[lora] step 05/30 elapsed=1.6s
+[lora] step 06/30 elapsed=1.9s
+[lora] step 07/30 elapsed=2.2s
+[lora] step 08/30 elapsed=2.5s
+[lora] step 09/30 elapsed=2.9s
+[lora] step 10/30 elapsed=3.2s
+[lora] step 11/30 elapsed=3.5s
+[lora] step 12/30 elapsed=3.8s
+[lora] step 13/30 elapsed=4.1s
+[lora] step 14/30 elapsed=4.5s
+[lora] step 15/30 elapsed=4.8s
+[lora] step 16/30 elapsed=5.1s
+[lora] step 17/30 elapsed=5.4s
+[lora] step 18/30 elapsed=5.7s
+[lora] step 19/30 elapsed=6.1s
+[lora] step 20/30 elapsed=6.4s
+[lora] step 21/30 elapsed=6.7s
+[lora] step 22/30 elapsed=7.0s
+[lora] step 23/30 elapsed=7.4s
+[lora] step 24/30 elapsed=7.7s
+[lora] step 25/30 elapsed=8.0s
+[lora] step 26/30 elapsed=8.3s
+[lora] step 27/30 elapsed=8.6s
+[lora] step 28/30 elapsed=9.0s
+[lora] step 29/30 elapsed=9.4s
+[lora] step 30/30 elapsed=9.6s
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.49s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.21s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.25s/it]
+VAE decoding:   0%|          | 0/2 [00:00<?, ?it/s]VAE decoding:  50%|█████     | 1/2 [00:01<00:01,  1.55s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.19s/it]VAE decoding: 100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:03,  8.22it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 197.86it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   3%|▎         | 1/33 [00:00<00:03,  9.97it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 226.49it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  67%|██████▋   | 22/33 [00:00<00:00, 218.42it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 268.60it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  48%|████▊     | 16/33 [00:00<00:00, 159.80it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 254.95it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]Saving video:   3%|▎         | 1/33 [00:00<00:04,  7.75it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 156.50it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/validation/videos/mymotion__002_comparison.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/validation/reports/mymotion__002_run_manifest.json

@@ -1,0 +1,14 @@
+{
+  "source_id": "iphone__video_20261005_160632",
+  "source_sha256": "de97339a76a763b66d0eab7f2ec5fcb7c305a8f0e3682a47291f001f2124ebde",
+  "duration_s": 10.265289,
+  "sample_fps": 1,
+  "mechanical_localization_only": true,
+  "native_resolution_review_pending": true,
+  "frames": 10,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_160632/localization_manual/page_001.jpg"
+  ],
+  "source_decode_error": "",
+  "time": "2026-10-11T15:10:48.052586+08:00"
+}

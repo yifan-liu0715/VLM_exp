@@ -1,0 +1,61 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.18it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  3.11it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.61it/s]
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'reference_position': 3, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors
+[scheme4-native-supplement] 01/50 elapsed=25.5s
+[scheme4-native-supplement] 02/50 elapsed=51.0s
+[scheme4-native-supplement] 03/50 elapsed=76.6s
+[scheme4-native-supplement] 04/50 elapsed=102.3s
+[scheme4-native-supplement] 05/50 elapsed=127.9s
+[scheme4-native-supplement] 06/50 elapsed=153.5s
+[scheme4-native-supplement] 07/50 elapsed=179.1s
+[scheme4-native-supplement] 08/50 elapsed=204.7s
+[scheme4-native-supplement] 09/50 elapsed=230.3s
+[scheme4-native-supplement] 10/50 elapsed=255.9s
+[scheme4-native-supplement] 11/50 elapsed=281.5s
+[scheme4-native-supplement] 12/50 elapsed=307.1s
+[scheme4-native-supplement] 13/50 elapsed=332.7s
+[scheme4-native-supplement] 14/50 elapsed=358.3s
+[scheme4-native-supplement] 15/50 elapsed=383.9s
+[scheme4-native-supplement] 16/50 elapsed=409.5s
+[scheme4-native-supplement] 17/50 elapsed=435.1s
+[scheme4-native-supplement] 18/50 elapsed=460.7s
+[scheme4-native-supplement] 19/50 elapsed=486.3s
+[scheme4-native-supplement] 20/50 elapsed=511.9s
+[scheme4-native-supplement] 21/50 elapsed=537.5s
+[scheme4-native-supplement] 22/50 elapsed=563.1s
+[scheme4-native-supplement] 23/50 elapsed=588.7s
+[scheme4-native-supplement] 24/50 elapsed=614.3s
+[scheme4-native-supplement] 25/50 elapsed=639.9s
+[scheme4-native-supplement] 26/50 elapsed=665.5s
+[scheme4-native-supplement] 27/50 elapsed=691.1s
+[scheme4-native-supplement] 28/50 elapsed=716.7s
+[scheme4-native-supplement] 29/50 elapsed=742.3s
+[scheme4-native-supplement] 30/50 elapsed=767.9s
+[scheme4-native-supplement] 31/50 elapsed=793.5s
+[scheme4-native-supplement] 32/50 elapsed=819.1s
+[scheme4-native-supplement] 33/50 elapsed=844.7s
+[scheme4-native-supplement] 34/50 elapsed=870.3s
+[scheme4-native-supplement] 35/50 elapsed=895.9s
+[scheme4-native-supplement] 36/50 elapsed=921.5s
+[scheme4-native-supplement] 37/50 elapsed=947.1s
+[scheme4-native-supplement] 38/50 elapsed=972.7s
+[scheme4-native-supplement] 39/50 elapsed=998.3s
+[scheme4-native-supplement] 40/50 elapsed=1023.9s
+[scheme4-native-supplement] 41/50 elapsed=1049.4s
+[scheme4-native-supplement] 42/50 elapsed=1075.0s
+[scheme4-native-supplement] 43/50 elapsed=1100.6s
+[scheme4-native-supplement] 44/50 elapsed=1126.2s
+[scheme4-native-supplement] 45/50 elapsed=1151.8s
+[scheme4-native-supplement] 46/50 elapsed=1177.4s
+[scheme4-native-supplement] 47/50 elapsed=1203.0s
+[scheme4-native-supplement] 48/50 elapsed=1228.6s
+[scheme4-native-supplement] 49/50 elapsed=1254.2s
+[scheme4-native-supplement] 50/50 elapsed=1279.8s
+VAE decoding:   0%|          | 0/8 [00:00<?, ?it/s]VAE decoding:  12%|█▎        | 1/8 [00:07<00:50,  7.24s/it]VAE decoding:  25%|██▌       | 2/8 [00:12<00:37,  6.28s/it]VAE decoding:  38%|███▊      | 3/8 [00:19<00:32,  6.48s/it]VAE decoding:  50%|█████     | 4/8 [00:25<00:24,  6.18s/it]VAE decoding:  62%|██████▎   | 5/8 [00:32<00:19,  6.44s/it]VAE decoding:  75%|███████▌  | 6/8 [00:37<00:12,  6.19s/it]VAE decoding:  88%|████████▊ | 7/8 [00:43<00:05,  5.90s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.42s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.95s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:20,  4.75it/s]Saving video:  15%|█▌        | 15/97 [00:00<00:01, 59.33it/s]Saving video:  31%|███       | 30/97 [00:00<00:00, 92.21it/s]Saving video:  47%|████▋     | 46/97 [00:00<00:00, 113.37it/s]Saving video:  63%|██████▎   | 61/97 [00:00<00:00, 125.10it/s]Saving video:  77%|███████▋  | 75/97 [00:00<00:00, 120.65it/s]Saving video:  91%|█████████ | 88/97 [00:00<00:00, 101.23it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 96.64it/s] 
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   2%|▏         | 2/97 [00:00<00:04, 19.41it/s]Saving video:  10%|█         | 10/97 [00:00<00:01, 52.60it/s]Saving video:  21%|██        | 20/97 [00:00<00:01, 68.24it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 86.42it/s]Saving video:  46%|████▋     | 45/97 [00:00<00:00, 98.82it/s]Saving video:  61%|██████    | 59/97 [00:00<00:00, 110.95it/s]Saving video:  73%|███████▎  | 71/97 [00:00<00:00, 111.44it/s]Saving video:  86%|████████▌ | 83/97 [00:00<00:00, 82.70it/s] Saving video:  96%|█████████▌| 93/97 [00:01<00:00, 83.28it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 86.09it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   4%|▍         | 4/97 [00:00<00:02, 37.87it/s]Saving video:  16%|█▋        | 16/97 [00:00<00:00, 84.28it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 117.49it/s]Saving video:  51%|█████     | 49/97 [00:00<00:00, 137.83it/s]Saving video:  66%|██████▌   | 64/97 [00:00<00:00, 141.23it/s]Saving video:  81%|████████▏ | 79/97 [00:00<00:00, 99.15it/s] Saving video:  94%|█████████▍| 91/97 [00:00<00:00, 76.31it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 91.03it/s]
+[done] scheme4=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Scheme4_NativePEInterpolated.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/run_manifest.json

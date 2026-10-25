@@ -1,0 +1,25 @@
+TTA:  99%|█████████▉| 994/1000 [44:09<00:04,  1.21it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|█████████▉| 995/1000 [44:10<00:04,  1.24it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|█████████▉| 996/1000 [44:11<00:03,  1.26it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|█████████▉| 997/1000 [44:12<00:02,  1.28it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|█████████▉| 998/1000 [44:13<00:01,  1.29it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|█████████▉| 999/1000 [44:13<00:00,  1.30it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA: 100%|██████████| 1000/1000 [44:16<00:00,  1.30s/it]TTA: 100%|██████████| 1000/1000 [44:16<00:00,  2.66s/it]
+
+[TTA] Done in 2656.3s (2.66s/sample)
+
+============================================================
+  TTA RESULTS: /nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828
+============================================================
+  R@0.5: 45.49%
+  R@0.8: 25.81%
+  DefAcc: 98.40%
+============================================================
+
+[Eval] Results: results/sft_baseline_tta.json

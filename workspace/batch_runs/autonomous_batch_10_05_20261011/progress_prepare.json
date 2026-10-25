@@ -1,0 +1,19 @@
+{
+  "stage": "pilot",
+  "sources": 10,
+  "source_context_ready": 9,
+  "failed_sources": [
+    "iphone__video_20261005_163444"
+  ],
+  "mechanical_proposal_count": 72,
+  "second_pass_count": 127,
+  "accepted_for_training": 0,
+  "semantic_reviewed_sources": 0,
+  "finished_at": "2026-10-11T17:01:03.880176+08:00",
+  "needs_visual_semantic_boundary_and_crop_review": true,
+  "keypoints_started": false,
+  "training_started": false,
+  "vlm_used": false,
+  "state": "pilot_ready_for_semantic_boundary_review",
+  "pid": 820995
+}

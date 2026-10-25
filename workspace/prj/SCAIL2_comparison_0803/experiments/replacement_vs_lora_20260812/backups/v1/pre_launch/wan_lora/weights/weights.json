@@ -1,0 +1,8 @@
+{
+  "policy": "pointer_only_no_weight_copy",
+  "weight": {
+    "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+    "sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+    "role": "latest Scheme4 trained LoRA adapter"
+  }
+}

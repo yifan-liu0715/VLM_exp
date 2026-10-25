@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-07-13T15:40:23.830064+00:00",
+  "method": "paired source first-frame conditioned TI2V LoRA; target is complete output video",
+  "dataset_root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train",
+  "source_metadata_sha256": {
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_splits/source_disjoint_v2/train_rich.csv": "b5ce085698cc59a7c596e77dba2147531230c79e11c07315e6a5567ef7ba5f99",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_splits/source_disjoint_v2/val_rich.csv": "16ae42b3c51d39c48ef0dbec406c943a9ce287c683771543546f0722d58e33e9",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_splits/source_disjoint_v2/test_rich.csv": "6e5bce7d81bcc74465133003b4bf0395f1a23f529c561d83618b3c649df81948"
+  },
+  "frozen_metadata": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_v2v_formal_0713/metadata_full_paired_0713.csv",
+  "frozen_metadata_sha256": "2d698ad19f293dbafc81611137c86d893eecac4ab644bff326e526126d8cfaa4",
+  "total_pairs": 3916,
+  "unique_sample_ids": 3916,
+  "split_counts": {
+    "test": 455,
+    "train": 2993,
+    "val": 468
+  },
+  "bucket_counts": {
+    "1280x512": 1032,
+    "1280x704": 1225,
+    "704x1280": 1659
+  },
+  "num_frames_required": 33,
+  "all_paths_exist": true,
+  "all_videos_ffprobe_valid": true,
+  "all_pairs_have_matching_dimensions": true,
+  "all_pairs_have_sufficient_frames": true,
+  "all_captions_nonempty": true,
+  "dynamic_resolution": true,
+  "max_pixels": 184320,
+  "shape_plan": {
+    "1280x512": {
+      "samples": 1032,
+      "source_width": 1280,
+      "source_height": 512,
+      "training_width": 672,
+      "training_height": 256,
+      "training_pixels": 172032
+    },
+    "1280x704": {
+      "samples": 1225,
+      "source_width": 1280,
+      "source_height": 704,
+      "training_width": 576,
+      "training_height": 304,
+      "training_pixels": 175104
+    },
+    "704x1280": {
+      "samples": 1659,
+      "source_width": 704,
+      "source_height": 1280,
+      "training_width": 304,
+      "training_height": 576,
+      "training_pixels": 175104
+    }
+  },
+  "training_uses_all_splits": true,
+  "validation_note": "All 3916 pairs are used for training as requested; future unbiased testing requires a separate external holdout."
+}

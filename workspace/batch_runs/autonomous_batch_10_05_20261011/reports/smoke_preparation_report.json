@@ -1,0 +1,15 @@
+{
+  "stage": "smoke",
+  "sources": 2,
+  "source_context_ready": 2,
+  "failed_sources": [],
+  "mechanical_proposal_count": 1,
+  "second_pass_count": 2,
+  "accepted_for_training": 0,
+  "semantic_reviewed_sources": 0,
+  "finished_at": "2026-10-11T14:52:43.381857+08:00",
+  "needs_visual_semantic_boundary_and_crop_review": true,
+  "keypoints_started": false,
+  "training_started": false,
+  "vlm_used": false
+}

@@ -1,0 +1,4 @@
+{"source_id": "iphone__video_20261005_160632", "event_id": "001", "normalized_frame_count": 62, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 13, "state": "review_needed"}
+{"source_id": "iphone__video_20261005_160632", "event_id": "002", "normalized_frame_count": 38, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 3, "state": "review_needed"}
+{"source_id": "iphone__video_20261005_160632", "event_id": "003", "normalized_frame_count": 47, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 39, "state": "review_needed"}
+

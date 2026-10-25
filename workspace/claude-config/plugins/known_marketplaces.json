@@ -1,0 +1,10 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/nvmedata/workspace2/users/nina/claude-config/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-05-30T10:06:25.451Z"
+  }
+}

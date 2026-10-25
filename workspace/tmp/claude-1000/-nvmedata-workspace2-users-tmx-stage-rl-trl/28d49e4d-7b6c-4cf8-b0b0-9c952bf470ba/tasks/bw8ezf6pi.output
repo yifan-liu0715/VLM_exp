@@ -1,0 +1,5 @@
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3698316)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

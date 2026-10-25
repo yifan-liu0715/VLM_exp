@@ -1,0 +1,30 @@
+Two-Stage Eval:   3%|▎         | 29/1000 [01:34<1:03:51,  3.95s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Two-Stage Eval:   3%|▎         | 30/1000 [01:40<1:15:56,  4.70s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Two-Stage Eval:   3%|▎         | 30/1000 [01:43<55:48,  3.45s/it]  
+  [0] coarse: 0 boxes, final: 0 boxes
+  [1] coarse: 1 boxes, final: 2 boxes
+  [2] coarse: 0 boxes, final: 0 boxes
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 364, in <module>
+    main()
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 307, in main
+    refined_entries = crop_and_refine(
+                      ^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 130, in crop_and_refine
+    pred_text = run_inference(model, processor, cropped, stage2_prompt, max_new_tokens)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_two_stage.py", line 64, in run_inference
+    image = Image.open(image_input).convert("RGB") if isinstance(image_input, str) else image_input
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/PIL/Image.py", line 986, in convert
+    self.load()
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/PIL/ImageFile.py", line 370, in load
+    s = read(read_bytes)
+        ^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/PIL/PngImagePlugin.py", line 994, in load_read
+    cid, pos, length = self.png.read()
+                       ^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/PIL/PngImagePlugin.py", line 181, in read
+    raise SyntaxError(msg)
+SyntaxError: broken PNG file (chunk b'\x00\x00\x00\x00')

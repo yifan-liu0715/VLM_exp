@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "target_total": 3000,
+  "selection_policy": {
+    "retain_action_clips": true,
+    "retain_full_source_videos": false,
+    "minimum_clip_duration_sec": 1,
+    "maximum_clip_duration_sec": 12,
+    "hand_keypoint_detector": "MediaPipe Hand Landmarker 1.0.1",
+    "technical_validity": [
+      "JSON parses",
+      "frames are non-empty",
+      "every detected hand has exactly 21 points",
+      "every point has x/y/z coordinates"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "epic_kitchens_100",
+      "target": 2000,
+      "access_status": "accessible",
+      "project_url": "https://epic-kitchens.github.io/",
+      "annotation_url": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
+      "download_url": "https://huggingface.co/datasets/lightly-ai/epic-kitchens-100-clips",
+      "license": "CC-BY-NC-4.0",
+      "citation": "Damen et al., The EPIC-KITCHENS Dataset: Collection, Challenges and Baselines, TPAMI 2021",
+      "current": {"metadata_candidates": 17616, "selected": 2000, "clip_downloaded": 2000, "keypoints_valid": 2000, "manual_accepted": 0},
+      "remote_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/epic_kitchens_2000_available.jsonl"
+    },
+    {
+      "source_id": "openaoe_2000h",
+      "target": 1000,
+      "access_status": "accessible_action_clip_subset",
+      "project_url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h",
+      "annotation_url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h",
+      "download_url": "https://hf-mirror.com/datasets/inclusionAI/OpenAoE-2000h",
+      "license": "Open-AoE Dataset License; MediaPipe-derived keypoints do not use MANO files",
+      "citation": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning, arXiv:2607.14183",
+      "current": {"metadata_candidates": 1000, "selected": 1000, "clip_downloaded": 1000, "keypoints_valid": 1000, "manual_accepted": 0},
+      "remote_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/openaoe_1000_selected.jsonl"
+    },
+    {
+      "source_id": "hoi4d",
+      "target": 0,
+      "access_status": "download_transport_blocked",
+      "project_url": "https://hoi4d.github.io/",
+      "annotation_url": "https://github.com/leolyliu/HOI4D-Instructions",
+      "download_url": "https://hoi4d.github.io/",
+      "license": "CC-BY-NC-4.0",
+      "citation": "Liu et al., HOI4D: A 4D Egocentric Dataset for Category-Level Human-Object Interaction, CVPR 2022",
+      "current": {"metadata_candidates": 4000, "selected": 0, "clip_downloaded": 0, "keypoints_valid": 0, "manual_accepted": 0}
+    },
+    {
+      "source_id": "assembly101",
+      "target": 0,
+      "access_status": "requires_terms_and_authentication",
+      "project_url": "https://assembly-101.github.io/",
+      "annotation_url": "https://github.com/assembly-101/assembly101-annotations",
+      "download_url": "https://huggingface.co/datasets/cvml-nus/assembly101",
+      "license": "CC-BY-NC-4.0",
+      "citation": "Sener et al., Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities, CVPR 2022",
+      "current": {"metadata_candidates": 0, "selected": 0, "clip_downloaded": 0, "keypoints_valid": 0, "manual_accepted": 0}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "zero_hand_samples_removed",
+  "old_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928",
+  "new_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928",
+  "input_count": 1061,
+  "removed_count": 3,
+  "output_count": 1058,
+  "removed_clip_ids": [
+    "semantic_review_e79bd78c90e341de86a7",
+    "semantic_review_ebfe86a7b93fe0471640",
+    "semantic_review_f6f249f016a53feab880"
+  ],
+  "removed_path_count": 12,
+  "removed_paths": [
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/clips/semantic_review_e79bd78c90e341de86a7.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints/semantic_review_e79bd78c90e341de86a7_hands.json",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/review_zero_hand_3/semantic_review_e79bd78c90e341de86a7.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints_shards/shard_10/semantic_review_e79bd78c90e341de86a7_hands.json",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/clips/semantic_review_ebfe86a7b93fe0471640.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints/semantic_review_ebfe86a7b93fe0471640_hands.json",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/review_zero_hand_3/semantic_review_ebfe86a7b93fe0471640.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints_shards/shard_11/semantic_review_ebfe86a7b93fe0471640_hands.json",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/clips/semantic_review_f6f249f016a53feab880.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints/semantic_review_f6f249f016a53feab880_hands.json",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/review_zero_hand_3/semantic_review_f6f249f016a53feab880.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/hand_keypoints_shards/shard_11/semantic_review_f6f249f016a53feab880_hands.json"
+  ],
+  "archive_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928/archive/pre_zero_hand_filter_1061",
+  "training_run": false
+}

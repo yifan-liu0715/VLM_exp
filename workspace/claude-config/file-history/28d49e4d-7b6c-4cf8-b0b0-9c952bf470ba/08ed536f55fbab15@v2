@@ -1,0 +1,349 @@
+#!/usr/bin/env python3
+"""
+测试时增强 (TTA) 评测脚本：
+1. 原始图片推理
+2. 水平翻转图片推理
+3. 合并两次推理的预测框（NMS）
+用法: python scripts/eval_tta.py --checkpoint <path> --gpu 2
+"""
+import argparse, json, os, re, sys, time
+import torch
+import numpy as np
+from PIL import Image, ImageOps
+from tqdm import tqdm
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from src.rewards.accuracy_reward import _compute_reward_core, parse_defect_entries
+from src.rewards.location_reward import calculate_ciou
+from scipy.optimize import linear_sum_assignment
+
+
+# ── 模型加载（复用 eval.py）──────────────────────────
+def load_model(checkpoint_path, base_model_path, device="cuda"):
+    from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+    from peft import PeftModel
+
+    is_lora = os.path.exists(os.path.join(checkpoint_path, "adapter_config.json"))
+    if is_lora:
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            base_model_path, torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2", device_map=device)
+        model = PeftModel.from_pretrained(model, checkpoint_path)
+        model = model.merge_and_unload()
+    else:
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            checkpoint_path, torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2", device_map=device)
+    model.eval()
+
+    processor_path = checkpoint_path
+    if not os.path.exists(os.path.join(processor_path, "preprocessor_config.json")):
+        processor_path = base_model_path
+    processor = AutoProcessor.from_pretrained(processor_path)
+    processor.image_processor.max_pixels = 1003520
+    processor.image_processor.min_pixels = 3136
+    return model, processor
+
+
+def run_inference(model, processor, image_path, prompt, max_new_tokens=256):
+    messages = [{"role": "user", "content": [
+        {"type": "image", "image": image_path},
+        {"type": "text", "text": prompt},
+    ]}]
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    image = Image.open(image_path).convert("RGB")
+    inputs = processor(text=[text], images=image, return_tensors="pt", padding=True).to(model.device)
+    with torch.no_grad():
+        out = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    return processor.decode(out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+
+
+# ── TTA 专用推理 ──────────────────────────────────────
+def run_inference_on_pil(model, processor, image, prompt, max_new_tokens=256):
+    """对 PIL Image 直接推理（用于翻转后的图片）"""
+    messages = [{"role": "user", "content": [
+        {"type": "image", "image": image},
+        {"type": "text", "text": prompt},
+    ]}]
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = processor(text=[text], images=image, return_tensors="pt", padding=True).to(model.device)
+    with torch.no_grad():
+        out = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    return processor.decode(out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+
+
+def parse_boxes_from_text(text):
+    """从模型输出中解析 bbox"""
+    entries = []
+    pattern = re.compile(r"a\s+['\"]([^'\"]+)['\"]\s+defect.*?(\{.*?\})", re.IGNORECASE | re.DOTALL)
+    for m in pattern.finditer(text):
+        try:
+            label = m.group(1).strip()
+            bbox = json.loads(m.group(2)).get('bbox_2d')
+            if bbox and isinstance(bbox, list) and len(bbox) == 4 and all(isinstance(v, (int, float)) for v in bbox):
+                entries.append({'label': label, 'bbox': bbox})
+        except:
+            continue
+    return entries
+
+
+def flip_boxes_horizontal(boxes, img_width):
+    """将水平翻转图片上的 box 坐标转换回原图坐标"""
+    flipped = []
+    for box in boxes:
+        if not isinstance(box, (list, tuple)) or len(box) != 4:
+            continue
+        x1, y1, x2, y2 = box
+        flipped.append([img_width - x2, y1, img_width - x1, y2])
+    return flipped
+
+
+def nms_boxes(all_entries, iou_threshold=0.3):
+    """对多组预测框做 NMS，保留置信度最高的"""
+    if not all_entries:
+        return []
+
+    # 按 label 分组
+    by_label = {}
+    for e in all_entries:
+        if isinstance(e.get('bbox'), (list, tuple)) and len(e['bbox']) == 4:
+            by_label.setdefault(e['label'], []).append(e['bbox'])
+
+    merged = []
+    for label, boxes in by_label.items():
+        # 先对框做聚类
+        clusters = []
+        for box in boxes:
+            matched = False
+            for cluster in clusters:
+                for cb in cluster:
+                    iou, _ = calculate_ciou(box, cb)
+                    if iou > iou_threshold:
+                        cluster.append(box)
+                        matched = True
+                        break
+                if matched:
+                    break
+            if not matched:
+                clusters.append([box])
+
+        # 每个 cluster 取平均框
+        for cluster in clusters:
+            avg_box = [float(x) for x in np.mean(cluster, axis=0).tolist()]
+            if len(avg_box) == 4:
+                merged.append({'label': label, 'bbox': avg_box, 'confidence': len(cluster)})
+
+    return merged
+
+
+def compute_iou_matrix(pred_boxes, gt_boxes):
+    m, n = len(pred_boxes), len(gt_boxes)
+    if m == 0 or n == 0:
+        return np.zeros((m, n))
+    mat = np.zeros((m, n))
+    for i in range(m):
+        for j in range(n):
+            mat[i, j] = calculate_ciou(pred_boxes[i], gt_boxes[j])[0]
+    return mat
+
+
+def hungarian_match(pred_boxes, gt_boxes, iou_thresh=0.1):
+    m, n = len(pred_boxes), len(gt_boxes)
+    if m == 0:
+        return [], [], list(range(n))
+    if n == 0:
+        return [], list(range(m)), []
+    iou_mat = compute_iou_matrix(pred_boxes, gt_boxes)
+    row, col = linear_sum_assignment(1.0 - iou_mat)
+    matched, mp, mg = [], set(), set()
+    for i, j in zip(row, col):
+        if iou_mat[i, j] >= iou_thresh:
+            matched.append((int(i), int(j), float(iou_mat[i, j])))
+            mp.add(i); mg.add(j)
+    return matched, [i for i in range(m) if i not in mp], [j for j in range(n) if j not in mg]
+
+
+def compute_metrics(predictions, ground_truths):
+    total = len(predictions)
+    correct_defect = 0
+    iou_metrics = {t: {"TP": 0, "FP": 0, "FN": 0} for t in [0.3, 0.5, 0.8]}
+    test_style = {0.5: {"tp_det": 0, "tp_cls": 0, "total_gt": 0},
+                  0.8: {"tp_det": 0, "tp_cls": 0, "total_gt": 0}}
+    per_sample = []
+
+    for i, (pred, gt) in enumerate(zip(predictions, ground_truths)):
+        r_ans, r_cls, r_loc, detail = _compute_reward_core(pred, gt)
+        if detail["gt_has_defect"] == detail["pred_has_defect"]:
+            correct_defect += 1
+
+        gt_entries = parse_defect_entries(gt)
+        pred_entries = parse_defect_entries(pred)
+        gt_boxes = [e[1] for e in gt_entries]
+        pred_boxes = [e[1] for e in pred_entries]
+
+        for t in [0.5, 0.8]:
+            test_style[t]["total_gt"] += len(gt_entries)
+            matched_idx = set()
+            for gt_type, g_box in gt_entries:
+                best_iou, best_idx = 0.0, -1
+                for pi, (pt, p_box) in enumerate(pred_entries):
+                    if pi in matched_idx: continue
+                    iou_val = calculate_ciou(g_box, p_box)[0]
+                    if iou_val > best_iou:
+                        best_iou, best_idx = iou_val, pi
+                if best_iou >= t and best_idx >= 0:
+                    test_style[t]["tp_det"] += 1
+                    if gt_type.lower() == pred_entries[best_idx][0].lower():
+                        test_style[t]["tp_cls"] += 1
+                    matched_idx.add(best_idx)
+
+        for thresh in [0.3, 0.5, 0.8]:
+            matched, up, ug = hungarian_match(pred_boxes, gt_boxes, thresh)
+            iou_metrics[thresh]["TP"] += len(matched)
+            iou_metrics[thresh]["FP"] += len(up)
+            iou_metrics[thresh]["FN"] += len(ug)
+
+        per_sample.append({
+            "index": i, "r_ans": r_ans, "r_cls": r_cls, "r_loc": r_loc,
+            "gt_has_defect": detail["gt_has_defect"], "pred_has_defect": detail["pred_has_defect"],
+            "gt_boxes": detail["gt_boxes"], "pred_boxes": detail["pred_boxes"],
+            "matched": detail["matched"], "miss": detail["miss"], "extra": detail["extra"],
+            "matched_ious": detail["matched_ious"],
+        })
+
+    def safe_div(a, b): return a / b if b > 0 else 0
+    results = {
+        "total_samples": total,
+        "defect_accuracy": correct_defect / total,
+        "per_iou": {},
+    }
+    for thresh, m in iou_metrics.items():
+        tp, fp, fn = m["TP"], m["FP"], m["FN"]
+        r = safe_div(tp, tp+fn); p = safe_div(tp, tp+fp)
+        results["per_iou"][f"iou{thresh*100:.0f}"] = {
+            "TP": tp, "FP": fp, "FN": fn,
+            "recall": round(r, 4), "precision": round(p, 4),
+            "f1": round(safe_div(2*p*r, p+r), 4)
+        }
+    results["test_style"] = {}
+    for t, ts in test_style.items():
+        tg = ts["total_gt"]
+        r = ts["tp_det"] / tg if tg > 0 else 0
+        c = ts["tp_cls"] / ts["tp_det"] if ts["tp_det"] > 0 else 0
+        results["test_style"][f"iou{t*100:.0f}"] = {
+            "recall": round(r, 4), "cls_accuracy": round(c, 4),
+            "tp_det": ts["tp_det"], "tp_cls": ts["tp_cls"], "total_gt": tg
+        }
+    results["per_sample"] = per_sample
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--checkpoint", type=str, required=True)
+    parser.add_argument("--base-model", type=str,
+                        default="/nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828")
+    parser.add_argument("--val-data", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json")
+    parser.add_argument("--image-path", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/images")
+    parser.add_argument("--gpu", type=str, default="2")
+    parser.add_argument("--output", type=str, default=None)
+    parser.add_argument("--max-samples", type=int, default=None)
+    parser.add_argument("--max-new-tokens", type=int, default=256)
+    args = parser.parse_args()
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+
+    if args.output is None:
+        ckpt_name = args.checkpoint.rstrip("/").split("/")[-1]
+        args.output = f"results/{ckpt_name}_tta.json"
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+
+    with open(args.val_data) as f:
+        val_data = json.load(f)
+    if args.max_samples:
+        val_data = val_data[:args.max_samples]
+
+    ground_truths = [s["conversations"][1]["value"] for s in val_data]
+    image_paths = [os.path.join(args.image_path, s["image"]) for s in val_data]
+
+    model, processor = load_model(args.checkpoint, args.base_model)
+    prompt = "Are there any defects in this image? If so, please box and describe them."
+
+    print(f"\n[TTA] Evaluating {len(val_data)} samples with horizontal flip augmentation")
+    predictions = []
+    start_time = time.time()
+
+    for i, img_path in enumerate(tqdm(image_paths, desc="TTA Eval")):
+        # 1. 原始图片推理
+        pred_orig = run_inference(model, processor, img_path, prompt, args.max_new_tokens)
+        entries_orig = parse_boxes_from_text(pred_orig)
+        torch.cuda.empty_cache()
+
+        # 2. 水平翻转推理
+        img = Image.open(img_path).convert("RGB")
+        img_flipped = ImageOps.mirror(img)
+        pred_flip = run_inference_on_pil(model, processor, img_flipped, prompt, args.max_new_tokens)
+        entries_flip = parse_boxes_from_text(pred_flip)
+        torch.cuda.empty_cache()
+        # 翻转坐标回来
+        entries_flip = [{'label': e['label'], 'bbox': flip_boxes_horizontal(e['bbox'], img.width)}
+                        for e in entries_flip]
+
+        # 3. 合并预测框（NMS）
+        all_entries = entries_orig + entries_flip
+        merged = nms_boxes(all_entries, iou_threshold=0.3)
+
+        # 4. 重新构造文本输出（用原始文本为主，合并框）
+        if merged:
+            defect_parts = []
+            for e in merged:
+                defect_parts.append(f"a '{e['label']}' defect was found at {{\"bbox_2d\": [{e['bbox'][0]:.0f}, {e['bbox'][1]:.0f}, {e['bbox'][2]:.0f}, {e['bbox'][3]:.0f}]}}")
+            combined_pred = "Yes, " + " and ".join(defect_parts) + "."
+        else:
+            # 如果合并后没有框，用原始文本
+            combined_pred = pred_orig
+
+        predictions.append(combined_pred)
+
+        if i < 3 or i % 100 == 0:
+            print(f"  [{i}] orig: {pred_orig[:100]}...")
+            print(f"  [{i}] flip: {pred_flip[:100]}...")
+            print(f"  [{i}] merged boxes: {len(merged)}")
+
+    elapsed = time.time() - start_time
+    print(f"\n[TTA] Done in {elapsed:.1f}s ({elapsed/len(val_data):.2f}s/sample)")
+
+    results = compute_metrics(predictions, ground_truths)
+    results["checkpoint"] = args.checkpoint
+    results["eval_time_seconds"] = elapsed
+    results["tta"] = True
+
+    # 打印结果
+    print(f"\n{'='*60}")
+    print(f"  TTA RESULTS: {args.checkpoint}")
+    print(f"{'='*60}")
+    print(f"  R@0.5: {results['test_style']['iou50']['recall']*100:.2f}%")
+    print(f"  R@0.8: {results['test_style']['iou80']['recall']*100:.2f}%")
+    print(f"  DefAcc: {results['defect_accuracy']*100:.2f}%")
+    print(f"{'='*60}")
+
+    save_results = {k: v for k, v in results.items() if k != "per_sample"}
+    save_results["per_sample"] = []
+    for s in results["per_sample"]:
+        save_results["per_sample"].append({k: v for k, v in s.items() if k not in ["pred_text", "gt_text"]})
+
+    with open(args.output, "w") as f:
+        json.dump(save_results, f, indent=2, ensure_ascii=False)
+    print(f"\n[Eval] Results saved to: {args.output}")
+
+    detail_path = args.output.replace(".json", "_details.json")
+    with open(detail_path, "w") as f:
+        json.dump(results["per_sample"], f, indent=2, ensure_ascii=False)
+    print(f"[Eval] Details: {detail_path}")
+
+
+if __name__ == "__main__":
+    main()

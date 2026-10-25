@@ -1,0 +1,17 @@
+{
+  "stage": "full_context_wave_0055",
+  "sources": 1,
+  "source_context_ready": 0,
+  "failed_sources": [
+    "iphone__video_20261005_155526"
+  ],
+  "mechanical_proposal_count": 0,
+  "second_pass_count": 0,
+  "accepted_for_training": 0,
+  "semantic_reviewed_sources": 0,
+  "finished_at": "2026-10-11T17:37:10.391955+08:00",
+  "needs_visual_semantic_boundary_and_crop_review": true,
+  "keypoints_started": false,
+  "training_started": false,
+  "vlm_used": false
+}

@@ -1,0 +1,19 @@
+{
+  "state": "motion_proposals_v2_nonoverlap_review_needed",
+  "source_count": 209,
+  "proposal_intervals": 860,
+  "encoded_success": 860,
+  "encoded_failed": 0,
+  "overlap_pairs_after_rebuild": 0,
+  "overlap_clusters_merged": 31,
+  "risk_queue": 492,
+  "normal_queue": 368,
+  "total_output_duration_s": 6931.432,
+  "semantic_reviewed": 0,
+  "privacy_reviewed": 0,
+  "accepted_for_training": 0,
+  "keypoints_started": false,
+  "training_started": false,
+  "output_root": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\motion_proposal_clips",
+  "manifest": "G:\\data\\clips_new_10_05\\autonomous_batch_20261011\\motion_proposal_manifest.jsonl"
+}

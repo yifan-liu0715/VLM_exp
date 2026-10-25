@@ -1,0 +1,295 @@
+{
+  "input_count": 18,
+  "valid_count": 18,
+  "invalid_count": 0,
+  "results": [
+    {
+      "clip_id": "capture_001883",
+      "source_name": "DJI_20260913110453_0005_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.916667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001884",
+      "source_name": "DJI_20260913110610_0007_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.708333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001885",
+      "source_name": "DJI_20260913135059_0035_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 1.833333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001886",
+      "source_name": "DJI_20260913204153_0155_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 1.208333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001887",
+      "source_name": "DJI_20260914121554_0187_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.708333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001888",
+      "source_name": "DJI_20260914121635_0188_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.125,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001889",
+      "source_name": "DJI_20260914122745_0195_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.75,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001890",
+      "source_name": "DJI_20260914122926_0198_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.791667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001891",
+      "source_name": "DJI_20260915175013_0218_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.958333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001892",
+      "source_name": "DJI_20260915175848_0230_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.791667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001893",
+      "source_name": "DJI_20260915175947_0232_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.916667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001894",
+      "source_name": "DJI_20260915180053_0234_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.916667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001895",
+      "source_name": "DJI_20260915180123_0235_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.5,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001896",
+      "source_name": "DJI_20260915180201_0237_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.916667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001897",
+      "source_name": "DJI_20260915180637_0240_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.541667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001898",
+      "source_name": "DJI_20260915181005_0243_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 3.916667,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001899",
+      "source_name": "DJI_20260915181014_0244_D.MP4",
+      "coverage_kind": "coverage_only",
+      "duration_sec": 4.083333,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    },
+    {
+      "clip_id": "capture_001900",
+      "source_name": "DJI_20260916194049_0255_D.MP4",
+      "coverage_kind": "short_source",
+      "duration_sec": 2.75,
+      "checks": {
+        "duration_positive": true,
+        "duration_not_over_source": true,
+        "codec": true,
+        "dimensions": true,
+        "fps": true,
+        "frames": true,
+        "no_audio": true
+      },
+      "valid": true
+    }
+  ]
+}

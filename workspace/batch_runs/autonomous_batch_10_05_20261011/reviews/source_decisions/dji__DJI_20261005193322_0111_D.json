@@ -1,0 +1,107 @@
+{
+  "source_id": "dji__DJI_20261005193322_0111_D",
+  "source_sha256": "4e156ecb2c36d9f199437453109a53df750e390301c7f17cdf4875e81605cc09",
+  "source_review_complete": true,
+  "source_temporal_reviewed": true,
+  "second_pass_completed": true,
+  "review_method": "native 8fps whole source plus selected native-resolution anchors; all 16fps output frames for event 001",
+  "source_review_pages": [
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_001.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_002.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_003.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_004.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_005.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_006.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_007.jpg"
+  ],
+  "coverage": [
+    {
+      "start_s": 0,
+      "end_s": 0.625,
+      "state": "uncovered_reviewed",
+      "reason": "natural prior state before retained approach; no separate hand trigger"
+    },
+    {
+      "start_s": 0.625,
+      "end_s": 19.375,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 19.375,
+      "end_s": 19.456,
+      "state": "uncovered_reviewed",
+      "reason": "source ends after release and readable outcome"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "001",
+      "source_start_s": 0.625,
+      "source_end_s": 6.4375,
+      "state": "video_approved_pending_loader",
+      "review_reason": null
+    },
+    {
+      "event_id": "002",
+      "source_start_s": 6.4375,
+      "source_end_s": 10.5,
+      "state": "review_needed",
+      "review_reason": "Boundary between forehead rubbing and the following ear contact needs human comparison; do not promote automatically."
+    },
+    {
+      "event_id": "003",
+      "source_start_s": 10.125,
+      "source_end_s": 19.375,
+      "state": "review_needed",
+      "review_reason": "Determine whether this is an independent weak-response event or the continuous response tail of forehead rubbing."
+    }
+  ],
+  "hand_ledger": [
+    {
+      "time_start_s": 0.625,
+      "time_end_s": 6.4375,
+      "hand_action": "stroke_cat_head",
+      "contact_region": "head"
+    },
+    {
+      "time_start_s": 6.4375,
+      "time_end_s": 10.5,
+      "hand_action": "rub_cat_forehead",
+      "contact_region": "forehead"
+    },
+    {
+      "time_start_s": 10.125,
+      "time_end_s": 19.375,
+      "hand_action": "rub_cat_outer_ear",
+      "contact_region": "outer_ear"
+    }
+  ],
+  "animal_ledger": [
+    {
+      "response_evidence_s": [
+        2.0,
+        4.5
+      ],
+      "animal_response": "cat_keeps_head_low_and_stays_in_contact"
+    },
+    {
+      "response_evidence_s": [
+        7.0,
+        9.75
+      ],
+      "animal_response": "cat_raises_head_toward_fingers"
+    },
+    {
+      "response_evidence_s": [
+        11.0,
+        12.25
+      ],
+      "animal_response": "cat_keeps_head_raised_and_eyes_narrow"
+    }
+  ],
+  "exported_clips": 3,
+  "state": "source_review_complete",
+  "accepted_for_training": 0,
+  "keypoints_started": false,
+  "training_started": false
+}

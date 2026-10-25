@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "variant": "scheme4_v4",
+  "model_family": "Wan2.2-5B with Scheme4 V4 adapter",
+  "base_transformer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+  "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+  "source_video": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/source.mp4",
+  "target_video": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/target.mp4",
+  "target_usage": "evaluation-only; excluded from generation conditioning",
+  "reference_image": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/reference.png",
+  "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+  "generation_conditioning": [
+    "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/source.mp4",
+    "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/inputs/reference.png",
+    "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture."
+  ],
+  "width": 512,
+  "height": 928,
+  "num_frames": 65,
+  "fps": 16,
+  "scheduler": "UniPCMultistepScheduler",
+  "steps": 40,
+  "guidance_scale": 5.0,
+  "flow_shift": 3.0,
+  "seed": 42,
+  "physical_gpu": "2",
+  "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+  "adapter_sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+  "adapter_summary": {
+    "lora": 480,
+    "source_patch": 2,
+    "reference_position": 3,
+    "other": 0
+  },
+  "output": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/outputs/v4_scheme4_replacement.mp4",
+  "output_sha256": "511ec6f3983847d770a4fc3d6ab9d0e5b0c0c5100b9aa4366d48c90c27f3694c",
+  "preflight": {
+    "status": "passed",
+    "physical_gpu": "2",
+    "input_manifest": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/wan_lora/manifests/input_manifest.json",
+    "input_manifest_sha256": "77b4ae7f98bf71f54498a4069f1faf76637355d08e22e664d41a129b27ab90bf",
+    "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+    "adapter_sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+    "source_probe": {
+      "frames": 65,
+      "fps": 16.0,
+      "width": 512,
+      "height": 928
+    },
+    "target_probe": {
+      "frames": 65,
+      "fps": 16.0,
+      "width": 512,
+      "height": 928
+    },
+    "runtime_config": {
+      "model": {
+        "transformer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+        "text_encoder": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth",
+        "vae": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth",
+        "tokenizer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/google/umt5-xxl"
+      },
+      "data": {
+        "num_frames": 65,
+        "fps": 16,
+        "canvas_by_bucket": {
+          "512x928": [
+            928,
+            512
+          ]
+        }
+      },
+      "reference_position": {
+        "enabled": true,
+        "max_frames": 4,
+        "max_height": 64,
+        "max_width": 64,
+        "init_std": 0.02
+      },
+      "lora": {
+        "rank": 96,
+        "alpha": 96,
+        "dropout": 0.0
+      },
+      "inference": {
+        "steps": 40,
+        "guidance_scale": 5.0,
+        "flow_shift": 3.0,
+        "seed": 42
+      }
+    }
+  }
+}

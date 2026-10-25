@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260919121452_0399_D_drain_wok",
+  "boundary_signature": "abf5c483e2fe3d455328355f87d53de01ae8ae1096e770989a1eb72468df95be",
+  "export_signature": "4c194c0dd9ced5a8fdb43ccffd2bd5061319ec9b7e47bca87937bf0d07fead69",
+  "output_sha256": "52501df1de2c3d6eaf66f2729918300cf6546fbce8d4311015f62236058cf484",
+  "output": {
+    "duration_sec": 5.709,
+    "size_bytes": 2236895,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 137,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

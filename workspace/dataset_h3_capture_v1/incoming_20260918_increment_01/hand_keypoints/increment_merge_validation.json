@@ -1,0 +1,994 @@
+{
+  "manifest_count": 109,
+  "expected_unique_count": 109,
+  "flattened_count": 109,
+  "valid_count": 109,
+  "error_count": 0,
+  "link_modes": {
+    "hardlink": 109
+  },
+  "errors": [],
+  "samples": [
+    {
+      "sample_id": "capture_001901",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001901_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 108,
+      "hand_visible_rate": 0.4444444444444444,
+      "two_hand_rate": 0.018518518518518517
+    },
+    {
+      "sample_id": "capture_001902",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001902_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5083333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001903",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001903_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.4666666666666667,
+      "two_hand_rate": 0.025
+    },
+    {
+      "sample_id": "capture_001904",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001904_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.775,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001905",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001905_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.725,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001906",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001906_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5666666666666667,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001907",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001907_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.39166666666666666,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001908",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001908_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7083333333333334,
+      "two_hand_rate": 0.008333333333333333
+    },
+    {
+      "sample_id": "capture_001909",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001909_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.5378151260504201,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001910",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001910_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.30833333333333335,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001911",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001911_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.4,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001912",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001912_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001913",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001913_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001914",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001914_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001915",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001915_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001916",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001916_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001917",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001917_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 103,
+      "hand_visible_rate": 0.8446601941747572,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001918",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001918_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6666666666666666,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001919",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001919_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5416666666666666,
+      "two_hand_rate": 0.008333333333333333
+    },
+    {
+      "sample_id": "capture_001920",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001920_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6333333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001921",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001921_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7,
+      "two_hand_rate": 0.05
+    },
+    {
+      "sample_id": "capture_001922",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001922_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.85,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001923",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001923_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.75,
+      "two_hand_rate": 0.13333333333333333
+    },
+    {
+      "sample_id": "capture_001924",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001924_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9,
+      "two_hand_rate": 0.11666666666666667
+    },
+    {
+      "sample_id": "capture_001925",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001925_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001926",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001926_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7666666666666667,
+      "two_hand_rate": 0.10833333333333334
+    },
+    {
+      "sample_id": "capture_001927",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001927_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8083333333333333,
+      "two_hand_rate": 0.016666666666666666
+    },
+    {
+      "sample_id": "capture_001928",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001928_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.075,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001929",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001929_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.05,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001930",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001930_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001931",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001931_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.25833333333333336,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001932",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001932_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.08403361344537816,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001933",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001933_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6833333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001934",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001934_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.18333333333333332
+    },
+    {
+      "sample_id": "capture_001935",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001935_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.875,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001936",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001936_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6416666666666667,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001937",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001937_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.575,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001938",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001938_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 100,
+      "hand_visible_rate": 0.94,
+      "two_hand_rate": 0.14
+    },
+    {
+      "sample_id": "capture_001939",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001939_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001940",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001940_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8151260504201681,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001941",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001941_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.7394957983193278,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001942",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001942_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6333333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001943",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001943_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.6722689075630253,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001944",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001944_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8583333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001945",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001945_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.7478991596638656,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001946",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001946_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.975,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001947",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001947_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5416666666666666,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001948",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001948_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001949",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001949_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7916666666666666,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001950",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001950_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8991596638655462,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001951",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001951_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.825,
+      "two_hand_rate": 0.14166666666666666
+    },
+    {
+      "sample_id": "capture_001952",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001952_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9583333333333334,
+      "two_hand_rate": 0.7
+    },
+    {
+      "sample_id": "capture_001953",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001953_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8333333333333334,
+      "two_hand_rate": 0.5416666666666666
+    },
+    {
+      "sample_id": "capture_001954",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001954_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9083333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001955",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001955_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.5462184873949579,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001956",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001956_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6833333333333333,
+      "two_hand_rate": 0.5916666666666667
+    },
+    {
+      "sample_id": "capture_001957",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001957_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9416666666666667,
+      "two_hand_rate": 0.7333333333333333
+    },
+    {
+      "sample_id": "capture_001958",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001958_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.7666666666666667
+    },
+    {
+      "sample_id": "capture_001959",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001959_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.25833333333333336,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001960",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001960_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.2,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001961",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001961_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.008333333333333333,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001962",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001962_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.025,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001963",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001963_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6166666666666667
+    },
+    {
+      "sample_id": "capture_001964",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001964_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 99,
+      "hand_visible_rate": 0.5555555555555556,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001965",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001965_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001966",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001966_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.24166666666666667
+    },
+    {
+      "sample_id": "capture_001967",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001967_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001968",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001968_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.975,
+      "two_hand_rate": 0.06666666666666667
+    },
+    {
+      "sample_id": "capture_001969",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001969_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.4583333333333333
+    },
+    {
+      "sample_id": "capture_001970",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001970_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.5583333333333333
+    },
+    {
+      "sample_id": "capture_001971",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001971_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001972",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001972_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001973",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001973_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001974",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001974_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8083333333333333,
+      "two_hand_rate": 0.15
+    },
+    {
+      "sample_id": "capture_001975",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001975_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8416666666666667,
+      "two_hand_rate": 0.03333333333333333
+    },
+    {
+      "sample_id": "capture_001976",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001976_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001977",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001977_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6916666666666667
+    },
+    {
+      "sample_id": "capture_001978",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001978_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7833333333333333,
+      "two_hand_rate": 0.4166666666666667
+    },
+    {
+      "sample_id": "capture_001979",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001979_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.625
+    },
+    {
+      "sample_id": "capture_001980",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001980_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001981",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001981_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001982",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001982_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.2916666666666667
+    },
+    {
+      "sample_id": "capture_001983",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001983_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.08333333333333333
+    },
+    {
+      "sample_id": "capture_001984",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001984_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.31666666666666665
+    },
+    {
+      "sample_id": "capture_001985",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001985_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6218487394957983
+    },
+    {
+      "sample_id": "capture_001986",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001986_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001987",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001987_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001988",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001988_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001989",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001989_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001990",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001990_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.55
+    },
+    {
+      "sample_id": "capture_001991",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001991_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.5083333333333333
+    },
+    {
+      "sample_id": "capture_001992",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001992_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6166666666666667
+    },
+    {
+      "sample_id": "capture_001993",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001993_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0
+    },
+    {
+      "sample_id": "capture_001994",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001994_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.3445378151260504
+    },
+    {
+      "sample_id": "capture_001995",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001995_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.9747899159663865,
+      "two_hand_rate": 0.773109243697479
+    },
+    {
+      "sample_id": "capture_001996",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001996_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.525
+    },
+    {
+      "sample_id": "capture_001997",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001997_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667
+    },
+    {
+      "sample_id": "capture_001998",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001998_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.8666666666666667
+    },
+    {
+      "sample_id": "capture_001999",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_001999_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6583333333333333
+    },
+    {
+      "sample_id": "capture_002000",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002000_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8403361344537815,
+      "two_hand_rate": 0.09243697478991597
+    },
+    {
+      "sample_id": "capture_002001",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002001_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.6554621848739496,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_002002",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002002_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8151260504201681,
+      "two_hand_rate": 0.05042016806722689
+    },
+    {
+      "sample_id": "capture_002003",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002003_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.875,
+      "two_hand_rate": 0.016666666666666666
+    },
+    {
+      "sample_id": "capture_002004",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002004_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.7583333333333333
+    },
+    {
+      "sample_id": "capture_002005",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002005_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6333333333333333
+    },
+    {
+      "sample_id": "capture_002006",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002006_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_002007",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002007_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0
+    },
+    {
+      "sample_id": "capture_002008",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002008_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.19166666666666668
+    },
+    {
+      "sample_id": "capture_002009",
+      "path": "/nvmedata/workspace2/users/nina/dataset_h3_capture_v1/incoming_20260918_increment_01/hand_keypoints/flat/capture_002009_hands.json",
+      "valid": true,
+      "reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "openaoe_aoe_20260226_215034_p001_a001",
+  "review_status": "accepted",
+  "accepted_for_causal_training": true,
+  "action_type": "offer_food_to_animal",
+  "animal_type": "cat",
+  "response_type": "animal_approaches_and_takes_food",
+  "causal_order_valid": true,
+  "review_note": "Human hand offers a treat first; the cat visibly approaches and takes/eats the treat afterward.",
+  "review_source": "manual_user_review",
+  "review_date": "2026-09-18"
+}

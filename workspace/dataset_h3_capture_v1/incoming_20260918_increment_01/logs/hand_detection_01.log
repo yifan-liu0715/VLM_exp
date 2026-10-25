@@ -1,0 +1,35 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789692613.309069  526759 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1789692613.413909  527080 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1789692613.490186  527091 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789692613.507562  527099 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789692613.564462  527092 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[1/27] capture_001902 frames=120 visible=0.508
+[2/27] capture_001906 frames=120 visible=0.567
+[3/27] capture_001910 frames=120 visible=0.308
+[4/27] capture_001914 frames=120 visible=1.000
+[5/27] capture_001918 frames=120 visible=0.667
+[6/27] capture_001922 frames=120 visible=0.850
+[7/27] capture_001926 frames=120 visible=0.767
+[8/27] capture_001930 frames=120 visible=0.000
+[9/27] capture_001934 frames=120 visible=1.000
+[10/27] capture_001938 frames=100 visible=0.940
+[11/27] capture_001942 frames=120 visible=0.633
+[12/27] capture_001946 frames=120 visible=0.975
+[13/27] capture_001950 frames=119 visible=0.899
+[14/27] capture_001954 frames=120 visible=0.908
+[15/27] capture_001958 frames=120 visible=1.000
+[16/27] capture_001962 frames=120 visible=0.025
+[17/27] capture_001966 frames=120 visible=1.000
+[18/27] capture_001970 frames=120 visible=1.000
+[19/27] capture_001974 frames=120 visible=0.808
+[20/27] capture_001978 frames=120 visible=0.783
+[21/27] capture_001982 frames=120 visible=1.000
+[22/27] capture_001986 frames=119 visible=1.000
+[23/27] capture_001990 frames=120 visible=1.000
+[24/27] capture_001994 frames=119 visible=1.000
+[25/27] capture_001998 frames=120 visible=1.000
+[26/27] capture_002002 frames=119 visible=0.815
+[27/27] capture_002006 frames=120 visible=1.000
+{"manifest_count": 27, "completed_count": 27, "error_count": 0}

@@ -1,0 +1,39 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 148,
+  "frames_with_faces": 2,
+  "face_count_detected": 2,
+  "hits": [
+    {
+      "frame_index": 10,
+      "time_s": 0.625,
+      "bbox_xywh": [
+        830.22,
+        2.05,
+        47.38,
+        59.75
+      ],
+      "score": 0.638594
+    },
+    {
+      "frame_index": 11,
+      "time_s": 0.6875,
+      "bbox_xywh": [
+        830.87,
+        4.52,
+        56.26,
+        69.23
+      ],
+      "score": 0.777578
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/dji__DJI_20261005193322_0111_D/dji__DJI_20261005193322_0111_D__003__000010125-000019375__rub_cat_outer_ear.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 148
+}

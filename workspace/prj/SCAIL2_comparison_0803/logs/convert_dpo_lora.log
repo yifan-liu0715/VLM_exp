@@ -1,0 +1,13 @@
+Saved 800 tensors to weights/converted/bias-aware-dpo-lora.safetensors
+  diffusion_model.blocks.0.self_attn.q.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.q.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.k.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.k.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.v.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.v.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.o.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.self_attn.o.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16
+  diffusion_model.blocks.0.cross_attn.q.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.cross_attn.q.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16
+  diffusion_model.blocks.0.cross_attn.k.lora_down.weight: shape=(128, 5120), dtype=torch.bfloat16
+  diffusion_model.blocks.0.cross_attn.k.lora_up.weight: shape=(5120, 128), dtype=torch.bfloat16

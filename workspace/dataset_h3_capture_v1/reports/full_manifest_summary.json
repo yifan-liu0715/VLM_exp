@@ -1,0 +1,11 @@
+{
+  "base_count": 1882,
+  "supplement_count": 18,
+  "merged_count": 1900,
+  "unique_source_count": 282,
+  "coverage_kind_counts": {
+    "base_auto": 1882,
+    "coverage_only": 7,
+    "short_source": 11
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "gpu": 1,
+  "before": "0, GPU-e477b9d1-2cc3-a544-39a5-caeb1e1badf3, 1, 0\n1, GPU-2e11aa51-639e-a73c-a5cd-6d6d123c8bab, 1, 0\n2, GPU-6670bb27-2597-abd5-5fea-ea07f8f95188, 4303, 80\n3, GPU-1672e605-3a89-298b-9bec-f6315bc324d8, 69223, 85\n4, GPU-53ac4e11-7203-4cd8-3d28-15b11de4a0b8, 75617, 100\n5, GPU-16d21aef-5add-129c-ccc7-2af41cc277fa, 75757, 100\n6, GPU-7c693901-4b0f-01ac-6822-76cc613d99cb, 79309, 100\n7, GPU-375d3b3c-8de5-72e4-9c6e-e1ea2901e0fc, 36087, 100\n",
+  "processes_before": "GPU-6670bb27-2597-abd5-5fea-ea07f8f95188, 777043, /nvmedata/workspace2/users/qyl/steel-fusai/.venv/bin/python\nGPU-6670bb27-2597-abd5-5fea-ea07f8f95188, 790450, /nvmedata/workspace2/users/qyl/steel-fusai/.venv/bin/python\nGPU-1672e605-3a89-298b-9bec-f6315bc324d8, 750193, /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python\nGPU-53ac4e11-7203-4cd8-3d28-15b11de4a0b8, 1425897, /nvmedata/workspace2/users/yxm/runtime/mico/env/bin/python\nGPU-16d21aef-5add-129c-ccc7-2af41cc277fa, 1425898, /nvmedata/workspace2/users/yxm/runtime/mico/env/bin/python\nGPU-7c693901-4b0f-01ac-6822-76cc613d99cb, 3475244, /nvmedata/workspace2/users/lxq/envs/worldwander_lxq/bin/python\nGPU-375d3b3c-8de5-72e4-9c6e-e1ea2901e0fc, 1655653, /mnt/highspeed/users/whm/conda_envs/whmv2/bin/python\n",
+  "accelerated": false,
+  "returncode": 0,
+  "elapsed_s": 0.803,
+  "hardware_decoder_lines": []
+}

@@ -1,0 +1,50 @@
+{
+  "source_id": "iphone__video_20261005_161938",
+  "source_sha256": "4aae978d2c41d7274f3b73a41c7533bbb8eb15c2604c8daefa87ee109425bb3a",
+  "source_semantic_review_complete": true,
+  "whole_source_review_fps": 8,
+  "source_review_pages": [
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_001.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_002.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_003.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_004.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_005.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_006.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_007.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_008.jpg",
+    "source_context/iphone__video_20261005_161938/native_8fps/review_page_009.jpg"
+  ],
+  "reviewed_intervals_s": [
+    [
+      0,
+      25.263267
+    ]
+  ],
+  "output_event_ids": [
+    "001",
+    "002",
+    "003",
+    "004"
+  ],
+  "video_reviewed_event_ids": [
+    "001",
+    "002",
+    "003",
+    "004"
+  ],
+  "uncovered_reviewed": [
+    {
+      "start_s": 25.25,
+      "end_s": 25.263267,
+      "reason": "Final fractional frame after included hand release; no additional event."
+    }
+  ],
+  "negative_or_weak_response_samples": [
+    "001",
+    "004"
+  ],
+  "notes": "Four distinct hand conditions/transitions, not time-window splits. Metadata rotation -180 degrees applied once.",
+  "human_reviewed": false,
+  "accepted_for_training": false,
+  "updated_at": "2026-10-11T16:11:21.245077+08:00"
+}

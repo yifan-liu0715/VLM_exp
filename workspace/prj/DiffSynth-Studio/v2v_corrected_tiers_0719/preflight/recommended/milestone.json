@@ -1,0 +1,22 @@
+{
+  "tier": "recommended",
+  "global_step": 1,
+  "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/recommended/final_adapter/v2v_lora_and_source_patch.safetensors",
+  "metadata": {
+    "weights": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/recommended/final_adapter/v2v_lora_and_source_patch.safetensors",
+    "tensor_count": 482,
+    "tensor_bytes": 189929472,
+    "base_model": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+    "lora_rank": 64,
+    "lora_alpha": 64,
+    "target_modules": [
+      "to_q",
+      "to_k",
+      "to_v",
+      "to_out.0"
+    ],
+    "condition_branch": "patch_embedding_extra",
+    "global_step": 1,
+    "epoch": 0
+  }
+}

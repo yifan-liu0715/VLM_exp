@@ -1,0 +1,61 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  2.75it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.71it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.02it/s]
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'reference_position': 3, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors
+[scheme4-native-supplement] 01/50 elapsed=14.8s
+[scheme4-native-supplement] 02/50 elapsed=29.5s
+[scheme4-native-supplement] 03/50 elapsed=44.3s
+[scheme4-native-supplement] 04/50 elapsed=59.1s
+[scheme4-native-supplement] 05/50 elapsed=73.9s
+[scheme4-native-supplement] 06/50 elapsed=88.7s
+[scheme4-native-supplement] 07/50 elapsed=103.5s
+[scheme4-native-supplement] 08/50 elapsed=118.3s
+[scheme4-native-supplement] 09/50 elapsed=133.0s
+[scheme4-native-supplement] 10/50 elapsed=147.8s
+[scheme4-native-supplement] 11/50 elapsed=162.6s
+[scheme4-native-supplement] 12/50 elapsed=177.4s
+[scheme4-native-supplement] 13/50 elapsed=192.2s
+[scheme4-native-supplement] 14/50 elapsed=206.9s
+[scheme4-native-supplement] 15/50 elapsed=221.7s
+[scheme4-native-supplement] 16/50 elapsed=236.5s
+[scheme4-native-supplement] 17/50 elapsed=251.3s
+[scheme4-native-supplement] 18/50 elapsed=266.1s
+[scheme4-native-supplement] 19/50 elapsed=280.8s
+[scheme4-native-supplement] 20/50 elapsed=295.6s
+[scheme4-native-supplement] 21/50 elapsed=310.4s
+[scheme4-native-supplement] 22/50 elapsed=325.2s
+[scheme4-native-supplement] 23/50 elapsed=340.0s
+[scheme4-native-supplement] 24/50 elapsed=354.7s
+[scheme4-native-supplement] 25/50 elapsed=369.5s
+[scheme4-native-supplement] 26/50 elapsed=384.3s
+[scheme4-native-supplement] 27/50 elapsed=399.1s
+[scheme4-native-supplement] 28/50 elapsed=413.8s
+[scheme4-native-supplement] 29/50 elapsed=428.6s
+[scheme4-native-supplement] 30/50 elapsed=443.4s
+[scheme4-native-supplement] 31/50 elapsed=458.2s
+[scheme4-native-supplement] 32/50 elapsed=473.0s
+[scheme4-native-supplement] 33/50 elapsed=487.7s
+[scheme4-native-supplement] 34/50 elapsed=502.5s
+[scheme4-native-supplement] 35/50 elapsed=517.3s
+[scheme4-native-supplement] 36/50 elapsed=532.1s
+[scheme4-native-supplement] 37/50 elapsed=546.9s
+[scheme4-native-supplement] 38/50 elapsed=561.7s
+[scheme4-native-supplement] 39/50 elapsed=576.5s
+[scheme4-native-supplement] 40/50 elapsed=591.2s
+[scheme4-native-supplement] 41/50 elapsed=606.0s
+[scheme4-native-supplement] 42/50 elapsed=620.8s
+[scheme4-native-supplement] 43/50 elapsed=635.6s
+[scheme4-native-supplement] 44/50 elapsed=650.4s
+[scheme4-native-supplement] 45/50 elapsed=665.1s
+[scheme4-native-supplement] 46/50 elapsed=679.9s
+[scheme4-native-supplement] 47/50 elapsed=694.7s
+[scheme4-native-supplement] 48/50 elapsed=709.5s
+[scheme4-native-supplement] 49/50 elapsed=724.2s
+[scheme4-native-supplement] 50/50 elapsed=739.0s
+VAE decoding:   0%|          | 0/4 [00:00<?, ?it/s]VAE decoding:  25%|██▌       | 1/4 [00:06<00:19,  6.64s/it]VAE decoding:  50%|█████     | 2/4 [00:13<00:13,  6.52s/it]VAE decoding:  75%|███████▌  | 3/4 [00:19<00:06,  6.45s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.24s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.34s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:36,  2.62it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  11%|█▏        | 11/97 [00:00<00:02, 28.94it/s]Saving video:  21%|██        | 20/97 [00:00<00:01, 45.77it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 66.65it/s]Saving video:  46%|████▋     | 45/97 [00:00<00:00, 81.61it/s]Saving video:  58%|█████▊    | 56/97 [00:00<00:00, 87.85it/s]Saving video:  69%|██████▉   | 67/97 [00:01<00:00, 86.88it/s]Saving video:  79%|███████▉  | 77/97 [00:01<00:00, 90.26it/s]Saving video:  90%|████████▉ | 87/97 [00:01<00:00, 79.85it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 71.92it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   2%|▏         | 2/97 [00:00<00:04, 19.34it/s]Saving video:  16%|█▋        | 16/97 [00:00<00:00, 87.36it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 118.81it/s]Saving video:  49%|████▉     | 48/97 [00:00<00:00, 134.12it/s]Saving video:  67%|██████▋   | 65/97 [00:00<00:00, 144.35it/s]Saving video:  82%|████████▏ | 80/97 [00:00<00:00, 119.09it/s]Saving video:  99%|█████████▉| 96/97 [00:00<00:00, 129.63it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 122.31it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   2%|▏         | 2/97 [00:00<00:05, 18.77it/s]Saving video:  20%|█▉        | 19/97 [00:00<00:00, 98.16it/s]Saving video:  38%|███▊      | 37/97 [00:00<00:00, 131.72it/s]Saving video:  55%|█████▍    | 53/97 [00:00<00:00, 141.66it/s]Saving video:  73%|███████▎  | 71/97 [00:00<00:00, 154.96it/s]Saving video:  90%|████████▉ | 87/97 [00:00<00:00, 138.78it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 133.67it/s]
+[done] scheme4=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__051/videos/Scheme4_NativePEInterpolated.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__051/run_manifest.json

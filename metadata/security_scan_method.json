@@ -1,0 +1,8 @@
+{
+  "files": 32009,
+  "json_string_views": 19153,
+  "unchanged_text_views": 12856,
+  "original_bytes": 2227484911,
+  "scanned_bytes": 323150168,
+  "method": "For parsed JSON/JSONL, every distinct string value and field name is scanned; numeric/null/boolean leaves are excluded. Other files are scanned verbatim. Original source and exported JSON content are unchanged."
+}

@@ -1,0 +1,182 @@
+{
+  "variants": [
+    "formal_v2_step-750",
+    "formal_v2_step-5250"
+  ],
+  "seeds": [
+    42,
+    123,
+    20260712
+  ],
+  "results": {
+    "formal_v2_step-750": {
+      "per_seed": [
+        {
+          "variant": "formal_v2_step-750",
+          "seed": 42,
+          "samples": 15,
+          "sharpness_retention": 0.8585523674989848,
+          "motion_retention": 0.9558823529411764,
+          "warp_error_reduction": 0.3555037688399172,
+          "target_motion_mae_reduction": 0.17186270791701586,
+          "reference_ssim_delta": 0.001096240679423044
+        },
+        {
+          "variant": "formal_v2_step-750",
+          "seed": 123,
+          "samples": 15,
+          "sharpness_retention": 0.9125557462852609,
+          "motion_retention": 0.7209821428571429,
+          "warp_error_reduction": 0.6765951175364,
+          "target_motion_mae_reduction": 0.4444394518225505,
+          "reference_ssim_delta": 0.0009495218594869348
+        },
+        {
+          "variant": "formal_v2_step-750",
+          "seed": 20260712,
+          "samples": 15,
+          "sharpness_retention": 0.7682974102499451,
+          "motion_retention": 0.8264248704663212,
+          "warp_error_reduction": 0.5938730282528094,
+          "target_motion_mae_reduction": 0.3915373999660614,
+          "reference_ssim_delta": 0.000659819444020493
+        }
+      ],
+      "aggregate": {
+        "sharpness_retention": {
+          "point": 0.8303383979987838,
+          "ci_low": 0.7150224819443314,
+          "ci_high": 0.9518140021603545,
+          "probability_improves": 0.0022
+        },
+        "motion_retention": {
+          "point": 0.8155515370705243,
+          "ci_low": 0.681000697825916,
+          "ci_high": 0.9848488943488943,
+          "probability_improves": 0.0167
+        },
+        "warp_error_reduction": {
+          "point": 0.5839650991704046,
+          "ci_low": 0.3662701681160157,
+          "ci_high": 0.6980650723619446,
+          "probability_improves": 1.0
+        },
+        "target_motion_mae_reduction": {
+          "point": 0.3603900958872075,
+          "ci_low": 0.16793511020861154,
+          "ci_high": 0.4951634790865574,
+          "probability_improves": 1.0
+        },
+        "reference_ssim_delta": {
+          "point": 0.0009018606609768609,
+          "ci_low": 0.00047791673077479115,
+          "ci_high": 0.0013104084134102467,
+          "probability_improves": 1.0
+        }
+      }
+    },
+    "formal_v2_step-5250": {
+      "per_seed": [
+        {
+          "variant": "formal_v2_step-5250",
+          "seed": 42,
+          "samples": 15,
+          "sharpness_retention": 0.8822540814290529,
+          "motion_retention": 0.8933823529411764,
+          "warp_error_reduction": 0.30760465373936896,
+          "target_motion_mae_reduction": 0.20424259285045998,
+          "reference_ssim_delta": 0.0010469237963358635
+        },
+        {
+          "variant": "formal_v2_step-5250",
+          "seed": 123,
+          "samples": 15,
+          "sharpness_retention": 0.8787250164289706,
+          "motion_retention": 0.6473214285714285,
+          "warp_error_reduction": 0.684251205149135,
+          "target_motion_mae_reduction": 0.5109703373140746,
+          "reference_ssim_delta": 0.0011175553003947014
+        },
+        {
+          "variant": "formal_v2_step-5250",
+          "seed": 20260712,
+          "samples": 15,
+          "sharpness_retention": 0.7643635522205006,
+          "motion_retention": 0.7772020725388601,
+          "warp_error_reduction": 0.5549372452691017,
+          "target_motion_mae_reduction": 0.363105969340224,
+          "reference_ssim_delta": 0.0009178598721821807
+        }
+      ],
+      "aggregate": {
+        "sharpness_retention": {
+          "point": 0.8261978247881822,
+          "ci_low": 0.6484025559586065,
+          "ci_high": 0.9885860134633124,
+          "probability_improves": 0.0181
+        },
+        "motion_retention": {
+          "point": 0.7531645569620253,
+          "ci_low": 0.5990671726926147,
+          "ci_high": 0.9336388289913748,
+          "probability_improves": 0.0045
+        },
+        "warp_error_reduction": {
+          "point": 0.5622508268665396,
+          "ci_low": 0.32453267806430197,
+          "ci_high": 0.6950189395966031,
+          "probability_improves": 1.0
+        },
+        "target_motion_mae_reduction": {
+          "point": 0.38822262692233556,
+          "ci_low": 0.19122314951811187,
+          "ci_high": 0.5330720856946961,
+          "probability_improves": 1.0
+        },
+        "reference_ssim_delta": {
+          "point": 0.0010274463229709152,
+          "ci_low": 0.0005631047156121782,
+          "ci_high": 0.001503753364086241,
+          "probability_improves": 1.0
+        }
+      }
+    }
+  },
+  "head_to_head": {
+    "left": "formal_v2_step-750",
+    "right": "formal_v2_step-5250",
+    "interpretation": "Positive differences and probabilities above 0.5 favor the left candidate.",
+    "metrics": {
+      "sharpness_retention": {
+        "left_minus_right": 0.0041405732106016835,
+        "ci_low": -0.09872824874057706,
+        "ci_high": 0.10149234781482618,
+        "probability_left_better": 0.517
+      },
+      "motion_retention": {
+        "left_minus_right": 0.06238698010849897,
+        "ci_low": 0.00875338352224663,
+        "ci_high": 0.11802393654108442,
+        "probability_left_better": 0.988
+      },
+      "warp_error_reduction": {
+        "left_minus_right": 0.021714272303865023,
+        "ci_low": -0.026690823605501873,
+        "ci_high": 0.07411212396316202,
+        "probability_left_better": 0.7967
+      },
+      "target_motion_mae_reduction": {
+        "left_minus_right": -0.02783253103512806,
+        "ci_low": -0.1045494593330888,
+        "ci_high": 0.05289259088303089,
+        "probability_left_better": 0.2456
+      },
+      "reference_ssim_delta": {
+        "left_minus_right": -0.0001255856619940543,
+        "ci_low": -0.0003585271371735338,
+        "ci_high": 9.663346740930443e-05,
+        "probability_left_better": 0.1476
+      }
+    }
+  }
+}

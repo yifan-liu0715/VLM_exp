@@ -1,0 +1,1657 @@
+{
+  "manifest_count": 109,
+  "unique_sample_id_count": 109,
+  "source_count": 54,
+  "valid_count": 109,
+  "clip_present_count": 109,
+  "clip_hash_ok_count": 109,
+  "json_present_count": 109,
+  "json_valid_count": 109,
+  "coverage_kind_counts": {
+    "increment_auto": 107,
+    "coverage_only": 2
+  },
+  "source_sample_count_distribution": {
+    "29": 54
+  },
+  "source_to_sample_ids": {
+    "DJI_20260917184342_0325_D.MP4": [
+      "capture_001901"
+    ],
+    "DJI_20260917184510_0330_D.MP4": [
+      "capture_001902"
+    ],
+    "DJI_20260917184823_0332_D.MP4": [
+      "capture_001903"
+    ],
+    "DJI_20260917184855_0333_D.MP4": [
+      "capture_001904",
+      "capture_001905",
+      "capture_001906",
+      "capture_001907",
+      "capture_001908",
+      "capture_001909"
+    ],
+    "DJI_20260917184934_0334_D.MP4": [
+      "capture_001910",
+      "capture_001911"
+    ],
+    "DJI_20260917185031_0335_D.MP4": [
+      "capture_001912",
+      "capture_001913"
+    ],
+    "DJI_20260917185231_0336_D.MP4": [
+      "capture_001914"
+    ],
+    "DJI_20260917185251_0337_D.MP4": [
+      "capture_001915"
+    ],
+    "DJI_20260917185316_0338_D.MP4": [
+      "capture_001916"
+    ],
+    "DJI_20260917185349_0339_D.MP4": [
+      "capture_001917"
+    ],
+    "DJI_20260917185454_0341_D.MP4": [
+      "capture_001918",
+      "capture_001919",
+      "capture_001920"
+    ],
+    "DJI_20260917185528_0342_D.MP4": [
+      "capture_001921"
+    ],
+    "DJI_20260917185610_0343_D.MP4": [
+      "capture_001922"
+    ],
+    "DJI_20260917185727_0346_D.MP4": [
+      "capture_001923",
+      "capture_001924",
+      "capture_001925",
+      "capture_001926"
+    ],
+    "DJI_20260917190012_0347_D.MP4": [
+      "capture_001927"
+    ],
+    "DJI_20260917190301_0348_D.MP4": [
+      "capture_001928"
+    ],
+    "DJI_20260917193245_0350_D.MP4": [
+      "capture_001929",
+      "capture_001930"
+    ],
+    "DJI_20260917193311_0351_D.MP4": [
+      "capture_001931",
+      "capture_001932"
+    ],
+    "DJI_20260917194304_0354_D.MP4": [
+      "capture_001933"
+    ],
+    "DJI_20260917222601_0355_D.MP4": [
+      "capture_001934"
+    ],
+    "DJI_20260917222622_0356_D.MP4": [
+      "capture_001935"
+    ],
+    "DJI_20260917222639_0357_D.MP4": [
+      "capture_001936"
+    ],
+    "DJI_20260917222743_0358_D.MP4": [
+      "capture_001937"
+    ],
+    "DJI_20260917222828_0359_D.MP4": [
+      "capture_001938"
+    ],
+    "DJI_20260917223420_0360_D.MP4": [
+      "capture_001939",
+      "capture_001940"
+    ],
+    "DJI_20260917223445_0361_D.MP4": [
+      "capture_001941"
+    ],
+    "DJI_20260917223502_0362_D.MP4": [
+      "capture_001942",
+      "capture_001943"
+    ],
+    "DJI_20260917223535_0363_D.MP4": [
+      "capture_001944"
+    ],
+    "DJI_20260917223605_0364_D.MP4": [
+      "capture_001945"
+    ],
+    "DJI_20260917223703_0365_D.MP4": [
+      "capture_001946"
+    ],
+    "DJI_20260917223749_0366_D.MP4": [
+      "capture_001947"
+    ],
+    "DJI_20260917223807_0367_D.MP4": [
+      "capture_001948"
+    ],
+    "DJI_20260917223818_0368_D.MP4": [
+      "capture_001949"
+    ],
+    "DJI_20260917223850_0369_D.MP4": [
+      "capture_001950"
+    ],
+    "DJI_20260917224027_0371_D.MP4": [
+      "capture_001951",
+      "capture_001952",
+      "capture_001953"
+    ],
+    "DJI_20260917224106_0372_D.MP4": [
+      "capture_001954",
+      "capture_001955"
+    ],
+    "DJI_20260917224135_0373_D.MP4": [
+      "capture_001956",
+      "capture_001957",
+      "capture_001958"
+    ],
+    "DJI_20260917224202_0374_D.MP4": [
+      "capture_001959"
+    ],
+    "DJI_20260917224226_0375_D.MP4": [
+      "capture_001960",
+      "capture_001961"
+    ],
+    "DJI_20260917224416_0377_D.MP4": [
+      "capture_001962"
+    ],
+    "DJI_20260917224558_0379_D.MP4": [
+      "capture_001963"
+    ],
+    "DJI_20260917224614_0380_D.MP4": [
+      "capture_001964"
+    ],
+    "DJI_20260917224628_0381_D.MP4": [
+      "capture_001965"
+    ],
+    "DJI_20260917233011_0382_D.MP4": [
+      "capture_001966"
+    ],
+    "DJI_20260917233026_0383_D.MP4": [
+      "capture_001967"
+    ],
+    "DJI_20260917233037_0384_D.MP4": [
+      "capture_001968",
+      "capture_001969"
+    ],
+    "DJI_20260917233059_0385_D.MP4": [
+      "capture_001970"
+    ],
+    "DJI_20260917233110_0386_D.MP4": [
+      "capture_001971",
+      "capture_001972",
+      "capture_001973"
+    ],
+    "DJI_20260918071240_0387_D.MP4": [
+      "capture_001974",
+      "capture_001975"
+    ],
+    "DJI_20260918071256_0388_D.MP4": [
+      "capture_001976",
+      "capture_001977",
+      "capture_001978",
+      "capture_001979"
+    ],
+    "DJI_20260918071355_0389_D.MP4": [
+      "capture_001980",
+      "capture_001981",
+      "capture_001982",
+      "capture_001983",
+      "capture_001984",
+      "capture_001985",
+      "capture_001986",
+      "capture_001987",
+      "capture_001988",
+      "capture_001989",
+      "capture_001990",
+      "capture_001991",
+      "capture_001992",
+      "capture_001993",
+      "capture_001994",
+      "capture_001995",
+      "capture_001996",
+      "capture_001997",
+      "capture_001998",
+      "capture_001999",
+      "capture_002000",
+      "capture_002001",
+      "capture_002002",
+      "capture_002003",
+      "capture_002004",
+      "capture_002005"
+    ],
+    "DJI_20260918071755_0390_D.MP4": [
+      "capture_002006",
+      "capture_002007"
+    ],
+    "DJI_20260918071820_0391_D.MP4": [
+      "capture_002008"
+    ],
+    "DJI_20260918071836_0392_D.MP4": [
+      "capture_002009"
+    ]
+  },
+  "error_count": 0,
+  "errors": [],
+  "samples": [
+    {
+      "sample_id": "capture_001901",
+      "source_name": "DJI_20260917184342_0325_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 108,
+      "hand_visible_rate": 0.4444444444444444,
+      "two_hand_rate": 0.018518518518518517,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001902",
+      "source_name": "DJI_20260917184510_0330_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5083333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001903",
+      "source_name": "DJI_20260917184823_0332_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.4666666666666667,
+      "two_hand_rate": 0.025,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001904",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.775,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001905",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.725,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001906",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5666666666666667,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001907",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.39166666666666666,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001908",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7083333333333334,
+      "two_hand_rate": 0.008333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001909",
+      "source_name": "DJI_20260917184855_0333_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.5378151260504201,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001910",
+      "source_name": "DJI_20260917184934_0334_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.30833333333333335,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001911",
+      "source_name": "DJI_20260917184934_0334_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.4,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001912",
+      "source_name": "DJI_20260917185031_0335_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001913",
+      "source_name": "DJI_20260917185031_0335_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001914",
+      "source_name": "DJI_20260917185231_0336_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001915",
+      "source_name": "DJI_20260917185251_0337_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001916",
+      "source_name": "DJI_20260917185316_0338_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001917",
+      "source_name": "DJI_20260917185349_0339_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 103,
+      "hand_visible_rate": 0.8446601941747572,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001918",
+      "source_name": "DJI_20260917185454_0341_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6666666666666666,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001919",
+      "source_name": "DJI_20260917185454_0341_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5416666666666666,
+      "two_hand_rate": 0.008333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001920",
+      "source_name": "DJI_20260917185454_0341_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6333333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001921",
+      "source_name": "DJI_20260917185528_0342_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7,
+      "two_hand_rate": 0.05,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001922",
+      "source_name": "DJI_20260917185610_0343_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.85,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001923",
+      "source_name": "DJI_20260917185727_0346_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.75,
+      "two_hand_rate": 0.13333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001924",
+      "source_name": "DJI_20260917185727_0346_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9,
+      "two_hand_rate": 0.11666666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001925",
+      "source_name": "DJI_20260917185727_0346_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001926",
+      "source_name": "DJI_20260917185727_0346_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7666666666666667,
+      "two_hand_rate": 0.10833333333333334,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001927",
+      "source_name": "DJI_20260917190012_0347_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8083333333333333,
+      "two_hand_rate": 0.016666666666666666,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001928",
+      "source_name": "DJI_20260917190301_0348_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.075,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001929",
+      "source_name": "DJI_20260917193245_0350_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.05,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001930",
+      "source_name": "DJI_20260917193245_0350_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001931",
+      "source_name": "DJI_20260917193311_0351_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.25833333333333336,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001932",
+      "source_name": "DJI_20260917193311_0351_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.08403361344537816,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001933",
+      "source_name": "DJI_20260917194304_0354_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6833333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001934",
+      "source_name": "DJI_20260917222601_0355_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.18333333333333332,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001935",
+      "source_name": "DJI_20260917222622_0356_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.875,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001936",
+      "source_name": "DJI_20260917222639_0357_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6416666666666667,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001937",
+      "source_name": "DJI_20260917222743_0358_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.575,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001938",
+      "source_name": "DJI_20260917222828_0359_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 100,
+      "hand_visible_rate": 0.94,
+      "two_hand_rate": 0.14,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001939",
+      "source_name": "DJI_20260917223420_0360_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001940",
+      "source_name": "DJI_20260917223420_0360_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8151260504201681,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001941",
+      "source_name": "DJI_20260917223445_0361_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.7394957983193278,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001942",
+      "source_name": "DJI_20260917223502_0362_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6333333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001943",
+      "source_name": "DJI_20260917223502_0362_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.6722689075630253,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001944",
+      "source_name": "DJI_20260917223535_0363_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8583333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001945",
+      "source_name": "DJI_20260917223605_0364_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.7478991596638656,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001946",
+      "source_name": "DJI_20260917223703_0365_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.975,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001947",
+      "source_name": "DJI_20260917223749_0366_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.5416666666666666,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001948",
+      "source_name": "DJI_20260917223807_0367_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001949",
+      "source_name": "DJI_20260917223818_0368_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7916666666666666,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001950",
+      "source_name": "DJI_20260917223850_0369_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8991596638655462,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001951",
+      "source_name": "DJI_20260917224027_0371_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.825,
+      "two_hand_rate": 0.14166666666666666,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001952",
+      "source_name": "DJI_20260917224027_0371_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9583333333333334,
+      "two_hand_rate": 0.7,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001953",
+      "source_name": "DJI_20260917224027_0371_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8333333333333334,
+      "two_hand_rate": 0.5416666666666666,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001954",
+      "source_name": "DJI_20260917224106_0372_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9083333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001955",
+      "source_name": "DJI_20260917224106_0372_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.5462184873949579,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001956",
+      "source_name": "DJI_20260917224135_0373_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.6833333333333333,
+      "two_hand_rate": 0.5916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001957",
+      "source_name": "DJI_20260917224135_0373_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9416666666666667,
+      "two_hand_rate": 0.7333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001958",
+      "source_name": "DJI_20260917224135_0373_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.7666666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001959",
+      "source_name": "DJI_20260917224202_0374_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.25833333333333336,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001960",
+      "source_name": "DJI_20260917224226_0375_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.2,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001961",
+      "source_name": "DJI_20260917224226_0375_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.008333333333333333,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001962",
+      "source_name": "DJI_20260917224416_0377_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.025,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001963",
+      "source_name": "DJI_20260917224558_0379_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6166666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001964",
+      "source_name": "DJI_20260917224614_0380_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 99,
+      "hand_visible_rate": 0.5555555555555556,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001965",
+      "source_name": "DJI_20260917224628_0381_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001966",
+      "source_name": "DJI_20260917233011_0382_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.24166666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001967",
+      "source_name": "DJI_20260917233026_0383_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001968",
+      "source_name": "DJI_20260917233037_0384_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.975,
+      "two_hand_rate": 0.06666666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001969",
+      "source_name": "DJI_20260917233037_0384_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.4583333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001970",
+      "source_name": "DJI_20260917233059_0385_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.5583333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001971",
+      "source_name": "DJI_20260917233110_0386_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001972",
+      "source_name": "DJI_20260917233110_0386_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001973",
+      "source_name": "DJI_20260917233110_0386_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001974",
+      "source_name": "DJI_20260918071240_0387_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8083333333333333,
+      "two_hand_rate": 0.15,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001975",
+      "source_name": "DJI_20260918071240_0387_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.8416666666666667,
+      "two_hand_rate": 0.03333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001976",
+      "source_name": "DJI_20260918071256_0388_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001977",
+      "source_name": "DJI_20260918071256_0388_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001978",
+      "source_name": "DJI_20260918071256_0388_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.7833333333333333,
+      "two_hand_rate": 0.4166666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001979",
+      "source_name": "DJI_20260918071256_0388_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.625,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001980",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001981",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001982",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.2916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001983",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.08333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001984",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.31666666666666665,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001985",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6218487394957983,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001986",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001987",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001988",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001989",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001990",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.55,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001991",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.5083333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001992",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6166666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001993",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 1.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001994",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.3445378151260504,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001995",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.9747899159663865,
+      "two_hand_rate": 0.773109243697479,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001996",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.525,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001997",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.9916666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001998",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.8666666666666667,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_001999",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.6583333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002000",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8403361344537815,
+      "two_hand_rate": 0.09243697478991597,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002001",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.6554621848739496,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002002",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 119,
+      "hand_visible_rate": 0.8151260504201681,
+      "two_hand_rate": 0.05042016806722689,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002003",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.875,
+      "two_hand_rate": 0.016666666666666666,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002004",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.7583333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002005",
+      "source_name": "DJI_20260918071355_0389_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.6333333333333333,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002006",
+      "source_name": "DJI_20260918071755_0390_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002007",
+      "source_name": "DJI_20260918071755_0390_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.0,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002008",
+      "source_name": "DJI_20260918071820_0391_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 1.0,
+      "two_hand_rate": 0.19166666666666668,
+      "valid": true
+    },
+    {
+      "sample_id": "capture_002009",
+      "source_name": "DJI_20260918071836_0392_D.MP4",
+      "clip_exists": true,
+      "json_exists": true,
+      "clip_hash_ok": true,
+      "json_valid": true,
+      "json_reason": "valid",
+      "frames": 120,
+      "hand_visible_rate": 0.9916666666666667,
+      "two_hand_rate": 0.0,
+      "valid": true
+    }
+  ]
+}

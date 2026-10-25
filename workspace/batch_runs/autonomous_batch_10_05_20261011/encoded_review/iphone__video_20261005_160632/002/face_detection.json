@@ -1,0 +1,50 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 38,
+  "frames_with_faces": 3,
+  "face_count_detected": 3,
+  "hits": [
+    {
+      "frame_index": 3,
+      "time_s": 0.1875,
+      "bbox_xywh": [
+        651.3,
+        89.09,
+        456.85,
+        477.38
+      ],
+      "score": 0.643611
+    },
+    {
+      "frame_index": 7,
+      "time_s": 0.4375,
+      "bbox_xywh": [
+        670.52,
+        78.25,
+        457.32,
+        510.88
+      ],
+      "score": 0.615966
+    },
+    {
+      "frame_index": 24,
+      "time_s": 1.5,
+      "bbox_xywh": [
+        646.1,
+        66.92,
+        470.6,
+        524.63
+      ],
+      "score": 0.624756
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_160632/iphone__video_20261005_160632__002__000004125-000006500__stroke_dog_head_and_ear_base.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 38
+}

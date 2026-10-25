@@ -1,0 +1,5 @@
+                  iou80   0.4060   0.9630     324     312    798
+======================================================================
+
+[Eval] Results saved to: results/exp042_ckpt2700.json
+[Eval] Detailed per-sample results: results/exp042_ckpt2700_details.json

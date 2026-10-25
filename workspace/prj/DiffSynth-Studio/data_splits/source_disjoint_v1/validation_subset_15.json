@@ -1,0 +1,128 @@
+{
+  "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_splits/source_disjoint_v1/val_rich.csv",
+  "seed": 20260712,
+  "per_bucket": 5,
+  "criteria": "reference_is_fallback=False; maximize source-group diversity before filling each bucket",
+  "samples": [
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__277",
+      "bucket": "1280x512",
+      "source_group": "mymotion__multi_talking_face_video_copy__277",
+      "caption": "A man with short dark hair in a dark blazer sits beside a woman with long black hair in a black jacket. The man speaks while gesturing with an open right hand, fingers spread. The woman remains still, looking down or toward the man. They are positioned before a promotional backdrop featuring a beach scene and large handwritten Korean text.",
+      "reference_image": "1280x512/reference/mymotion__multi_talking_face_video_copy__277.jpg",
+      "output_video": "1280x512/output_video/mymotion__multi_talking_face_video_copy__277.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__1280x720__236",
+      "bucket": "1280x512",
+      "source_group": "newdata__newdata__humandance5_input_data__1280x720",
+      "caption": "A man in a grey t-shirt and a woman with long light-brown hair sit together indoors. They engage in a game of rock-paper-scissors, where the man gestures animatedly with his hands while talking. The minimalist background includes a white table with a keyboard, yellow cushions, and a large potted plant.",
+      "reference_image": "1280x512/reference/newdata__newdata__humandance5_input_data__1280x720__236.jpg",
+      "output_video": "1280x512/output_video/newdata__newdata__humandance5_input_data__1280x720__236.mp4"
+    },
+    {
+      "sample_id": "mymotion__145",
+      "bucket": "1280x512",
+      "source_group": "mymotion__145",
+      "caption": "Two young men with dark hair sit side-by-side. The man on the left wears a navy sweater, while the man on the right wears a white striped shirt. They face forward, talking and smiling in a seated interview position. The background is a blurred, neutral-toned indoor room with soft lighting.",
+      "reference_image": "1280x512/reference/mymotion__145.jpg",
+      "output_video": "1280x512/output_video/mymotion__145.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__077",
+      "bucket": "1280x512",
+      "source_group": "mymotion__multi_talking_face_video_copy__077",
+      "caption": "A man in a black blazer and turtleneck stands beside a woman wearing a white collared shirt featuring a jeweled black bow. The woman has dark hair tied back and wears red lipstick. They pose together, smiling and looking toward the camera with minimal movement. The background is a promotional banner with Chinese characters and corporate logos, featuring a yellow Sina microphone in the foreground.",
+      "reference_image": "1280x512/reference/mymotion__multi_talking_face_video_copy__077.jpg",
+      "output_video": "1280x512/output_video/mymotion__multi_talking_face_video_copy__077.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video3__202",
+      "bucket": "1280x512",
+      "source_group": "mymotion__multi_talking_face_video3__202",
+      "caption": "Two Asian men stand before a white vertical-slatted wall. The man on the left has messy black hair and wears a textured white blazer. The man on the right has short hair, a black blazer, and holds a white sign with black text. The man on the right speaks and gestures slightly while the other listens and looks toward him. The scene is a static medium shot.",
+      "reference_image": "1280x512/reference/mymotion__multi_talking_face_video3__202.jpg",
+      "output_video": "1280x512/output_video/mymotion__multi_talking_face_video3__202.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__multi_talkingface_video4__group_1280x720__020",
+      "bucket": "1280x704",
+      "source_group": "newdata__newdata__multi_talkingface_video4__group_1280x720",
+      "caption": "A group of young adults is seated on tiered benches in a vibrant, decorated TV studio. A tall man in a blue patterned shirt stands and waves initially before the camera focuses on a man in a blue and white gradient polo and a woman in a white fuzzy sweater. The woman, with long wavy dark hair, smiles and speaks into a microphone while the man looks on. The background features colorful signage and studio lighting typical of a variety show set.",
+      "reference_image": "1280x704/reference/newdata__newdata__multi_talkingface_video4__group_1280x720__020.jpg",
+      "output_video": "1280x704/output_video/newdata__newdata__multi_talkingface_video4__group_1280x720__020.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__1280x720__068",
+      "bucket": "1280x704",
+      "source_group": "newdata__newdata__humandance5_input_data__1280x720",
+      "caption": "Two young female dancers in floral leotards and purple tutus, with hair in high buns and floral accents, perform a synchronized routine. They manipulate a large silver frame, lifting it and stepping through while gliding across a dark stage. The setting features black curtains and a prominent side spotlight.",
+      "reference_image": "1280x704/reference/newdata__newdata__humandance5_input_data__1280x720__068.jpg",
+      "output_video": "1280x704/output_video/newdata__newdata__humandance5_input_data__1280x720__068.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__1280x720__113",
+      "bucket": "1280x704",
+      "source_group": "newdata__newdata__humandance5_input_data__1280x720",
+      "caption": "Two athletic men with short dark hair perform synchronized aerobic dance moves. One wears a black t-shirt with patterned leggings, while the other wears a black sleeveless top and neon yellow pants. They move energetically, lifting their arms and stepping in place with upbeat expressions. The setting is a bright blue studio decorated with oversized, colorful building block structures resembling toy bricks, including a large central numeric figure.",
+      "reference_image": "1280x704/reference/newdata__newdata__humandance5_input_data__1280x720__113.jpg",
+      "output_video": "1280x704/output_video/newdata__newdata__humandance5_input_data__1280x720__113.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__1280x720__160",
+      "bucket": "1280x704",
+      "source_group": "newdata__newdata__humandance5_input_data__1280x720",
+      "caption": "An athletic woman with her hair in a bun wears a grey sports bra and matching leggings. In a minimalist white room with light wood floors and potted plants, she performs yoga on a mat. She transitions from a low lunge into a Warrior III balance pose, extending her back leg and arms. An inset window displays an alternate angle. She finishes by returning to a neutral standing position.",
+      "reference_image": "1280x704/reference/newdata__newdata__humandance5_input_data__1280x720__160.jpg",
+      "output_video": "1280x704/output_video/newdata__newdata__humandance5_input_data__1280x720__160.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__1280x720__114",
+      "bucket": "1280x704",
+      "source_group": "newdata__newdata__humandance5_input_data__1280x720",
+      "caption": "Two athletic men with short dark hair perform synchronized high-knee steps. The man on the left wears a black sleeveless shirt and neon green pants; the man on the right wears a black graphic tee and patterned neon leggings. They exercise in front of a bright blue wall decorated with oversized colorful toy bricks and a large central block structure. Large yellow blocks rest on the dark floor.",
+      "reference_image": "1280x704/reference/newdata__newdata__humandance5_input_data__1280x720__114.jpg",
+      "output_video": "1280x704/output_video/newdata__newdata__humandance5_input_data__1280x720__114.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "bucket": "704x1280",
+      "source_group": "mymotion__humandance__batch1_mote_cropped",
+      "caption": "A slim woman with long wavy black hair stands with her back to the camera, wearing a black cold-shoulder long-sleeve crop top with a zebra-print band, black shorts, striped white socks, and white sneakers. She performs a rhythmic dance, swaying her hips and moving her arms up and down against a plain white wall and light wood floor. A black metal railing is visible to the left.",
+      "reference_image": "704x1280/reference/mymotion__humandance__batch1_mote_cropped__445.jpg",
+      "output_video": "704x1280/output_video/mymotion__humandance__batch1_mote_cropped__445.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance5_input_data__720x1280__004",
+      "bucket": "704x1280",
+      "source_group": "newdata__newdata__humandance5_input_data__720x1280",
+      "caption": "A man and woman wearing matching dark blue shirts and black trousers perform a synchronized Latin dance. The woman has long black hair with bangs; the man has short dark hair. They hold hands while executing rhythmic side kicks, sharp turns, and expressive arm movements. The scene is set in a dance studio featuring wood floors, floor-to-ceiling grey curtains, and recessed square ceiling lights.",
+      "reference_image": "704x1280/reference/newdata__newdata__humandance5_input_data__720x1280__004.jpg",
+      "output_video": "704x1280/output_video/newdata__newdata__humandance5_input_data__720x1280__004.mp4"
+    },
+    {
+      "sample_id": "newdata__newdata__humandance3_video__2_person_720x1280__003",
+      "bucket": "704x1280",
+      "source_group": "newdata__newdata__humandance3_video__2_person_720x1280",
+      "caption": "A man and a young boy, both with short black hair and wearing black ballroom dance attire, perform a synchronized routine. They execute sharp arm extensions and rhythmic footwork with precision across a light wood floor. The setting is a bright, modern dance studio featuring large glass partitions and professional overhead lighting.",
+      "reference_image": "704x1280/reference/newdata__newdata__humandance3_video__2_person_720x1280__003.jpg",
+      "output_video": "704x1280/output_video/newdata__newdata__humandance3_video__2_person_720x1280__003.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "bucket": "704x1280",
+      "source_group": "mymotion__humandance__batch1_mote_cropped",
+      "caption": "A slim woman with long dark hair and bangs, dressed in a patterned white crop top and light blue denim shorts, performs a choreographed dance on a sunlit concrete walkway. She executes rhythmic arm gestures and shifts her weight while smiling. The setting includes a large white architectural structure to the left and green mountains under a bright, clear sky in the distance.",
+      "reference_image": "704x1280/reference/mymotion__humandance__batch1_mote_cropped__498.jpg",
+      "output_video": "704x1280/output_video/mymotion__humandance__batch1_mote_cropped__498.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "bucket": "704x1280",
+      "source_group": "mymotion__humandance__batch1_mote_cropped",
+      "caption": "A slim woman with long dark hair wears a red halter crop top, black shorts, and sheer black stockings with red bands. She performs a dance routine against a plain grey wall, involving arching her back, bending forward, and striking various poses while facing the camera. The setting is a minimalist indoor studio with neutral lighting.",
+      "reference_image": "704x1280/reference/mymotion__humandance__batch1_mote_cropped__360.jpg",
+      "output_video": "704x1280/output_video/mymotion__humandance__batch1_mote_cropped__360.mp4"
+    }
+  ]
+}

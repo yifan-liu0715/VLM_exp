@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-28T05:11:29.973634+00:00",
+  "status": "hand_keypoints_complete",
+  "dataset_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928",
+  "clip_count": 1061,
+  "manifest_count": 1061,
+  "keypoint_json_count": 1061,
+  "source_coverage_count": 91,
+  "total_clip_size_bytes": 2653664885,
+  "total_keypoint_size_bytes": 226687432,
+  "total_frames_sampled": 137752,
+  "hand_visible_ge_30_count": 1025,
+  "hand_visible_ge_50_count": 957,
+  "hand_visible_ge_70_count": 800,
+  "two_hand_ge_50_count": 268,
+  "zero_hand_count": 3,
+  "zero_hand_clip_ids": [
+    "semantic_review_e79bd78c90e341de86a7",
+    "semantic_review_ebfe86a7b93fe0471640",
+    "semantic_review_f6f249f016a53feab880"
+  ],
+  "hand_keypoint_usable_count": 1058,
+  "zero_hand_training_status": "exclude_pending_manual_review",
+  "mediapipe_version": "0.10.21",
+  "sample_fps": 24.0,
+  "landmarks_per_hand": 21,
+  "coordinates_per_landmark": 3,
+  "manifest_sha256": "628996ae9d37f6cf67d60e0a5860200710b52435dbe8c8fa9ee318c05c1e0e3a",
+  "hand_detection_run": true,
+  "training_run": false,
+  "errors": []
+}

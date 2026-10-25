@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/run_scail2_sam2_gate.py", line 217, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/run_scail2_sam2_gate.py", line 211, in main
+    manifest = execute_pair(args.root.resolve(), plan, args.sample_id, args.physical_gpu)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/run_scail2_sam2_gate.py", line 172, in execute_pair
+    raise RuntimeError(f"{variant} failed with exit {completed.returncode}; see {log}")
+RuntimeError: base failed with exit 1; see /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/logs/scail2_sam2_mymotion__humandance__batch1_mingxing_cropped__002_base.log

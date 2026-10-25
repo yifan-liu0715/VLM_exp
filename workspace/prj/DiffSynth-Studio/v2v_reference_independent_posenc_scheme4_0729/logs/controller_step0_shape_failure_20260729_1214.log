@@ -1,0 +1,326 @@
+[controller] 2026-07-29T12:13:28+08:00 validating Scheme 4 on physical GPU 5
+test_base_and_adapter_share_noise_and_conditions (test_inference_contract.TeacherAlignedInferenceContractTests.test_base_and_adapter_share_noise_and_conditions) ... ok
+test_cfg_runs_conditional_and_unconditional_text_branches (test_inference_contract.TeacherAlignedInferenceContractTests.test_cfg_runs_conditional_and_unconditional_text_branches) ... ok
+test_config_preserves_teacher_inference_defaults (test_inference_contract.TeacherAlignedInferenceContractTests.test_config_preserves_teacher_inference_defaults) ... ok
+test_inference_uses_unipc_with_teacher_flow_shift (test_inference_contract.TeacherAlignedInferenceContractTests.test_inference_uses_unipc_with_teacher_flow_shift) ... ok
+test_outputs_are_auditable_and_only_final_adapter_is_default (test_inference_contract.TeacherAlignedInferenceContractTests.test_outputs_are_auditable_and_only_final_adapter_is_default) ... ok
+test_known_sample_records_physical_direction (test_manifest_contract.ManifestContractTests.test_known_sample_records_physical_direction) ... ok
+test_reference_hash_tree_is_relative_and_deterministic (test_manifest_contract.ManifestContractTests.test_reference_hash_tree_is_relative_and_deterministic) ... ok
+test_split_manifests_are_disjoint_and_train_is_train_only (test_manifest_contract.ManifestContractTests.test_split_manifests_are_disjoint_and_train_is_train_only) ... ok
+test_unknown_split_is_rejected (test_manifest_contract.ManifestContractTests.test_unknown_split_is_rejected) ... ok
+test_reference_encoding_is_deterministic_for_fixed_state (test_reference_position_encoding.ReferencePositionEncodingTests.test_reference_encoding_is_deterministic_for_fixed_state) ... ok
+test_reference_encoding_is_spatially_varying (test_reference_position_encoding.ReferencePositionEncodingTests.test_reference_encoding_is_spatially_varying) ... ok
+test_reference_encoding_rejects_out_of_bounds_grid (test_reference_position_encoding.ReferencePositionEncodingTests.test_reference_encoding_rejects_out_of_bounds_grid) ... ok
+test_reference_position_tables_receive_nonzero_gradients (test_reference_position_encoding.ReferencePositionEncodingTests.test_reference_position_tables_receive_nonzero_gradients) ... ok
+test_transformer_applies_reference_encoding_only_when_enabled (test_reference_position_encoding.ReferencePositionEncodingTests.test_transformer_applies_reference_encoding_only_when_enabled) ... ok
+test_install_can_disable_and_freeze_for_base_inference (test_reference_position_install.ReferencePositionInstallTests.test_install_can_disable_and_freeze_for_base_inference) ... ok
+test_install_uses_transformer_inner_dimension (test_reference_position_install.ReferencePositionInstallTests.test_install_uses_transformer_inner_dimension) ... ok
+test_antialiased_resize_stays_in_normalized_range (test_scheme2_geometry.Scheme2GeometryTests.test_antialiased_resize_stays_in_normalized_range) ... ok
+test_aspect_fit_plan_uses_symmetric_minimum_padding (test_scheme2_geometry.Scheme2GeometryTests.test_aspect_fit_plan_uses_symmetric_minimum_padding) ... ok
+test_invalid_dimensions_are_rejected (test_scheme2_geometry.Scheme2GeometryTests.test_invalid_dimensions_are_rejected) ... ok
+test_nearest_aligned_canvas_for_all_native_buckets (test_scheme2_geometry.Scheme2GeometryTests.test_nearest_aligned_canvas_for_all_native_buckets) ... ok
+test_reference_uses_same_canvas_and_is_deterministic (test_scheme2_geometry.Scheme2GeometryTests.test_reference_uses_same_canvas_and_is_deterministic) ... ok
+test_scheme2_contract_requires_exactly_2000_steps (test_scheme2_geometry.Scheme2GeometryTests.test_scheme2_contract_requires_exactly_2000_steps) ... ok
+test_video_preserves_subject_ratio_and_replicates_padding (test_scheme2_geometry.Scheme2GeometryTests.test_video_preserves_subject_ratio_and_replicates_padding) ... ok
+test_config_uses_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_config_uses_native_resolution) ... ok
+test_scheme3_contract_accepts_exact_settings (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_accepts_exact_settings) ... ok
+test_scheme3_contract_rejects_disabled_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_disabled_native_resolution) ... ok
+test_scheme3_contract_rejects_spatial_limit (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_spatial_limit) ... ok
+test_controller_validates_then_trains_then_infers (test_scheme3_controller.Scheme3ControllerTests.test_controller_validates_then_trains_then_infers) ... ok
+test_inference_uses_native_dataset_contract (test_scheme3_controller.Scheme3ControllerTests.test_inference_uses_native_dataset_contract) ... ok
+test_launcher_is_native_guarded_and_skips_gpu_preflight (test_scheme3_controller.Scheme3ControllerTests.test_launcher_is_native_guarded_and_skips_gpu_preflight) ... ok
+test_training_entrypoint_has_no_removed_preflight_namespace_reference (test_scheme3_controller.Scheme3ControllerTests.test_training_entrypoint_has_no_removed_preflight_namespace_reference) ... ok
+test_misaligned_native_canvas_is_rejected (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_misaligned_native_canvas_is_rejected) ... ok
+test_native_buckets_are_not_resized (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_native_buckets_are_not_resized) ... ok
+test_reference_matches_video_canvas_without_stretching (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_reference_matches_video_canvas_without_stretching) ... ok
+test_video_normalization_preserves_native_shape (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_video_normalization_preserves_native_shape) ... ok
+test_compact_state_includes_reference_position_tables (test_scheme4_adapter_contract.Scheme4AdapterContractTests.test_compact_state_includes_reference_position_tables) ... ok
+test_reference_position_gradients_must_be_finite_and_nonzero (test_scheme4_adapter_contract.Scheme4AdapterContractTests.test_reference_position_gradients_must_be_finite_and_nonzero) ... ok
+test_scheme4_config_has_exact_gate_settings (test_scheme4_adapter_contract.Scheme4AdapterContractTests.test_scheme4_config_has_exact_gate_settings) ... ok
+test_scheme4_contract_rejects_wrong_gate_length (test_scheme4_adapter_contract.Scheme4AdapterContractTests.test_scheme4_contract_rejects_wrong_gate_length) ... ok
+test_training_system_installs_and_exports_reference_position (test_scheme4_adapter_contract.Scheme4AdapterContractTests.test_training_system_installs_and_exports_reference_position) ... ok
+test_dataset_target_size_uses_scheme4_bucket_mapping (test_scheme4_geometry.Scheme4GeometryTests.test_dataset_target_size_uses_scheme4_bucket_mapping) ... ok
+test_reference_uses_aspect_fit_and_replicate_padding (test_scheme4_geometry.Scheme4GeometryTests.test_reference_uses_aspect_fit_and_replicate_padding) ... ok
+test_scheme4_canvases_preserve_exact_ratios (test_scheme4_geometry.Scheme4GeometryTests.test_scheme4_canvases_preserve_exact_ratios) ... ok
+test_training_entrypoint_passes_scheme4_canvas_mapping (test_scheme4_geometry.Scheme4GeometryTests.test_training_entrypoint_passes_scheme4_canvas_mapping) ... ok
+test_unknown_or_misaligned_canvas_is_rejected (test_scheme4_geometry.Scheme4GeometryTests.test_unknown_or_misaligned_canvas_is_rejected) ... ok
+test_video_resize_uses_the_exact_canvas_without_crop (test_scheme4_geometry.Scheme4GeometryTests.test_video_resize_uses_the_exact_canvas_without_crop) ... ok
+test_gate_controller_runs_tests_preflight_train_then_infer (test_scheme4_inference_contract.Scheme4InferenceContractTests.test_gate_controller_runs_tests_preflight_train_then_infer) ... ok
+test_scheme3_contract_forbids_reference_position_tables (test_scheme4_inference_contract.Scheme4InferenceContractTests.test_scheme3_contract_forbids_reference_position_tables) ... ok
+test_scheme4_requires_exact_reference_position_tables (test_scheme4_inference_contract.Scheme4InferenceContractTests.test_scheme4_requires_exact_reference_position_tables) ... ok
+test_script_controls_position_encoder_and_complete_outputs (test_scheme4_inference_contract.Scheme4InferenceContractTests.test_script_controls_position_encoder_and_complete_outputs) ... ok
+test_latent_and_patch_shapes_fit_reference_tables (test_scheme4_preflight.Scheme4PreflightTests.test_latent_and_patch_shapes_fit_reference_tables) ... ok
+test_aligned_indices_cover_exactly_97_frames (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_cover_exactly_97_frames) ... ok
+test_aligned_indices_reject_short_or_out_of_range_clips (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_reject_short_or_out_of_range_clips) ... ok
+test_loader_rejects_non_train_rows_for_training (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_loader_rejects_non_train_rows_for_training) ... ok
+test_source_and_target_native_shapes_must_match (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_source_and_target_native_shapes_must_match) ... ok
+test_teacher_bucket_size_preserves_native_resolution (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_teacher_bucket_size_preserves_native_resolution) ... ok
+test_config_records_teacher_aligned_recommended_settings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_config_records_teacher_aligned_recommended_settings) ... ok
+test_formal_config_guard_rejects_wrong_step_or_split (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_formal_config_guard_rejects_wrong_step_or_split) ... ok
+test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three) ... ok
+test_launcher_source_has_gpu0_and_disk_guards (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_launcher_source_has_gpu0_and_disk_guards) ... ok
+test_shell_launchers_use_unix_line_endings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_shell_launchers_use_unix_line_endings) ... ok
+test_system_source_preserves_teacher_flow_matching_contract (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_system_source_preserves_teacher_flow_matching_contract) ... ok
+test_teacher_lr_multiplier_warms_up_then_stays_constant (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_multiplier_warms_up_then_stays_constant) ... ok
+test_teacher_lr_scaling_matches_reference_formula (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_scaling_matches_reference_formula) ... ok
+test_training_has_overwrite_recovery_checkpoint (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_has_overwrite_recovery_checkpoint) ... ok
+test_training_writes_start_manifest_before_fit (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_writes_start_manifest_before_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 66 tests in 1.605s
+
+OK
+{
+  "status": "passed",
+  "scheme": "reference_independent_posenc_scheme4",
+  "samples": [
+    {
+      "bucket": "1280x512",
+      "sample_id": "mymotion__001",
+      "source_shape": [
+        3,
+        97,
+        384,
+        960
+      ],
+      "target_shape": [
+        3,
+        97,
+        384,
+        960
+      ],
+      "reference_shape": [
+        3,
+        384,
+        960
+      ],
+      "video_latent": [
+        16,
+        25,
+        48,
+        120
+      ],
+      "video_patch_grid": [
+        25,
+        24,
+        60
+      ],
+      "reference_latent": [
+        16,
+        1,
+        48,
+        120
+      ],
+      "reference_grid": [
+        1,
+        24,
+        60
+      ]
+    },
+    {
+      "bucket": "1280x704",
+      "sample_id": "mymotion__002",
+      "source_shape": [
+        3,
+        97,
+        528,
+        960
+      ],
+      "target_shape": [
+        3,
+        97,
+        528,
+        960
+      ],
+      "reference_shape": [
+        3,
+        528,
+        960
+      ],
+      "video_latent": [
+        16,
+        25,
+        66,
+        120
+      ],
+      "video_patch_grid": [
+        25,
+        33,
+        60
+      ],
+      "reference_latent": [
+        16,
+        1,
+        66,
+        120
+      ],
+      "reference_grid": [
+        1,
+        33,
+        60
+      ]
+    },
+    {
+      "bucket": "704x1280",
+      "sample_id": "mymotion__humandance2__batch1_mote2_1__1007",
+      "source_shape": [
+        3,
+        97,
+        960,
+        528
+      ],
+      "target_shape": [
+        3,
+        97,
+        960,
+        528
+      ],
+      "reference_shape": [
+        3,
+        960,
+        528
+      ],
+      "video_latent": [
+        16,
+        25,
+        120,
+        66
+      ],
+      "video_patch_grid": [
+        25,
+        60,
+        33
+      ],
+      "reference_latent": [
+        16,
+        1,
+        120,
+        66
+      ],
+      "reference_grid": [
+        1,
+        60,
+        33
+      ]
+    }
+  ]
+}
+[controller] 2026-07-29T12:13:48+08:00 starting Scheme 4 gate training
+[launch] Scheme 4 1000-step gate; physical GPU=5; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/configs/train_scheme4_gate_1000.yaml
+Seed set to 1234
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.10s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.06s/it]
+[model] transformer parameters=5,142,343,872; trainable parameters=142,556,160
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 142 M                                                                                                                                                                                                                              
+Non-trainable params: 11.4 B                                                                                                                                                                                                                         
+Total params: 11.5 B                                                                                                                                                                                                                                 
+Total estimated model params size (MB): 46,111.772                                                                                                                                                                                                   
+Modules in train mode: 2401                                                                                                                                                                                                                          
+Modules in eval mode: 1615                                                                                                                                                                                                                           
+Total FLOPs: 0                                                                                                                                                                                                                                       
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/scripts/teacher_aligned_system.py:301: UserWarning: Using a target size (torch.Size([1, 48, 25, 33, 60])) that is different to the input size (torch.Size([1, 48, 25, 32, 60])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  per_element = torch.nn.functional.mse_loss(
+Epoch 0/-2                                          0/1000 0:00:32 • -:--:-- 0.00it/s  
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/scripts/train_teacher_aligned.py", line 238, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/scripts/train_teacher_aligned.py", line 222, in main
+    trainer.fit(
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+    call._call_and_handle_interrupt(
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1123, in _run_stage
+    self.fit_loop.run()
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 217, in run
+    self.advance()
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 469, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 153, in run
+    self.advance(data_fetcher)
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 352, in advance
+    batch_output = self.automatic_optimization.run(trainer.optimizers[0], batch_idx, kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 192, in run
+    self._optimizer_step(batch_idx, closure)
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 270, in _optimizer_step
+    call._call_lightning_module_hook(
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 177, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/core/module.py", line 1368, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/core/optimizer.py", line 154, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, closure, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/strategies/strategy.py", line 239, in optimizer_step
+    return self.precision_plugin.optimizer_step(optimizer, model=model, closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/amp.py", line 76, in optimizer_step
+    return super().optimizer_step(optimizer, model=model, closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/precision.py", line 123, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/optim/lr_scheduler.py", line 140, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/optim/optimizer.py", line 493, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/optim/adamw.py", line 220, in step
+    loss = closure()
+           ^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/precision.py", line 109, in _wrap_closure
+    closure_result = closure()
+                     ^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 146, in __call__
+    self._result = self.closure(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 131, in closure
+    step_output = self._step_fn()
+                  ^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 319, in _training_step
+    training_step_output = call._call_strategy_hook(trainer, "training_step", *kwargs.values())
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 329, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/strategies/strategy.py", line 391, in training_step
+    return self.lightning_module.training_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/scripts/teacher_aligned_system.py", line 301, in training_step
+    per_element = torch.nn.functional.mse_loss(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/nn/functional.py", line 3884, in mse_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/torch/functional.py", line 76, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The size of tensor a (32) must match the size of tensor b (33) at non-singleton dimension 3

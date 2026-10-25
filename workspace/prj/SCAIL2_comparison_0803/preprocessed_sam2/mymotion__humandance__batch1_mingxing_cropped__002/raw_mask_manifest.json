@@ -1,0 +1,59 @@
+{
+  "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+  "mask_preprocessor": "official SAM2 fallback; not official SAM3",
+  "conditioning_paths": [
+    "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+    "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance__batch1_mingxing_cropped__002.jpg"
+  ],
+  "reference_candidates": [
+    {
+      "box_xyxy": [
+        291.00653076171875,
+        53.343017578125,
+        739.1324462890625,
+        1014.7976684570312
+      ],
+      "score": 0.9378231167793274,
+      "class_id": 0
+    }
+  ],
+  "source_frame_0_candidates": [
+    {
+      "box_xyxy": [
+        178.94326782226562,
+        346.7438659667969,
+        401.5116271972656,
+        943.2841796875
+      ],
+      "score": 0.9141141772270203,
+      "class_id": 0
+    }
+  ],
+  "reference_actor": {
+    "box_xyxy": [
+      291.00653076171875,
+      53.343017578125,
+      739.1324462890625,
+      1014.7976684570312
+    ],
+    "score": 0.9378231167793274,
+    "class_id": 0
+  },
+  "source_actor": {
+    "box_xyxy": [
+      178.94326782226562,
+      346.7438659667969,
+      401.5116271972656,
+      943.2841796875
+    ],
+    "score": 0.9141141772270203,
+    "class_id": 0
+  },
+  "source_match_iou_scores": null,
+  "raw_reference_mask": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/raw_masks/reference.png",
+  "raw_video_mask_dir": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/raw_masks/video",
+  "frame_count": 97,
+  "fps": 24.0,
+  "width": 704,
+  "height": 1280
+}

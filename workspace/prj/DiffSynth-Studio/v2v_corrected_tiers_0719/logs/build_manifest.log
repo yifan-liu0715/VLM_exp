@@ -1,0 +1,26 @@
+{
+  "contract": "existing output_video + reference_image + caption -> existing input_video",
+  "source_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/metadata/metadata_full_paired_0715.csv",
+  "corrected_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/metadata/metadata_corrected_direction_0719.csv",
+  "row_count": 3916,
+  "bucket_counts": {
+    "1280x512": 1032,
+    "1280x704": 1225,
+    "704x1280": 1659
+  },
+  "manifest_sha256": "9ec59a19dbb605bc1249cc1537977eb722d2b49547ed2c80332f7747b8b220c3",
+  "sample_002": {
+    "sample_id": "mymotion__002",
+    "bucket": "1280x704",
+    "width": "1280",
+    "height": "704",
+    "num_frames": "118",
+    "input_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+    "output_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+    "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg",
+    "caption": "Two women sit in green armchairs indoors. On the left, a woman with long blonde hair wears a denim jacket over an orange patterned dress, speaking and gesturing actively. On the right, a woman with short, wavy brown hair in a white sleeveless top listens while resting her hand near a small white dog sitting between them. The background features a wooden table with books, a Cafe Society sign, and a large window overlooking a city.",
+    "caption_model": "gemini-3-flash-preview",
+    "reference_is_fallback": "False",
+    "source_split": "train"
+  }
+}

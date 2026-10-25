@@ -1,0 +1,10 @@
+{
+    "aigc_model": true,	
+    "framework": "Pytorch",	
+    "task": "any-to-any",	
+    "model_file_location": [	
+        "diffusion_pytorch_model-00001-of-00003.safetensors",	
+        "diffusion_pytorch_model-00002-of-00003.safetensors",	
+        "diffusion_pytorch_model-00003-of-00003.safetensors"	
+    ]	
+}

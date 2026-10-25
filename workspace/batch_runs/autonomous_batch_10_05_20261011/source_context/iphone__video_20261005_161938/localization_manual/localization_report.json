@@ -1,0 +1,15 @@
+{
+  "source_id": "iphone__video_20261005_161938",
+  "source_sha256": "4aae978d2c41d7274f3b73a41c7533bbb8eb15c2604c8daefa87ee109425bb3a",
+  "duration_s": 25.263267,
+  "sample_fps": 1,
+  "mechanical_localization_only": true,
+  "native_resolution_review_pending": true,
+  "frames": 25,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_161938/localization_manual/page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_161938/localization_manual/page_002.jpg"
+  ],
+  "source_decode_error": "",
+  "time": "2026-10-11T15:11:48.046744+08:00"
+}

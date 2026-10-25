@@ -1,0 +1,130 @@
+{
+  "batch": "batch_015",
+  "source_count": 10,
+  "candidates": [
+    {
+      "source_id": "DJI_20260930201304_0108_D",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201304_0108_D\\DJI_20260930201304_0108_D__A__000000750-000002688__raise_and_rotate_joined_fingers_near_cat.mp4",
+      "sha256_verified": true,
+      "frames": 31,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930201304_0108_D",
+      "event_id": "B",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201304_0108_D\\DJI_20260930201304_0108_D__B__000002688-000006875__show_spread_hand_high_then_lower_palm_to_cat.mp4",
+      "sha256_verified": true,
+      "frames": 67,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930201432_0109_D",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201432_0109_D\\DJI_20260930201432_0109_D__A__000003375-000008188__approach_and_touch_cat_crown_with_fingertips.mp4",
+      "sha256_verified": true,
+      "frames": 77,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930201537_0110_D",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201537_0110_D\\DJI_20260930201537_0110_D__A__000000375-000003688__offer_small_food_between_fingers_and_withdraw.mp4",
+      "sha256_verified": true,
+      "frames": 53,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930201537_0110_D",
+      "event_id": "B",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201537_0110_D\\DJI_20260930201537_0110_D__B__000003625-000004938__renew_small_food_offer_between_fingers.mp4",
+      "sha256_verified": true,
+      "frames": 21,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930201641_0111_D",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930201641_0111_D\\DJI_20260930201641_0111_D__A__000000500-000005938__present_same_small_food_on_palm_and_adjust_distance.mp4",
+      "sha256_verified": true,
+      "frames": 87,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "DJI_20260930202219_0114_D",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\DJI_20260930202219_0114_D\\DJI_20260930202219_0114_D__A__000000375-000004938__extend_palm_and_present_hand_to_white_patterned_cat.mp4",
+      "sha256_verified": true,
+      "frames": 73,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "video_20260928_185144",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\video_20260928_185144\\video_20260928_185144__A__000001125-000004562__rub_cat_neck_and_chest_with_both_hands.mp4",
+      "sha256_verified": true,
+      "frames": 55,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "video_20260928_185144",
+      "event_id": "B",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\video_20260928_185144\\video_20260928_185144__B__000004438-000008562__present_pinched_fingers_then_open_palm_below_cat.mp4",
+      "sha256_verified": true,
+      "frames": 66,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "video_20260928_185438",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\video_20260928_185438\\video_20260928_185438__A__000000938-000005938__repeatedly_touch_and_stroke_cat_front_paw.mp4",
+      "sha256_verified": true,
+      "frames": 80,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "video_20260928_185446",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\video_20260928_185446\\video_20260928_185446__A__000000250-000005938__touch_cat_tail_base_and_withdraw.mp4",
+      "sha256_verified": true,
+      "frames": 91,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    },
+    {
+      "source_id": "video_20260928_185454",
+      "event_id": "A",
+      "path": "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\trial_clips\\video_20260928_185454\\video_20260928_185454__A__000000625-000003750__stroke_cat_chest_side_toward_flank.mp4",
+      "sha256_verified": true,
+      "frames": 50,
+      "review_status": "pending_final_semantic_and_privacy_review"
+    }
+  ],
+  "production_progress": {
+    "source_total": 645,
+    "source_review_complete": 150,
+    "source_review_remaining": 495,
+    "approved_video_count": 187,
+    "short_valid_video_count": 111,
+    "pending_loader_video_count": 76,
+    "unresolved_exported_video_count": 11,
+    "rejected_exported_video_count": 5,
+    "source_only_unresolved_intervals": 31,
+    "source_only_rejected_intervals": 18,
+    "accepted_for_training": 0,
+    "VLM_used": false,
+    "keypoints_started": false,
+    "training_started": false,
+    "counts_by_input": {
+      "G:\\data\\raw_data\\iphone_10_03": {
+        "sources": 164,
+        "reviewed_sources": 52
+      },
+      "G:\\data\\raw_data\\2026_10_03\\DJI_001": {
+        "sources": 481,
+        "reviewed_sources": 98
+      }
+    },
+    "updated_at": "2026-10-10T06:40:56+0800"
+  },
+  "note": "On-disk artifacts verified; unfinished visual review is not promoted."
+}

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/scripts/prepare_mode_inputs.py", line 478, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/scripts/prepare_mode_inputs.py", line 473, in main
+    result = prepare(parse_args())
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/scripts/prepare_mode_inputs.py", line 293, in prepare
+    source_frames = _read_video(args.source_video, indices=indices, contract=contract)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/scripts/prepare_mode_inputs.py", line 140, in _read_video
+    raise ValueError(f"{path} has {observed_frames} frames, expected {contract.input_frames}")
+ValueError: /nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4 has 120 frames, expected 97

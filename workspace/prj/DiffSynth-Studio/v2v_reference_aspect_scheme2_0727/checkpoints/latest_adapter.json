@@ -1,0 +1,17 @@
+{
+  "weights": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_aspect_scheme2_0727/checkpoints/latest_adapter.safetensors",
+  "tensor_count": 482,
+  "tensor_bytes": 284301312,
+  "tensor_contract": {
+    "lora": 480,
+    "source_patch": 2,
+    "other": 0
+  },
+  "base_transformer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+  "text_encoder": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth",
+  "vae": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth",
+  "lora_rank": 96,
+  "lora_alpha": 96,
+  "global_step": 500,
+  "epoch": 0
+}

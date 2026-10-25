@@ -1,0 +1,13 @@
+{
+  "version": "h3-causal-v3-20260921",
+  "source_count": 377,
+  "target_reviewed_valid_clips": 2000,
+  "clip_rule": "one complete intervention and observable target state change per clip",
+  "static_context": "retain informative initial and final state; 2-3 seconds static in a 6-second clip may be acceptable",
+  "split_rule": "split mirror directions and reset independent events, not short pauses inside a continuous event",
+  "exclude_rule": "exclude camera-only movement and prolonged unrelated footage; do not pad to five seconds",
+  "count_rule": "report proposals, exported clips, and human-approved valid clips separately",
+  "review_status": "pending_user_review",
+  "keypoints_enabled": false,
+  "training_enabled": false
+}

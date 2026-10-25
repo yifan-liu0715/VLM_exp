@@ -1,0 +1,547 @@
+[
+  {
+    "source_id": "DJI_20261004213635_0129_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004213635_0129_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004213635_0129_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004213635_0129_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 181.653333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004213942_0130_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004213942_0130_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004213942_0130_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004213942_0130_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 176.896,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004214257_0131_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004214257_0131_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004214257_0131_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004214257_0131_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 208.64,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004214634_0132_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004214634_0132_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004214634_0132_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004214634_0132_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 244.501333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004215601_0134_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215601_0134_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215601_0134_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215601_0134_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 172.992,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004215931_0135_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215931_0135_D.MP4",
+    "status": "detector_failed",
+    "clips": 0,
+    "second_pass_required": 1,
+    "analysis": {
+      "detector_status": "detector_failed",
+      "detector_error": "No module named 'mediapipe'",
+      "hand_frames": 0,
+      "frames": 0
+    },
+    "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215931_0135_D/clips_manifest.json",
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215931_0135_D.MP4",
+        "file": null,
+        "start_s": 0.0,
+        "end_s": 35.477333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "reason": "detector_failed_or_decode_failed"
+      }
+    ],
+    "coverage_status": "detector_failed_full_source_review"
+  },
+  {
+    "source_id": "DJI_20261004215044_0133_D",
+    "status": "exists_valid",
+    "clips": 18,
+    "second_pass_required": 34,
+    "second_pass_items": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__001__000000083-000081667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 0.083,
+        "end_s": 81.667,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 1305,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 81.667,
+        "end_s": 83.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__002__000083417-000091000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 83.417,
+        "end_s": 91.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 122,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 91.0,
+        "end_s": 92.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__003__000092417-000100000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 92.417,
+        "end_s": 100.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 121,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 100.0,
+        "end_s": 100.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__004__000100417-000115667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 100.417,
+        "end_s": 115.667,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 244,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 115.667,
+        "end_s": 116.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__005__000116417-000120000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 116.417,
+        "end_s": 120.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 58,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 120.0,
+        "end_s": 120.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__006__000120417-000121667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 120.417,
+        "end_s": 121.667,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 20,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 121.667,
+        "end_s": 122.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__007__000122417-000126000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 122.417,
+        "end_s": 126.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 58,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 126.0,
+        "end_s": 126.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__008__000126417-000128000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 126.417,
+        "end_s": 128.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 25,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 128.0,
+        "end_s": 130.083,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__009__000130083-000133667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 130.083,
+        "end_s": 133.667,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 57,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 133.667,
+        "end_s": 137.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__010__000137417-000140333__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 137.417,
+        "end_s": 140.333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 47,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 140.333,
+        "end_s": 143.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__011__000143417-000159000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 143.417,
+        "end_s": 159.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 249,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__012__000159083-000181333__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 159.083,
+        "end_s": 181.333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 356,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 181.333,
+        "end_s": 181.75,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__013__000181750-000190000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 181.75,
+        "end_s": 190.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 132,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 190.0,
+        "end_s": 191.75,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__014__000191750-000195000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 191.75,
+        "end_s": 195.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 52,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 195.0,
+        "end_s": 196.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__015__000196417-000213000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 196.417,
+        "end_s": 213.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 265,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 213.0,
+        "end_s": 214.083,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__016__000214083-000218000__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 214.083,
+        "end_s": 218.0,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 63,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 218.0,
+        "end_s": 218.417,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__017__000218417-000223333__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 218.417,
+        "end_s": 223.333,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 79,
+        "reason": "mechanical_hand_proposal"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": null,
+        "start_s": 223.333,
+        "end_s": 224.083,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "uncovered_source_interval",
+        "normalized_frame_count": 0,
+        "reason": "uncovered_source_interval"
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004215044_0133_D.MP4",
+        "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004215044_0133_D/DJI_20261004215044_0133_D__018__000224083-000277056__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+        "start_s": 224.083,
+        "end_s": 277.056,
+        "second_pass_required": true,
+        "second_pass_completed": false,
+        "interval_kind": "hand_proposal",
+        "normalized_frame_count": 846,
+        "reason": "mechanical_hand_proposal"
+      }
+    ],
+    "coverage_status": "proposal_and_gap_coverage"
+  }
+]

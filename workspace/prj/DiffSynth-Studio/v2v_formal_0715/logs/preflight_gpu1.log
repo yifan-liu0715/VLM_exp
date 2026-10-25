@@ -1,0 +1,125 @@
+Seed set to 42
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+`Trainer(limit_train_batches=1)` was configured so 1 batch per epoch will be used.
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+[model] loading tokenizer
+[model] loading native UMT5 encoder
+[model] loading native Wan2.2 VAE38
+[model] loading converted Wan transformer
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  2.05it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.17it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.18it/s]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+Loading `train_dataloader` to estimate number of stepping batches.
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 95.0 M                                                        
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 45,921.406                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+Epoch 0/0                                       0/1 0:00:05 • -:--:-- 0.00it/s 
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 347, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 343, in main
+    trainer.fit(system, train_dataloaders=loader, ckpt_path=args.resume)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+    call._call_and_handle_interrupt(
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1123, in _run_stage
+    self.fit_loop.run()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 217, in run
+    self.advance()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 469, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 153, in run
+    self.advance(data_fetcher)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 352, in advance
+    batch_output = self.automatic_optimization.run(trainer.optimizers[0], batch_idx, kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 192, in run
+    self._optimizer_step(batch_idx, closure)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 270, in _optimizer_step
+    call._call_lightning_module_hook(
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 177, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/core/module.py", line 1368, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/core/optimizer.py", line 154, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, closure, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/strategies/strategy.py", line 239, in optimizer_step
+    return self.precision_plugin.optimizer_step(optimizer, model=model, closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/amp.py", line 76, in optimizer_step
+    return super().optimizer_step(optimizer, model=model, closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/precision.py", line 123, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/torch/optim/lr_scheduler.py", line 140, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/torch/optim/optimizer.py", line 493, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/torch/optim/adamw.py", line 220, in step
+    loss = closure()
+           ^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/plugins/precision/precision.py", line 109, in _wrap_closure
+    closure_result = closure()
+                     ^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 146, in __call__
+    self._result = self.closure(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 131, in closure
+    step_output = self._step_fn()
+                  ^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 319, in _training_step
+    training_step_output = call._call_strategy_hook(trainer, "training_step", *kwargs.values())
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 329, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v/lib/python3.11/site-packages/pytorch_lightning/strategies/strategy.py", line 391, in training_step
+    return self.lightning_module.training_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 158, in training_step
+    source = self._encode_video(batch["source_video"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py", line 130, in _encode_video
+    return self.vae.model.encode(video.to(torch.float32), self.vae.scale)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/diffsynth/models/wan_video_vae.py", line 1332, in encode
+    scale = [s.to(dtype=mu.dtype, device=mu.device) for s in scale]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/diffsynth/models/wan_video_vae.py", line 1332, in <listcomp>
+    scale = [s.to(dtype=mu.dtype, device=mu.device) for s in scale]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Cannot copy out of meta tensor; no data!

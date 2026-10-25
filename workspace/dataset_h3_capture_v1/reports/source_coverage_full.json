@@ -1,0 +1,8367 @@
+{
+  "inventory_source_count": 282,
+  "manifest_source_count": 282,
+  "source_count": 282,
+  "covered_source_count": 282,
+  "uncovered_sources": [],
+  "inventory_only_sources": [],
+  "manifest_only_sources": [],
+  "sample_count": 1900,
+  "coverage_kind_counts": {
+    "base_auto": 1882,
+    "short_source": 11,
+    "coverage_only": 7
+  },
+  "source_sample_count_distribution": {
+    "1": 139,
+    "2": 23,
+    "4": 12,
+    "7": 12,
+    "10": 9,
+    "22": 4,
+    "5": 5,
+    "6": 6,
+    "33": 2,
+    "19": 3,
+    "21": 1,
+    "14": 6,
+    "3": 13,
+    "8": 4,
+    "17": 2,
+    "12": 2,
+    "30": 4,
+    "15": 3,
+    "38": 1,
+    "70": 1,
+    "37": 1,
+    "97": 1,
+    "27": 2,
+    "11": 3,
+    "29": 1,
+    "20": 3,
+    "25": 1,
+    "24": 2,
+    "9": 4,
+    "18": 2,
+    "13": 5,
+    "39": 1,
+    "32": 1,
+    "23": 1,
+    "66": 1,
+    "34": 1
+  },
+  "sources": [
+    {
+      "source_name": "DJI_20260913110005_0002_D.MP4",
+      "duration_sec": 9.386667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000001"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110118_0003_D.MP4",
+      "duration_sec": 7.474133,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_000002",
+        "capture_000003"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110201_0004_D.MP4",
+      "duration_sec": 5.674667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000004"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110453_0005_D.MP4",
+      "duration_sec": 3.946667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001883"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110534_0006_D.MP4",
+      "duration_sec": 10.090667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_000005",
+        "capture_000006"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110610_0007_D.MP4",
+      "duration_sec": 3.712,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001884"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.7083
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110625_0008_D.MP4",
+      "duration_sec": 6.506667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000007"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913110638_0009_D.MP4",
+      "duration_sec": 8.576,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000008"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913113433_0011_D.MP4",
+      "duration_sec": 9.142467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000009"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913114146_0013_D.MP4",
+      "duration_sec": 21.802667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000010",
+        "capture_000011",
+        "capture_000012",
+        "capture_000013"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913115755_0014_D.MP4",
+      "duration_sec": 5.271933,
+      "width": 1512,
+      "height": 2688,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000014"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913115826_0015_D.MP4",
+      "duration_sec": 28.361667,
+      "width": 1512,
+      "height": 2688,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_000015",
+        "capture_000016",
+        "capture_000017",
+        "capture_000018",
+        "capture_000019",
+        "capture_000020",
+        "capture_000021"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913121345_0016_D.MP4",
+      "duration_sec": 43.109733,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000022",
+        "capture_000023",
+        "capture_000024",
+        "capture_000025",
+        "capture_000026",
+        "capture_000027",
+        "capture_000028",
+        "capture_000029",
+        "capture_000030",
+        "capture_000031"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913121539_0017_D.MP4",
+      "duration_sec": 18.325333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000032",
+        "capture_000033",
+        "capture_000034",
+        "capture_000035"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913121656_0018_D.MP4",
+      "duration_sec": 29.632,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_000036",
+        "capture_000037",
+        "capture_000038",
+        "capture_000039",
+        "capture_000040",
+        "capture_000041",
+        "capture_000042"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913122131_0019_D.MP4",
+      "duration_sec": 105.171733,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 22,
+      "sample_ids": [
+        "capture_000043",
+        "capture_000044",
+        "capture_000045",
+        "capture_000046",
+        "capture_000047",
+        "capture_000048",
+        "capture_000049",
+        "capture_000050",
+        "capture_000051",
+        "capture_000052",
+        "capture_000053",
+        "capture_000054",
+        "capture_000055",
+        "capture_000056",
+        "capture_000057",
+        "capture_000058",
+        "capture_000059",
+        "capture_000060",
+        "capture_000061",
+        "capture_000062",
+        "capture_000063",
+        "capture_000064"
+      ],
+      "coverage_kinds": {
+        "base_auto": 22
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913122608_0020_D.MP4",
+      "duration_sec": 20.992,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000065",
+        "capture_000066",
+        "capture_000067",
+        "capture_000068"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913122821_0021_D.MP4",
+      "duration_sec": 17.2172,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 5,
+      "sample_ids": [
+        "capture_000069",
+        "capture_000070",
+        "capture_000071",
+        "capture_000072",
+        "capture_000073"
+      ],
+      "coverage_kinds": {
+        "base_auto": 5
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913123019_0022_D.MP4",
+      "duration_sec": 25.130667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_000074",
+        "capture_000075",
+        "capture_000076",
+        "capture_000077",
+        "capture_000078",
+        "capture_000079"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913123232_0023_D.MP4",
+      "duration_sec": 8.981333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000080"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913123611_0024_D.MP4",
+      "duration_sec": 136.469667,
+      "width": 1512,
+      "height": 2688,
+      "codec": "hevc",
+      "sample_count": 33,
+      "sample_ids": [
+        "capture_000081",
+        "capture_000082",
+        "capture_000083",
+        "capture_000084",
+        "capture_000085",
+        "capture_000086",
+        "capture_000087",
+        "capture_000088",
+        "capture_000089",
+        "capture_000090",
+        "capture_000091",
+        "capture_000092",
+        "capture_000093",
+        "capture_000094",
+        "capture_000095",
+        "capture_000096",
+        "capture_000097",
+        "capture_000098",
+        "capture_000099",
+        "capture_000100",
+        "capture_000101",
+        "capture_000102",
+        "capture_000103",
+        "capture_000104",
+        "capture_000105",
+        "capture_000106",
+        "capture_000107",
+        "capture_000108",
+        "capture_000109",
+        "capture_000110",
+        "capture_000111",
+        "capture_000112",
+        "capture_000113"
+      ],
+      "coverage_kinds": {
+        "base_auto": 33
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913124010_0025_D.MP4",
+      "duration_sec": 12.746067,
+      "width": 1512,
+      "height": 2688,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_000114",
+        "capture_000115"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913124037_0026_D.MP4",
+      "duration_sec": 84.096,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 19,
+      "sample_ids": [
+        "capture_000116",
+        "capture_000117",
+        "capture_000118",
+        "capture_000119",
+        "capture_000120",
+        "capture_000121",
+        "capture_000122",
+        "capture_000123",
+        "capture_000124",
+        "capture_000125",
+        "capture_000126",
+        "capture_000127",
+        "capture_000128",
+        "capture_000129",
+        "capture_000130",
+        "capture_000131",
+        "capture_000132",
+        "capture_000133",
+        "capture_000134"
+      ],
+      "coverage_kinds": {
+        "base_auto": 19
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913130251_0027_D.MP4",
+      "duration_sec": 88.1881,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 19,
+      "sample_ids": [
+        "capture_000135",
+        "capture_000136",
+        "capture_000137",
+        "capture_000138",
+        "capture_000139",
+        "capture_000140",
+        "capture_000141",
+        "capture_000142",
+        "capture_000143",
+        "capture_000144",
+        "capture_000145",
+        "capture_000146",
+        "capture_000147",
+        "capture_000148",
+        "capture_000149",
+        "capture_000150",
+        "capture_000151",
+        "capture_000152",
+        "capture_000153"
+      ],
+      "coverage_kinds": {
+        "base_auto": 19
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913130934_0028_D.MP4",
+      "duration_sec": 12.746067,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000154",
+        "capture_000155",
+        "capture_000156",
+        "capture_000157"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913131107_0029_D.MP4",
+      "duration_sec": 30.03,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_000158",
+        "capture_000159",
+        "capture_000160",
+        "capture_000161",
+        "capture_000162",
+        "capture_000163",
+        "capture_000164"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913133728_0030_D.MP4",
+      "duration_sec": 17.728,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000165",
+        "capture_000166",
+        "capture_000167",
+        "capture_000168"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913133752_0031_D.MP4",
+      "duration_sec": 85.552133,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 21,
+      "sample_ids": [
+        "capture_000169",
+        "capture_000170",
+        "capture_000171",
+        "capture_000172",
+        "capture_000173",
+        "capture_000174",
+        "capture_000175",
+        "capture_000176",
+        "capture_000177",
+        "capture_000178",
+        "capture_000179",
+        "capture_000180",
+        "capture_000181",
+        "capture_000182",
+        "capture_000183",
+        "capture_000184",
+        "capture_000185",
+        "capture_000186",
+        "capture_000187",
+        "capture_000188",
+        "capture_000189"
+      ],
+      "coverage_kinds": {
+        "base_auto": 21
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913134227_0032_D.MP4",
+      "duration_sec": 52.285567,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_000190",
+        "capture_000191",
+        "capture_000192",
+        "capture_000193",
+        "capture_000194",
+        "capture_000195",
+        "capture_000196",
+        "capture_000197",
+        "capture_000198",
+        "capture_000199",
+        "capture_000200",
+        "capture_000201",
+        "capture_000202",
+        "capture_000203"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913134452_0033_D.MP4",
+      "duration_sec": 62.805333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_000204",
+        "capture_000205",
+        "capture_000206",
+        "capture_000207",
+        "capture_000208",
+        "capture_000209",
+        "capture_000210",
+        "capture_000211",
+        "capture_000212",
+        "capture_000213",
+        "capture_000214",
+        "capture_000215",
+        "capture_000216",
+        "capture_000217"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913134700_0034_D.MP4",
+      "duration_sec": 17.784433,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_000218",
+        "capture_000219",
+        "capture_000220"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913135059_0035_D.MP4",
+      "duration_sec": 1.835167,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001885"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        1.8333
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913135259_0037_D.MP4",
+      "duration_sec": 57.390667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_000221",
+        "capture_000222",
+        "capture_000223",
+        "capture_000224",
+        "capture_000225",
+        "capture_000226",
+        "capture_000227",
+        "capture_000228",
+        "capture_000229",
+        "capture_000230",
+        "capture_000231",
+        "capture_000232",
+        "capture_000233",
+        "capture_000234"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913135539_0038_D.MP4",
+      "duration_sec": 22.101333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000235",
+        "capture_000236",
+        "capture_000237",
+        "capture_000238"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913135651_0039_D.MP4",
+      "duration_sec": 21.632,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000239",
+        "capture_000240",
+        "capture_000241",
+        "capture_000242"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913135815_0040_D.MP4",
+      "duration_sec": 46.7467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000243",
+        "capture_000244",
+        "capture_000245",
+        "capture_000246",
+        "capture_000247",
+        "capture_000248",
+        "capture_000249",
+        "capture_000250",
+        "capture_000251",
+        "capture_000252"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913140002_0041_D.MP4",
+      "duration_sec": 30.8308,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_000253",
+        "capture_000254",
+        "capture_000255",
+        "capture_000256",
+        "capture_000257",
+        "capture_000258",
+        "capture_000259"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913140104_0042_D.MP4",
+      "duration_sec": 34.645333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_000260",
+        "capture_000261",
+        "capture_000262",
+        "capture_000263",
+        "capture_000264",
+        "capture_000265"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913140218_0044_D.MP4",
+      "duration_sec": 27.460767,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_000266",
+        "capture_000267",
+        "capture_000268",
+        "capture_000269",
+        "capture_000270",
+        "capture_000271"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913140732_0045_D.MP4",
+      "duration_sec": 32.682667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_000272",
+        "capture_000273",
+        "capture_000274",
+        "capture_000275",
+        "capture_000276",
+        "capture_000277",
+        "capture_000278"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913140926_0046_D.MP4",
+      "duration_sec": 47.296,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000279",
+        "capture_000280",
+        "capture_000281",
+        "capture_000282",
+        "capture_000283",
+        "capture_000284",
+        "capture_000285",
+        "capture_000286",
+        "capture_000287",
+        "capture_000288"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151101_0047_D.MP4",
+      "duration_sec": 37.170467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 8,
+      "sample_ids": [
+        "capture_000289",
+        "capture_000290",
+        "capture_000291",
+        "capture_000292",
+        "capture_000293",
+        "capture_000294",
+        "capture_000295",
+        "capture_000296"
+      ],
+      "coverage_kinds": {
+        "base_auto": 8
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151244_0049_D.MP4",
+      "duration_sec": 8.3083,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_000297",
+        "capture_000298"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151304_0050_D.MP4",
+      "duration_sec": 14.165333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000299",
+        "capture_000300",
+        "capture_000301",
+        "capture_000302"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151347_0051_D.MP4",
+      "duration_sec": 65.877333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 17,
+      "sample_ids": [
+        "capture_000303",
+        "capture_000304",
+        "capture_000305",
+        "capture_000306",
+        "capture_000307",
+        "capture_000308",
+        "capture_000309",
+        "capture_000310",
+        "capture_000311",
+        "capture_000312",
+        "capture_000313",
+        "capture_000314",
+        "capture_000315",
+        "capture_000316",
+        "capture_000317",
+        "capture_000318",
+        "capture_000319"
+      ],
+      "coverage_kinds": {
+        "base_auto": 17
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151700_0052_D.MP4",
+      "duration_sec": 11.712,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_000320",
+        "capture_000321",
+        "capture_000322"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913151730_0053_D.MP4",
+      "duration_sec": 57.090367,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 12,
+      "sample_ids": [
+        "capture_000323",
+        "capture_000324",
+        "capture_000325",
+        "capture_000326",
+        "capture_000327",
+        "capture_000328",
+        "capture_000329",
+        "capture_000330",
+        "capture_000331",
+        "capture_000332",
+        "capture_000333",
+        "capture_000334"
+      ],
+      "coverage_kinds": {
+        "base_auto": 12
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913163913_0054_D.MP4",
+      "duration_sec": 45.2452,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000335",
+        "capture_000336",
+        "capture_000337",
+        "capture_000338",
+        "capture_000339",
+        "capture_000340",
+        "capture_000341",
+        "capture_000342",
+        "capture_000343",
+        "capture_000344"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913164036_0055_D.MP4",
+      "duration_sec": 16.618667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_000345",
+        "capture_000346",
+        "capture_000347",
+        "capture_000348"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913164304_0056_D.MP4",
+      "duration_sec": 116.116,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 30,
+      "sample_ids": [
+        "capture_000349",
+        "capture_000350",
+        "capture_000351",
+        "capture_000352",
+        "capture_000353",
+        "capture_000354",
+        "capture_000355",
+        "capture_000356",
+        "capture_000357",
+        "capture_000358",
+        "capture_000359",
+        "capture_000360",
+        "capture_000361",
+        "capture_000362",
+        "capture_000363",
+        "capture_000364",
+        "capture_000365",
+        "capture_000366",
+        "capture_000367",
+        "capture_000368",
+        "capture_000369",
+        "capture_000370",
+        "capture_000371",
+        "capture_000372",
+        "capture_000373",
+        "capture_000374",
+        "capture_000375",
+        "capture_000376",
+        "capture_000377",
+        "capture_000378"
+      ],
+      "coverage_kinds": {
+        "base_auto": 30
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913164519_0057_D.MP4",
+      "duration_sec": 71.905167,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 15,
+      "sample_ids": [
+        "capture_000379",
+        "capture_000380",
+        "capture_000381",
+        "capture_000382",
+        "capture_000383",
+        "capture_000384",
+        "capture_000385",
+        "capture_000386",
+        "capture_000387",
+        "capture_000388",
+        "capture_000389",
+        "capture_000390",
+        "capture_000391",
+        "capture_000392",
+        "capture_000393"
+      ],
+      "coverage_kinds": {
+        "base_auto": 15
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913165001_0058_D.MP4",
+      "duration_sec": 162.7626,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 38,
+      "sample_ids": [
+        "capture_000394",
+        "capture_000395",
+        "capture_000396",
+        "capture_000397",
+        "capture_000398",
+        "capture_000399",
+        "capture_000400",
+        "capture_000401",
+        "capture_000402",
+        "capture_000403",
+        "capture_000404",
+        "capture_000405",
+        "capture_000406",
+        "capture_000407",
+        "capture_000408",
+        "capture_000409",
+        "capture_000410",
+        "capture_000411",
+        "capture_000412",
+        "capture_000413",
+        "capture_000414",
+        "capture_000415",
+        "capture_000416",
+        "capture_000417",
+        "capture_000418",
+        "capture_000419",
+        "capture_000420",
+        "capture_000421",
+        "capture_000422",
+        "capture_000423",
+        "capture_000424",
+        "capture_000425",
+        "capture_000426",
+        "capture_000427",
+        "capture_000428",
+        "capture_000429",
+        "capture_000430",
+        "capture_000431"
+      ],
+      "coverage_kinds": {
+        "base_auto": 38
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913165341_0059_D.MP4",
+      "duration_sec": 125.397333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 30,
+      "sample_ids": [
+        "capture_000432",
+        "capture_000433",
+        "capture_000434",
+        "capture_000435",
+        "capture_000436",
+        "capture_000437",
+        "capture_000438",
+        "capture_000439",
+        "capture_000440",
+        "capture_000441",
+        "capture_000442",
+        "capture_000443",
+        "capture_000444",
+        "capture_000445",
+        "capture_000446",
+        "capture_000447",
+        "capture_000448",
+        "capture_000449",
+        "capture_000450",
+        "capture_000451",
+        "capture_000452",
+        "capture_000453",
+        "capture_000454",
+        "capture_000455",
+        "capture_000456",
+        "capture_000457",
+        "capture_000458",
+        "capture_000459",
+        "capture_000460",
+        "capture_000461"
+      ],
+      "coverage_kinds": {
+        "base_auto": 30
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913165631_0060_D.MP4",
+      "duration_sec": 307.008,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 70,
+      "sample_ids": [
+        "capture_000462",
+        "capture_000463",
+        "capture_000464",
+        "capture_000465",
+        "capture_000466",
+        "capture_000467",
+        "capture_000468",
+        "capture_000469",
+        "capture_000470",
+        "capture_000471",
+        "capture_000472",
+        "capture_000473",
+        "capture_000474",
+        "capture_000475",
+        "capture_000476",
+        "capture_000477",
+        "capture_000478",
+        "capture_000479",
+        "capture_000480",
+        "capture_000481",
+        "capture_000482",
+        "capture_000483",
+        "capture_000484",
+        "capture_000485",
+        "capture_000486",
+        "capture_000487",
+        "capture_000488",
+        "capture_000489",
+        "capture_000490",
+        "capture_000491",
+        "capture_000492",
+        "capture_000493",
+        "capture_000494",
+        "capture_000495",
+        "capture_000496",
+        "capture_000497",
+        "capture_000498",
+        "capture_000499",
+        "capture_000500",
+        "capture_000501",
+        "capture_000502",
+        "capture_000503",
+        "capture_000504",
+        "capture_000505",
+        "capture_000506",
+        "capture_000507",
+        "capture_000508",
+        "capture_000509",
+        "capture_000510",
+        "capture_000511",
+        "capture_000512",
+        "capture_000513",
+        "capture_000514",
+        "capture_000515",
+        "capture_000516",
+        "capture_000517",
+        "capture_000518",
+        "capture_000519",
+        "capture_000520",
+        "capture_000521",
+        "capture_000522",
+        "capture_000523",
+        "capture_000524",
+        "capture_000525",
+        "capture_000526",
+        "capture_000527",
+        "capture_000528",
+        "capture_000529",
+        "capture_000530",
+        "capture_000531"
+      ],
+      "coverage_kinds": {
+        "base_auto": 70
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913170223_0061_D.MP4",
+      "duration_sec": 54.357333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_000532",
+        "capture_000533",
+        "capture_000534",
+        "capture_000535",
+        "capture_000536",
+        "capture_000537",
+        "capture_000538",
+        "capture_000539",
+        "capture_000540",
+        "capture_000541",
+        "capture_000542",
+        "capture_000543",
+        "capture_000544",
+        "capture_000545"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913170426_0062_D.MP4",
+      "duration_sec": 162.395567,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 37,
+      "sample_ids": [
+        "capture_000546",
+        "capture_000547",
+        "capture_000548",
+        "capture_000549",
+        "capture_000550",
+        "capture_000551",
+        "capture_000552",
+        "capture_000553",
+        "capture_000554",
+        "capture_000555",
+        "capture_000556",
+        "capture_000557",
+        "capture_000558",
+        "capture_000559",
+        "capture_000560",
+        "capture_000561",
+        "capture_000562",
+        "capture_000563",
+        "capture_000564",
+        "capture_000565",
+        "capture_000566",
+        "capture_000567",
+        "capture_000568",
+        "capture_000569",
+        "capture_000570",
+        "capture_000571",
+        "capture_000572",
+        "capture_000573",
+        "capture_000574",
+        "capture_000575",
+        "capture_000576",
+        "capture_000577",
+        "capture_000578",
+        "capture_000579",
+        "capture_000580",
+        "capture_000581",
+        "capture_000582"
+      ],
+      "coverage_kinds": {
+        "base_auto": 37
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913170746_0063_D.MP4",
+      "duration_sec": 413.679933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 97,
+      "sample_ids": [
+        "capture_000583",
+        "capture_000584",
+        "capture_000585",
+        "capture_000586",
+        "capture_000587",
+        "capture_000588",
+        "capture_000589",
+        "capture_000590",
+        "capture_000591",
+        "capture_000592",
+        "capture_000593",
+        "capture_000594",
+        "capture_000595",
+        "capture_000596",
+        "capture_000597",
+        "capture_000598",
+        "capture_000599",
+        "capture_000600",
+        "capture_000601",
+        "capture_000602",
+        "capture_000603",
+        "capture_000604",
+        "capture_000605",
+        "capture_000606",
+        "capture_000607",
+        "capture_000608",
+        "capture_000609",
+        "capture_000610",
+        "capture_000611",
+        "capture_000612",
+        "capture_000613",
+        "capture_000614",
+        "capture_000615",
+        "capture_000616",
+        "capture_000617",
+        "capture_000618",
+        "capture_000619",
+        "capture_000620",
+        "capture_000621",
+        "capture_000622",
+        "capture_000623",
+        "capture_000624",
+        "capture_000625",
+        "capture_000626",
+        "capture_000627",
+        "capture_000628",
+        "capture_000629",
+        "capture_000630",
+        "capture_000631",
+        "capture_000632",
+        "capture_000633",
+        "capture_000634",
+        "capture_000635",
+        "capture_000636",
+        "capture_000637",
+        "capture_000638",
+        "capture_000639",
+        "capture_000640",
+        "capture_000641",
+        "capture_000642",
+        "capture_000643",
+        "capture_000644",
+        "capture_000645",
+        "capture_000646",
+        "capture_000647",
+        "capture_000648",
+        "capture_000649",
+        "capture_000650",
+        "capture_000651",
+        "capture_000652",
+        "capture_000653",
+        "capture_000654",
+        "capture_000655",
+        "capture_000656",
+        "capture_000657",
+        "capture_000658",
+        "capture_000659",
+        "capture_000660",
+        "capture_000661",
+        "capture_000662",
+        "capture_000663",
+        "capture_000664",
+        "capture_000665",
+        "capture_000666",
+        "capture_000667",
+        "capture_000668",
+        "capture_000669",
+        "capture_000670",
+        "capture_000671",
+        "capture_000672",
+        "capture_000673",
+        "capture_000674",
+        "capture_000675",
+        "capture_000676",
+        "capture_000677",
+        "capture_000678",
+        "capture_000679"
+      ],
+      "coverage_kinds": {
+        "base_auto": 97
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913171505_0064_D.MP4",
+      "duration_sec": 116.330667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 27,
+      "sample_ids": [
+        "capture_000680",
+        "capture_000681",
+        "capture_000682",
+        "capture_000683",
+        "capture_000684",
+        "capture_000685",
+        "capture_000686",
+        "capture_000687",
+        "capture_000688",
+        "capture_000689",
+        "capture_000690",
+        "capture_000691",
+        "capture_000692",
+        "capture_000693",
+        "capture_000694",
+        "capture_000695",
+        "capture_000696",
+        "capture_000697",
+        "capture_000698",
+        "capture_000699",
+        "capture_000700",
+        "capture_000701",
+        "capture_000702",
+        "capture_000703",
+        "capture_000704",
+        "capture_000705",
+        "capture_000706"
+      ],
+      "coverage_kinds": {
+        "base_auto": 27
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913171716_0065_D.MP4",
+      "duration_sec": 40.2402,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 11,
+      "sample_ids": [
+        "capture_000707",
+        "capture_000708",
+        "capture_000709",
+        "capture_000710",
+        "capture_000711",
+        "capture_000712",
+        "capture_000713",
+        "capture_000714",
+        "capture_000715",
+        "capture_000716",
+        "capture_000717"
+      ],
+      "coverage_kinds": {
+        "base_auto": 11
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913171816_0066_D.MP4",
+      "duration_sec": 128.795333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 30,
+      "sample_ids": [
+        "capture_000718",
+        "capture_000719",
+        "capture_000720",
+        "capture_000721",
+        "capture_000722",
+        "capture_000723",
+        "capture_000724",
+        "capture_000725",
+        "capture_000726",
+        "capture_000727",
+        "capture_000728",
+        "capture_000729",
+        "capture_000730",
+        "capture_000731",
+        "capture_000732",
+        "capture_000733",
+        "capture_000734",
+        "capture_000735",
+        "capture_000736",
+        "capture_000737",
+        "capture_000738",
+        "capture_000739",
+        "capture_000740",
+        "capture_000741",
+        "capture_000742",
+        "capture_000743",
+        "capture_000744",
+        "capture_000745",
+        "capture_000746",
+        "capture_000747"
+      ],
+      "coverage_kinds": {
+        "base_auto": 30
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913172242_0067_D.MP4",
+      "duration_sec": 120.053267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 29,
+      "sample_ids": [
+        "capture_000748",
+        "capture_000749",
+        "capture_000750",
+        "capture_000751",
+        "capture_000752",
+        "capture_000753",
+        "capture_000754",
+        "capture_000755",
+        "capture_000756",
+        "capture_000757",
+        "capture_000758",
+        "capture_000759",
+        "capture_000760",
+        "capture_000761",
+        "capture_000762",
+        "capture_000763",
+        "capture_000764",
+        "capture_000765",
+        "capture_000766",
+        "capture_000767",
+        "capture_000768",
+        "capture_000769",
+        "capture_000770",
+        "capture_000771",
+        "capture_000772",
+        "capture_000773",
+        "capture_000774",
+        "capture_000775",
+        "capture_000776"
+      ],
+      "coverage_kinds": {
+        "base_auto": 29
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913172549_0068_D.MP4",
+      "duration_sec": 121.770667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 27,
+      "sample_ids": [
+        "capture_000777",
+        "capture_000778",
+        "capture_000779",
+        "capture_000780",
+        "capture_000781",
+        "capture_000782",
+        "capture_000783",
+        "capture_000784",
+        "capture_000785",
+        "capture_000786",
+        "capture_000787",
+        "capture_000788",
+        "capture_000789",
+        "capture_000790",
+        "capture_000791",
+        "capture_000792",
+        "capture_000793",
+        "capture_000794",
+        "capture_000795",
+        "capture_000796",
+        "capture_000797",
+        "capture_000798",
+        "capture_000799",
+        "capture_000800",
+        "capture_000801",
+        "capture_000802",
+        "capture_000803"
+      ],
+      "coverage_kinds": {
+        "base_auto": 27
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913172859_0069_D.MP4",
+      "duration_sec": 43.2432,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000804",
+        "capture_000805",
+        "capture_000806",
+        "capture_000807",
+        "capture_000808",
+        "capture_000809",
+        "capture_000810",
+        "capture_000811",
+        "capture_000812",
+        "capture_000813"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173008_0070_D.MP4",
+      "duration_sec": 79.274667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 20,
+      "sample_ids": [
+        "capture_000814",
+        "capture_000815",
+        "capture_000816",
+        "capture_000817",
+        "capture_000818",
+        "capture_000819",
+        "capture_000820",
+        "capture_000821",
+        "capture_000822",
+        "capture_000823",
+        "capture_000824",
+        "capture_000825",
+        "capture_000826",
+        "capture_000827",
+        "capture_000828",
+        "capture_000829",
+        "capture_000830",
+        "capture_000831",
+        "capture_000832",
+        "capture_000833"
+      ],
+      "coverage_kinds": {
+        "base_auto": 20
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        4.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173138_0071_D.MP4",
+      "duration_sec": 10.048,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_000834",
+        "capture_000835"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173152_0072_D.MP4",
+      "duration_sec": 6.250667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_000836"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173459_0073_D.MP4",
+      "duration_sec": 61.034667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_000837",
+        "capture_000838",
+        "capture_000839",
+        "capture_000840",
+        "capture_000841",
+        "capture_000842",
+        "capture_000843",
+        "capture_000844",
+        "capture_000845",
+        "capture_000846",
+        "capture_000847",
+        "capture_000848",
+        "capture_000849",
+        "capture_000850"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173628_0074_D.MP4",
+      "duration_sec": 116.249467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 25,
+      "sample_ids": [
+        "capture_000851",
+        "capture_000852",
+        "capture_000853",
+        "capture_000854",
+        "capture_000855",
+        "capture_000856",
+        "capture_000857",
+        "capture_000858",
+        "capture_000859",
+        "capture_000860",
+        "capture_000861",
+        "capture_000862",
+        "capture_000863",
+        "capture_000864",
+        "capture_000865",
+        "capture_000866",
+        "capture_000867",
+        "capture_000868",
+        "capture_000869",
+        "capture_000870",
+        "capture_000871",
+        "capture_000872",
+        "capture_000873",
+        "capture_000874",
+        "capture_000875"
+      ],
+      "coverage_kinds": {
+        "base_auto": 25
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913173905_0075_D.MP4",
+      "duration_sec": 109.290667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 24,
+      "sample_ids": [
+        "capture_000876",
+        "capture_000877",
+        "capture_000878",
+        "capture_000879",
+        "capture_000880",
+        "capture_000881",
+        "capture_000882",
+        "capture_000883",
+        "capture_000884",
+        "capture_000885",
+        "capture_000886",
+        "capture_000887",
+        "capture_000888",
+        "capture_000889",
+        "capture_000890",
+        "capture_000891",
+        "capture_000892",
+        "capture_000893",
+        "capture_000894",
+        "capture_000895",
+        "capture_000896",
+        "capture_000897",
+        "capture_000898",
+        "capture_000899"
+      ],
+      "coverage_kinds": {
+        "base_auto": 24
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913174159_0077_D.MP4",
+      "duration_sec": 47.722667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_000900",
+        "capture_000901",
+        "capture_000902",
+        "capture_000903",
+        "capture_000904",
+        "capture_000905",
+        "capture_000906",
+        "capture_000907",
+        "capture_000908",
+        "capture_000909"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913174301_0078_D.MP4",
+      "duration_sec": 47.680967,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 11,
+      "sample_ids": [
+        "capture_000910",
+        "capture_000911",
+        "capture_000912",
+        "capture_000913",
+        "capture_000914",
+        "capture_000915",
+        "capture_000916",
+        "capture_000917",
+        "capture_000918",
+        "capture_000919",
+        "capture_000920"
+      ],
+      "coverage_kinds": {
+        "base_auto": 11
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913174446_0079_D.MP4",
+      "duration_sec": 31.965267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 9,
+      "sample_ids": [
+        "capture_000921",
+        "capture_000922",
+        "capture_000923",
+        "capture_000924",
+        "capture_000925",
+        "capture_000926",
+        "capture_000927",
+        "capture_000928",
+        "capture_000929"
+      ],
+      "coverage_kinds": {
+        "base_auto": 9
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913174629_0080_D.MP4",
+      "duration_sec": 14.186667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_000930",
+        "capture_000931",
+        "capture_000932"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913174829_0081_D.MP4",
+      "duration_sec": 111.578133,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 24,
+      "sample_ids": [
+        "capture_000933",
+        "capture_000934",
+        "capture_000935",
+        "capture_000936",
+        "capture_000937",
+        "capture_000938",
+        "capture_000939",
+        "capture_000940",
+        "capture_000941",
+        "capture_000942",
+        "capture_000943",
+        "capture_000944",
+        "capture_000945",
+        "capture_000946",
+        "capture_000947",
+        "capture_000948",
+        "capture_000949",
+        "capture_000950",
+        "capture_000951",
+        "capture_000952",
+        "capture_000953",
+        "capture_000954",
+        "capture_000955",
+        "capture_000956"
+      ],
+      "coverage_kinds": {
+        "base_auto": 24
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913175059_0082_D.MP4",
+      "duration_sec": 86.933333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 18,
+      "sample_ids": [
+        "capture_000957",
+        "capture_000958",
+        "capture_000959",
+        "capture_000960",
+        "capture_000961",
+        "capture_000962",
+        "capture_000963",
+        "capture_000964",
+        "capture_000965",
+        "capture_000966",
+        "capture_000967",
+        "capture_000968",
+        "capture_000969",
+        "capture_000970",
+        "capture_000971",
+        "capture_000972",
+        "capture_000973",
+        "capture_000974"
+      ],
+      "coverage_kinds": {
+        "base_auto": 18
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913175305_0083_D.MP4",
+      "duration_sec": 86.9869,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 19,
+      "sample_ids": [
+        "capture_000975",
+        "capture_000976",
+        "capture_000977",
+        "capture_000978",
+        "capture_000979",
+        "capture_000980",
+        "capture_000981",
+        "capture_000982",
+        "capture_000983",
+        "capture_000984",
+        "capture_000985",
+        "capture_000986",
+        "capture_000987",
+        "capture_000988",
+        "capture_000989",
+        "capture_000990",
+        "capture_000991",
+        "capture_000992",
+        "capture_000993"
+      ],
+      "coverage_kinds": {
+        "base_auto": 19
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913175713_0084_D.MP4",
+      "duration_sec": 53.994667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 13,
+      "sample_ids": [
+        "capture_000994",
+        "capture_000995",
+        "capture_000996",
+        "capture_000997",
+        "capture_000998",
+        "capture_000999",
+        "capture_001000",
+        "capture_001001",
+        "capture_001002",
+        "capture_001003",
+        "capture_001004",
+        "capture_001005",
+        "capture_001006"
+      ],
+      "coverage_kinds": {
+        "base_auto": 13
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913175837_0085_D.MP4",
+      "duration_sec": 84.181333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 18,
+      "sample_ids": [
+        "capture_001007",
+        "capture_001008",
+        "capture_001009",
+        "capture_001010",
+        "capture_001011",
+        "capture_001012",
+        "capture_001013",
+        "capture_001014",
+        "capture_001015",
+        "capture_001016",
+        "capture_001017",
+        "capture_001018",
+        "capture_001019",
+        "capture_001020",
+        "capture_001021",
+        "capture_001022",
+        "capture_001023",
+        "capture_001024"
+      ],
+      "coverage_kinds": {
+        "base_auto": 18
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913180201_0086_D.MP4",
+      "duration_sec": 66.304,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 17,
+      "sample_ids": [
+        "capture_001025",
+        "capture_001026",
+        "capture_001027",
+        "capture_001028",
+        "capture_001029",
+        "capture_001030",
+        "capture_001031",
+        "capture_001032",
+        "capture_001033",
+        "capture_001034",
+        "capture_001035",
+        "capture_001036",
+        "capture_001037",
+        "capture_001038",
+        "capture_001039",
+        "capture_001040",
+        "capture_001041"
+      ],
+      "coverage_kinds": {
+        "base_auto": 17
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913180624_0087_D.MP4",
+      "duration_sec": 34.968267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_001042",
+        "capture_001043",
+        "capture_001044",
+        "capture_001045",
+        "capture_001046",
+        "capture_001047"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913181838_0088_D.MP4",
+      "duration_sec": 37.354667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001048",
+        "capture_001049",
+        "capture_001050",
+        "capture_001051",
+        "capture_001052",
+        "capture_001053",
+        "capture_001054"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913181953_0089_D.MP4",
+      "duration_sec": 19.989333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001055",
+        "capture_001056",
+        "capture_001057"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913182114_0090_D.MP4",
+      "duration_sec": 182.448933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 39,
+      "sample_ids": [
+        "capture_001058",
+        "capture_001059",
+        "capture_001060",
+        "capture_001061",
+        "capture_001062",
+        "capture_001063",
+        "capture_001064",
+        "capture_001065",
+        "capture_001066",
+        "capture_001067",
+        "capture_001068",
+        "capture_001069",
+        "capture_001070",
+        "capture_001071",
+        "capture_001072",
+        "capture_001073",
+        "capture_001074",
+        "capture_001075",
+        "capture_001076",
+        "capture_001077",
+        "capture_001078",
+        "capture_001079",
+        "capture_001080",
+        "capture_001081",
+        "capture_001082",
+        "capture_001083",
+        "capture_001084",
+        "capture_001085",
+        "capture_001086",
+        "capture_001087",
+        "capture_001088",
+        "capture_001089",
+        "capture_001090",
+        "capture_001091",
+        "capture_001092",
+        "capture_001093",
+        "capture_001094",
+        "capture_001095",
+        "capture_001096"
+      ],
+      "coverage_kinds": {
+        "base_auto": 39
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913182441_0091_D.MP4",
+      "duration_sec": 35.370667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 9,
+      "sample_ids": [
+        "capture_001097",
+        "capture_001098",
+        "capture_001099",
+        "capture_001100",
+        "capture_001101",
+        "capture_001102",
+        "capture_001103",
+        "capture_001104",
+        "capture_001105"
+      ],
+      "coverage_kinds": {
+        "base_auto": 9
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913182603_0092_D.MP4",
+      "duration_sec": 60.193467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 15,
+      "sample_ids": [
+        "capture_001106",
+        "capture_001107",
+        "capture_001108",
+        "capture_001109",
+        "capture_001110",
+        "capture_001111",
+        "capture_001112",
+        "capture_001113",
+        "capture_001114",
+        "capture_001115",
+        "capture_001116",
+        "capture_001117",
+        "capture_001118",
+        "capture_001119",
+        "capture_001120"
+      ],
+      "coverage_kinds": {
+        "base_auto": 15
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913183337_0095_D.MP4",
+      "duration_sec": 63.396667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 13,
+      "sample_ids": [
+        "capture_001121",
+        "capture_001122",
+        "capture_001123",
+        "capture_001124",
+        "capture_001125",
+        "capture_001126",
+        "capture_001127",
+        "capture_001128",
+        "capture_001129",
+        "capture_001130",
+        "capture_001131",
+        "capture_001132",
+        "capture_001133"
+      ],
+      "coverage_kinds": {
+        "base_auto": 13
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913183517_0096_D.MP4",
+      "duration_sec": 6.239567,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001134"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913183755_0097_D.MP4",
+      "duration_sec": 140.673867,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 32,
+      "sample_ids": [
+        "capture_001135",
+        "capture_001136",
+        "capture_001137",
+        "capture_001138",
+        "capture_001139",
+        "capture_001140",
+        "capture_001141",
+        "capture_001142",
+        "capture_001143",
+        "capture_001144",
+        "capture_001145",
+        "capture_001146",
+        "capture_001147",
+        "capture_001148",
+        "capture_001149",
+        "capture_001150",
+        "capture_001151",
+        "capture_001152",
+        "capture_001153",
+        "capture_001154",
+        "capture_001155",
+        "capture_001156",
+        "capture_001157",
+        "capture_001158",
+        "capture_001159",
+        "capture_001160",
+        "capture_001161",
+        "capture_001162",
+        "capture_001163",
+        "capture_001164",
+        "capture_001165",
+        "capture_001166"
+      ],
+      "coverage_kinds": {
+        "base_auto": 32
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913184512_0098_D.MP4",
+      "duration_sec": 83.370667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 20,
+      "sample_ids": [
+        "capture_001167",
+        "capture_001168",
+        "capture_001169",
+        "capture_001170",
+        "capture_001171",
+        "capture_001172",
+        "capture_001173",
+        "capture_001174",
+        "capture_001175",
+        "capture_001176",
+        "capture_001177",
+        "capture_001178",
+        "capture_001179",
+        "capture_001180",
+        "capture_001181",
+        "capture_001182",
+        "capture_001183",
+        "capture_001184",
+        "capture_001185",
+        "capture_001186"
+      ],
+      "coverage_kinds": {
+        "base_auto": 20
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913184836_0099_D.MP4",
+      "duration_sec": 50.325333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 12,
+      "sample_ids": [
+        "capture_001187",
+        "capture_001188",
+        "capture_001189",
+        "capture_001190",
+        "capture_001191",
+        "capture_001192",
+        "capture_001193",
+        "capture_001194",
+        "capture_001195",
+        "capture_001196",
+        "capture_001197",
+        "capture_001198"
+      ],
+      "coverage_kinds": {
+        "base_auto": 12
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913185046_0100_D.MP4",
+      "duration_sec": 34.176,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001199",
+        "capture_001200",
+        "capture_001201",
+        "capture_001202",
+        "capture_001203",
+        "capture_001204",
+        "capture_001205"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913185155_0101_D.MP4",
+      "duration_sec": 46.357333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 9,
+      "sample_ids": [
+        "capture_001206",
+        "capture_001207",
+        "capture_001208",
+        "capture_001209",
+        "capture_001210",
+        "capture_001211",
+        "capture_001212",
+        "capture_001213",
+        "capture_001214"
+      ],
+      "coverage_kinds": {
+        "base_auto": 9
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913185338_0102_D.MP4",
+      "duration_sec": 92.1921,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 22,
+      "sample_ids": [
+        "capture_001215",
+        "capture_001216",
+        "capture_001217",
+        "capture_001218",
+        "capture_001219",
+        "capture_001220",
+        "capture_001221",
+        "capture_001222",
+        "capture_001223",
+        "capture_001224",
+        "capture_001225",
+        "capture_001226",
+        "capture_001227",
+        "capture_001228",
+        "capture_001229",
+        "capture_001230",
+        "capture_001231",
+        "capture_001232",
+        "capture_001233",
+        "capture_001234",
+        "capture_001235",
+        "capture_001236"
+      ],
+      "coverage_kinds": {
+        "base_auto": 22
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913185828_0103_D.MP4",
+      "duration_sec": 91.712,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 20,
+      "sample_ids": [
+        "capture_001237",
+        "capture_001238",
+        "capture_001239",
+        "capture_001240",
+        "capture_001241",
+        "capture_001242",
+        "capture_001243",
+        "capture_001244",
+        "capture_001245",
+        "capture_001246",
+        "capture_001247",
+        "capture_001248",
+        "capture_001249",
+        "capture_001250",
+        "capture_001251",
+        "capture_001252",
+        "capture_001253",
+        "capture_001254",
+        "capture_001255",
+        "capture_001256"
+      ],
+      "coverage_kinds": {
+        "base_auto": 20
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913190047_0104_D.MP4",
+      "duration_sec": 61.397333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 13,
+      "sample_ids": [
+        "capture_001257",
+        "capture_001258",
+        "capture_001259",
+        "capture_001260",
+        "capture_001261",
+        "capture_001262",
+        "capture_001263",
+        "capture_001264",
+        "capture_001265",
+        "capture_001266",
+        "capture_001267",
+        "capture_001268",
+        "capture_001269"
+      ],
+      "coverage_kinds": {
+        "base_auto": 13
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913190159_0105_D.MP4",
+      "duration_sec": 66.944,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 13,
+      "sample_ids": [
+        "capture_001270",
+        "capture_001271",
+        "capture_001272",
+        "capture_001273",
+        "capture_001274",
+        "capture_001275",
+        "capture_001276",
+        "capture_001277",
+        "capture_001278",
+        "capture_001279",
+        "capture_001280",
+        "capture_001281",
+        "capture_001282"
+      ],
+      "coverage_kinds": {
+        "base_auto": 13
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913190444_0106_D.MP4",
+      "duration_sec": 13.680333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001283",
+        "capture_001284",
+        "capture_001285"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913190622_0107_D.MP4",
+      "duration_sec": 42.346667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 9,
+      "sample_ids": [
+        "capture_001286",
+        "capture_001287",
+        "capture_001288",
+        "capture_001289",
+        "capture_001290",
+        "capture_001291",
+        "capture_001292",
+        "capture_001293",
+        "capture_001294"
+      ],
+      "coverage_kinds": {
+        "base_auto": 9
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913190749_0108_D.MP4",
+      "duration_sec": 69.035633,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 15,
+      "sample_ids": [
+        "capture_001295",
+        "capture_001296",
+        "capture_001297",
+        "capture_001298",
+        "capture_001299",
+        "capture_001300",
+        "capture_001301",
+        "capture_001302",
+        "capture_001303",
+        "capture_001304",
+        "capture_001305",
+        "capture_001306",
+        "capture_001307",
+        "capture_001308",
+        "capture_001309"
+      ],
+      "coverage_kinds": {
+        "base_auto": 15
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913191141_0110_D.MP4",
+      "duration_sec": 95.962533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 22,
+      "sample_ids": [
+        "capture_001310",
+        "capture_001311",
+        "capture_001312",
+        "capture_001313",
+        "capture_001314",
+        "capture_001315",
+        "capture_001316",
+        "capture_001317",
+        "capture_001318",
+        "capture_001319",
+        "capture_001320",
+        "capture_001321",
+        "capture_001322",
+        "capture_001323",
+        "capture_001324",
+        "capture_001325",
+        "capture_001326",
+        "capture_001327",
+        "capture_001328",
+        "capture_001329",
+        "capture_001330",
+        "capture_001331"
+      ],
+      "coverage_kinds": {
+        "base_auto": 22
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913191452_0111_D.MP4",
+      "duration_sec": 45.8458,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 13,
+      "sample_ids": [
+        "capture_001332",
+        "capture_001333",
+        "capture_001334",
+        "capture_001335",
+        "capture_001336",
+        "capture_001337",
+        "capture_001338",
+        "capture_001339",
+        "capture_001340",
+        "capture_001341",
+        "capture_001342",
+        "capture_001343",
+        "capture_001344"
+      ],
+      "coverage_kinds": {
+        "base_auto": 13
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913191641_0112_D.MP4",
+      "duration_sec": 28.501333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001345",
+        "capture_001346",
+        "capture_001347",
+        "capture_001348",
+        "capture_001349",
+        "capture_001350",
+        "capture_001351"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913191731_0113_D.MP4",
+      "duration_sec": 42.4424,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 8,
+      "sample_ids": [
+        "capture_001352",
+        "capture_001353",
+        "capture_001354",
+        "capture_001355",
+        "capture_001356",
+        "capture_001357",
+        "capture_001358",
+        "capture_001359"
+      ],
+      "coverage_kinds": {
+        "base_auto": 8
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913192643_0114_D.MP4",
+      "duration_sec": 133.269333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 30,
+      "sample_ids": [
+        "capture_001360",
+        "capture_001361",
+        "capture_001362",
+        "capture_001363",
+        "capture_001364",
+        "capture_001365",
+        "capture_001366",
+        "capture_001367",
+        "capture_001368",
+        "capture_001369",
+        "capture_001370",
+        "capture_001371",
+        "capture_001372",
+        "capture_001373",
+        "capture_001374",
+        "capture_001375",
+        "capture_001376",
+        "capture_001377",
+        "capture_001378",
+        "capture_001379",
+        "capture_001380",
+        "capture_001381",
+        "capture_001382",
+        "capture_001383",
+        "capture_001384",
+        "capture_001385",
+        "capture_001386",
+        "capture_001387",
+        "capture_001388",
+        "capture_001389"
+      ],
+      "coverage_kinds": {
+        "base_auto": 30
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913193323_0115_D.MP4",
+      "duration_sec": 50.183467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 11,
+      "sample_ids": [
+        "capture_001390",
+        "capture_001391",
+        "capture_001392",
+        "capture_001393",
+        "capture_001394",
+        "capture_001395",
+        "capture_001396",
+        "capture_001397",
+        "capture_001398",
+        "capture_001399",
+        "capture_001400"
+      ],
+      "coverage_kinds": {
+        "base_auto": 11
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913193818_0116_D.MP4",
+      "duration_sec": 69.184,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 14,
+      "sample_ids": [
+        "capture_001401",
+        "capture_001402",
+        "capture_001403",
+        "capture_001404",
+        "capture_001405",
+        "capture_001406",
+        "capture_001407",
+        "capture_001408",
+        "capture_001409",
+        "capture_001410",
+        "capture_001411",
+        "capture_001412",
+        "capture_001413",
+        "capture_001414"
+      ],
+      "coverage_kinds": {
+        "base_auto": 14
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194001_0117_D.MP4",
+      "duration_sec": 107.690667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 23,
+      "sample_ids": [
+        "capture_001415",
+        "capture_001416",
+        "capture_001417",
+        "capture_001418",
+        "capture_001419",
+        "capture_001420",
+        "capture_001421",
+        "capture_001422",
+        "capture_001423",
+        "capture_001424",
+        "capture_001425",
+        "capture_001426",
+        "capture_001427",
+        "capture_001428",
+        "capture_001429",
+        "capture_001430",
+        "capture_001431",
+        "capture_001432",
+        "capture_001433",
+        "capture_001434",
+        "capture_001435",
+        "capture_001436",
+        "capture_001437"
+      ],
+      "coverage_kinds": {
+        "base_auto": 23
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194218_0118_D.MP4",
+      "duration_sec": 21.087733,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 5,
+      "sample_ids": [
+        "capture_001438",
+        "capture_001439",
+        "capture_001440",
+        "capture_001441",
+        "capture_001442"
+      ],
+      "coverage_kinds": {
+        "base_auto": 5
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194257_0119_D.MP4",
+      "duration_sec": 34.24,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 8,
+      "sample_ids": [
+        "capture_001443",
+        "capture_001444",
+        "capture_001445",
+        "capture_001446",
+        "capture_001447",
+        "capture_001448",
+        "capture_001449",
+        "capture_001450"
+      ],
+      "coverage_kinds": {
+        "base_auto": 8
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194336_0120_D.MP4",
+      "duration_sec": 33.666967,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 8,
+      "sample_ids": [
+        "capture_001451",
+        "capture_001452",
+        "capture_001453",
+        "capture_001454",
+        "capture_001455",
+        "capture_001456",
+        "capture_001457",
+        "capture_001458"
+      ],
+      "coverage_kinds": {
+        "base_auto": 8
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194429_0121_D.MP4",
+      "duration_sec": 46.549333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_001459",
+        "capture_001460",
+        "capture_001461",
+        "capture_001462",
+        "capture_001463",
+        "capture_001464",
+        "capture_001465",
+        "capture_001466",
+        "capture_001467",
+        "capture_001468"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194542_0122_D.MP4",
+      "duration_sec": 41.045333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_001469",
+        "capture_001470",
+        "capture_001471",
+        "capture_001472",
+        "capture_001473",
+        "capture_001474",
+        "capture_001475",
+        "capture_001476",
+        "capture_001477",
+        "capture_001478"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913194838_0123_D.MP4",
+      "duration_sec": 283.392,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 66,
+      "sample_ids": [
+        "capture_001479",
+        "capture_001480",
+        "capture_001481",
+        "capture_001482",
+        "capture_001483",
+        "capture_001484",
+        "capture_001485",
+        "capture_001486",
+        "capture_001487",
+        "capture_001488",
+        "capture_001489",
+        "capture_001490",
+        "capture_001491",
+        "capture_001492",
+        "capture_001493",
+        "capture_001494",
+        "capture_001495",
+        "capture_001496",
+        "capture_001497",
+        "capture_001498",
+        "capture_001499",
+        "capture_001500",
+        "capture_001501",
+        "capture_001502",
+        "capture_001503",
+        "capture_001504",
+        "capture_001505",
+        "capture_001506",
+        "capture_001507",
+        "capture_001508",
+        "capture_001509",
+        "capture_001510",
+        "capture_001511",
+        "capture_001512",
+        "capture_001513",
+        "capture_001514",
+        "capture_001515",
+        "capture_001516",
+        "capture_001517",
+        "capture_001518",
+        "capture_001519",
+        "capture_001520",
+        "capture_001521",
+        "capture_001522",
+        "capture_001523",
+        "capture_001524",
+        "capture_001525",
+        "capture_001526",
+        "capture_001527",
+        "capture_001528",
+        "capture_001529",
+        "capture_001530",
+        "capture_001531",
+        "capture_001532",
+        "capture_001533",
+        "capture_001534",
+        "capture_001535",
+        "capture_001536",
+        "capture_001537",
+        "capture_001538",
+        "capture_001539",
+        "capture_001540",
+        "capture_001541",
+        "capture_001542",
+        "capture_001543",
+        "capture_001544"
+      ],
+      "coverage_kinds": {
+        "base_auto": 66
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913195327_0124_D.MP4",
+      "duration_sec": 34.901533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001545",
+        "capture_001546",
+        "capture_001547",
+        "capture_001548",
+        "capture_001549",
+        "capture_001550",
+        "capture_001551"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913195408_0125_D.MP4",
+      "duration_sec": 101.7016,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 22,
+      "sample_ids": [
+        "capture_001552",
+        "capture_001553",
+        "capture_001554",
+        "capture_001555",
+        "capture_001556",
+        "capture_001557",
+        "capture_001558",
+        "capture_001559",
+        "capture_001560",
+        "capture_001561",
+        "capture_001562",
+        "capture_001563",
+        "capture_001564",
+        "capture_001565",
+        "capture_001566",
+        "capture_001567",
+        "capture_001568",
+        "capture_001569",
+        "capture_001570",
+        "capture_001571",
+        "capture_001572",
+        "capture_001573"
+      ],
+      "coverage_kinds": {
+        "base_auto": 22
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913195557_0126_D.MP4",
+      "duration_sec": 148.672,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 33,
+      "sample_ids": [
+        "capture_001574",
+        "capture_001575",
+        "capture_001576",
+        "capture_001577",
+        "capture_001578",
+        "capture_001579",
+        "capture_001580",
+        "capture_001581",
+        "capture_001582",
+        "capture_001583",
+        "capture_001584",
+        "capture_001585",
+        "capture_001586",
+        "capture_001587",
+        "capture_001588",
+        "capture_001589",
+        "capture_001590",
+        "capture_001591",
+        "capture_001592",
+        "capture_001593",
+        "capture_001594",
+        "capture_001595",
+        "capture_001596",
+        "capture_001597",
+        "capture_001598",
+        "capture_001599",
+        "capture_001600",
+        "capture_001601",
+        "capture_001602",
+        "capture_001603",
+        "capture_001604",
+        "capture_001605",
+        "capture_001606"
+      ],
+      "coverage_kinds": {
+        "base_auto": 33
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913195842_0127_D.MP4",
+      "duration_sec": 152.064,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 34,
+      "sample_ids": [
+        "capture_001607",
+        "capture_001608",
+        "capture_001609",
+        "capture_001610",
+        "capture_001611",
+        "capture_001612",
+        "capture_001613",
+        "capture_001614",
+        "capture_001615",
+        "capture_001616",
+        "capture_001617",
+        "capture_001618",
+        "capture_001619",
+        "capture_001620",
+        "capture_001621",
+        "capture_001622",
+        "capture_001623",
+        "capture_001624",
+        "capture_001625",
+        "capture_001626",
+        "capture_001627",
+        "capture_001628",
+        "capture_001629",
+        "capture_001630",
+        "capture_001631",
+        "capture_001632",
+        "capture_001633",
+        "capture_001634",
+        "capture_001635",
+        "capture_001636",
+        "capture_001637",
+        "capture_001638",
+        "capture_001639",
+        "capture_001640"
+      ],
+      "coverage_kinds": {
+        "base_auto": 34
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913200210_0128_D.MP4",
+      "duration_sec": 18.752067,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_001641",
+        "capture_001642",
+        "capture_001643",
+        "capture_001644"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913200548_0129_D.MP4",
+      "duration_sec": 14.381033,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001645",
+        "capture_001646"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913201631_0130_D.MP4",
+      "duration_sec": 9.557333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001647",
+        "capture_001648"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913201745_0131_D.MP4",
+      "duration_sec": 38.762667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 10,
+      "sample_ids": [
+        "capture_001649",
+        "capture_001650",
+        "capture_001651",
+        "capture_001652",
+        "capture_001653",
+        "capture_001654",
+        "capture_001655",
+        "capture_001656",
+        "capture_001657",
+        "capture_001658"
+      ],
+      "coverage_kinds": {
+        "base_auto": 10
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913201834_0132_D.MP4",
+      "duration_sec": 7.125333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001659"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202031_0133_D.MP4",
+      "duration_sec": 34.567867,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001660",
+        "capture_001661",
+        "capture_001662",
+        "capture_001663",
+        "capture_001664",
+        "capture_001665",
+        "capture_001666"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202202_0135_D.MP4",
+      "duration_sec": 34.267567,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001667",
+        "capture_001668",
+        "capture_001669",
+        "capture_001670",
+        "capture_001671",
+        "capture_001672",
+        "capture_001673"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202455_0138_D.MP4",
+      "duration_sec": 31.104,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 7,
+      "sample_ids": [
+        "capture_001674",
+        "capture_001675",
+        "capture_001676",
+        "capture_001677",
+        "capture_001678",
+        "capture_001679",
+        "capture_001680"
+      ],
+      "coverage_kinds": {
+        "base_auto": 7
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202608_0139_D.MP4",
+      "duration_sec": 9.676333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001681",
+        "capture_001682"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202645_0140_D.MP4",
+      "duration_sec": 12.885333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001683",
+        "capture_001684"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202749_0141_D.MP4",
+      "duration_sec": 10.816,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001685",
+        "capture_001686"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202853_0142_D.MP4",
+      "duration_sec": 9.843167,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001687",
+        "capture_001688"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202915_0143_D.MP4",
+      "duration_sec": 11.733333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001689",
+        "capture_001690"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913202941_0144_D.MP4",
+      "duration_sec": 7.68,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001691"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203021_0145_D.MP4",
+      "duration_sec": 7.616,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001692"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203103_0146_D.MP4",
+      "duration_sec": 11.077733,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001693",
+        "capture_001694",
+        "capture_001695"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203309_0149_D.MP4",
+      "duration_sec": 12.266667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001696",
+        "capture_001697",
+        "capture_001698"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203511_0151_D.MP4",
+      "duration_sec": 19.626667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_001699",
+        "capture_001700",
+        "capture_001701",
+        "capture_001702"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203730_0153_D.MP4",
+      "duration_sec": 8.917333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001703"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913203745_0154_D.MP4",
+      "duration_sec": 7.936,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001704",
+        "capture_001705"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913204153_0155_D.MP4",
+      "duration_sec": 1.2012,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001886"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        1.2083
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913204320_0156_D.MP4",
+      "duration_sec": 19.072,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001706",
+        "capture_001707",
+        "capture_001708"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913210207_0157_D.MP4",
+      "duration_sec": 12.3123,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001709",
+        "capture_001710",
+        "capture_001711"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913210224_0158_D.MP4",
+      "duration_sec": 16.149467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001712",
+        "capture_001713",
+        "capture_001714"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913210256_0159_D.MP4",
+      "duration_sec": 20.096,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 5,
+      "sample_ids": [
+        "capture_001715",
+        "capture_001716",
+        "capture_001717",
+        "capture_001718",
+        "capture_001719"
+      ],
+      "coverage_kinds": {
+        "base_auto": 5
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260913210332_0160_D.MP4",
+      "duration_sec": 26.3263,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_001720",
+        "capture_001721",
+        "capture_001722",
+        "capture_001723",
+        "capture_001724",
+        "capture_001725"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115651_0162_D.MP4",
+      "duration_sec": 18.284933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 5,
+      "sample_ids": [
+        "capture_001726",
+        "capture_001727",
+        "capture_001728",
+        "capture_001729",
+        "capture_001730"
+      ],
+      "coverage_kinds": {
+        "base_auto": 5
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115730_0163_D.MP4",
+      "duration_sec": 5.525333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001731"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115746_0164_D.MP4",
+      "duration_sec": 16.554667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 4,
+      "sample_ids": [
+        "capture_001732",
+        "capture_001733",
+        "capture_001734",
+        "capture_001735"
+      ],
+      "coverage_kinds": {
+        "base_auto": 4
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115858_0166_D.MP4",
+      "duration_sec": 10.624,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001736",
+        "capture_001737"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115918_0167_D.MP4",
+      "duration_sec": 12.032,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001738",
+        "capture_001739",
+        "capture_001740"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115940_0168_D.MP4",
+      "duration_sec": 6.698667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001741",
+        "capture_001742"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914115953_0169_D.MP4",
+      "duration_sec": 6.016,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001743"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914120010_0170_D.MP4",
+      "duration_sec": 8.021333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001744",
+        "capture_001745"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914120025_0171_D.MP4",
+      "duration_sec": 5.781333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001746"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914120917_0172_D.MP4",
+      "duration_sec": 6.873533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001747"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121023_0173_D.MP4",
+      "duration_sec": 7.146667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001748"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121126_0174_D.MP4",
+      "duration_sec": 4.637967,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001749"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.625
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121136_0175_D.MP4",
+      "duration_sec": 5.138467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001750"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121203_0176_D.MP4",
+      "duration_sec": 5.12,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001751"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121214_0177_D.MP4",
+      "duration_sec": 7.8078,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001752"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121242_0178_D.MP4",
+      "duration_sec": 8.441767,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001753",
+        "capture_001754"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121305_0179_D.MP4",
+      "duration_sec": 7.073733,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001755"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121317_0180_D.MP4",
+      "duration_sec": 4.992,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001756"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121337_0181_D.MP4",
+      "duration_sec": 5.610667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001757"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121400_0182_D.MP4",
+      "duration_sec": 5.2052,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001758"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121421_0183_D.MP4",
+      "duration_sec": 5.4054,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001759"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121443_0184_D.MP4",
+      "duration_sec": 5.674667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001760"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121459_0185_D.MP4",
+      "duration_sec": 7.850667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001761"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121520_0186_D.MP4",
+      "duration_sec": 7.317333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001762"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121554_0187_D.MP4",
+      "duration_sec": 4.7047,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001887"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.7083
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121635_0188_D.MP4",
+      "duration_sec": 3.136467,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001888"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.125
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121644_0189_D.MP4",
+      "duration_sec": 6.873533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001763",
+        "capture_001764"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914121723_0191_D.MP4",
+      "duration_sec": 7.253333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001765"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122227_0192_D.MP4",
+      "duration_sec": 6.890667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001766"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122240_0193_D.MP4",
+      "duration_sec": 4.938267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001767"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122534_0194_D.MP4",
+      "duration_sec": 8.96,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001768"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122745_0195_D.MP4",
+      "duration_sec": 4.738067,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001889"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.75
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122835_0196_D.MP4",
+      "duration_sec": 5.781333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001769"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122845_0197_D.MP4",
+      "duration_sec": 5.077333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001770"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122926_0198_D.MP4",
+      "duration_sec": 4.821333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001890"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.7917
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914122949_0199_D.MP4",
+      "duration_sec": 11.544867,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001771",
+        "capture_001772"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123036_0201_D.MP4",
+      "duration_sec": 7.594667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001773"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123057_0202_D.MP4",
+      "duration_sec": 4.117333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001774"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.0833
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123107_0203_D.MP4",
+      "duration_sec": 5.674667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001775"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123120_0204_D.MP4",
+      "duration_sec": 4.245333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001776"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.25
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123134_0205_D.MP4",
+      "duration_sec": 5.205333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001777"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123145_0206_D.MP4",
+      "duration_sec": 4.394667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001778"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.375
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123153_0207_D.MP4",
+      "duration_sec": 8.277333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001779"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123207_0208_D.MP4",
+      "duration_sec": 5.952,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001780"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123228_0209_D.MP4",
+      "duration_sec": 30.165333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 6,
+      "sample_ids": [
+        "capture_001781",
+        "capture_001782",
+        "capture_001783",
+        "capture_001784",
+        "capture_001785",
+        "capture_001786"
+      ],
+      "coverage_kinds": {
+        "base_auto": 6
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123409_0210_D.MP4",
+      "duration_sec": 7.007,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001787"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260914123423_0211_D.MP4",
+      "duration_sec": 5.482667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001788"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915174639_0213_D.MP4",
+      "duration_sec": 22.288933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 5,
+      "sample_ids": [
+        "capture_001789",
+        "capture_001790",
+        "capture_001791",
+        "capture_001792",
+        "capture_001793"
+      ],
+      "coverage_kinds": {
+        "base_auto": 5
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915174858_0214_D.MP4",
+      "duration_sec": 10.261333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001794",
+        "capture_001795"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915174917_0215_D.MP4",
+      "duration_sec": 8.2082,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001796"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915174932_0216_D.MP4",
+      "duration_sec": 4.437767,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001797"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.4583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915174947_0217_D.MP4",
+      "duration_sec": 6.656,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001798"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175013_0218_D.MP4",
+      "duration_sec": 4.992,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001891"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175116_0219_D.MP4",
+      "duration_sec": 4.992,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001799"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175126_0220_D.MP4",
+      "duration_sec": 4.571233,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001800"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.5833
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175217_0221_D.MP4",
+      "duration_sec": 6.473133,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001801"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175238_0222_D.MP4",
+      "duration_sec": 5.939267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001802"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175315_0223_D.MP4",
+      "duration_sec": 6.954667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001803"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175408_0224_D.MP4",
+      "duration_sec": 5.184,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001804"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175424_0225_D.MP4",
+      "duration_sec": 7.741067,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001805"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175504_0226_D.MP4",
+      "duration_sec": 6.122667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001806"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175522_0227_D.MP4",
+      "duration_sec": 5.939267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001807"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175647_0228_D.MP4",
+      "duration_sec": 6.573233,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001808"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175747_0229_D.MP4",
+      "duration_sec": 5.7057,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001809"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175848_0230_D.MP4",
+      "duration_sec": 4.821333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001892"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.7917
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175929_0231_D.MP4",
+      "duration_sec": 4.309333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001810"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.2917
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915175947_0232_D.MP4",
+      "duration_sec": 3.946667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001893"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180040_0233_D.MP4",
+      "duration_sec": 4.771433,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001811"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.7917
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180053_0234_D.MP4",
+      "duration_sec": 4.906667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001894"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180123_0235_D.MP4",
+      "duration_sec": 3.52,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001895"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.5
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180140_0236_D.MP4",
+      "duration_sec": 5.888,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001812"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180201_0237_D.MP4",
+      "duration_sec": 3.946667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001896"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180247_0238_D.MP4",
+      "duration_sec": 5.1051,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001813"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180336_0239_D.MP4",
+      "duration_sec": 5.872533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001814"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180637_0240_D.MP4",
+      "duration_sec": 3.541333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001897"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.5417
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915180659_0241_D.MP4",
+      "duration_sec": 5.1051,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001815"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181005_0243_D.MP4",
+      "duration_sec": 3.9039,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001898"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        3.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181014_0244_D.MP4",
+      "duration_sec": 4.096,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001899"
+      ],
+      "coverage_kinds": {
+        "coverage_only": 1
+      },
+      "sample_durations_sec": [
+        4.0833
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181156_0245_D.MP4",
+      "duration_sec": 4.416,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001816"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.4167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181230_0246_D.MP4",
+      "duration_sec": 6.272933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001817"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181247_0247_D.MP4",
+      "duration_sec": 8.192,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001818"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181329_0248_D.MP4",
+      "duration_sec": 4.501333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001819"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.4583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260915181356_0249_D.MP4",
+      "duration_sec": 5.824,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001820"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916193723_0251_D.MP4",
+      "duration_sec": 5.674667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001821"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916193946_0252_D.MP4",
+      "duration_sec": 4.864,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001822"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.8333
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194028_0254_D.MP4",
+      "duration_sec": 5.572233,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001823"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194049_0255_D.MP4",
+      "duration_sec": 2.736067,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001900"
+      ],
+      "coverage_kinds": {
+        "short_source": 1
+      },
+      "sample_durations_sec": [
+        2.75
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194130_0257_D.MP4",
+      "duration_sec": 5.638967,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001824"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194201_0258_D.MP4",
+      "duration_sec": 5.802667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001825"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194313_0261_D.MP4",
+      "duration_sec": 5.312,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001826"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194323_0262_D.MP4",
+      "duration_sec": 5.005,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001827"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194423_0264_D.MP4",
+      "duration_sec": 5.248,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001828"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194454_0265_D.MP4",
+      "duration_sec": 5.056,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001829"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194516_0267_D.MP4",
+      "duration_sec": 5.610667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001830"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194541_0268_D.MP4",
+      "duration_sec": 5.482667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001831"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194600_0269_D.MP4",
+      "duration_sec": 6.08,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001832"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194641_0270_D.MP4",
+      "duration_sec": 6.016,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001833"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194728_0272_D.MP4",
+      "duration_sec": 7.061333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001834"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194844_0274_D.MP4",
+      "duration_sec": 5.717333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001835"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916194912_0275_D.MP4",
+      "duration_sec": 5.845333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001836"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195033_0276_D.MP4",
+      "duration_sec": 6.873533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001837"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195137_0277_D.MP4",
+      "duration_sec": 5.248,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001838"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195218_0278_D.MP4",
+      "duration_sec": 5.546667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001839"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195252_0279_D.MP4",
+      "duration_sec": 9.557333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001840",
+        "capture_001841"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195336_0280_D.MP4",
+      "duration_sec": 5.872533,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001842"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195440_0281_D.MP4",
+      "duration_sec": 6.016,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001843"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195500_0282_D.MP4",
+      "duration_sec": 5.909333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001844"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195610_0285_D.MP4",
+      "duration_sec": 5.271933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001845"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195642_0286_D.MP4",
+      "duration_sec": 7.744,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001846"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195733_0288_D.MP4",
+      "duration_sec": 6.4064,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001847"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195819_0289_D.MP4",
+      "duration_sec": 7.658667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001848"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195849_0290_D.MP4",
+      "duration_sec": 6.293333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001849"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916195959_0291_D.MP4",
+      "duration_sec": 7.253333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001850"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200048_0293_D.MP4",
+      "duration_sec": 6.976,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001851"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200100_0294_D.MP4",
+      "duration_sec": 5.1051,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001852"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200210_0295_D.MP4",
+      "duration_sec": 4.117333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001853"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.0833
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200252_0296_D.MP4",
+      "duration_sec": 5.973333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001854"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200319_0297_D.MP4",
+      "duration_sec": 5.418667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001855"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200438_0300_D.MP4",
+      "duration_sec": 5.372033,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001856"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200452_0301_D.MP4",
+      "duration_sec": 5.76,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001857"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200706_0302_D.MP4",
+      "duration_sec": 4.544,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001858"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.5417
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200736_0303_D.MP4",
+      "duration_sec": 5.376,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001859"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200747_0304_D.MP4",
+      "duration_sec": 5.271933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001860"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200854_0305_D.MP4",
+      "duration_sec": 5.271933,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001861"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916200952_0306_D.MP4",
+      "duration_sec": 6.293333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001862"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201009_0307_D.MP4",
+      "duration_sec": 7.488,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001863"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201036_0308_D.MP4",
+      "duration_sec": 9.943267,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001864"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201057_0309_D.MP4",
+      "duration_sec": 12.245333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001865",
+        "capture_001866",
+        "capture_001867"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        4.9167
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201140_0311_D.MP4",
+      "duration_sec": 6.229333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001868"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201236_0312_D.MP4",
+      "duration_sec": 5.438767,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001869"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201245_0313_D.MP4",
+      "duration_sec": 4.949333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001870"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        4.9583
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201337_0314_D.MP4",
+      "duration_sec": 5.76,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001871"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201358_0315_D.MP4",
+      "duration_sec": 5.952,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001872"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201418_0316_D.MP4",
+      "duration_sec": 12.045367,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001873",
+        "capture_001874"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201512_0317_D.MP4",
+      "duration_sec": 6.72,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001875"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916201606_0319_D.MP4",
+      "duration_sec": 11.157333,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 2,
+      "sample_ids": [
+        "capture_001876",
+        "capture_001877"
+      ],
+      "coverage_kinds": {
+        "base_auto": 2
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916202041_0322_D.MP4",
+      "duration_sec": 16.170667,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 3,
+      "sample_ids": [
+        "capture_001878",
+        "capture_001879",
+        "capture_001880"
+      ],
+      "coverage_kinds": {
+        "base_auto": 3
+      },
+      "sample_durations_sec": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916202114_0323_D.MP4",
+      "duration_sec": 9.042367,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001881"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    },
+    {
+      "source_name": "DJI_20260916202200_0324_D.MP4",
+      "duration_sec": 6.272,
+      "width": 1920,
+      "height": 1080,
+      "codec": "hevc",
+      "sample_count": 1,
+      "sample_ids": [
+        "capture_001882"
+      ],
+      "coverage_kinds": {
+        "base_auto": 1
+      },
+      "sample_durations_sec": [
+        5.0
+      ],
+      "hand_manifest_covered": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "001", "normalized_frame_count": 29, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 4, "state": "review_needed"}
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "002", "normalized_frame_count": 104, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 25, "state": "review_needed"}
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "003", "normalized_frame_count": 148, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 33, "state": "review_needed"}
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "004", "normalized_frame_count": 19, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 10, "state": "review_needed"}
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "005", "normalized_frame_count": 32, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 7, "state": "review_needed"}
+{"source_id": "dji__DJI_20261005220906_0169_D", "event_id": "006", "normalized_frame_count": 76, "face_detection_status": "faces_detected_fixed_crop_or_reject", "face_count_detected": 10, "state": "review_needed"}
+

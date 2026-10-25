@@ -1,0 +1,171 @@
+{
+  "created_utc": "2026-09-12T08:48:28.932024+00:00",
+  "source_commit": "ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+  "source_files": [
+    {
+      "filename": "EPIC_100_train.csv",
+      "url": "https://api.github.com/repos/epic-kitchens/epic-kitchens-100-annotations/contents/EPIC_100_train.csv?ref=ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+      "bytes": 8415872,
+      "sha256": "a3a7ef2e397bd8af12bd0496b09d61b1f2c1f3f6e1726fa86af50a27f4855e87"
+    },
+    {
+      "filename": "EPIC_100_validation.csv",
+      "url": "https://api.github.com/repos/epic-kitchens/epic-kitchens-100-annotations/contents/EPIC_100_validation.csv?ref=ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+      "bytes": 1184998,
+      "sha256": "35f7932ba0a1127a96cac215a98d35398946f343e3cea9ad6688ed17eee9d75d"
+    },
+    {
+      "filename": "EPIC_100_video_info.csv",
+      "url": "https://api.github.com/repos/epic-kitchens/epic-kitchens-100-annotations/contents/EPIC_100_video_info.csv?ref=ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+      "bytes": 27721,
+      "sha256": "75fd040f6662cb407b4ca2eed4811ca94df280a1aba00b6bf8a5cd286deff382"
+    },
+    {
+      "filename": "EPIC_100_verb_classes.csv",
+      "url": "https://api.github.com/repos/epic-kitchens/epic-kitchens-100-annotations/contents/EPIC_100_verb_classes.csv?ref=ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+      "bytes": 13402,
+      "sha256": "aab8bf210d0234b6facb9b191ae402c03a5f8965d123586b4762d3468a85033e"
+    },
+    {
+      "filename": "license.txt",
+      "url": "https://api.github.com/repos/epic-kitchens/epic-kitchens-100-annotations/contents/license.txt?ref=ea8b40457a400c3fffa1c7f406ef3dc169cc2522",
+      "bytes": 481,
+      "sha256": "acb7384c3f73cc96367ac132bc0bd57efa38c4495c17781032a2cf1444b65ebe"
+    }
+  ],
+  "screening_rules": {
+    "canonical_verb_groups": {
+      "opening_closing": [
+        "close",
+        "lock",
+        "open",
+        "screw",
+        "uncover",
+        "unlock",
+        "unscrew",
+        "unwrap"
+      ],
+      "deformation": [
+        "bend",
+        "break",
+        "crush",
+        "flatten",
+        "fold",
+        "knead",
+        "rip",
+        "squeeze",
+        "stretch"
+      ],
+      "cutting_separation": [
+        "cut",
+        "divide",
+        "grate",
+        "peel"
+      ],
+      "material_transfer": [
+        "empty",
+        "fill",
+        "pour",
+        "scoop",
+        "spray",
+        "sprinkle"
+      ],
+      "mixing": [
+        "mix"
+      ]
+    },
+    "min_short_side": 720,
+    "window_padding_seconds": {
+      "before": 1,
+      "after": 2
+    },
+    "window_duration_seconds": [
+      3,
+      20
+    ],
+    "splits": [
+      "train",
+      "validation"
+    ],
+    "motion_and_response_require_video_review": true
+  },
+  "scanned_annotated_segments": 76885,
+  "input_split_rows": {
+    "train": 67217,
+    "validation": 9668
+  },
+  "filter_counts": {
+    "response_verb_matches": 18510,
+    "not_in_response_verb_list": 58375,
+    "window_outside_3_to_20_sec": 894
+  },
+  "metadata_candidate_segments": 17616,
+  "candidate_unique_videos": 620,
+  "candidate_unique_participants": 34,
+  "candidate_split_counts": {
+    "train": 15204,
+    "validation": 2412
+  },
+  "candidate_category_counts": {
+    "opening_closing": 9742,
+    "mixing": 1541,
+    "cutting_separation": 2180,
+    "material_transfer": 3032,
+    "deformation": 1121
+  },
+  "candidate_verb_counts": {
+    "open": 5657,
+    "close": 3986,
+    "mix": 1541,
+    "cut": 1733,
+    "grate": 14,
+    "pour": 1786,
+    "fold": 217,
+    "scoop": 406,
+    "squeeze": 412,
+    "empty": 376,
+    "sprinkle": 92,
+    "peel": 369,
+    "knead": 53,
+    "divide": 64,
+    "flatten": 14,
+    "unscrew": 27,
+    "crush": 63,
+    "spray": 114,
+    "break": 198,
+    "fill": 258,
+    "stretch": 79,
+    "lock": 14,
+    "rip": 83,
+    "unlock": 6,
+    "uncover": 13,
+    "screw": 23,
+    "bend": 2,
+    "unwrap": 16
+  },
+  "candidate_fps_counts": {
+    "59.94": 9952,
+    "50.0": 7534,
+    "29.97": 97,
+    "47.952": 25,
+    "90.0": 8
+  },
+  "candidate_resolution_counts": {
+    "1920x1080": 17492,
+    "1280x720": 114,
+    "1920x1440": 10
+  },
+  "candidate_duration_bins": {
+    "5-10s": 5950,
+    "2-5s": 9387,
+    "10-20s": 2279
+  },
+  "candidate_sum_hours_with_overlap": 30.53,
+  "candidate_union_hours": 25.432,
+  "visually_verified_segments": 0,
+  "final_effective_count": null,
+  "videos_downloaded": 0,
+  "motion_amplitude_measured_segments": 0,
+  "pilot_review_count": 100,
+  "errors": []
+}

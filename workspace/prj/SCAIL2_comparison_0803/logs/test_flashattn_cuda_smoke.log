@@ -1,0 +1,1 @@
+cuda=12.6 device=NVIDIA A100-SXM4-80GB shape=(1, 128, 8, 64) dtype=torch.bfloat16 finite=True mean=0.00115819

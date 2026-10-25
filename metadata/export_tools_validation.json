@@ -1,0 +1,15 @@
+{
+  "passed": 8,
+  "checks": [
+    "compressed archive roundtrip and SHA-256",
+    "source unchanged",
+    "split-file range roundtrip",
+    "traversal and absolute path rejection",
+    "external symlink rejection",
+    "restore preserves existing different file",
+    "changed source rejection",
+    "archive plan conserves byte ranges and asset names"
+  ],
+  "failures": 0,
+  "network_upload_performed": false
+}

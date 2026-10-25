@@ -1,0 +1,65 @@
+{
+  "project_root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio",
+  "training_args_found": [
+    {
+      "training_args_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_test/training_args.json",
+      "lora_base_model": "dit",
+      "lora_target_modules": "q,k,v,o,ffn.0,ffn.2",
+      "lora_rank": 32,
+      "dataset_base_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train",
+      "dataset_metadata_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/metadata_train.csv",
+      "metadata_samples": {
+        "metadata_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/metadata_train.csv",
+        "exists": true,
+        "samples": [
+          {
+            "video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+            "prompt": "Two women sit in green armchairs indoors. On the left, a woman with long blonde hair wears a denim jacket over an orange patterned dress, speaking and gesturing actively. On the right, a woman with short, wavy brown hair in a white sleeveless top listens while resting her hand near a small white dog sitting between them. The background features a wooden table with books, a Cafe Society sign, and a large window overlooking a city.",
+            "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__002.jpg"
+          },
+          {
+            "video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__008.mp4",
+            "prompt": "A man in a striped Mickey Mouse tee and short brown hair sits beside a woman with a reddish-brown bob in a green crown-print shirt. They sit at a glass-topped wooden table with noodle bowls. The man glances right and speaks while the woman looks down, holding chopsticks. The indoor setting includes wooden chairs and a traditional window.",
+            "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__008.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "training_args_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_quick/training_args.json",
+      "lora_base_model": "dit",
+      "lora_target_modules": "q,k,v,o,ffn.0,ffn.2",
+      "lora_rank": 16,
+      "dataset_base_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train",
+      "dataset_metadata_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/metadata_train.csv",
+      "metadata_samples": {
+        "metadata_path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/metadata_train.csv",
+        "exists": true,
+        "samples": [
+          {
+            "video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+            "prompt": "Two women sit in green armchairs indoors. On the left, a woman with long blonde hair wears a denim jacket over an orange patterned dress, speaking and gesturing actively. On the right, a woman with short, wavy brown hair in a white sleeveless top listens while resting her hand near a small white dog sitting between them. The background features a wooden table with books, a Cafe Society sign, and a large window overlooking a city.",
+            "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__002.jpg"
+          },
+          {
+            "video": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/output_video/mymotion__008.mp4",
+            "prompt": "A man in a striped Mickey Mouse tee and short brown hair sits beside a woman with a reddish-brown bob in a green crown-print shirt. They sit at a glass-topped wooden table with noodle bowls. The man glances right and speaks while the woman looks down, holding chopsticks. The indoor setting includes wooden chairs and a traditional window.",
+            "reference_image": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data/dataset_video_train/1280x704/reference/mymotion__008.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "lora_loader": {
+    "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/diffsynth/utils/lora/general.py",
+    "exists": true,
+    "heuristics": {
+      "uses_lora_up_down": true,
+      "lora_A_label": true,
+      "lora_B_label": true,
+      "alpha_handling": true,
+      "has_convert_state_dict": true,
+      "has_fuse_lora_to_base_model": true
+    }
+  }
+}

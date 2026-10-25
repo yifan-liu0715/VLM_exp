@@ -1,0 +1,38 @@
+{
+  "left": "formal_v2_step-5250",
+  "right": "formal_v2_step-750",
+  "samples": 15,
+  "bootstrap_iterations": 10000,
+  "metrics": {
+    "sharpness_retention": {
+      "left_minus_right": 0.05617344275402858,
+      "ci_low": -0.024110460657493116,
+      "ci_high": 0.1490777058127541,
+      "probability_left_better": 0.9115
+    },
+    "motion_retention": {
+      "left_minus_right": 0.00887573964497057,
+      "ci_low": -0.10983092485549133,
+      "ci_high": 0.12251815851313816,
+      "probability_left_better": 0.5698
+    },
+    "warp_error_reduction": {
+      "left_minus_right": -0.010042495596663037,
+      "ci_low": -0.11549591705387979,
+      "ci_high": 0.06291386562383883,
+      "probability_left_better": 0.4111
+    },
+    "target_motion_mae_reduction": {
+      "left_minus_right": 0.03903815689007084,
+      "ci_low": -0.1034283456155943,
+      "ci_high": 0.13444122758479785,
+      "probability_left_better": 0.7277
+    },
+    "reference_ssim_delta": {
+      "left_minus_right": 0.0002199212710063403,
+      "ci_low": -1.3196667035456074e-05,
+      "ci_high": 0.00047402650117878413,
+      "probability_left_better": 0.9685
+    }
+  }
+}

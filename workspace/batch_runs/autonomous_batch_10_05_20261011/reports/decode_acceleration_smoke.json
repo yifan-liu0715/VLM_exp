@@ -1,0 +1,25 @@
+{
+  "source_id": "iphone__video_20261005_161938",
+  "gpu_snapshot": "0, NVIDIA A100-SXM4-80GB, 1 %, 10 MiB, 81920 MiB\n1, NVIDIA A100-SXM4-80GB, 0 %, 1 MiB, 81920 MiB\n2, NVIDIA A100-SXM4-80GB, 76 %, 5373 MiB, 81920 MiB\n3, NVIDIA A100-SXM4-80GB, 61 %, 2209 MiB, 81920 MiB\n4, NVIDIA A100-SXM4-80GB, 100 %, 75897 MiB, 81920 MiB\n5, NVIDIA A100-SXM4-80GB, 100 %, 75877 MiB, 81920 MiB\n6, NVIDIA A100-SXM4-80GB, 100 %, 79309 MiB, 81920 MiB\n7, NVIDIA A100-SXM4-80GB, 100 %, 36087 MiB, 81920 MiB\n",
+  "checks": [
+    {
+      "mode": "cpu",
+      "exit": 0,
+      "seconds": 12.3730587400496,
+      "bytes": 22118400,
+      "frames": 32,
+      "stderr": "",
+      "sha256": "2f93a12967d51d855d3a5bfb6649fb2d8b5160c5b98d5d3c568e3cf6160c855d"
+    },
+    {
+      "mode": "cuda",
+      "exit": 0,
+      "seconds": 1.8171779923141003,
+      "bytes": 22118400,
+      "frames": 32,
+      "stderr": "",
+      "sha256": "2f93a12967d51d855d3a5bfb6649fb2d8b5160c5b98d5d3c568e3cf6160c855d"
+    }
+  ],
+  "existing_workers_unchanged": true
+}

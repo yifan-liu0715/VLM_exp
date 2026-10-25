@@ -1,0 +1,11 @@
+{
+  "status": "launching",
+  "created_at_utc": "2026-08-16T14:59:20.556086+00:00",
+  "variant": "scheme4_v4",
+  "attempt": "early_cuda_v2",
+  "root_cause": "Decord video access before first torch CUDA initialization causes segmentation fault in diffsynth_fixed",
+  "fix": "initialize torch CUDA before media preflight; no model, weight, input, or sampling changes",
+  "entrypoint": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/scripts/infer_scheme4_lora_only_early_cuda_v2.py",
+  "entrypoint_sha256": "70c05f0f76fa105046daff98d6e67aff1fedab13037f2ddeb9edb7774e5c0a87",
+  "physical_gpu": 2
+}

@@ -1,0 +1,16 @@
+torch>=2.0.0
+torchvision
+diffusers
+transformers
+accelerate
+deepspeed
+pandas
+opencv-python
+pillow
+numpy
+tqdm
+einops
+imageio
+imageio-ffmpeg
+streamlit
+gradio

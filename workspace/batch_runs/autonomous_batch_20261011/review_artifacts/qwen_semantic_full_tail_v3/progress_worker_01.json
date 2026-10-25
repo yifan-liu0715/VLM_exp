@@ -1,0 +1,9 @@
+{
+  "worker": 1,
+  "assigned": 196,
+  "completed": 196,
+  "remaining": 0,
+  "last_queue_index": 595,
+  "last_elapsed_s": 42.96,
+  "updated_at": 1791755208.430092
+}

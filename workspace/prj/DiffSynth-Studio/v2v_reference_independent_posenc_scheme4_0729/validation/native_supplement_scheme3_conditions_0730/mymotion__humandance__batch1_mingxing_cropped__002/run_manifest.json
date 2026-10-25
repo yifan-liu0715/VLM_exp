@@ -1,0 +1,63 @@
+{
+  "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+  "split": "test",
+  "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+  "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+  "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance__batch1_mingxing_cropped__002.jpg",
+  "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+  "height": 1280,
+  "width": 704,
+  "num_frames": 97,
+  "fps": 24.0,
+  "scheduler": "UniPCMultistepScheduler",
+  "flow_shift": 5.0,
+  "steps": 50,
+  "guidance_scale": 5.0,
+  "seed": 42,
+  "physical_gpu": "3",
+  "scheme3_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__humandance__batch1_mingxing_cropped__002/reports/mymotion__humandance__batch1_mingxing_cropped__002_run_manifest.json",
+  "scheme3_manifest_sha256": "7e3107dcea1a5e9016d154a3ec119d40b636c2fe5b475785fe85e1ae347d238a",
+  "scheme3_adapter_sha256": "9af3cf27350119eea4c3663d7192eae83deb22109ec49c94f8f84e067ddc33da",
+  "scheme4_adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+  "scheme4_adapter_sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+  "scheme4_adapter_summary": {
+    "lora": 480,
+    "source_patch": 2,
+    "reference_position": 3,
+    "other": 0
+  },
+  "identical_initial_noise_with_scheme3": true,
+  "identical_source_reference_conditions": true,
+  "geometry_preprocessing": "native_source_target_reference_aspect_fit_replicate_padding",
+  "reference_position_interpolation": {
+    "trained_grid": [
+      40,
+      22
+    ],
+    "native_grid": [
+      40,
+      22
+    ],
+    "mode": "linear_align_corners",
+    "trained_canvas": [
+      640,
+      352
+    ],
+    "native_canvas": [
+      1280,
+      704
+    ],
+    "inference_only": true
+  },
+  "reused_scheme3_native_baseline": true,
+  "outputs": {
+    "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Source.mp4",
+    "target": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Target.mp4",
+    "base": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Base.mp4",
+    "scheme3": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Scheme3.mp4",
+    "scheme4": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/Scheme4_NativePEInterpolated.mp4",
+    "comparison_base_scheme4": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/comparison_base_scheme4_4grid.mp4",
+    "comparison_scheme3_scheme4": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/videos/comparison_scheme3_scheme4_4grid.mp4"
+  },
+  "quality_metrics_computed": false
+}

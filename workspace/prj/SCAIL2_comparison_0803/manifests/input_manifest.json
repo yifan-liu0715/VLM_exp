@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "mapping": {
+    "SCAIL-2 driving.mp4": "Scheme4 source_video (dataset output_video)",
+    "comparison target.mp4": "Scheme4 target_video (dataset input_video)",
+    "SCAIL-2 ref.jpg": "Scheme4 reference_image (dataset reference)"
+  },
+  "uses_symlinks": true,
+  "samples": [
+    {
+      "sample_id": "mymotion__051",
+      "split": "test",
+      "prompt": "A man with salt-and-pepper hair in a black suit and tie sits beside a woman with blonde hair in a ponytail wearing a strapless lilac dress and pearl necklace. The man remains still with a subtle smirk, while the woman speaks, turning her head toward him before looking forward. They are positioned against a blurred, textured purple backdrop on what appears to be a talk show set.",
+      "scheme4_run_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__051/run_manifest.json",
+      "scheme4_run_manifest_sha256": "c2f72c1404e4adfb1c85c1748b0562e65256e483b9667288b416d9218d60112b",
+      "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/output_video/mymotion__051.mp4",
+      "source_sha256": "eeb3ed7ec2fc3f841a581680739c6762c699942499c4b61dae1c0c4eb67871a3",
+      "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/input_video/mymotion__051.mp4",
+      "target_sha256": "a0acf0304eecd6db3d694e1ba6a0dc960a7cb0c7f843554808a2b30db14cabd0",
+      "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/reference/mymotion__051.jpg",
+      "reference_sha256": "725df34c8f3f721fbc6dbee1f8d241340044ada88f25658d95d4a7c0a6b07920",
+      "input_dir": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__051",
+      "scail2_files": {
+        "driving.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__051/driving.mp4",
+        "target.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__051/target.mp4",
+        "ref.jpg": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__051/ref.jpg"
+      },
+      "width": 1280,
+      "height": 512,
+      "num_frames": 97,
+      "fps": 24.0
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain__002",
+      "split": "test",
+      "prompt": "A woman with wavy, light brown hair and a medium build wears a dark grey polka-dot blouse. She speaks directly to the camera with minimal head movement and a steady expression. The scene is set in a legislative chamber featuring rows of brown leather desks, marble columns, and American flags. Red and blue bunting decorates the upper balcony in the background.",
+      "scheme4_run_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__single_talking_face__datatrain__002/run_manifest.json",
+      "scheme4_run_manifest_sha256": "c7b0c2ce872ac590085639a3ec1e002a691250f6e7ecb3729d1a58fdd510fb8d",
+      "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__single_talking_face__datatrain__002.mp4",
+      "source_sha256": "f8b6c4a6746dc9b47ec467647a739683cc0f167ca5f322cf724c725ed6d9aed2",
+      "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__single_talking_face__datatrain__002.mp4",
+      "target_sha256": "160ef82b3cc9757c8eb9a7c473fd40db780a4ddce79c4541b6144d749a01dda9",
+      "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__single_talking_face__datatrain__002.jpg",
+      "reference_sha256": "af07315017633fd579155963c3ba75b293e44adb612fc9adcbba86c3de3dd54a",
+      "input_dir": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__single_talking_face__datatrain__002",
+      "scail2_files": {
+        "driving.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__single_talking_face__datatrain__002/driving.mp4",
+        "target.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__single_talking_face__datatrain__002/target.mp4",
+        "ref.jpg": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__single_talking_face__datatrain__002/ref.jpg"
+      },
+      "width": 1280,
+      "height": 704,
+      "num_frames": 97,
+      "fps": 24.0
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+      "split": "test",
+      "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+      "scheme4_run_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/native_supplement_scheme3_conditions_0730/mymotion__humandance__batch1_mingxing_cropped__002/run_manifest.json",
+      "scheme4_run_manifest_sha256": "3db7224c97028c8c45944d08023db8dd519d54832ff7c9d7d503e9f9c0015126",
+      "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+      "source_sha256": "5a5a5752de33d1ce6a64adde654f9d85aec08449e2f7fc8801f5523d65a0dae7",
+      "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+      "target_sha256": "13cb304c8f8b4c503bbc35f12b16345dbbb533a5fe88ff8d9e6a2e35e1af7661",
+      "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance__batch1_mingxing_cropped__002.jpg",
+      "reference_sha256": "553b40d6722919e21fa028a85985d12a323daef06152ccef47ab47964bf6a1dc",
+      "input_dir": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002",
+      "scail2_files": {
+        "driving.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002/driving.mp4",
+        "target.mp4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002/target.mp4",
+        "ref.jpg": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002/ref.jpg"
+      },
+      "width": 704,
+      "height": 1280,
+      "num_frames": 97,
+      "fps": 24.0
+    }
+  ]
+}

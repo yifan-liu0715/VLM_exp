@@ -1,0 +1,20 @@
+  R_loc: 2.7827
+  Total Reward: 4.4017
+
+  IoU Thresh       TP     FP     FN   Recall  Precision       F1
+  ------------------------------------------------------------
+  iou30           636    148    162   0.7970     0.8112   0.8040
+  iou50           566    218    232   0.7093     0.7219   0.7155
+  iou80           337    447    461   0.4223     0.4298   0.4260
+
+  Defect samples (555): detect_rate=0.9946 R_cls=1.1315 R_loc=5.0247
+  Clean samples (445): correct_reject=0.9865
+
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7105   0.9541     567     541    798
+                  iou80   0.4223   0.9644     337     325    798
+======================================================================
+
+[Eval] Results saved to: results/exp042_ckpt1200.json
+[Eval] Detailed per-sample results: results/exp042_ckpt1200_details.json

@@ -1,0 +1,27 @@
+{
+  "dataset_rows": 2993,
+  "sample_id": "mymotion__002",
+  "source_shape": [
+    3,
+    97,
+    576,
+    1088
+  ],
+  "target_shape": [
+    3,
+    97,
+    576,
+    1088
+  ],
+  "reference_shape": [
+    3,
+    576,
+    1088
+  ],
+  "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+  "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+  "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg",
+  "split": "train",
+  "bucket_size": "1088x576",
+  "finite": true
+}

@@ -1,0 +1,35 @@
+[convert] /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00001-of-00003.safetensors -> /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00001-of-00003.safetensors
+[convert] /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00002-of-00003.safetensors -> /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00002-of-00003.safetensors
+[convert] /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00003-of-00003.safetensors -> /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00003-of-00003.safetensors
+{
+  "source_directory": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF",
+  "source_index": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model.safetensors.index.json",
+  "source_index_sha256": "bfa2337f1163e195d24151a72298daf34a620543898109be47e414c8daa5b3fe",
+  "output_directory": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+  "config_sha256": "0d287e38b4e29bbd085b335bafdc0087fde1f813bbf17442ef5db6a981dbf87e",
+  "tensor_count": 825,
+  "key_coverage": "100%",
+  "shards": [
+    {
+      "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00001-of-00003.safetensors",
+      "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00001-of-00003.safetensors",
+      "source_bytes": 9825014472,
+      "output_bytes": 9825014712,
+      "tensor_count": 413
+    },
+    {
+      "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00002-of-00003.safetensors",
+      "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00002-of-00003.safetensors",
+      "source_bytes": 9995661736,
+      "output_bytes": 9995661832,
+      "tensor_count": 407
+    },
+    {
+      "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00003-of-00003.safetensors",
+      "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00003-of-00003.safetensors",
+      "source_bytes": 178558176,
+      "output_bytes": 178558152,
+      "tensor_count": 5
+    }
+  ]
+}

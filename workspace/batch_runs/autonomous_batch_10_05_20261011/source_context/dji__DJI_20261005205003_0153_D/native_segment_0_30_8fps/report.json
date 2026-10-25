@@ -1,0 +1,16 @@
+{
+  "source_id": "dji__DJI_20261005205003_0153_D",
+  "start_s": 0,
+  "end_s": 30,
+  "fps": 8,
+  "frames": 240,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_002.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_003.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_004.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_005.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261005205003_0153_D/native_segment_0_30_8fps/page_006.jpg"
+  ],
+  "orientation_correction": "metadata autorotation exactly once"
+}

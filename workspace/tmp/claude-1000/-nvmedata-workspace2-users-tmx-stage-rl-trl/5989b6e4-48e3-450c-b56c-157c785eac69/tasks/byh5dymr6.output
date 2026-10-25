@@ -1,0 +1,13 @@
+[17:57:39] Evaluating exp042_ckpt1800 ...
+/bin/bash: line 19: 1992396 Killed                  $PY scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[17:57:51] exp042_ckpt1800 done
+[17:57:51] Evaluating exp042_ckpt2100 ...
+/bin/bash: line 19: 1993068 Killed                  $PY scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[17:58:21] exp042_ckpt2100 done
+[17:58:21] Evaluating exp044_ckpt1800 ...
+/bin/bash: line 19: 1994341 Killed                  $PY scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[17:58:51] exp044_ckpt1800 done
+[17:58:51] Evaluating exp044_ckpt2100 ...
+/bin/bash: line 19: 1995417 Killed                  $PY scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[17:59:21] exp044_ckpt2100 done
+=== ALL DONE ===

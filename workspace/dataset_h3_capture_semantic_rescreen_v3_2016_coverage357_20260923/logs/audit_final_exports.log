@@ -1,0 +1,31 @@
+{
+  "manifest_count": 2016,
+  "unique_clip_id_count": 2016,
+  "empty_clip_id_count": 0,
+  "source_coverage_count": 357,
+  "export_ok_count": 2016,
+  "export_error_count": 0,
+  "cache_status_counts": {
+    "reused_v2_verified_hardlink": 2016
+  },
+  "unique_output_path_count": 2016,
+  "missing_output_count": 0,
+  "missing_output_examples": [],
+  "unexpected_clip_file_count": 0,
+  "unexpected_clip_file_examples": [],
+  "valid_output_sha256_count": 2016,
+  "output_sha256_mismatch_count": 0,
+  "output_sha256_mismatch_examples": [],
+  "unique_output_sha256_count": 2016,
+  "duplicate_output_sha256_group_count": 0,
+  "duplicate_output_sha256_row_count": 0,
+  "duplicate_output_sha256_examples": {},
+  "total_output_size_bytes": 4331098704,
+  "duration_total_sec": 10280.278121,
+  "review_status_counts": {
+    "pending_user_review": 2016
+  },
+  "semantic_feedback_verified_nonfalse_count": 0,
+  "hand_keypoint_file_count": 0,
+  "training_run": false
+}

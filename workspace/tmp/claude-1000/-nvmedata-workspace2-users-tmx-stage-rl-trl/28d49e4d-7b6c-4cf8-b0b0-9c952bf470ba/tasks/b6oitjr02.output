@@ -1,0 +1,13 @@
+[Eval] Loading val dataset: /nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json
+[Eval] 1000 samples to evaluate
+[Eval] Loading full-parameter checkpoint: /nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.02it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+[Eval] Running inference from sample 0...
+Evaluating:   0%|          | 0/1000 [00:00<?, ?it/s]
+=== Step 2: Flipped inference ===
+[TTA] Flipped 1000 images to /tmp/tta_flipped_images
+[TTA] Running eval on flipped images...
+[TTA] Running: /nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/bin/python scripts/eval.py --checkpoint /nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828 --output results/sft_baseline_flip.json --gpu 2 --max-samples 1000
+[TTA] Step 2 FAILED

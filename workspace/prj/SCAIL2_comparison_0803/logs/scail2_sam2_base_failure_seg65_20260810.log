@@ -1,0 +1,72 @@
+[2026-08-09 23:25:45,531] INFO: Generation job args: Namespace(model='SCAIL-14B', ckpt_dir='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/SCAIL-2', offload_model=True, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_dir='samples', save_file='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/outputs/sam2_fallback_base_vs_dpo/mymotion__humandance__batch1_mingxing_cropped__002/base.mp4', prompt='A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.', base_seed=42, txt=None, image='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002/ref.jpg', additional_ref_image=None, additional_ref_mask_image=None, mask_image='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/ref_mask.jpg', pose='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/rendered_v2.mp4', mask_video='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/rendered_mask_v2.mp4', replace_flag=True, target_h=1280, target_w=704, scail_path='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/converted/SCAIL-2.safetensors', scail_config_path='/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/configs/config-14b.json', sample_solver='unipc', sample_steps=40, sample_shift=3.0, sample_guide_scale=5.0, segment_len=65, segment_overlap=5, lora_path=None, lora_alpha=1.0)
+[2026-08-09 23:25:45,532] INFO: Creating SCAIL-2 pipeline.
+[2026-08-09 23:26:35,506] INFO: loading /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/SCAIL-2/umt5-xxl/models_t5_umt5-xxl-enc-bf16.pth
+[2026-08-09 23:26:41,069] INFO: loading /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/SCAIL-2/Wan2.1_VAE.pth
+[2026-08-09 23:26:41,397] INFO: loading /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/SCAIL-2/models_clip_open-clip-xlm-roberta-large-vit-huge-14-onlyvisual.pth
+[2026-08-09 23:26:42,513] INFO: Creating WanSCAILModel from /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/converted/SCAIL-2.safetensors
+[2026-08-09 23:29:29,509] INFO: Input prompt: A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.
+[2026-08-09 23:29:29,509] INFO: Input image: /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/inputs/mymotion__humandance__batch1_mingxing_cropped__002/ref.jpg
+[2026-08-09 23:29:29,529] INFO: Input mask image: /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/ref_mask.jpg
+[2026-08-09 23:29:29,540] INFO: Input pose video: /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/rendered_v2.mp4
+[2026-08-09 23:29:29,811] INFO: Input mask video: /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/rendered_mask_v2.mp4
+[2026-08-09 23:29:30,268] INFO: Mode: Replacement
+[2026-08-09 23:29:30,268] INFO: Generating video ...
+[2026-08-09 23:29:30,813] INFO:   [mask debug] ch0 white: 0.5335 (53.35%)
+[2026-08-09 23:29:30,814] INFO:   [mask debug] ch3 blue: 0.4665 (46.65%)
+[2026-08-09 23:29:36,766] INFO: Processing segment 1/1: frames [0, 65)
+[2026-08-09 23:29:38,284] INFO:   [mask debug] ch3 blue: 0.0536 (5.36%)
+  0%|          | 0/40 [00:00<?, ?it/s]  0%|          | 0/40 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/generate.py", line 455, in <module>
+    generate(args)
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/generate.py", line 449, in generate
+    generate_video(scail_pipeline, prompt, image_path, image_mask_path, pose_path, driving_mask_path, args, device, rank, cfg, input_idx, args.replace_flag, additional_task_input)
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/generate.py", line 323, in generate_video
+    video = pipeline.generate(
+            ^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/scail.py", line 511, in generate
+    videos = sample_func(noise, arg_c, arg_null, history_latent)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/scail.py", line 391, in sample_func
+    noise_pred_cond = self.model(
+                      ^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 868, in forward
+    x = block(x, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 447, in forward
+    y = self.self_attn(
+        ^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 297, in forward
+    k=rope_apply_func(k),
+      ^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 862, in apply_rope_scail
+    y = rope_apply_scail(x, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 211, in rope_apply_scail
+    rope_apply_video(x_video, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2-wan/SCAIL-2-5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5/wan/modules/model_scail2.py", line 119, in rope_apply_video
+    x_i = torch.view_as_real(x_i * freqs_i).flatten(2)
+                             ~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.28 GiB. GPU 0 has a total capacity of 79.32 GiB of which 1.99 GiB is free. Including non-PyTorch memory, this process has 77.32 GiB memory in use. Of the allocated memory 74.85 GiB is allocated by PyTorch, and 1.97 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

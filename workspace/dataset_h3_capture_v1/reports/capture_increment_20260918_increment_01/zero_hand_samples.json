@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260918_increment_01",
+  "increment_manifest_count": 109,
+  "samples_with_detected_hand": 107,
+  "zero_hand_sample_count": 2,
+  "recommended_action": "manual_review_and_exclude_from_training_by_default",
+  "samples": [
+    {
+      "sample_id": "capture_001930",
+      "source_name": "DJI_20260917193245_0350_D.MP4",
+      "frames_sampled": 120,
+      "hand_visible_rate": 0.0
+    },
+    {
+      "sample_id": "capture_001939",
+      "source_name": "DJI_20260917223420_0360_D.MP4",
+      "frames_sampled": 120,
+      "hand_visible_rate": 0.0
+    }
+  ]
+}

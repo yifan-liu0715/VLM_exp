@@ -1,0 +1,9 @@
+This run was intentionally stopped at approximately 9% of epoch 0 on 2026-07-12.
+
+Reason: the source grouping rule in data_splits/source_disjoint_v1 did not group
+three-part numeric-suffix IDs such as mymotion__multi_talking_face_video_copy__277.
+This could leak clips from the same source family across train/validation/test.
+
+No checkpoint from this run is valid for model selection or publication.
+The corrected experiment uses data_splits/source_disjoint_v2 and output directory
+output_models/wan2.2_lora_formal_v2_r16_lr5e5.

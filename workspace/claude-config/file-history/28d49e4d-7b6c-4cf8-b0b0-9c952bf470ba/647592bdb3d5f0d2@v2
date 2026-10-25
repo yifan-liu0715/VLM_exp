@@ -1,0 +1,123 @@
+# 两天论文冲刺计划
+
+## Context
+
+GRPO RL 实验已取得核心成果：R@0.8 从 38.10% → 43.36% (+5.26pp)。服务器只剩 2 天，需要完成可视化、消融实验和论文框架。2M 分辨率评测已完成（结果：比 1M 略差，R@0.5=69.30% vs 70.05%）。
+
+---
+
+## Task 1: 论文级可视化图（半天）
+
+**目标**: 生成 publication-quality 的对比图和统计图
+
+### 1.1 改进现有可视化脚本
+- **文件**: `scripts/visualize_comparison.py` → 改为 `scripts/visualize_paper.py`
+- **改进**:
+  - 图片上添加 IoU 数值标注（如 "IoU: 0.72→0.91"）
+  - 添加 defect type 标注
+  - 使用更专业的颜色方案（论文友好）
+  - 图片裁剪到缺陷区域附近 + zoom-in 小图
+  - 生成 2x2 grid 的典型样本面板图（Figure 1）
+  - 统计图加误差条、p-value 或置信区间
+
+### 1.2 生成的图表
+| 图表 | 说明 |
+|------|------|
+| `fig1_qualitative_comparison.png` | 4 类典型样本的 2x2 面板（improved/near_threshold/degraded/miss_to_hit） |
+| `fig2_iou_distribution.png` | IoU 分布直方图对比（SFT vs RL） |
+| `fig3_recall_curve.png` | 不同 IoU 阈值下的 Recall 对比柱状图 |
+| `fig4_scatter_iou.png` | 逐样本 IoU 散点图（SFT x 轴 vs RL y 轴） |
+
+### 1.3 执行
+```bash
+cd /nvmedata/workspace2/users/tmx/stage_rl_trl
+python scripts/visualize_paper.py
+```
+
+---
+
+## Task 2: 高分辨率消融实验（1天）
+
+**状态**: 2M 评测已完成！结果如下：
+
+| 分辨率 | R@0.5 | R@0.8 | DefAcc |
+|--------|-------|-------|--------|
+| 1M (baseline) | 70.05% | 38.10% | 98.6% |
+| 2M | 69.30% | 37.97% | 98.6% |
+
+**结论**: 2M 分辨率没有提升，甚至略降。可能原因：
+- 模型在 1M 分辨率下 SFT 训练，推理时用 2M 分布不匹配
+- 需要在 2M 分辨率下重新 SFT 才能验证分辨率假设
+
+### 2.1 补充实验（可选，如果时间允许）
+- 用 RL 最佳 checkpoint (exp044 ckpt2700) 在 2M 下评测，看 RL 是否在高分辨率下更有优势
+- 如果有时间，可以尝试 1.5M 分辨率
+
+### 2.2 执行（如需补充评测）
+```bash
+# 用 RL 最佳模型在 2M 下评测
+CUDA_VISIBLE_DEVICES=2 python scripts/eval.py \
+    --checkpoint outputs/exp044_no_tiny_lr5e7_beta01/checkpoint-4800 \
+    --output results/exp044_ckpt4800_2M.json \
+    --max_pixels 2007040
+```
+
+---
+
+## Task 3: 论文框架整理（半天）
+
+**目标**: 把所有实验结果整理成论文结构
+
+### 3.1 论文大纲
+```
+1. Introduction
+   - Industrial anomaly detection motivation
+   - VLM + RL approach
+   
+2. Related Work
+   - IAD methods
+   - RLHF/GRPO for VLMs
+   
+3. Method
+   3.1 GRPO formulation
+   3.2 Reward design (R_ans + R_cls + R_loc)
+   3.3 Training pipeline
+   
+4. Experiments
+   4.1 Setup (dataset, metrics, baselines)
+   4.2 Main results (SFT vs RL table)
+   4.3 Ablation: reward design (standard vs decoupled)
+   4.4 Ablation: data filtering (tiny defects)
+   4.5 Analysis: RL's mechanism (probability vs capability)
+   4.6 Analysis: resolution effect
+   
+5. Conclusion
+```
+
+### 3.2 需要整理的数据
+- [ ] Table 1: Main results (SFT baseline + best RL + all ablations)
+- [ ] Table 2: Per-checkpoint results for exp044
+- [ ] Table 3: Defect size analysis
+- [ ] Figure 1-4: 从 Task 1 生成
+- [ ] 从 `docs/ANALYSIS_NOTES.md` 提取分析文本
+
+### 3.3 执行
+- 创建 `paper/` 目录
+- 写 `paper/main.tex` 或 `paper/paper_draft.md`
+- 整合所有表格和图片引用
+
+---
+
+## 时间安排
+
+| 时段 | 任务 | 产出 |
+|------|------|------|
+| Day 1 上午 | Task 1: 可视化 | 4 张论文级图表 |
+| Day 1 下午 | Task 3: 论文框架 | paper/ 目录 + 大纲 + 表格 |
+| Day 2 | Task 2 补充 + 精修 | 补充评测（如需）+ 论文润色 |
+
+## 验证
+
+1. 可视化图：检查 `results/figures/` 下的 PNG 文件
+2. 2M 消融：对比 `results/sft_baseline_2M.json`
+3. 论文框架：检查 `paper/` 目录结构

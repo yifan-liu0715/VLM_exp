@@ -1,0 +1,30 @@
+{
+  "reports": [
+    {
+      "source_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_input/epic_kitchens_2000_available.jsonl",
+      "ranked_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_ranked/epic_kitchens_2000_available_causal_ranked.jsonl",
+      "total": 2000,
+      "counts": {
+        "A_direct_causal_candidate": 2000
+      },
+      "retained_for_manual_review": 2000,
+      "excluded_by_triage": 0,
+      "warning": "Heuristic triage only; verify hand contact, object response, and temporal order in video."
+    },
+    {
+      "source_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_input/openaoe_1000_selected.jsonl",
+      "ranked_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_ranked/openaoe_1000_selected_causal_ranked.jsonl",
+      "total": 1000,
+      "counts": {
+        "C_exclude_no_object_response": 1,
+        "B_contact_motion_review": 357,
+        "A_direct_causal_candidate": 642
+      },
+      "retained_for_manual_review": 999,
+      "excluded_by_triage": 1,
+      "warning": "Heuristic triage only; verify hand contact, object response, and temporal order in video."
+    }
+  ],
+  "combined_ranked_manifest": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_ranked/public_dataset_3000_causal_ranked.jsonl",
+  "split_dir": "/nvmedata/workspace2/users/nina/dataset_h3_public_v1/manifests/causal_splits"
+}

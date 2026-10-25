@@ -1,0 +1,116 @@
+{
+  "manifest_count": 1061,
+  "worker_count": 12,
+  "success_count": 12,
+  "failure_count": 0,
+  "shards": [
+    {
+      "shard": 0,
+      "start": 0,
+      "end": 88,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_00.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_00"
+    },
+    {
+      "shard": 1,
+      "start": 88,
+      "end": 176,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_01.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_01"
+    },
+    {
+      "shard": 2,
+      "start": 176,
+      "end": 265,
+      "count": 89,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_02.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_02"
+    },
+    {
+      "shard": 3,
+      "start": 265,
+      "end": 353,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_03.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_03"
+    },
+    {
+      "shard": 4,
+      "start": 353,
+      "end": 442,
+      "count": 89,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_04.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_04"
+    },
+    {
+      "shard": 5,
+      "start": 442,
+      "end": 530,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_05.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_05"
+    },
+    {
+      "shard": 6,
+      "start": 530,
+      "end": 618,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_06.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_06"
+    },
+    {
+      "shard": 7,
+      "start": 618,
+      "end": 707,
+      "count": 89,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_07.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_07"
+    },
+    {
+      "shard": 8,
+      "start": 707,
+      "end": 795,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_08.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_08"
+    },
+    {
+      "shard": 9,
+      "start": 795,
+      "end": 884,
+      "count": 89,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_09.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_09"
+    },
+    {
+      "shard": 10,
+      "start": 884,
+      "end": 972,
+      "count": 88,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_10.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_10"
+    },
+    {
+      "shard": 11,
+      "start": 972,
+      "end": 1061,
+      "count": 89,
+      "returncode": 0,
+      "log": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/logs/shard_11.log",
+      "output": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1061_keypoints_20260928/hand_keypoints_shards/shard_11"
+    }
+  ]
+}

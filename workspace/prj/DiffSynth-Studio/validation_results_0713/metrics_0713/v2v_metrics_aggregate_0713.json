@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "target",
+    "samples": 3,
+    "frame_ssim": 1.0,
+    "psnr_db": 100.0,
+    "sharpness": 685.780057089773,
+    "clip_prompt_similarity": 0.23079581558704376
+  },
+  {
+    "variant": "source",
+    "samples": 3,
+    "frame_ssim": 0.7551630427151963,
+    "psnr_db": 21.05260896988354,
+    "sharpness": 38.218437967425295,
+    "clip_prompt_similarity": 0.19676356514294943
+  },
+  {
+    "variant": "base",
+    "samples": 3,
+    "frame_ssim": 0.5889773020254032,
+    "psnr_db": 18.150163838754136,
+    "sharpness": 53.986065574948476,
+    "clip_prompt_similarity": 0.22060851256052652
+  },
+  {
+    "variant": "lora",
+    "samples": 3,
+    "frame_ssim": 0.6111159180267652,
+    "psnr_db": 18.49361775048348,
+    "sharpness": 45.250770820484945,
+    "clip_prompt_similarity": 0.2025182992219925
+  }
+]

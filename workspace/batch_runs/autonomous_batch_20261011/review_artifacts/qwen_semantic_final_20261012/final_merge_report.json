@@ -1,0 +1,35 @@
+{
+  "expected": 597,
+  "canonical_rows": 597,
+  "completed_valid": 590,
+  "malformed_retry": 7,
+  "missing_indices": [],
+  "duplicate_indices": [],
+  "retry_input_rows": 17,
+  "retry_replaced_indices": [
+    2,
+    3,
+    8,
+    9,
+    10,
+    15,
+    26,
+    51,
+    79,
+    137,
+    266,
+    346,
+    366,
+    504,
+    531,
+    536,
+    552
+  ],
+  "state_counts": {
+    "review_needed": 590,
+    "semantic_backend_failed": 7
+  },
+  "promotion_performed": false,
+  "keypoints_started": false,
+  "training_started": false
+}

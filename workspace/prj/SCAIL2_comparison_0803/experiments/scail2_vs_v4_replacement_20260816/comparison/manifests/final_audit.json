@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "audit_completed_at_utc": "2026-08-16T15:41:10.236399+00:00",
+  "comparison": "SCAIL-2 Replacement vs Scheme4 V4",
+  "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+  "fairness": {
+    "frames": 65,
+    "fps": 16,
+    "width": 512,
+    "height": 928,
+    "solver": "UniPC",
+    "steps": 40,
+    "guidance_scale": 5.0,
+    "shift": 3.0,
+    "seed": 42,
+    "source_sha256": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "reference_sha256": "e624338792ada3cda07d772e0c2bcd8a01038beba4996a3f5637308d22734f66",
+    "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+    "target_usage": "evaluation-only; excluded from generation conditioning",
+    "model_specific_conditioning_disclosed": true
+  },
+  "physical_gpus": {
+    "scail2": "1",
+    "v4_scheme4": "2",
+    "gpu0_used": false
+  },
+  "model_stacks": {
+    "scail2": {
+      "physical_gpu": 1,
+      "python": "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/bin/python",
+      "model": "SCAIL-14B",
+      "weight": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/converted/SCAIL-2.safetensors",
+      "weight_sha256": "8b844f026510f0b94d3209d66444b403a089ec179dc149d85513c13b2fa37118",
+      "runner_sha256": "895542392165d533adbcabec01e10af4d659d50cecd65e84dcc95fc94571f73c",
+      "output": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/scail2/outputs/scail2_replacement.mp4"
+    },
+    "v4_scheme4": {
+      "physical_gpu": 2,
+      "python": "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/bin/python",
+      "base_model": "Wan2.2-TI2V-5B",
+      "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/recommended/final_adapter/v2v_lora_source_reference_posenc.safetensors",
+      "adapter_sha256": "dece6fe3aa1de90166f861c4e10405ab32ceb4b1a78f61e9bac08af5f595908a",
+      "entrypoint_sha256": "9dde241bc6a2731b4cffcbd645f3937ec5a8b05969ebaaa734be9d38b46cdf64",
+      "runner_sha256": "8310edbbf14494a549d6d46f902e773e7ec21d820f8aa7d05800a71881b8f40b",
+      "output": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/outputs/v4_scheme4_replacement.mp4"
+    }
+  },
+  "probes": {
+    "source": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "target": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "scail2": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "v4_scheme4": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    }
+  },
+  "grid_probe": {
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1024,
+    "height": 1856,
+    "fps": 16.0,
+    "frames": 65
+  },
+  "log_errors": {
+    "scail2": [],
+    "v4_scheme4": []
+  },
+  "outputs": {
+    "scail2": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/scail2/outputs/scail2_replacement.mp4",
+    "scail2_sha256": "a166da635eaa1dbf02c3620b323387cdd5c2aa73cb3de32826b9749f0c6a82f2",
+    "v4_scheme4": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/outputs/v4_scheme4_replacement.mp4",
+    "v4_scheme4_sha256": "511ec6f3983847d770a4fc3d6ab9d0e5b0c0c5100b9aa4366d48c90c27f3694c",
+    "comparison_4grid": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/comparison/outputs/scail2_vs_v4_replacement_4grid.mp4",
+    "comparison_4grid_sha256": "f94b7757703ef78dc5e59b5d0ffd186ec1893752bcb8dd4f6697d1008056def7",
+    "contact_sheet": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/comparison/qc/frames_000_032_064_contact_sheet.png",
+    "contact_sheet_sha256": "514a1c2dc46ce9121ee0505aee92c426280ba92cecb181abc82fc4a1422c5281"
+  },
+  "qc": {
+    "comparison/qc/frames_000_032_064_contact_sheet.png": "514a1c2dc46ce9121ee0505aee92c426280ba92cecb181abc82fc4a1422c5281",
+    "comparison/qc/scail2_frame_000.png": "bfd631f69dbf51db618ccc780757c95e770ec159a708d415882806d5435caefb",
+    "comparison/qc/scail2_frame_032.png": "6b8f3464866677fb5a25733c5ed73e837b9036da31abbf875a72b99d2d1f5614",
+    "comparison/qc/scail2_frame_064.png": "9f9145e869de0373ca400056f6af1ce7fa7b9aed12952b04ac53c7aab896ace8",
+    "comparison/qc/v4_frame_000.png": "4744603b5ee20f9cc96cc9ba5ecdb19bed07c97989de29f29108c04c106f76bd",
+    "comparison/qc/v4_frame_032.png": "c234e8e47dfa6e822d1dbc23b64d0ce9d0edf1f6304e8682aca94c3488a330d2",
+    "comparison/qc/v4_frame_064.png": "62b3889b912feee6b4aff7564da08ba2179521847ef0b3e87d3fe9b0c0cafece"
+  },
+  "preservation": {
+    "old_experiments_modified": false,
+    "large_weights_copied": false,
+    "failed_v4_attempt_preserved": true,
+    "successful_v4_log": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/scail2_vs_v4_replacement_20260816/v4_scheme4/logs/run_early_cuda_v2.log"
+  }
+}

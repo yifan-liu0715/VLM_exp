@@ -1,0 +1,136 @@
+generator_fsdp_wrap_strategy: size
+real_score_fsdp_wrap_strategy: size
+fake_score_fsdp_wrap_strategy: size
+text_encoder_fsdp_wrap_strategy: size
+image_encoder_fsdp_wrap_strategy: size
+
+real_name: Wan2.2-Animate-14B
+fake_name: Wan2.2-Animate-14B
+
+disable_wandb: false
+wandb_key: "${WANDB_KEY}"  # redacted — set via environment variable
+wandb_entity: zzyx-shanghai-jiaoda-onlly-co-
+wandb_project: Causal_V2V
+
+# training
+denoising_step_list:
+- 1000.0
+- 757.0
+- 522.0
+
+seed: 10052
+ts_schedule: false
+num_train_timestep: 1000
+timestep_shift: 5.0 # for fake and real
+guidance_scale: 1.0
+denoising_loss_type: flow
+mixed_precision: true
+sharding_strategy: hybrid_full # hybrid_full / no_shard / full / hybrid_zero2
+dfake_gen_update_ratio: 5
+enable_gradient_checkpointing: true
+
+# lr
+lr: 1.0e-06
+lr_critic: 2.0e-07
+generator_lr_start: 5.0e-06
+critic_lr_start: 5.0e-06
+lr_scheduler_end_step: 2500
+lr_scheduler_start_step: 1300
+beta1: 0.0
+beta2: 0.999
+beta1_critic: 0.0
+beta2_critic: 0.999
+
+# data
+batch_size: 1
+gradient_accumulation_steps: 7  # should be equal to num_frames//4,min_num_training_frames,eta
+ema_weight: 0 # we disable ema for s2v training
+ema_start_step: 200
+log_iters: 50 #保存间隔
+max_checkpoints: 100
+max_iters: 20000
+
+negative_prompt: '色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走'
+image_or_video_shape:
+- 1
+- 12 # unused in sequential training
+- 16
+- 90
+- 50
+distribution_loss: dmd
+trainer: score_distillation
+gradient_checkpointing: true
+num_frame_per_block: 3
+load_raw_video: false
+
+model_kwargs:
+  timestep_shift: 5.0 # for generator
+  local_attn_size: 6    # short-term: 1 block dense attention
+  use_sink_frames: true
+
+adapter:
+  type: "lora"
+  rank: 128                  # LoRA rank (typical values: 8, 16, 32, 64)
+  dtype: "bfloat16"          # Data type for LoRA parameters: "bfloat16", "float16", "float32"
+  lora_target_modules: "q,k,v,o,ffn.0,ffn.2"
+
+bid_lora_ckpt: /primus_xpfs_workspace_T08/zhangyuxuan/projects2/LiveAnimate_stage1_0430/output_fsdp_lora_multinode_bid_tsf/step-12000.safetensors  # init teacher model
+lora_ckpt: /primus_xpfs_workspace_T08/zhangyuxuan/projects2/LiveAnimate_stage1_0430/output_fsdp_lora_multinode_tf_resume/step-14000.safetensors     # init student model path
+v2v: true
+text_encoder_cpu_offload: true
+cache_generator_output: false
+context_noise: 0
+rerun_kv_cache: True
+sp_size: 1
+
+min_num_training_frames: 21
+num_training_frames: 21
+slice_last_frames: 21 #只算最后slice_last_latent_frames帧gradient
+
+v2v_training_config:
+  max_steps: 100000
+  val_check_interval: 250
+  debug: false
+  infer: false
+  infer_steps: 20
+  reset: false
+  valid_scale_guidance: 5
+  use_captionemb: false
+
+  # 数据路径
+  dataset_path: ["/primus_chat_aigc_sh_oss/users/zhangyuxuan/T08temp/liveanimate_v4/merged_fullbody.jsonl"]
+  dataset_weights: [1]
+  dataset_mix_wh: False
+
+  dataset:
+    max_num_frames: 90 # 至少这么长的视频才能用来训练
+    enable_face_augment: True
+    enable_motion_frames: False
+    target_hw:
+      - [480, 480]
+      - [672, 384]
+      - [384, 672]
+    target_len: 85
+    dataset_max_token: 80000
+    max_token: 60000
+    max_wh: 672
+    enable_diff_face: True
+    diff_face_prob: 0.5
+    # pose_checkpoint: /primus_xpfs_workspace_T08/zhangyuxuan/models/Wan2.2-Animate-14B/process_checkpoint/pose2d/vitpose_h_wholebody.onnx
+    # detector_checkpoint: /primus_xpfs_workspace_T08/zhangyuxuan/models/Wan2.2-Animate-14B/process_checkpoint/det/yolov10m.onnx
+    # enable_pose_keypoints: true
+    
+  # 预训练模型路径
+  ckpt_dir: /primus_xpfs_workspace_T08/zhangyuxuan/models/Wan2.2-Animate-14B
+
+  # 训练参数
+  dataloader_num_workers: 0  # 大于0会导致内存泄露的问题，暂时未找到原因，怀疑是sampler在不断的塞数据
+  learning_rate: 5.0e-5
+  accumulate_grad_batches: 1
+
+  # 训练优化
+  use_gradient_checkpointing: true
+  use_gradient_checkpointing_offload: false
+  t5_cpu: true
+  convert_model_dtype: true
+  train_architecture: lora

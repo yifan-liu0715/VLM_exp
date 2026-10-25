@@ -1,0 +1,34 @@
+{
+  "source_id": "dji__DJI_20261008185830_0007_D",
+  "source_sha256": "f72a39f597612a196e6493d5a62675e0bede03b61d727664f1f7aa985160995f",
+  "state": "reject",
+  "status": "reject",
+  "source_semantic_review_complete": true,
+  "reviewed_intervals_s": [
+    [
+      0,
+      10.858667
+    ]
+  ],
+  "review_sample_fps": 4,
+  "reviewed_native_frames": 43,
+  "source_review_pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261008185830_0007_D/native_4fps/review_page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/dji__DJI_20261008185830_0007_D/native_4fps/review_page_002.jpg"
+  ],
+  "uncovered_reviewed": [
+    {
+      "start_s": 0,
+      "end_s": 10.858667,
+      "reason": "Public-place/selfie footage of people. No animal interaction or hand-animal causal event is visible."
+    }
+  ],
+  "reject_reason": "no_animal_interaction",
+  "recognizable_human_face_visually_present": true,
+  "privacy_reviewed": false,
+  "accepted_for_training": false,
+  "human_reviewed": false,
+  "keypoints_started": false,
+  "training_started": false,
+  "updated_at": "2026-10-11T16:38:45.110028+08:00"
+}

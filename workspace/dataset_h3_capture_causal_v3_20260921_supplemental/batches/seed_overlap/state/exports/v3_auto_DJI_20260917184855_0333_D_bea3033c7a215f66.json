@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_auto_DJI_20260917184855_0333_D_bea3033c7a215f66",
+  "boundary_signature": "c10fec32aa7b2c4f33f165f0235cf9042c856fde7bb024e6380ff717e6142e71",
+  "export_signature": "5e1adc8cf629791f3c994b63d83e1cb3067d1e0f457fe24870cbac42b869fd94",
+  "output_sha256": "12ccac497badc14f20293299b7e62342d9ba79130a48226b4b412c4f119e0383",
+  "output": {
+    "duration_sec": 5.292,
+    "size_bytes": 1927239,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 127,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

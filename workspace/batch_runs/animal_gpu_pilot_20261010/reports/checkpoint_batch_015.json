@@ -1,0 +1,1629 @@
+{
+  "batch_id": "batch_015",
+  "review_authority": "user delegated routine manual review",
+  "VLM_used": false,
+  "sources": [
+    {
+      "source_id": "DJI_20260930201304_0108_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201304_0108_D\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201304_0108_D\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.75,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand low then prepares; Animal:cat seated"
+        },
+        {
+          "start_s": 0.75,
+          "end_s": 0.875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand low then prepares; Animal:cat seated"
+        },
+        {
+          "start_s": 0.875,
+          "end_s": 1.875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:joined fingers raised and rotated; Animal:cat stays seated oriented toward raised hand"
+        },
+        {
+          "start_s": 1.875,
+          "end_s": 2.6875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:joined fingers/back-of-hand then withdraws; Animal:cat remains seated; lip movement before next opening"
+        },
+        {
+          "start_s": 2.6875,
+          "end_s": 4.0,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "B"
+          ],
+          "reason": "Hand:new spread five-finger display high; Animal:cat sits; late forward paw prepares"
+        },
+        {
+          "start_s": 4.0,
+          "end_s": 6.875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "B"
+          ],
+          "reason": "Hand:same opened hand lowers and rotates palm; Animal:cat rises and reaches, paw contacts lowering palm, then body lowers"
+        },
+        {
+          "start_s": 6.875,
+          "end_s": 6.976,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:stream tail; Animal:no further independent completed event"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.875
+          ],
+          "hand": "hand low then prepares",
+          "animal": "cat seated"
+        },
+        {
+          "interval": [
+            0.875,
+            1.875
+          ],
+          "hand": "joined fingers raised and rotated",
+          "animal": "cat stays seated oriented toward raised hand"
+        },
+        {
+          "interval": [
+            1.875,
+            2.6875
+          ],
+          "hand": "joined fingers/back-of-hand then withdraws",
+          "animal": "cat remains seated; lip movement before next opening"
+        },
+        {
+          "interval": [
+            2.6875,
+            4.0
+          ],
+          "hand": "new spread five-finger display high",
+          "animal": "cat sits; late forward paw prepares"
+        },
+        {
+          "interval": [
+            4.0,
+            6.875
+          ],
+          "hand": "same opened hand lowers and rotates palm",
+          "animal": "cat rises and reaches, paw contacts lowering palm, then body lowers"
+        },
+        {
+          "interval": [
+            6.875,
+            6.976
+          ],
+          "hand": "stream tail",
+          "animal": "no further independent completed event"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.75,
+          "end_s": 2.6875,
+          "action_onset_s": 1.0,
+          "response_onset_s": 1.25,
+          "response_evidence_s": [
+            1.25,
+            1.75,
+            2.25,
+            2.625
+          ],
+          "hand_action": "raise_and_rotate_joined_fingers_near_cat",
+          "animal_response": "cat_remains_seated_facing_nearby_hand_without_reaching",
+          "caption_text": "拍摄者抬起并旋转并指的手，猫维持坐姿和近手方向，没有起身或伸爪。末段舔唇只记可见行为，不确定是否由手触发，不写食物或喂食。",
+          "animal_type": "cat",
+          "interaction_mode": "maintained_condition",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "sample_polarity": "weak_response",
+          "food_visible": false,
+          "response_anchor_type": "observation_of_maintained_seated_state"
+        },
+        {
+          "event_id": "B",
+          "start_s": 2.6875,
+          "end_s": 6.875,
+          "action_onset_s": 2.875,
+          "response_onset_s": 4.0,
+          "response_evidence_s": [
+            4.0,
+            4.25,
+            5.25,
+            6.25,
+            6.625,
+            6.8125
+          ],
+          "hand_action": "show_spread_hand_high_then_lower_palm_to_cat",
+          "animal_response": "cat_rises_reaches_front_paws_contacts_lowering_palm_then_lowers_body",
+          "caption_text": "前次并指展示撤离后，拍摄者张开五指在猫上方展示并降低转掌，猫起身伸前爪，爪靠掌面，随后身体降低。没有清晰食物，不继承参考标签中的treat。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [
+            "background_dark_animal_species_uncertain"
+          ],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "front_paw"
+          ],
+          "food_visible": false
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_0.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_1.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_1.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_3.9375.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_4.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_4.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_5.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_5.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_6.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_6.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201304_0108_D\\gesture_paw_6.8125.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_0.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_1.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_1.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201304_0108_D\\early_modes_3.2500.png"
+      ],
+      "candidate_boundary_reviews": [
+        "2.6875 new spread fingers after prior withdrawal; new body-rise/paw result.",
+        "5.25 lowered upward palm continues ongoing raised-body/reaching result, no target reset."
+      ],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "并指转掌和真正张开五指分开记账；2.5秒撤离及新张指执行、4秒后独立伸爪结果支持新边界。后续降掌是同次伸爪反馈的收尾，不独立切。"
+    },
+    {
+      "source_id": "DJI_20260930201432_0109_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201432_0109_D\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201432_0109_D\\pages\\frames_001.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201432_0109_D\\pages\\frames_002.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 3.375,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:operator hand absent; Animal:cat independently raises and lowers head"
+        },
+        {
+          "start_s": 3.375,
+          "end_s": 5.125,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:operator hand approaches over crown; Animal:cat raises head from prior low state"
+        },
+        {
+          "start_s": 5.125,
+          "end_s": 7.25,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:visible fingertip crown contact; Animal:cat stays oriented then lowers head"
+        },
+        {
+          "start_s": 7.25,
+          "end_s": 8.1875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand withdraws; Animal:low-head result remains readable"
+        },
+        {
+          "start_s": 8.1875,
+          "end_s": 10.389333,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:no new operator trigger; Animal:cat stays low and background cats move"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            3.375
+          ],
+          "hand": "operator hand absent",
+          "animal": "cat independently raises and lowers head"
+        },
+        {
+          "interval": [
+            3.375,
+            5.125
+          ],
+          "hand": "operator hand approaches over crown",
+          "animal": "cat raises head from prior low state"
+        },
+        {
+          "interval": [
+            5.125,
+            7.25
+          ],
+          "hand": "visible fingertip crown contact",
+          "animal": "cat stays oriented then lowers head"
+        },
+        {
+          "interval": [
+            7.25,
+            8.1875
+          ],
+          "hand": "hand withdraws",
+          "animal": "low-head result remains readable"
+        },
+        {
+          "interval": [
+            8.1875,
+            10.389333
+          ],
+          "hand": "no new operator trigger",
+          "animal": "cat stays low and background cats move"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 3.375,
+          "end_s": 8.1875,
+          "action_onset_s": 3.5,
+          "response_onset_s": 4.375,
+          "response_evidence_s": [
+            4.375,
+            4.75,
+            5.5,
+            6.5,
+            7.375,
+            8.125
+          ],
+          "hand_action": "approach_and_touch_cat_crown_with_fingertips",
+          "animal_response": "cat_raises_head_toward_approaching_hand_then_lowers_head_after_crown_contact",
+          "caption_text": "拍摄者蓝袖左手接近猫，猫抬头定向；手指随后轻触头顶，猫较晚低头，撤手后低头状态可读。早段猫自行抬低头不挪为本事件；对面人物的抬手不是作用手。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": [
+            3392,
+            1908,
+            0,
+            252
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [
+            "gray_cat_floor",
+            "white_cat_background"
+          ],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "crown"
+          ],
+          "contact_onset_s": 5.125,
+          "food_visible": false
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_3.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_3.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_4.1875.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_4.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_5.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_6.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_7.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_7.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_8.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201432_0109_D\\low_facecrop_9.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_3.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_3.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_4.1875.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_4.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_5.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_6.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_7.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201432_0109_D\\wider_facecrop_8.1250.png"
+      ],
+      "candidate_boundary_reviews": [
+        "Approach->contact is same uninterrupted action; early head raise is orienting approach, later lowering is contact response tail."
+      ],
+      "reference_ids": [
+        "0109_A_white_cat_lap_touch"
+      ],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "2816低框丢关键头/手，3392宽框恢复作用指和鼻口；必须再看全部最终16fps及隐私。4.1875原生图手未接触，5.5图才直接确认冠部触摸，分开记录接近/触摸。"
+    },
+    {
+      "source_id": "DJI_20260930201537_0110_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201537_0110_D\\pages\\frames_000.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.375,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:operator food hand prepares; other hand at cheek; Animal:cat sits on lap"
+        },
+        {
+          "start_s": 0.375,
+          "end_s": 0.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:operator food hand prepares; other hand at cheek; Animal:cat sits on lap"
+        },
+        {
+          "start_s": 0.5,
+          "end_s": 3.1875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same food raised rotated and brought near muzzle; Animal:cat follows direction and muzzle approaches"
+        },
+        {
+          "start_s": 3.1875,
+          "end_s": 3.625,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:food withdrawn; Animal:cat reaches front paw and reorients left"
+        },
+        {
+          "start_s": 3.625,
+          "end_s": 3.6875,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A",
+            "B"
+          ],
+          "reason": "Hand:food withdrawn; Animal:cat reaches front paw and reorients left"
+        },
+        {
+          "start_s": 3.6875,
+          "end_s": 4.9375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "B"
+          ],
+          "reason": "Hand:new close food offer; Animal:cat later lowers head; attribution uncertain"
+        },
+        {
+          "start_s": 4.9375,
+          "end_s": 5.077333,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:stream tail; Animal:no further result"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.5
+          ],
+          "hand": "operator food hand prepares; other hand at cheek",
+          "animal": "cat sits on lap"
+        },
+        {
+          "interval": [
+            0.5,
+            3.1875
+          ],
+          "hand": "same food raised rotated and brought near muzzle",
+          "animal": "cat follows direction and muzzle approaches"
+        },
+        {
+          "interval": [
+            3.1875,
+            3.6875
+          ],
+          "hand": "food withdrawn",
+          "animal": "cat reaches front paw and reorients left"
+        },
+        {
+          "interval": [
+            3.6875,
+            4.9375
+          ],
+          "hand": "new close food offer",
+          "animal": "cat later lowers head; attribution uncertain"
+        },
+        {
+          "interval": [
+            4.9375,
+            5.077333
+          ],
+          "hand": "stream tail",
+          "animal": "no further result"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.375,
+          "end_s": 3.6875,
+          "action_onset_s": 0.5,
+          "response_onset_s": 1.5,
+          "response_evidence_s": [
+            1.5,
+            2.875,
+            3.125,
+            3.25,
+            3.5,
+            3.625
+          ],
+          "hand_action": "offer_small_food_between_fingers_and_withdraw",
+          "animal_response": "cat_orients_muzzle_toward_food_and_reaches_front_paw_after_close_offer",
+          "caption_text": "拍摄者指间递出可见小食物，猫鼻口朝食物定向、接近，并在食物撤离时伸前爪。另一人手停在猫脸侧，必须核实其是否有独立诱因；不声称猫吞下食物。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": [
+            3392,
+            1908,
+            0,
+            252
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": "finger_food_offer",
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "food_visible": true,
+          "competing_stimuli": [
+            "other_person_hand_near_cheek"
+          ]
+        },
+        {
+          "event_id": "B",
+          "start_s": 3.625,
+          "end_s": 4.9375,
+          "action_onset_s": 3.875,
+          "response_onset_s": 4.375,
+          "response_evidence_s": [
+            4.375,
+            4.5,
+            4.75,
+            4.875
+          ],
+          "hand_action": "renew_small_food_offer_between_fingers",
+          "animal_response": "cat_lowers_head_during_renewed_offer_cause_uncertain",
+          "caption_text": "前次食物撤离后重新递出，猫较晚低头；方向未明显朝向食物，且另一人手仍在脸侧，暂不确认归属。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": [
+            3392,
+            1908,
+            0,
+            252
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": "finger_food_offer",
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "food_visible": true,
+          "competing_stimuli": [
+            "other_person_hand_near_cheek"
+          ],
+          "proposed_semantic_uncertainty": "lowered head may be unrelated to offer"
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_0.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_1.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_1.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_2.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_3.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_4.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_4.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201537_0110_D\\competing_actor_4.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_0.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_2.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_3.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_3.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_3.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_4.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201537_0110_D\\wider_offer_4.8750.png"
+      ],
+      "candidate_boundary_reviews": [
+        "3.6875 completed withdrawal/reach followed by renewed offer."
+      ],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "同一食物第一轮调整不拆成旋转窗口；明显撤离后的再次递出独立记账。保留竞争手在证据中，不以裁掉其手掩盖竞争刺激。"
+    },
+    {
+      "source_id": "DJI_20260930201641_0111_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201641_0111_D\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201641_0111_D\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.5,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand preparing; Animal:cat lying under chair"
+        },
+        {
+          "start_s": 0.5,
+          "end_s": 2.375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same small food on palm/pinched, approach; Animal:cat remains lying facing offer"
+        },
+        {
+          "start_s": 2.375,
+          "end_s": 5.9375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:food near muzzle, changes height/distance within same offer; Animal:cat lies with slight head/eye changes; no approach or confirmed ingestion"
+        },
+        {
+          "start_s": 5.9375,
+          "end_s": 6.058667,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:stream tail; Animal:no new result"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.5
+          ],
+          "hand": "hand preparing",
+          "animal": "cat lying under chair"
+        },
+        {
+          "interval": [
+            0.5,
+            2.375
+          ],
+          "hand": "same small food on palm/pinched, approach",
+          "animal": "cat remains lying facing offer"
+        },
+        {
+          "interval": [
+            2.375,
+            5.9375
+          ],
+          "hand": "food near muzzle, changes height/distance within same offer",
+          "animal": "cat lies with slight head/eye changes; no approach or confirmed ingestion"
+        },
+        {
+          "interval": [
+            5.9375,
+            6.058667
+          ],
+          "hand": "stream tail",
+          "animal": "no new result"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.5,
+          "end_s": 5.9375,
+          "action_onset_s": 0.625,
+          "response_onset_s": 2.5,
+          "response_evidence_s": [
+            2.5,
+            3.0,
+            3.75,
+            4.5,
+            5.75,
+            5.875
+          ],
+          "hand_action": "present_same_small_food_on_palm_and_adjust_distance",
+          "animal_response": "cat_remains_lying_without_approaching_or_verified_ingestion",
+          "caption_text": "拍摄者把同一小食物保持在掌面/指间并靠近、抬低，猫维持卧姿，没有明显走近或可确认吃食。眼/头微动客观记账，不声称完全不看手。",
+          "animal_type": "cat",
+          "interaction_mode": "maintained_condition",
+          "crop": [
+            2816,
+            1584,
+            512,
+            576
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": "palm_food_offer",
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "sample_polarity": "weak_response",
+          "food_visible": true,
+          "response_anchor_type": "observation_of_no_approach_or_ingestion",
+          "observation_start_s": 2.375,
+          "observation_end_s": 5.9375
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_0.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_0.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_1.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_2.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_2.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_2.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_3.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_4.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_4.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_5.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930201641_0111_D\\palm_motion_5.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_0.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_0.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_1.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_2.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_2.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_3.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_4.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_4.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\DJI_20260930201641_0111_D\\closer_food_5.7500.png"
+      ],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "原生确认同一小食物，不按掌→捏词语造独立样本。猫可见并有机会感知，超过1秒连续观察；只作明确的少量弱/未接近样本。"
+    },
+    {
+      "source_id": "DJI_20260930201719_0112_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201719_0112_D\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201719_0112_D\\pages\\frames_001.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930201719_0112_D\\pages\\frames_002.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 7.5,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:opposite person crown/neck strokes; operator hands absent; Animal:cat lies narrows eyes and raises head"
+        },
+        {
+          "start_s": 7.5,
+          "end_s": 14.869333,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:opposite person redirects under chin; Animal:cat lifts chin and reorients head"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            7.5
+          ],
+          "hand": "opposite person crown/neck strokes; operator hands absent",
+          "animal": "cat lies narrows eyes and raises head"
+        },
+        {
+          "interval": [
+            7.5,
+            14.869333
+          ],
+          "hand": "opposite person redirects under chin",
+          "animal": "cat lifts chin and reorients head"
+        }
+      ],
+      "events": [],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 14.869333,
+          "state": "reject",
+          "reason": "reject_not_camera_operator_hand: all acting hand follows opposite person forearm/torso; camera operator hand absent"
+        }
+      ],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "全部源8fps三页已看。手属于对面的手机持有者，无法由构图变成拍摄者自己的手；虽有动物反馈，第一人称演员门槛不满足。"
+    },
+    {
+      "source_id": "DJI_20260930202219_0114_D",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\DJI_20260930202219_0114_D\\pages\\frames_000.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.375,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand prepares; Animal:white patterned cat stands ahead"
+        },
+        {
+          "start_s": 0.375,
+          "end_s": 0.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand prepares; Animal:white patterned cat stands ahead"
+        },
+        {
+          "start_s": 0.5,
+          "end_s": 1.625,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand extended and held before target; Animal:cat initially stationary"
+        },
+        {
+          "start_s": 1.625,
+          "end_s": 4.9375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same hand invitation continues; Animal:cat walks closer and muzzle nears hand"
+        },
+        {
+          "start_s": 4.9375,
+          "end_s": 5.12,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:operator hand exits low edge; Animal:no further independent result"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.5
+          ],
+          "hand": "hand prepares",
+          "animal": "white patterned cat stands ahead"
+        },
+        {
+          "interval": [
+            0.5,
+            1.625
+          ],
+          "hand": "hand extended and held before target",
+          "animal": "cat initially stationary"
+        },
+        {
+          "interval": [
+            1.625,
+            4.9375
+          ],
+          "hand": "same hand invitation continues",
+          "animal": "cat walks closer and muzzle nears hand"
+        },
+        {
+          "interval": [
+            4.9375,
+            5.12
+          ],
+          "hand": "operator hand exits low edge",
+          "animal": "no further independent result"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.375,
+          "end_s": 4.9375,
+          "action_onset_s": 0.5,
+          "response_onset_s": 1.625,
+          "response_evidence_s": [
+            1.625,
+            2.0,
+            2.5,
+            3.125,
+            4.0,
+            4.875
+          ],
+          "hand_action": "extend_palm_and_present_hand_to_white_patterned_cat",
+          "animal_response": "cat_walks_toward_available_hand_with_muzzle_approaching",
+          "caption_text": "拍摄者伸出掌面保持在白花猫前方，猫随后走近，鼻口逐渐靠近手。掌面转向/指位调整是同次招引；没有清晰食物，不写喂食。其他猫在背景不标争抢。",
+          "animal_type": "cat",
+          "interaction_mode": "maintained_condition",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [
+            "orange_white_cat_lying",
+            "black_cat_background",
+            "white_cat_on_chair"
+          ],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "food_visible": false
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_0.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_0.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_0.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_1.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_3.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_4.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_4.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\DJI_20260930202219_0114_D\\palm_approach_4.8750.png"
+      ],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "保留一次稳定手条件→动物主动靠近，不能因手暂时静止就漏筛；不同掌位没有新结果重置。"
+    },
+    {
+      "source_id": "video_20260928_185144",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185144\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185144\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 1.125,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand not yet acting; Animal:cat sits facing right; recognizable background face"
+        },
+        {
+          "start_s": 1.125,
+          "end_s": 2.25,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:two operator hands approach neck/chest and touch; Animal:muzzle initially right"
+        },
+        {
+          "start_s": 2.25,
+          "end_s": 4.4375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:continuous neck/chest touch, hands lower; Animal:cat reorients forward and lowers head"
+        },
+        {
+          "start_s": 4.4375,
+          "end_s": 4.5625,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A",
+            "B"
+          ],
+          "reason": "Hand:continuous neck/chest touch, hands lower; Animal:cat reorients forward and lowers head"
+        },
+        {
+          "start_s": 4.5625,
+          "end_s": 8.5625,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "B"
+          ],
+          "reason": "Hand:new fingers/available palm after touch ends; Animal:cat turns and lowers; cause and food not certain"
+        },
+        {
+          "start_s": 8.5625,
+          "end_s": 9.2319,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand retreats; Animal:same low head; no distinct new trigger"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            1.125
+          ],
+          "hand": "hand not yet acting",
+          "animal": "cat sits facing right; recognizable background face"
+        },
+        {
+          "interval": [
+            1.125,
+            2.25
+          ],
+          "hand": "two operator hands approach neck/chest and touch",
+          "animal": "muzzle initially right"
+        },
+        {
+          "interval": [
+            2.25,
+            4.5625
+          ],
+          "hand": "continuous neck/chest touch, hands lower",
+          "animal": "cat reorients forward and lowers head"
+        },
+        {
+          "interval": [
+            4.5625,
+            8.5625
+          ],
+          "hand": "new fingers/available palm after touch ends",
+          "animal": "cat turns and lowers; cause and food not certain"
+        },
+        {
+          "interval": [
+            8.5625,
+            9.2319
+          ],
+          "hand": "hand retreats",
+          "animal": "same low head; no distinct new trigger"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 1.125,
+          "end_s": 4.5625,
+          "action_onset_s": 1.375,
+          "response_onset_s": 2.25,
+          "response_evidence_s": [
+            2.25,
+            2.75,
+            3.125,
+            4.0,
+            4.375
+          ],
+          "hand_action": "rub_cat_neck_and_chest_with_both_hands",
+          "animal_response": "cat_turns_muzzle_forward_and_lowers_head_during_continuous_touch",
+          "caption_text": "拍摄者双手连续触揉猫颈侧及胸前，猫鼻口由侧向转正并降低头位。裁后不标前段不可见眼睛；初段作用指/鼻口边缘与所有背景人脸必须完整复核。",
+          "animal_type": "cat",
+          "interaction_mode": "sustained_contact",
+          "crop": [
+            2144,
+            1206,
+            8,
+            1550
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "neck_side",
+            "chest"
+          ],
+          "subject_clarity_limitation": "early upper head cropped; only readable muzzle/body responses annotated"
+        },
+        {
+          "event_id": "B",
+          "start_s": 4.4375,
+          "end_s": 8.5625,
+          "action_onset_s": 4.625,
+          "response_onset_s": 5.375,
+          "response_evidence_s": [
+            5.375,
+            6.25,
+            7.25,
+            8.375
+          ],
+          "hand_action": "present_pinched_fingers_then_open_palm_below_cat",
+          "animal_response": "cat_lowers_and_turns_head_toward_hand_cause_uncertain",
+          "caption_text": "双手触摸结束后，捏指展示转为掌面在猫下方，猫低转头；小食物及因果归属未确定，背景人物的动作可能构成竞争刺激。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": [
+            2144,
+            1206,
+            8,
+            1550
+          ],
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "food_visible": false,
+          "proposed_semantic_uncertainty": "unclear food and target of later head turn",
+          "competing_stimuli": [
+            "background_person_and_animal_movement"
+          ]
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_1.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_4.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_5.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_6.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_7.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait1050_8.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_1.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_4.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_5.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_6.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_7.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185144\\portrait_right1150_8.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_1.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_1.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_2.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_5.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_6.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\lower1550_8.1250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_recovery\\video_20260928_185144\\original_context1.5.png"
+      ],
+      "candidate_boundary_reviews": [
+        "4.5625 contact ends and hand gesture changes to pinched/available palm, independent candidate."
+      ],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "实际试1050/右侧1150均留背景脸且丢手；1550低框可能回收可见颈胸互动，不能仅因眼睛裁掉就拒绝，但若作用指或鼻口/隐私实际失败则不通过。新展示不与前双手揉触凑长度。"
+    },
+    {
+      "source_id": "video_20260928_185438",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185438\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185438\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.9375,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand not decisive yet; Animal:cat lies with front paw extended"
+        },
+        {
+          "start_s": 0.9375,
+          "end_s": 2.625,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand approaches and repeats light paw contact; Animal:paw still extended initially"
+        },
+        {
+          "start_s": 2.625,
+          "end_s": 5.9375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same paw contact continues; Animal:cat retracts/folds front paws then stays lying"
+        },
+        {
+          "start_s": 5.9375,
+          "end_s": 5.999589,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:source tail; Animal:no new action"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.9375
+          ],
+          "hand": "hand not decisive yet",
+          "animal": "cat lies with front paw extended"
+        },
+        {
+          "interval": [
+            0.9375,
+            2.625
+          ],
+          "hand": "hand approaches and repeats light paw contact",
+          "animal": "paw still extended initially"
+        },
+        {
+          "interval": [
+            2.625,
+            5.9375
+          ],
+          "hand": "same paw contact continues",
+          "animal": "cat retracts/folds front paws then stays lying"
+        },
+        {
+          "interval": [
+            5.9375,
+            5.999589
+          ],
+          "hand": "source tail",
+          "animal": "no new action"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.9375,
+          "end_s": 5.9375,
+          "action_onset_s": 1.125,
+          "response_onset_s": 2.625,
+          "response_evidence_s": [
+            2.625,
+            3.0,
+            3.375,
+            4.5,
+            5.875
+          ],
+          "hand_action": "repeatedly_touch_and_stroke_cat_front_paw",
+          "animal_response": "cat_retracts_front_paw_folds_paws_and_maintains_lying_state",
+          "caption_text": "拍摄者持续轻触同一前爪，猫随后收前爪、把前爪聚在身前并维持卧姿。后续同部位回摆不是独立样本。",
+          "animal_type": "cat",
+          "interaction_mode": "sustained_contact",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "front_paw"
+          ]
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_0.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_1.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_1.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_2.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_3.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_4.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185438\\paw_touch_5.7500.png"
+      ],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "一次同爪触摸与收爪反馈保持连贯，不滑窗制造多个样本。"
+    },
+    {
+      "source_id": "video_20260928_185446",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185446\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185446\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.25,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand prepares; Animal:cat lies with hind leg extended"
+        },
+        {
+          "start_s": 0.25,
+          "end_s": 0.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand prepares; Animal:cat lies with hind leg extended"
+        },
+        {
+          "start_s": 0.5,
+          "end_s": 1.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:tail-base touch; Animal:hind leg begins retracting"
+        },
+        {
+          "start_s": 1.5,
+          "end_s": 3.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same small tail contact then withdraws; Animal:cat repositions into paws-tucked lying state"
+        },
+        {
+          "start_s": 3.5,
+          "end_s": 5.9375,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand withdrawn; no new trigger; Animal:tail repeatedly swishes and lowers"
+        },
+        {
+          "start_s": 5.9375,
+          "end_s": 6.0322,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:source tail; Animal:no new action"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.5
+          ],
+          "hand": "hand prepares",
+          "animal": "cat lies with hind leg extended"
+        },
+        {
+          "interval": [
+            0.5,
+            1.5
+          ],
+          "hand": "tail-base touch",
+          "animal": "hind leg begins retracting"
+        },
+        {
+          "interval": [
+            1.5,
+            3.5
+          ],
+          "hand": "same small tail contact then withdraws",
+          "animal": "cat repositions into paws-tucked lying state"
+        },
+        {
+          "interval": [
+            3.5,
+            5.9375
+          ],
+          "hand": "hand withdrawn; no new trigger",
+          "animal": "tail repeatedly swishes and lowers"
+        },
+        {
+          "interval": [
+            5.9375,
+            6.0322
+          ],
+          "hand": "source tail",
+          "animal": "no new action"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.25,
+          "end_s": 5.9375,
+          "action_onset_s": 0.5,
+          "response_onset_s": 1.5,
+          "response_evidence_s": [
+            1.5,
+            1.75,
+            2.625,
+            3.5,
+            4.375,
+            4.75,
+            5.5,
+            5.875
+          ],
+          "hand_action": "touch_cat_tail_base_and_withdraw",
+          "animal_response": "cat_tucks_hind_leg_repositions_body_and_swishes_tail_after_touch",
+          "caption_text": "拍摄者指尖轻触猫尾根附近后撤离，猫收后腿、调整卧姿，随后尾巴抬摆并落下。前后是同次触尾结果尾，不另造甩尾窗口。",
+          "animal_type": "cat",
+          "interaction_mode": "trigger_response",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "tail_base",
+            "tail"
+          ],
+          "response_sequence": [
+            "hind_leg_tuck",
+            "body_reposition",
+            "tail_swish"
+          ]
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_0.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_0.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_1.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_1.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_1.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_2.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_3.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_3.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_4.3750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_4.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_5.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185446\\tail_contact_5.8750.png"
+      ],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "二筛确认持续同事件的动物尾部结果到5.875秒；自然前态/反馈尾可保留，未补帧或拼独立动作。"
+    },
+    {
+      "source_id": "video_20260928_185454",
+      "source_review_pages": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185454\\pages\\frames_000.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\source_context\\video_20260928_185454\\pages\\frames_001.jpg"
+      ],
+      "source_coverage": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.625,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:hand not decisive; Animal:cat lies after prior clip"
+        },
+        {
+          "start_s": 0.625,
+          "end_s": 1.5,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:hand approaches chest/side; Animal:cat begins turn left"
+        },
+        {
+          "start_s": 1.5,
+          "end_s": 3.75,
+          "decision": "candidate_reviewed",
+          "event_ids": [
+            "A"
+          ],
+          "reason": "Hand:same stroke shifts along side while cat rises/steps; Animal:cat rises and moves left, hand disengages"
+        },
+        {
+          "start_s": 3.75,
+          "end_s": 6.465789,
+          "decision": "uncovered_context_reviewed",
+          "event_ids": [],
+          "reason": "Hand:operator hand no longer in contact; Animal:body remains standing, tail moves but no renewed trigger"
+        }
+      ],
+      "hand_animal_ledger": [
+        {
+          "interval": [
+            0,
+            0.625
+          ],
+          "hand": "hand not decisive",
+          "animal": "cat lies after prior clip"
+        },
+        {
+          "interval": [
+            0.625,
+            1.5
+          ],
+          "hand": "hand approaches chest/side",
+          "animal": "cat begins turn left"
+        },
+        {
+          "interval": [
+            1.5,
+            3.75
+          ],
+          "hand": "same stroke shifts along side while cat rises/steps",
+          "animal": "cat rises and moves left, hand disengages"
+        },
+        {
+          "interval": [
+            3.75,
+            6.465789
+          ],
+          "hand": "operator hand no longer in contact",
+          "animal": "body remains standing, tail moves but no renewed trigger"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "A",
+          "start_s": 0.625,
+          "end_s": 3.75,
+          "action_onset_s": 0.875,
+          "response_onset_s": 1.5,
+          "response_evidence_s": [
+            1.5,
+            2.0,
+            2.625,
+            2.875,
+            3.25,
+            3.625
+          ],
+          "hand_action": "stroke_cat_chest_side_toward_flank",
+          "animal_response": "cat_turns_head_left_rises_and_steps_left_under_hand",
+          "caption_text": "拍摄者从胸侧顺势抚到身体侧面，猫转头向左、起身并向左迈步；手随后脱离。前段转头和起身完整可见，末尾仅标身体左移，不标画外眼部。",
+          "animal_type": "cat",
+          "interaction_mode": "sustained_contact",
+          "crop": null,
+          "primary_target_id": "animal_01",
+          "secondary_animals": [],
+          "competition_state": "none",
+          "animal_to_animal_mediation": false,
+          "delivery_type": null,
+          "response_complete_proposed": true,
+          "temporal_envelope": "full",
+          "actor_role": "camera_operator",
+          "first_person_proposed": true,
+          "contact_regions": [
+            "chest_side",
+            "flank"
+          ],
+          "subject_clarity_limitation": "late head leaves source left edge, body stepping result already readable"
+        }
+      ],
+      "final_reviews": {},
+      "source_second_pass_completed": true,
+      "source_native_evidence_paths": [
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk.jpg",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_0.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_0.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_1.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_1.5000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_2.0000.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_2.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_2.8750.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_3.2500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_3.6250.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_3.7500.png",
+        "G:\\data\\clips_new_10_03_correct\\autonomous_batch_20261009\\batch_checks\\batch_015_native\\video_20260928_185454\\paw_side_walk_4.0000.png"
+      ],
+      "candidate_boundary_reviews": [],
+      "reference_ids": [],
+      "unresolved_source_intervals": [],
+      "superseded_trials": [],
+      "uncovered_context_review_note": "胸侧到身体侧面为一次顺势轨迹与同一离开结果，不按接触坐标硬拆；后段无新手触发不做另一个样本。"
+    }
+  ]
+}

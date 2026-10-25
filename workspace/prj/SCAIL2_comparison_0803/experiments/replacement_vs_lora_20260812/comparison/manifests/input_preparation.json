@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "mode": "replacement",
+  "contract": {
+    "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+    "prompt": "A slim young woman with long dark hair, wearing a black and white maid outfit and cat ears, performs a rhythmic dance. She starts with her back to the camera, turns fully around, and sways her hips while moving her arms. The setting is a minimalist room with white walls, a wooden chair, and a small framed picture.",
+    "width": 512,
+    "height": 928,
+    "num_frames": 65,
+    "fps": 16,
+    "frame_indices_manifest": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/experiments/replacement_vs_lora_20260812/comparison/manifests/frame_indices.json",
+    "target_usage": "evaluation-only; excluded from generation conditioning"
+  },
+  "source_files": {
+    "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+    "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance__batch1_mingxing_cropped__002.mp4",
+    "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance__batch1_mingxing_cropped__002.jpg",
+    "raw_reference_mask": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/raw_masks/reference.png",
+    "raw_video_mask_dir": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/raw_masks/video",
+    "raw_mask_manifest": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/preprocessed_sam2/mymotion__humandance__batch1_mingxing_cropped__002/raw_mask_manifest.json"
+  },
+  "probes": {
+    "comparison_source": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "comparison_target": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "scail_driving": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "scail_rendered": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "scail_replace_mask": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "wan_source": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    },
+    "wan_target": {
+      "width": 512,
+      "height": 928,
+      "fps": 16.0,
+      "frames": 65
+    }
+  },
+  "sha256": {
+    "comparison_source": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "comparison_target": "bdf88f77c96af500d94dc7706c088873760d37ab0f7351799fa80b3577bbb591",
+    "comparison_reference": "e624338792ada3cda07d772e0c2bcd8a01038beba4996a3f5637308d22734f66",
+    "frame_indices": "8b12ea6652388503c28bf18b0bd966687a75913d0d28a4784da067e024348b0b",
+    "scail_driving": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "scail_reference": "e624338792ada3cda07d772e0c2bcd8a01038beba4996a3f5637308d22734f66",
+    "scail_ref_mask": "778b7e2d745186b9f486cd5ba9ad7de92e62ee84bb249c7c960e96a5f1b9e34a",
+    "scail_replace_mask": "3bcbab8336d8a35019140739eb859eee88dfc4f08e6cc14031861da805bc7a07",
+    "scail_rendered": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "scail_input_manifest": "a1766cdcb10f671d9169fa8d661a721defb36dabed30285789458b3befef2ca0",
+    "wan_source": "6ef3d281eaaed1dc85879e2aa7b1059e4db062aebddc71f5c517bb150d6ecc37",
+    "wan_target": "bdf88f77c96af500d94dc7706c088873760d37ab0f7351799fa80b3577bbb591",
+    "wan_reference": "e624338792ada3cda07d772e0c2bcd8a01038beba4996a3f5637308d22734f66",
+    "wan_input_manifest": "77b4ae7f98bf71f54498a4069f1faf76637355d08e22e664d41a129b27ab90bf"
+  }
+}

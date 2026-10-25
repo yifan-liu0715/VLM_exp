@@ -1,0 +1,8 @@
+{
+  "manifest_count": 1061,
+  "hardlinked_count": 1061,
+  "source_coverage_count": 91,
+  "total_size_bytes": 2653664885,
+  "local_sha_match_count": 1061,
+  "materialization_mode": "verified_hardlink_from_semantic_rescreen_v3"
+}

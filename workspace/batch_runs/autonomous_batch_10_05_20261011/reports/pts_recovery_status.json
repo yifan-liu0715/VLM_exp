@@ -1,0 +1,141 @@
+{
+  "updated_at": "2026-10-11T20:50:33.947259+08:00",
+  "total_anomaly_sources": 11,
+  "recovered_sources": 4,
+  "review_needed_sources": 7,
+  "proposal_count": 26,
+  "rows": [
+    {
+      "source_id": "iphone__video_20261005_154621",
+      "status": "review_needed_detector_dependency_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "detector_failed",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_162646",
+      "status": "review_needed_detector_dependency_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "detector_failed",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_160949",
+      "status": "recovered_pts_normalized_motion_proposals",
+      "proposal_count": 2,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "ready",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_161507",
+      "status": "recovered_pts_normalized_motion_proposals",
+      "proposal_count": 5,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "ready",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_163444",
+      "status": "review_needed_normalized_decode_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "review_needed",
+      "source_result_error": "AssertionError('decoder reported errors')",
+      "recovery_detector_status": null,
+      "recovery_error": "RuntimeError('[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5562ae34fec0] moov atom not found\\n/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/recovery_normalized_pts/iphone__video_20261005_163444.mp4: Invalid data found when processing input\\n')",
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_163059",
+      "status": "recovered_pts_normalized_motion_proposals",
+      "proposal_count": 8,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "ready",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_155526",
+      "status": "review_needed_normalized_decode_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "review_needed",
+      "source_result_error": "AssertionError('decoder reported errors')",
+      "recovery_detector_status": null,
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_161300",
+      "status": "recovered_pts_normalized_motion_proposals",
+      "proposal_count": 11,
+      "source_result_state": "source_context_ready",
+      "source_result_error": null,
+      "recovery_detector_status": "ready",
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_164046",
+      "status": "review_needed_normalized_decode_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "review_needed",
+      "source_result_error": "AssertionError('decoder reported errors')",
+      "recovery_detector_status": null,
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_154858",
+      "status": "review_needed_normalized_decode_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "review_needed",
+      "source_result_error": "AssertionError('decoder reported errors')",
+      "recovery_detector_status": null,
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    },
+    {
+      "source_id": "iphone__video_20261005_164329",
+      "status": "review_needed_normalized_decode_or_resource",
+      "proposal_count": 0,
+      "source_result_state": "review_needed",
+      "source_result_error": "AssertionError('decoder reported errors')",
+      "recovery_detector_status": null,
+      "recovery_error": null,
+      "original_source_unchanged": true,
+      "keypoints_started": false,
+      "training_started": false
+    }
+  ]
+}

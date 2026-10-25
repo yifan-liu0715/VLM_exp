@@ -1,0 +1,183 @@
+# Stage2 — Block-wise Self-Forcing Distillation, low-poly render -> real video.
+# Derived from v2v_dmd_training.yaml; every author-cluster path is replaced and
+# the face branch is off because this corpus has none.
+
+generator_fsdp_wrap_strategy: size
+real_score_fsdp_wrap_strategy: size
+fake_score_fsdp_wrap_strategy: size
+text_encoder_fsdp_wrap_strategy: size
+image_encoder_fsdp_wrap_strategy: size
+
+real_name: Wan2.1-I2V-14B-720P
+fake_name: Wan2.1-I2V-14B-720P
+
+disable_wandb: true          # upstream pointed at the author's wandb entity
+wandb_key: ""
+wandb_entity: ""
+wandb_project: render_dmd
+
+# The paper: "reduces the sampling budget to three steps".
+# Three, per the paper: "we reduce the sampling budget to three steps".
+denoising_step_list: [1000.0, 750.0, 500.0]
+
+seed: 10052
+ts_schedule: false
+num_train_timestep: 1000
+timestep_shift: 1.0
+guidance_scale: 4.5
+denoising_loss_type: flow
+mixed_precision: true
+sharding_strategy: full
+dfake_gen_update_ratio: 5
+enable_gradient_checkpointing: true
+
+# Paper: stage2 runs "20,000 steps" with "learning rates of 1e-5 for both the
+# generator and the critic".
+# Constant 1e-5 for both, by request. _apply_lr_schedule() is disabled (its call
+# in train() is commented out), but `lr`/`lr_critic` are its END values -- keeping
+# them at 1e-5 means the schedule stays a no-op even if it is ever re-enabled,
+# instead of silently decaying the generator to 1e-6 and the critic to 2e-7
+# between steps 1300 and 2500.
+lr: 1.0e-05
+lr_critic: 1.0e-05
+generator_lr_start: 1.0e-05
+critic_lr_start: 1.0e-05
+lr_scheduler_end_step: 2500
+lr_scheduler_start_step: 1300
+beta1: 0.0
+beta2: 0.999
+beta1_critic: 0.0
+beta2_critic: 0.999
+
+batch_size: 1
+gradient_accumulation_steps: 4   # = number of causal blocks, see below
+ema_weight: 0
+ema_start_step: 200
+# 50, not 250. Measured 42.8 s/step, so a 2 h task computes ~150 steps; at 250
+# no task ever reaches a save boundary and every one of them restarts from the
+# same checkpoint -- net progress zero, the same trap stage1 hit twice.
+log_iters: 50
+vis_interval: 500
+max_checkpoints: 100
+# 5000, not the paper's 20000. At 42.8 s/step and ~150 banked steps per 2 h
+# task, 20000 would be ~12 days. 5000 is ~3 days and still 1000 generator
+# updates (dfake_gen_update_ratio: 5). Extend once the samples justify it.
+max_iters: 5000
+
+negative_prompt: ''
+
+# 480x848 -> latent 60x106. target_len 49 -> 13 latent frames, matching stage1.
+# Dead key -- the real shape is computed at runtime in prepare_multimodal_batch.
+# Upstream says the same ("unused in sequential training"). Kept for parity.
+image_or_video_shape: [1, 12, 16, 60, 106]
+
+distribution_loss: dmd
+trainer: score_distillation
+gradient_checkpointing: true
+num_frame_per_block: 3          # paper: "three latent frames (12 RGB frames)"
+load_raw_video: false
+
+model_kwargs:
+  timestep_shift: 1.0
+  local_attn_size: -1           # stage1 trained with full causal history
+
+adapter:
+  type: "lora"
+  rank: 128
+  dtype: "bfloat16"
+  lora_target_modules: "q,k,v,o,ffn.0,ffn.2"
+
+# The paper reads: stage1's teacher-forcing adaptation *is* the teacher, and
+# stage2 distils it from 50 denoising steps to 3. Upstream instead used a
+# separate bidirectional stage1 (bid_tsf) that this project never ran.
+# real_score is BIDIRECTIONAL, per upstream. Its own tooling says so outright --
+# test_teacher_vis.py's docstring is "Teacher (WanModel bidirectional)" and its
+# default --lora_ckpt points at a bid_tsf run. Self-Forcing (the framework this
+# stage borrows) likewise initialises the real score from a separate model, not
+# from the student's checkpoint. Pointing the teacher at the student's own
+# weights makes `grad = pred_fake - pred_real` exactly zero at step 0 and leaves
+# the objective with no external anchor at all.
+teacher_is_causal: false
+
+# The bidirectional stage1 (`sft:bid_incontext_tsf --bid_mode`, target_len 81,
+# lr 1e-5) is training as runs/stage1_bid_teacher. Update the step number to
+# whatever it actually reaches before launching; the run must be finished first.
+bid_lora_ckpt: /home/yuchaog/workplace/code/yiren/project/WAN14B/runs/stage1_bid_teacher/step-8100.safetensors
+
+# INFERENCE CONTRACT -- a stage2 checkpoint is NOT self-contained.
+# pose_patch_embedding is not a LoRA target and PEFT freezes it, the optimizers
+# filter on requires_grad, and checkpoint_utils saves only_trainable=True. So a
+# stage2 checkpoint holds 800 tensors, not 802: the render conditioning is
+# absent. This matches upstream, whose base model (Wan2.2-Animate) ships a
+# pretrained pose_patch_embedding; ours does not -- stage1 learned it from zero.
+# To run a stage2 checkpoint you must load, in order:
+#   1. base Wan2.1-I2V-14B-720P
+#   2. pose_patch_embedding from the stage1 checkpoint below (lora_ckpt)
+#   3. the stage2 LoRA
+# lora_helper's assert will catch a missing pose_patch_embedding on load.
+
+# The student starts from the causal teacher-forcing stage1 -- that is what
+# stage1 produces and what stage2 distils from 50 sampling steps down to 3.
+lora_ckpt: /home/yuchaog/workplace/code/yiren/project/WAN14B/runs/stage1_tf_aligned/step-10000.safetensors
+
+v2v: true
+text_encoder_cpu_offload: true
+cache_generator_output: false
+context_noise: 0
+rerun_kv_cache: True
+sp_size: 1
+
+# 12, not 13. target_len 49 -> 13 VAE latent frames, but distillation.py drops
+# the first one (`pose = pose[:,1:]`), so the content the trainer works on is 12.
+# 13 % num_frame_per_block(3) != 0 also trips the assert at trainer/base.py:172.
+# Upstream is consistent with this: target_len 85 -> 21 with the same drop.
+min_num_training_frames: 12
+num_training_frames: 12
+slice_last_frames: 12
+
+v2v_training_config:
+  max_steps: 20000
+  val_check_interval: 250
+  debug: false
+  infer: false
+  infer_steps: 20
+  reset: false
+  valid_scale_guidance: 5
+  use_captionemb: false
+  dataset_type: render
+
+  dataset_path: ["/home/yuchaog/workplace/code/yiren/project/Render/dataset/metadata_train.jsonl"]
+  dataset_weights: [1]
+  dataset_mix_wh: False
+
+  dataset:
+    max_num_frames: 81
+    enable_face_augment: False    # no faces in this corpus
+    enable_motion_frames: True
+    target_hw:
+      - [480, 848]
+    target_len: 49
+    dataset_max_token: 160000
+    max_token: 160000
+    max_wh: 848
+    enable_pose_keypoints: false  # render video is the control, not keypoints
+    ref_frame_mode: window_first
+    dataset_scale: 8
+    target_fps: 24
+    motion_len: 2
+
+  ckpt_dir: /home/yuchaog/workplace/models/Wan2.1-I2V-14B-720P
+
+  # Must stay 0. TokenBucketSampler's preload thread writes into self.data_buffer
+  # while __getitem__ pops from it; with workers > 0 the children pop from a
+  # forked copy and the parent's dict grows without bound -- that is upstream's
+  # "大于0会导致内存泄露". Raising it to 2 was my own wrong guess at the SIGABRT,
+  # which was really an unhandled ImportError (PyAV) being swallowed.
+  dataloader_num_workers: 0
+  learning_rate: 1.0e-5
+  accumulate_grad_batches: 1
+  use_gradient_checkpointing: true
+  use_gradient_checkpointing_offload: false
+  t5_cpu: true
+  convert_model_dtype: true
+  train_architecture: lora

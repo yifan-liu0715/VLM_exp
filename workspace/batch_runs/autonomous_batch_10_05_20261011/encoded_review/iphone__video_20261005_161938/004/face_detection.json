@@ -1,0 +1,116 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 88,
+  "frames_with_faces": 9,
+  "face_count_detected": 9,
+  "hits": [
+    {
+      "frame_index": 3,
+      "time_s": 0.1875,
+      "bbox_xywh": [
+        581.43,
+        -19.06,
+        447.26,
+        472.0
+      ],
+      "score": 0.705292
+    },
+    {
+      "frame_index": 32,
+      "time_s": 2.0,
+      "bbox_xywh": [
+        547.64,
+        -25.39,
+        398.23,
+        457.28
+      ],
+      "score": 0.6033
+    },
+    {
+      "frame_index": 54,
+      "time_s": 3.375,
+      "bbox_xywh": [
+        479.17,
+        -39.6,
+        483.55,
+        521.44
+      ],
+      "score": 0.605462
+    },
+    {
+      "frame_index": 64,
+      "time_s": 4.0,
+      "bbox_xywh": [
+        451.08,
+        -42.88,
+        539.55,
+        532.74
+      ],
+      "score": 0.630751
+    },
+    {
+      "frame_index": 69,
+      "time_s": 4.3125,
+      "bbox_xywh": [
+        569.94,
+        -17.34,
+        413.34,
+        456.66
+      ],
+      "score": 0.628556
+    },
+    {
+      "frame_index": 71,
+      "time_s": 4.4375,
+      "bbox_xywh": [
+        474.95,
+        -3.75,
+        486.83,
+        492.95
+      ],
+      "score": 0.642463
+    },
+    {
+      "frame_index": 79,
+      "time_s": 4.9375,
+      "bbox_xywh": [
+        536.54,
+        -31.68,
+        478.99,
+        502.23
+      ],
+      "score": 0.620817
+    },
+    {
+      "frame_index": 82,
+      "time_s": 5.125,
+      "bbox_xywh": [
+        634.7,
+        -17.76,
+        452.38,
+        399.17
+      ],
+      "score": 0.72782
+    },
+    {
+      "frame_index": 83,
+      "time_s": 5.1875,
+      "bbox_xywh": [
+        638.32,
+        -14.73,
+        448.43,
+        343.1
+      ],
+      "score": 0.850805
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_161938/iphone__video_20261005_161938__004__000019750-000025250__scratch_cat_crown.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 88
+}

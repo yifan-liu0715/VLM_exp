@@ -1,0 +1,4 @@
+epoch,lr-AdamW,step,train/loss_epoch,train/loss_step,train/reference_dropped,train/text_drop_fraction
+,0.0,0,,,,
+0,,0,,0.3730728328227997,1.0,0.0
+0,,0,0.3730728328227997,,,

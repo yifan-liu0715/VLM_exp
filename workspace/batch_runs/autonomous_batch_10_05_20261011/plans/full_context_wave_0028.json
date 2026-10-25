@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "iphone__video_20261005_154357",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_154357.mp4",
+    "source_relative": "video_20261005_154357.mp4",
+    "collection": "iphone",
+    "local_source": "G:\\data\\raw_data\\iphone_10_05\\video_20261005_154357.mp4",
+    "bytes": 481760566,
+    "size_bytes": 481760566,
+    "edge_sha256": "cbb69501e26e064b540e96fa0b84b494bd35485bca8b681bf24b14f963ea3c2e",
+    "sha256": "cbb69501e26e064b540e96fa0b84b494bd35485bca8b681bf24b14f963ea3c2e",
+    "duration": 53.559167,
+    "width": 3840,
+    "height": 2160,
+    "display_width": 3840,
+    "display_height": 2160,
+    "rotation_deg": 0.0,
+    "landscape": true,
+    "reference_available": false,
+    "status": "pending"
+  }
+]

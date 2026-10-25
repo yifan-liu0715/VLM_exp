@@ -1,0 +1,181 @@
+{
+  "plan_version": "native-source-context-v1",
+  "source_id": "iphone__video_20261005_160632",
+  "source_sha256": "de97339a76a763b66d0eab7f2ec5fcb7c305a8f0e3682a47291f001f2124ebde",
+  "source_review_sample_fps": 8,
+  "source_review_complete": true,
+  "source_review_pages": [
+    "source_context/iphone__video_20261005_160632/native_8fps/review_page_001.jpg",
+    "source_context/iphone__video_20261005_160632/native_8fps/review_page_002.jpg",
+    "source_context/iphone__video_20261005_160632/native_8fps/review_page_003.jpg",
+    "source_context/iphone__video_20261005_160632/native_8fps/review_page_004.jpg"
+  ],
+  "native_anchor_frames": [],
+  "coverage": [
+    {
+      "start_s": 0,
+      "end_s": 0.375,
+      "state": "uncovered_reviewed",
+      "reason": "prior state before retained approach; crop feasibility checked from .375"
+    },
+    {
+      "start_s": 0.375,
+      "end_s": 9.3125,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 9.3125,
+      "end_s": 10.265289,
+      "state": "uncovered_reviewed",
+      "reason": "dog continues leaving; main head/hand interaction has ended, background actor and face appear"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "001",
+      "start_s": 0.375,
+      "end_s": 4.25,
+      "causal_start_s": 0.375,
+      "action_or_condition_onset_s": 0.875,
+      "response_onset_s": 1.875,
+      "response_evidence_s": [
+        1.875,
+        3.375
+      ],
+      "causal_end_s": 4.25,
+      "tail_checked_until_s": 4.625,
+      "hand_action": "rub_dog_neck",
+      "contact_region": "neck",
+      "animal_response": "dog_stays_upright_and_turns_head_slightly_toward_hand",
+      "interaction_mode": "sustained_contact",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "animal_01",
+      "secondary_animals": [],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_stays_upright_and_turns_head_slightly_toward_hand"
+      ],
+      "caption_text": "rub_dog_neck -> dog_stays_upright_and_turns_head_slightly_toward_hand",
+      "caption_zh": "左手挠狗颈部，狗保持站立，头部略转向手。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": [
+        2752,
+        1548,
+        0,
+        0
+      ],
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Neck rubbing ends before the renewed head/ear stroke; the later open-palm support under the neck is a separate execution. Repeated strokes within each phase remain intact."
+    },
+    {
+      "event_id": "002",
+      "start_s": 4.125,
+      "end_s": 6.5,
+      "causal_start_s": 4.125,
+      "action_or_condition_onset_s": 4.375,
+      "response_onset_s": 4.5,
+      "response_evidence_s": [
+        4.5,
+        6.25
+      ],
+      "causal_end_s": 6.5,
+      "tail_checked_until_s": 7.125,
+      "hand_action": "stroke_dog_head_and_ear_base",
+      "contact_region": "head_and_ear_base",
+      "animal_response": "dog_narrows_eyes_and_keeps_head_in_contact",
+      "interaction_mode": "sustained_contact",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "animal_01",
+      "secondary_animals": [],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_narrows_eyes_and_keeps_head_in_contact"
+      ],
+      "caption_text": "stroke_dog_head_and_ear_base -> dog_narrows_eyes_and_keeps_head_in_contact",
+      "caption_zh": "左手摸狗头和耳根，狗眯眼并保持头部接触。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": [
+        2560,
+        1440,
+        0,
+        0
+      ],
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Neck rubbing ends before the renewed head/ear stroke; the later open-palm support under the neck is a separate execution. Repeated strokes within each phase remain intact."
+    },
+    {
+      "event_id": "003",
+      "start_s": 6.375,
+      "end_s": 9.3125,
+      "causal_start_s": 6.375,
+      "action_or_condition_onset_s": 6.875,
+      "response_onset_s": 8.125,
+      "response_evidence_s": [
+        8.125,
+        9.25
+      ],
+      "causal_end_s": 9.3125,
+      "tail_checked_until_s": 10.25,
+      "hand_action": "support_dog_under_neck",
+      "contact_region": "under_neck",
+      "animal_response": "dog_faces_camera_then_turns_left",
+      "interaction_mode": "animal_led",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "animal_01",
+      "secondary_animals": [],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_faces_camera_then_turns_left"
+      ],
+      "caption_text": "support_dog_under_neck -> dog_faces_camera_then_turns_left",
+      "caption_zh": "左手托着狗颈部下方，狗转向镜头，随后向左转头离开。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": [
+        2752,
+        1548,
+        0,
+        0
+      ],
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Neck rubbing ends before the renewed head/ear stroke; the later open-palm support under the neck is a separate execution. Repeated strokes within each phase remain intact."
+    }
+  ],
+  "uncertainty": [],
+  "updated_at": "2026-10-11T17:20:29.162888+08:00"
+}

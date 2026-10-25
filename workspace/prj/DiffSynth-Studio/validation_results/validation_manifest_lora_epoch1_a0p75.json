@@ -1,0 +1,46 @@
+{
+  "model": "Wan2.2-TI2V-5B",
+  "lora": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_quick/epoch-1.safetensors",
+  "lora_alpha": 0.75,
+  "lora_label": "lora_epoch1_a0p75",
+  "parameters": {
+    "height": 320,
+    "width": 576,
+    "num_frames": 33,
+    "seed": 42,
+    "tiled": true,
+    "fps": 15
+  },
+  "outputs": [
+    {
+      "sample_id": "mymotion__002",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__002_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__012",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__012_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__015",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__015_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__002",
+      "variant": "lora_epoch1_a0p75",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__002_lora_epoch1_a0p75.mp4"
+    },
+    {
+      "sample_id": "mymotion__012",
+      "variant": "lora_epoch1_a0p75",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__012_lora_epoch1_a0p75.mp4"
+    },
+    {
+      "sample_id": "mymotion__015",
+      "variant": "lora_epoch1_a0p75",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/mymotion__015_lora_epoch1_a0p75.mp4"
+    }
+  ]
+}

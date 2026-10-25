@@ -1,0 +1,13 @@
+sample_id,variant,video,frame_ssim,psnr_db,sharpness,clip_prompt_similarity
+mymotion__002,target,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__002_target.mp4,1.0,100.0,551.8368864968552,0.22906343638896942
+mymotion__002,source,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__002_source_degraded.mp4,0.7364550401497372,21.58977781299882,36.731009458141564,0.21754440665245056
+mymotion__002,base,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__002_base.mp4,0.5620325731642108,18.59369570364555,50.21185993411681,0.21814516186714172
+mymotion__002,lora,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__002_lora.mp4,0.5824822261893127,18.754084568941515,40.26755170474906,0.19996508955955505
+mymotion__012,target,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__012_target.mp4,1.0,100.0,919.2739056541676,0.2573188543319702
+mymotion__012,source,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__012_source_degraded.mp4,0.7201300868671602,20.13028654768148,40.6920974054044,0.19789546728134155
+mymotion__012,base,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__012_base.mp4,0.5490270495870884,17.399935924395585,63.61639345109128,0.21931777894496918
+mymotion__012,lora,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__012_lora.mp4,0.5705224961280342,17.8751958881501,50.91987951325871,0.19413214921951294
+mymotion__015,target,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/target_videos/mymotion__015_target.mp4,1.0,100.0,586.229379118296,0.20600515604019165
+mymotion__015,source,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__015_source_degraded.mp4,0.8089040011286917,21.43776254897032,37.232207038729904,0.17485082149505615
+mymotion__015,base,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__015_base.mp4,0.6558722833249103,18.456859888221263,48.129943339637364,0.2243625968694687
+mymotion__015,lora,/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713/mymotion__015_lora.mp4,0.680343031762949,18.851572794358834,44.564881243447076,0.21345765888690948

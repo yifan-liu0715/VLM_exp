@@ -1,0 +1,24 @@
+{
+  "source_id": "iphone__video_20261005_161756",
+  "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_161756.mp4",
+  "source_sha256": "18d85397e9a88767a2d7efdf65f369bda7655f232a089061de6c7b55f8bef4e2",
+  "duration_s": 51.7097,
+  "overview_sample_fps": 1,
+  "timestamps_are_coarse_localization_only": true,
+  "display_width": 2160,
+  "display_height": 3840,
+  "metadata_rotation_deg": -90.0,
+  "orientation_correction": "ffmpeg metadata autorotation exactly once",
+  "all_overview_frames": 52,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_161756/overview_page_001.jpg",
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_161756/overview_page_002.jpg"
+  ],
+  "state": "source_context_ready",
+  "overview_is_semantic_approval": false,
+  "normal_resolution_second_pass_required": true,
+  "output_crop_review_required": true,
+  "privacy_reviewed": false,
+  "keypoints_started": false,
+  "training_started": false
+}

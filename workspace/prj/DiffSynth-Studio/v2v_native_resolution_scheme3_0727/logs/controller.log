@@ -1,0 +1,751 @@
+[controller] 2026-07-27T22:12:37+08:00 validating Scheme 3 on physical GPU 3
+test_base_and_adapter_share_noise_and_conditions (test_inference_contract.TeacherAlignedInferenceContractTests.test_base_and_adapter_share_noise_and_conditions) ... ok
+test_cfg_runs_conditional_and_unconditional_text_branches (test_inference_contract.TeacherAlignedInferenceContractTests.test_cfg_runs_conditional_and_unconditional_text_branches) ... ok
+test_config_preserves_teacher_inference_defaults (test_inference_contract.TeacherAlignedInferenceContractTests.test_config_preserves_teacher_inference_defaults) ... ok
+test_inference_uses_unipc_with_teacher_flow_shift (test_inference_contract.TeacherAlignedInferenceContractTests.test_inference_uses_unipc_with_teacher_flow_shift) ... ok
+test_outputs_are_auditable_and_only_final_adapter_is_default (test_inference_contract.TeacherAlignedInferenceContractTests.test_outputs_are_auditable_and_only_final_adapter_is_default) ... ok
+test_known_sample_records_physical_direction (test_manifest_contract.ManifestContractTests.test_known_sample_records_physical_direction) ... ok
+test_reference_hash_tree_is_relative_and_deterministic (test_manifest_contract.ManifestContractTests.test_reference_hash_tree_is_relative_and_deterministic) ... ok
+test_split_manifests_are_disjoint_and_train_is_train_only (test_manifest_contract.ManifestContractTests.test_split_manifests_are_disjoint_and_train_is_train_only) ... ok
+test_unknown_split_is_rejected (test_manifest_contract.ManifestContractTests.test_unknown_split_is_rejected) ... ok
+test_antialiased_resize_stays_in_normalized_range (test_scheme2_geometry.Scheme2GeometryTests.test_antialiased_resize_stays_in_normalized_range) ... ok
+test_aspect_fit_plan_uses_symmetric_minimum_padding (test_scheme2_geometry.Scheme2GeometryTests.test_aspect_fit_plan_uses_symmetric_minimum_padding) ... ok
+test_invalid_dimensions_are_rejected (test_scheme2_geometry.Scheme2GeometryTests.test_invalid_dimensions_are_rejected) ... ok
+test_nearest_aligned_canvas_for_all_native_buckets (test_scheme2_geometry.Scheme2GeometryTests.test_nearest_aligned_canvas_for_all_native_buckets) ... ok
+test_reference_uses_same_canvas_and_is_deterministic (test_scheme2_geometry.Scheme2GeometryTests.test_reference_uses_same_canvas_and_is_deterministic) ... ok
+test_scheme2_contract_requires_exactly_2000_steps (test_scheme2_geometry.Scheme2GeometryTests.test_scheme2_contract_requires_exactly_2000_steps) ... ok
+test_video_preserves_subject_ratio_and_replicates_padding (test_scheme2_geometry.Scheme2GeometryTests.test_video_preserves_subject_ratio_and_replicates_padding) ... ok
+test_config_uses_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_config_uses_native_resolution) ... ok
+test_scheme3_contract_accepts_exact_settings (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_accepts_exact_settings) ... ok
+test_scheme3_contract_rejects_disabled_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_disabled_native_resolution) ... ok
+test_scheme3_contract_rejects_spatial_limit (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_spatial_limit) ... ok
+test_controller_validates_then_trains_then_infers (test_scheme3_controller.Scheme3ControllerTests.test_controller_validates_then_trains_then_infers) ... ok
+test_inference_uses_native_dataset_contract (test_scheme3_controller.Scheme3ControllerTests.test_inference_uses_native_dataset_contract) ... ok
+test_launcher_is_native_guarded_and_skips_gpu_preflight (test_scheme3_controller.Scheme3ControllerTests.test_launcher_is_native_guarded_and_skips_gpu_preflight) ... ok
+test_misaligned_native_canvas_is_rejected (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_misaligned_native_canvas_is_rejected) ... ok
+test_native_buckets_are_not_resized (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_native_buckets_are_not_resized) ... ok
+test_reference_matches_video_canvas_without_stretching (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_reference_matches_video_canvas_without_stretching) ... ok
+test_video_normalization_preserves_native_shape (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_video_normalization_preserves_native_shape) ... ok
+test_aligned_indices_cover_exactly_97_frames (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_cover_exactly_97_frames) ... ok
+test_aligned_indices_reject_short_or_out_of_range_clips (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_reject_short_or_out_of_range_clips) ... ok
+test_loader_rejects_non_train_rows_for_training (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_loader_rejects_non_train_rows_for_training) ... ok
+test_source_and_target_native_shapes_must_match (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_source_and_target_native_shapes_must_match) ... ok
+test_teacher_bucket_size_preserves_native_resolution (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_teacher_bucket_size_preserves_native_resolution) ... ok
+test_config_records_teacher_aligned_recommended_settings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_config_records_teacher_aligned_recommended_settings) ... ok
+test_formal_config_guard_rejects_wrong_step_or_split (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_formal_config_guard_rejects_wrong_step_or_split) ... ok
+test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three) ... ok
+test_launcher_source_has_gpu0_and_disk_guards (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_launcher_source_has_gpu0_and_disk_guards) ... ok
+test_shell_launchers_use_unix_line_endings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_shell_launchers_use_unix_line_endings) ... ok
+test_system_source_preserves_teacher_flow_matching_contract (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_system_source_preserves_teacher_flow_matching_contract) ... ok
+test_teacher_lr_multiplier_warms_up_then_stays_constant (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_multiplier_warms_up_then_stays_constant) ... ok
+test_teacher_lr_scaling_matches_reference_formula (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_scaling_matches_reference_formula) ... ok
+test_training_has_overwrite_recovery_checkpoint (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_has_overwrite_recovery_checkpoint) ... ok
+test_training_writes_start_manifest_before_fit (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_writes_start_manifest_before_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 1.088s
+
+OK
+{
+  "status": "passed",
+  "scheme": "native_resolution_scheme3",
+  "source_target_preprocessing": "native pixels, normalization only",
+  "reference_preprocessing": "aspect fit to native video canvas, replicate minimum padding",
+  "train_rows": 2993,
+  "samples": [
+    {
+      "bucket": "1280x512",
+      "sample_id": "mymotion__001",
+      "source_shape": [
+        3,
+        97,
+        512,
+        1280
+      ],
+      "target_shape": [
+        3,
+        97,
+        512,
+        1280
+      ],
+      "reference_shape": [
+        3,
+        512,
+        1280
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -0.990073561668396,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/output_video/mymotion__001.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/input_video/mymotion__001.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/reference/mymotion__001.jpg"
+    },
+    {
+      "bucket": "1280x704",
+      "sample_id": "mymotion__002",
+      "source_shape": [
+        3,
+        97,
+        704,
+        1280
+      ],
+      "target_shape": [
+        3,
+        97,
+        704,
+        1280
+      ],
+      "reference_shape": [
+        3,
+        704,
+        1280
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -1.0,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg"
+    },
+    {
+      "bucket": "704x1280",
+      "sample_id": "mymotion__humandance2__batch1_mote2_1__1007",
+      "source_shape": [
+        3,
+        97,
+        1280,
+        704
+      ],
+      "target_shape": [
+        3,
+        97,
+        1280,
+        704
+      ],
+      "reference_shape": [
+        3,
+        1280,
+        704
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -0.996770441532135,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance2__batch1_mote2_1__1007.jpg"
+    }
+  ]
+}
+[controller] 2026-07-27T22:12:48+08:00 starting native-resolution training
+[launch] Scheme 3 native resolution; physical GPU=3; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/configs/train_scheme3_native_2000.yaml
+Seed set to 1234
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/scripts/train_teacher_aligned.py", line 235, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/scripts/train_teacher_aligned.py", line 214, in main
+    if not args.preflight and recovery_file.is_file()
+           ^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'preflight'
+[controller] 2026-07-27T22:15:03+08:00 validating Scheme 3 on physical GPU 3
+test_base_and_adapter_share_noise_and_conditions (test_inference_contract.TeacherAlignedInferenceContractTests.test_base_and_adapter_share_noise_and_conditions) ... ok
+test_cfg_runs_conditional_and_unconditional_text_branches (test_inference_contract.TeacherAlignedInferenceContractTests.test_cfg_runs_conditional_and_unconditional_text_branches) ... ok
+test_config_preserves_teacher_inference_defaults (test_inference_contract.TeacherAlignedInferenceContractTests.test_config_preserves_teacher_inference_defaults) ... ok
+test_inference_uses_unipc_with_teacher_flow_shift (test_inference_contract.TeacherAlignedInferenceContractTests.test_inference_uses_unipc_with_teacher_flow_shift) ... ok
+test_outputs_are_auditable_and_only_final_adapter_is_default (test_inference_contract.TeacherAlignedInferenceContractTests.test_outputs_are_auditable_and_only_final_adapter_is_default) ... ok
+test_known_sample_records_physical_direction (test_manifest_contract.ManifestContractTests.test_known_sample_records_physical_direction) ... ok
+test_reference_hash_tree_is_relative_and_deterministic (test_manifest_contract.ManifestContractTests.test_reference_hash_tree_is_relative_and_deterministic) ... ok
+test_split_manifests_are_disjoint_and_train_is_train_only (test_manifest_contract.ManifestContractTests.test_split_manifests_are_disjoint_and_train_is_train_only) ... ok
+test_unknown_split_is_rejected (test_manifest_contract.ManifestContractTests.test_unknown_split_is_rejected) ... ok
+test_antialiased_resize_stays_in_normalized_range (test_scheme2_geometry.Scheme2GeometryTests.test_antialiased_resize_stays_in_normalized_range) ... ok
+test_aspect_fit_plan_uses_symmetric_minimum_padding (test_scheme2_geometry.Scheme2GeometryTests.test_aspect_fit_plan_uses_symmetric_minimum_padding) ... ok
+test_invalid_dimensions_are_rejected (test_scheme2_geometry.Scheme2GeometryTests.test_invalid_dimensions_are_rejected) ... ok
+test_nearest_aligned_canvas_for_all_native_buckets (test_scheme2_geometry.Scheme2GeometryTests.test_nearest_aligned_canvas_for_all_native_buckets) ... ok
+test_reference_uses_same_canvas_and_is_deterministic (test_scheme2_geometry.Scheme2GeometryTests.test_reference_uses_same_canvas_and_is_deterministic) ... ok
+test_scheme2_contract_requires_exactly_2000_steps (test_scheme2_geometry.Scheme2GeometryTests.test_scheme2_contract_requires_exactly_2000_steps) ... ok
+test_video_preserves_subject_ratio_and_replicates_padding (test_scheme2_geometry.Scheme2GeometryTests.test_video_preserves_subject_ratio_and_replicates_padding) ... ok
+test_config_uses_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_config_uses_native_resolution) ... ok
+test_scheme3_contract_accepts_exact_settings (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_accepts_exact_settings) ... ok
+test_scheme3_contract_rejects_disabled_native_resolution (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_disabled_native_resolution) ... ok
+test_scheme3_contract_rejects_spatial_limit (test_scheme3_contract.Scheme3ContractTests.test_scheme3_contract_rejects_spatial_limit) ... ok
+test_controller_validates_then_trains_then_infers (test_scheme3_controller.Scheme3ControllerTests.test_controller_validates_then_trains_then_infers) ... ok
+test_inference_uses_native_dataset_contract (test_scheme3_controller.Scheme3ControllerTests.test_inference_uses_native_dataset_contract) ... ok
+test_launcher_is_native_guarded_and_skips_gpu_preflight (test_scheme3_controller.Scheme3ControllerTests.test_launcher_is_native_guarded_and_skips_gpu_preflight) ... ok
+test_training_entrypoint_has_no_removed_preflight_namespace_reference (test_scheme3_controller.Scheme3ControllerTests.test_training_entrypoint_has_no_removed_preflight_namespace_reference) ... ok
+test_misaligned_native_canvas_is_rejected (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_misaligned_native_canvas_is_rejected) ... ok
+test_native_buckets_are_not_resized (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_native_buckets_are_not_resized) ... ok
+test_reference_matches_video_canvas_without_stretching (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_reference_matches_video_canvas_without_stretching) ... ok
+test_video_normalization_preserves_native_shape (test_scheme3_native_geometry.Scheme3NativeGeometryTests.test_video_normalization_preserves_native_shape) ... ok
+test_aligned_indices_cover_exactly_97_frames (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_cover_exactly_97_frames) ... ok
+test_aligned_indices_reject_short_or_out_of_range_clips (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_aligned_indices_reject_short_or_out_of_range_clips) ... ok
+test_loader_rejects_non_train_rows_for_training (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_loader_rejects_non_train_rows_for_training) ... ok
+test_source_and_target_native_shapes_must_match (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_source_and_target_native_shapes_must_match) ... ok
+test_teacher_bucket_size_preserves_native_resolution (test_teacher_aligned_dataset.TeacherAlignedDatasetContractTests.test_teacher_bucket_size_preserves_native_resolution) ... ok
+test_config_records_teacher_aligned_recommended_settings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_config_records_teacher_aligned_recommended_settings) ... ok
+test_formal_config_guard_rejects_wrong_step_or_split (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_formal_config_guard_rejects_wrong_step_or_split) ... ok
+test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_gpu_guard_rejects_gpu0_duplicates_and_more_than_three) ... ok
+test_launcher_source_has_gpu0_and_disk_guards (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_launcher_source_has_gpu0_and_disk_guards) ... ok
+test_shell_launchers_use_unix_line_endings (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_shell_launchers_use_unix_line_endings) ... ok
+test_system_source_preserves_teacher_flow_matching_contract (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_system_source_preserves_teacher_flow_matching_contract) ... ok
+test_teacher_lr_multiplier_warms_up_then_stays_constant (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_multiplier_warms_up_then_stays_constant) ... ok
+test_teacher_lr_scaling_matches_reference_formula (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_teacher_lr_scaling_matches_reference_formula) ... ok
+test_training_has_overwrite_recovery_checkpoint (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_has_overwrite_recovery_checkpoint) ... ok
+test_training_writes_start_manifest_before_fit (test_teacher_alignment_contract.TeacherAlignmentContractTests.test_training_writes_start_manifest_before_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.379s
+
+OK
+{
+  "status": "passed",
+  "scheme": "native_resolution_scheme3",
+  "source_target_preprocessing": "native pixels, normalization only",
+  "reference_preprocessing": "aspect fit to native video canvas, replicate minimum padding",
+  "train_rows": 2993,
+  "samples": [
+    {
+      "bucket": "1280x512",
+      "sample_id": "mymotion__001",
+      "source_shape": [
+        3,
+        97,
+        512,
+        1280
+      ],
+      "target_shape": [
+        3,
+        97,
+        512,
+        1280
+      ],
+      "reference_shape": [
+        3,
+        512,
+        1280
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -0.990073561668396,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/output_video/mymotion__001.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/input_video/mymotion__001.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/reference/mymotion__001.jpg"
+    },
+    {
+      "bucket": "1280x704",
+      "sample_id": "mymotion__002",
+      "source_shape": [
+        3,
+        97,
+        704,
+        1280
+      ],
+      "target_shape": [
+        3,
+        97,
+        704,
+        1280
+      ],
+      "reference_shape": [
+        3,
+        704,
+        1280
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -1.0,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg"
+    },
+    {
+      "bucket": "704x1280",
+      "sample_id": "mymotion__humandance2__batch1_mote2_1__1007",
+      "source_shape": [
+        3,
+        97,
+        1280,
+        704
+      ],
+      "target_shape": [
+        3,
+        97,
+        1280,
+        704
+      ],
+      "reference_shape": [
+        3,
+        1280,
+        704
+      ],
+      "ranges": {
+        "source": [
+          -1.0,
+          1.0
+        ],
+        "target": [
+          -1.0,
+          1.0
+        ],
+        "reference": [
+          -0.996770441532135,
+          1.0
+        ]
+      },
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance2__batch1_mote2_1__1007.jpg"
+    }
+  ]
+}
+[controller] 2026-07-27T22:15:14+08:00 starting native-resolution training
+[launch] Scheme 3 native resolution; physical GPU=3; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/configs/train_scheme3_native_2000.yaml
+Seed set to 1234
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.43s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.51it/s]
+[model] transformer parameters=5,141,938,368; trainable parameters=142,150,656
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 142 M                                                         
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 46,110.149                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 500, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 1000, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 1500, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/recovery.ckpt
+[checkpoint] compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/latest_adapter.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 2000, 'epoch': 0}
+[checkpoint] resumable recovery: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/checkpoints/recovery.ckpt
+`Trainer.fit` stopped: `max_steps=2000` reached.
+[final] wrote adapter: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 284301312, 'tensor_contract': {'lora': 480, 'source_patch': 2, 'other': 0}, 'base_transformer': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'text_encoder': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth', 'vae': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth', 'lora_rank': 96, 'lora_alpha': 96, 'global_step': 2000, 'epoch': 1}
+Epoch 0/-2 ━━━━━━━━━━━━━━━━ 2000/2000 1 day, 7:29:49 • 0.00it/s v_num: 0.000    
+                                      0:00:00                   train/loss_step:
+                                                                0.189           
+                                                                train/loss_epoc…
+                                                                0.148           
+[controller] 2026-07-29T05:45:54+08:00 training complete; starting held-out inference
+[controller] 2026-07-29T05:45:54+08:00 inference sample=mymotion__051
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.73it/s]
+[base] 01/50 elapsed=14.8s
+[base] 02/50 elapsed=29.5s
+[base] 03/50 elapsed=44.3s
+[base] 04/50 elapsed=59.0s
+[base] 05/50 elapsed=73.8s
+[base] 06/50 elapsed=88.6s
+[base] 07/50 elapsed=103.3s
+[base] 08/50 elapsed=118.1s
+[base] 09/50 elapsed=132.9s
+[base] 10/50 elapsed=147.6s
+[base] 11/50 elapsed=162.4s
+[base] 12/50 elapsed=177.2s
+[base] 13/50 elapsed=192.0s
+[base] 14/50 elapsed=206.8s
+[base] 15/50 elapsed=221.5s
+[base] 16/50 elapsed=236.3s
+[base] 17/50 elapsed=251.1s
+[base] 18/50 elapsed=265.9s
+[base] 19/50 elapsed=280.6s
+[base] 20/50 elapsed=295.4s
+[base] 21/50 elapsed=310.2s
+[base] 22/50 elapsed=325.0s
+[base] 23/50 elapsed=339.8s
+[base] 24/50 elapsed=354.5s
+[base] 25/50 elapsed=369.3s
+[base] 26/50 elapsed=384.1s
+[base] 27/50 elapsed=398.9s
+[base] 28/50 elapsed=413.6s
+[base] 29/50 elapsed=428.4s
+[base] 30/50 elapsed=443.2s
+[base] 31/50 elapsed=458.0s
+[base] 32/50 elapsed=472.7s
+[base] 33/50 elapsed=487.5s
+[base] 34/50 elapsed=502.3s
+[base] 35/50 elapsed=517.1s
+[base] 36/50 elapsed=531.8s
+[base] 37/50 elapsed=546.6s
+[base] 38/50 elapsed=561.4s
+[base] 39/50 elapsed=576.1s
+[base] 40/50 elapsed=590.9s
+[base] 41/50 elapsed=605.7s
+[base] 42/50 elapsed=620.4s
+[base] 43/50 elapsed=635.2s
+[base] 44/50 elapsed=650.0s
+[base] 45/50 elapsed=664.8s
+[base] 46/50 elapsed=679.5s
+[base] 47/50 elapsed=694.3s
+[base] 48/50 elapsed=709.1s
+[base] 49/50 elapsed=723.9s
+[base] 50/50 elapsed=738.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=14.8s
+[adapter] 02/50 elapsed=29.6s
+[adapter] 03/50 elapsed=44.4s
+[adapter] 04/50 elapsed=59.2s
+[adapter] 05/50 elapsed=74.0s
+[adapter] 06/50 elapsed=88.8s
+[adapter] 07/50 elapsed=103.6s
+[adapter] 08/50 elapsed=118.4s
+[adapter] 09/50 elapsed=133.2s
+[adapter] 10/50 elapsed=148.0s
+[adapter] 11/50 elapsed=162.8s
+[adapter] 12/50 elapsed=177.6s
+[adapter] 13/50 elapsed=192.4s
+[adapter] 14/50 elapsed=207.2s
+[adapter] 15/50 elapsed=222.0s
+[adapter] 16/50 elapsed=236.8s
+[adapter] 17/50 elapsed=251.6s
+[adapter] 18/50 elapsed=266.4s
+[adapter] 19/50 elapsed=281.2s
+[adapter] 20/50 elapsed=296.0s
+[adapter] 21/50 elapsed=310.8s
+[adapter] 22/50 elapsed=325.6s
+[adapter] 23/50 elapsed=340.4s
+[adapter] 24/50 elapsed=355.2s
+[adapter] 25/50 elapsed=370.0s
+[adapter] 26/50 elapsed=384.8s
+[adapter] 27/50 elapsed=399.6s
+[adapter] 28/50 elapsed=414.4s
+[adapter] 29/50 elapsed=429.2s
+[adapter] 30/50 elapsed=444.0s
+[adapter] 31/50 elapsed=458.8s
+[adapter] 32/50 elapsed=473.6s
+[adapter] 33/50 elapsed=488.4s
+[adapter] 34/50 elapsed=503.2s
+[adapter] 35/50 elapsed=518.0s
+[adapter] 36/50 elapsed=532.8s
+[adapter] 37/50 elapsed=547.6s
+[adapter] 38/50 elapsed=562.4s
+[adapter] 39/50 elapsed=577.2s
+[adapter] 40/50 elapsed=591.9s
+[adapter] 41/50 elapsed=606.7s
+[adapter] 42/50 elapsed=621.5s
+[adapter] 43/50 elapsed=636.3s
+[adapter] 44/50 elapsed=651.1s
+[adapter] 45/50 elapsed=665.9s
+[adapter] 46/50 elapsed=680.7s
+[adapter] 47/50 elapsed=695.5s
+[adapter] 48/50 elapsed=710.3s
+[adapter] 49/50 elapsed=725.1s
+[adapter] 50/50 elapsed=739.8s
+VAE decoding:   0%|          | 0/4 [00:00<?, ?it/s]VAE decoding:  25%|██▌       | 1/4 [00:06<00:19,  6.47s/it]VAE decoding:  50%|█████     | 2/4 [00:12<00:12,  6.50s/it]VAE decoding:  75%|███████▌  | 3/4 [00:19<00:06,  6.45s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.31s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.37s/it]
+VAE decoding:   0%|          | 0/4 [00:00<?, ?it/s]VAE decoding:  25%|██▌       | 1/4 [00:06<00:19,  6.48s/it]VAE decoding:  50%|█████     | 2/4 [00:12<00:12,  6.49s/it]VAE decoding:  75%|███████▌  | 3/4 [00:19<00:06,  6.48s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.31s/it]VAE decoding: 100%|██████████| 4/4 [00:25<00:00,  6.38s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:42,  2.27it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  13%|█▎        | 13/97 [00:00<00:02, 30.59it/s]Saving video:  24%|██▎       | 23/97 [00:00<00:01, 46.06it/s]Saving video:  34%|███▍      | 33/97 [00:00<00:01, 58.83it/s]Saving video:  45%|████▌     | 44/97 [00:00<00:00, 71.51it/s]Saving video:  58%|█████▊    | 56/97 [00:00<00:00, 83.62it/s]Saving video:  75%|███████▌  | 73/97 [00:01<00:00, 106.85it/s]Saving video:  89%|████████▊ | 86/97 [00:01<00:00, 98.42it/s] Saving video: 100%|██████████| 97/97 [00:01<00:00, 74.88it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:12,  7.63it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  13%|█▎        | 13/97 [00:00<00:01, 64.43it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 113.67it/s]Saving video:  45%|████▌     | 44/97 [00:00<00:00, 113.58it/s]Saving video:  59%|█████▉    | 57/97 [00:00<00:00, 118.60it/s]Saving video:  72%|███████▏  | 70/97 [00:00<00:00, 120.49it/s]Saving video:  86%|████████▌ | 83/97 [00:00<00:00, 117.92it/s]Saving video:  98%|█████████▊| 95/97 [00:00<00:00, 107.89it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 105.37it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:11,  8.03it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  10%|█         | 10/97 [00:00<00:01, 50.12it/s]Saving video:  24%|██▎       | 23/97 [00:00<00:00, 83.41it/s]Saving video:  41%|████      | 40/97 [00:00<00:00, 115.05it/s]Saving video:  54%|█████▎    | 52/97 [00:00<00:00, 100.60it/s]Saving video:  68%|██████▊   | 66/97 [00:00<00:00, 110.10it/s]Saving video:  80%|████████  | 78/97 [00:00<00:00, 106.40it/s]Saving video:  92%|█████████▏| 89/97 [00:00<00:00, 96.04it/s] Saving video: 100%|██████████| 97/97 [00:01<00:00, 95.50it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   4%|▍         | 4/97 [00:00<00:02, 36.68it/s]Saving video:  12%|█▏        | 12/97 [00:00<00:01, 58.20it/s]Saving video:  21%|██        | 20/97 [00:00<00:01, 67.03it/s]Saving video:  33%|███▎      | 32/97 [00:00<00:00, 87.08it/s]Saving video:  47%|████▋     | 46/97 [00:00<00:00, 103.95it/s]Saving video:  64%|██████▍   | 62/97 [00:00<00:00, 120.77it/s]Saving video:  77%|███████▋  | 75/97 [00:00<00:00, 103.78it/s]Saving video:  90%|████████▉ | 87/97 [00:00<00:00, 106.73it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 99.05it/s] 
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   4%|▍         | 4/97 [00:00<00:02, 37.27it/s]Saving video:  20%|█▉        | 19/97 [00:00<00:00, 99.93it/s]Saving video:  38%|███▊      | 37/97 [00:00<00:00, 135.25it/s]Saving video:  57%|█████▋    | 55/97 [00:00<00:00, 151.90it/s]Saving video:  73%|███████▎  | 71/97 [00:00<00:00, 153.19it/s]Saving video:  90%|████████▉ | 87/97 [00:00<00:00, 130.90it/s]Saving video: 100%|██████████| 97/97 [00:00<00:00, 133.71it/s]
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/videos/mymotion__051_comparison_4grid.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__051/reports/mymotion__051_run_manifest.json
+[controller] 2026-07-29T06:12:12+08:00 inference sample=mymotion__single_talking_face__datatrain__002
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.23s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.33s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.14it/s]
+[base] 01/50 elapsed=25.5s
+[base] 02/50 elapsed=51.1s
+[base] 03/50 elapsed=76.7s
+[base] 04/50 elapsed=102.3s
+[base] 05/50 elapsed=127.9s
+[base] 06/50 elapsed=153.5s
+[base] 07/50 elapsed=179.1s
+[base] 08/50 elapsed=204.7s
+[base] 09/50 elapsed=230.3s
+[base] 10/50 elapsed=255.9s
+[base] 11/50 elapsed=281.5s
+[base] 12/50 elapsed=307.1s
+[base] 13/50 elapsed=332.7s
+[base] 14/50 elapsed=358.3s
+[base] 15/50 elapsed=384.0s
+[base] 16/50 elapsed=409.6s
+[base] 17/50 elapsed=435.2s
+[base] 18/50 elapsed=460.8s
+[base] 19/50 elapsed=486.4s
+[base] 20/50 elapsed=512.0s
+[base] 21/50 elapsed=537.6s
+[base] 22/50 elapsed=563.2s
+[base] 23/50 elapsed=588.8s
+[base] 24/50 elapsed=614.4s
+[base] 25/50 elapsed=639.9s
+[base] 26/50 elapsed=665.5s
+[base] 27/50 elapsed=691.1s
+[base] 28/50 elapsed=716.7s
+[base] 29/50 elapsed=742.3s
+[base] 30/50 elapsed=767.9s
+[base] 31/50 elapsed=793.5s
+[base] 32/50 elapsed=819.1s
+[base] 33/50 elapsed=844.6s
+[base] 34/50 elapsed=870.2s
+[base] 35/50 elapsed=895.8s
+[base] 36/50 elapsed=921.4s
+[base] 37/50 elapsed=947.0s
+[base] 38/50 elapsed=972.6s
+[base] 39/50 elapsed=998.1s
+[base] 40/50 elapsed=1023.7s
+[base] 41/50 elapsed=1049.3s
+[base] 42/50 elapsed=1074.9s
+[base] 43/50 elapsed=1100.5s
+[base] 44/50 elapsed=1126.0s
+[base] 45/50 elapsed=1151.6s
+[base] 46/50 elapsed=1177.2s
+[base] 47/50 elapsed=1202.8s
+[base] 48/50 elapsed=1228.4s
+[base] 49/50 elapsed=1254.0s
+[base] 50/50 elapsed=1279.6s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=25.6s
+[adapter] 02/50 elapsed=51.2s
+[adapter] 03/50 elapsed=76.9s
+[adapter] 04/50 elapsed=102.5s
+[adapter] 05/50 elapsed=128.1s
+[adapter] 06/50 elapsed=153.7s
+[adapter] 07/50 elapsed=179.4s
+[adapter] 08/50 elapsed=205.0s
+[adapter] 09/50 elapsed=230.6s
+[adapter] 10/50 elapsed=256.2s
+[adapter] 11/50 elapsed=281.8s
+[adapter] 12/50 elapsed=307.5s
+[adapter] 13/50 elapsed=333.1s
+[adapter] 14/50 elapsed=358.7s
+[adapter] 15/50 elapsed=384.3s
+[adapter] 16/50 elapsed=409.9s
+[adapter] 17/50 elapsed=435.5s
+[adapter] 18/50 elapsed=461.1s
+[adapter] 19/50 elapsed=486.8s
+[adapter] 20/50 elapsed=512.4s
+[adapter] 21/50 elapsed=538.0s
+[adapter] 22/50 elapsed=563.6s
+[adapter] 23/50 elapsed=589.2s
+[adapter] 24/50 elapsed=614.8s
+[adapter] 25/50 elapsed=640.5s
+[adapter] 26/50 elapsed=666.1s
+[adapter] 27/50 elapsed=691.7s
+[adapter] 28/50 elapsed=717.3s
+[adapter] 29/50 elapsed=742.9s
+[adapter] 30/50 elapsed=768.6s
+[adapter] 31/50 elapsed=794.2s
+[adapter] 32/50 elapsed=819.8s
+[adapter] 33/50 elapsed=845.4s
+[adapter] 34/50 elapsed=871.0s
+[adapter] 35/50 elapsed=896.6s
+[adapter] 36/50 elapsed=922.2s
+[adapter] 37/50 elapsed=947.9s
+[adapter] 38/50 elapsed=973.5s
+[adapter] 39/50 elapsed=999.1s
+[adapter] 40/50 elapsed=1024.7s
+[adapter] 41/50 elapsed=1050.3s
+[adapter] 42/50 elapsed=1075.9s
+[adapter] 43/50 elapsed=1101.5s
+[adapter] 44/50 elapsed=1127.1s
+[adapter] 45/50 elapsed=1152.7s
+[adapter] 46/50 elapsed=1178.3s
+[adapter] 47/50 elapsed=1203.9s
+[adapter] 48/50 elapsed=1229.5s
+[adapter] 49/50 elapsed=1255.1s
+[adapter] 50/50 elapsed=1280.7s
+VAE decoding:   0%|          | 0/8 [00:00<?, ?it/s]VAE decoding:  12%|█▎        | 1/8 [00:07<00:49,  7.03s/it]VAE decoding:  25%|██▌       | 2/8 [00:13<00:41,  6.94s/it]VAE decoding:  38%|███▊      | 3/8 [00:20<00:34,  6.84s/it]VAE decoding:  50%|█████     | 4/8 [00:26<00:26,  6.64s/it]VAE decoding:  62%|██████▎   | 5/8 [00:32<00:18,  6.15s/it]VAE decoding:  75%|███████▌  | 6/8 [00:37<00:11,  5.86s/it]VAE decoding:  88%|████████▊ | 7/8 [00:42<00:05,  5.67s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.45s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.97s/it]
+VAE decoding:   0%|          | 0/8 [00:00<?, ?it/s]VAE decoding:  12%|█▎        | 1/8 [00:06<00:48,  6.89s/it]VAE decoding:  25%|██▌       | 2/8 [00:13<00:41,  6.84s/it]VAE decoding:  38%|███▊      | 3/8 [00:20<00:34,  6.81s/it]VAE decoding:  50%|█████     | 4/8 [00:26<00:26,  6.67s/it]VAE decoding:  62%|██████▎   | 5/8 [00:32<00:18,  6.20s/it]VAE decoding:  75%|███████▌  | 6/8 [00:37<00:11,  5.91s/it]VAE decoding:  88%|████████▊ | 7/8 [00:42<00:05,  5.72s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.48s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.99s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:33,  2.90it/s]Saving video:  12%|█▏        | 12/97 [00:00<00:02, 34.10it/s]Saving video:  27%|██▋       | 26/97 [00:00<00:01, 64.01it/s]Saving video:  37%|███▋      | 36/97 [00:00<00:00, 67.85it/s]Saving video:  46%|████▋     | 45/97 [00:00<00:00, 70.74it/s]Saving video:  59%|█████▉    | 57/97 [00:00<00:00, 84.03it/s]Saving video:  69%|██████▉   | 67/97 [00:01<00:00, 69.46it/s]Saving video:  78%|███████▊  | 76/97 [00:01<00:00, 68.08it/s]Saving video:  89%|████████▊ | 86/97 [00:01<00:00, 71.08it/s]Saving video:  98%|█████████▊| 95/97 [00:01<00:00, 74.95it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 65.31it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:24,  3.91it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   9%|▉         | 9/97 [00:00<00:02, 30.29it/s]Saving video:  21%|██        | 20/97 [00:00<00:01, 55.49it/s]Saving video:  30%|██▉       | 29/97 [00:00<00:01, 65.40it/s]Saving video:  42%|████▏     | 41/97 [00:00<00:00, 81.59it/s]Saving video:  54%|█████▎    | 52/97 [00:00<00:00, 89.57it/s]Saving video:  64%|██████▍   | 62/97 [00:00<00:00, 90.19it/s]Saving video:  74%|███████▍  | 72/97 [00:01<00:00, 82.53it/s]Saving video:  84%|████████▎ | 81/97 [00:01<00:00, 79.17it/s]Saving video:  93%|█████████▎| 90/97 [00:01<00:00, 74.05it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 70.53it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:10,  9.03it/s]Saving video:   9%|▉         | 9/97 [00:00<00:01, 48.77it/s]Saving video:  19%|█▊        | 18/97 [00:00<00:01, 66.75it/s]Saving video:  26%|██▌       | 25/97 [00:00<00:01, 66.43it/s]Saving video:  34%|███▍      | 33/97 [00:00<00:00, 70.44it/s]Saving video:  42%|████▏     | 41/97 [00:00<00:00, 63.15it/s]Saving video:  58%|█████▊    | 56/97 [00:00<00:00, 86.69it/s]Saving video:  68%|██████▊   | 66/97 [00:00<00:00, 86.30it/s]Saving video:  77%|███████▋  | 75/97 [00:01<00:00, 81.54it/s]Saving video:  93%|█████████▎| 90/97 [00:01<00:00, 99.14it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 82.67it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:17,  5.62it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   6%|▌         | 6/97 [00:00<00:03, 24.18it/s]Saving video:  15%|█▌        | 15/97 [00:00<00:01, 48.98it/s]Saving video:  26%|██▌       | 25/97 [00:00<00:01, 64.67it/s]Saving video:  35%|███▌      | 34/97 [00:00<00:00, 72.73it/s]Saving video:  45%|████▌     | 44/97 [00:00<00:00, 78.96it/s]Saving video:  55%|█████▍    | 53/97 [00:00<00:00, 65.76it/s]Saving video:  63%|██████▎   | 61/97 [00:01<00:00, 61.65it/s]Saving video:  71%|███████   | 69/97 [00:01<00:00, 66.02it/s]Saving video:  80%|████████  | 78/97 [00:01<00:00, 72.23it/s]Saving video:  92%|█████████▏| 89/97 [00:01<00:00, 80.09it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 67.25it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:11,  8.49it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  12%|█▏        | 12/97 [00:00<00:01, 62.97it/s]Saving video:  27%|██▋       | 26/97 [00:00<00:00, 93.44it/s]Saving video:  41%|████      | 40/97 [00:00<00:00, 108.36it/s]Saving video:  55%|█████▍    | 53/97 [00:00<00:00, 115.50it/s]Saving video:  67%|██████▋   | 65/97 [00:00<00:00, 110.29it/s]Saving video:  79%|███████▉  | 77/97 [00:00<00:00, 103.05it/s]Saving video:  92%|█████████▏| 89/97 [00:00<00:00, 105.68it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 96.22it/s] 
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__single_talking_face__datatrain__002/videos/mymotion__single_talking_face__datatrain__002_comparison_4grid.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__single_talking_face__datatrain__002/reports/mymotion__single_talking_face__datatrain__002_run_manifest.json
+[controller] 2026-07-29T06:57:25+08:00 inference sample=mymotion__humandance__batch1_mingxing_cropped__002
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.29s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.44s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.04it/s]
+[base] 01/50 elapsed=25.5s
+[base] 02/50 elapsed=51.0s
+[base] 03/50 elapsed=76.6s
+[base] 04/50 elapsed=102.2s
+[base] 05/50 elapsed=127.8s
+[base] 06/50 elapsed=153.3s
+[base] 07/50 elapsed=178.9s
+[base] 08/50 elapsed=204.4s
+[base] 09/50 elapsed=230.0s
+[base] 10/50 elapsed=255.6s
+[base] 11/50 elapsed=281.1s
+[base] 12/50 elapsed=306.7s
+[base] 13/50 elapsed=332.2s
+[base] 14/50 elapsed=357.8s
+[base] 15/50 elapsed=383.3s
+[base] 16/50 elapsed=408.9s
+[base] 17/50 elapsed=434.4s
+[base] 18/50 elapsed=460.0s
+[base] 19/50 elapsed=485.5s
+[base] 20/50 elapsed=511.1s
+[base] 21/50 elapsed=536.7s
+[base] 22/50 elapsed=562.2s
+[base] 23/50 elapsed=587.8s
+[base] 24/50 elapsed=613.3s
+[base] 25/50 elapsed=638.9s
+[base] 26/50 elapsed=664.5s
+[base] 27/50 elapsed=690.0s
+[base] 28/50 elapsed=715.6s
+[base] 29/50 elapsed=741.2s
+[base] 30/50 elapsed=766.7s
+[base] 31/50 elapsed=792.3s
+[base] 32/50 elapsed=817.8s
+[base] 33/50 elapsed=843.4s
+[base] 34/50 elapsed=868.9s
+[base] 35/50 elapsed=894.5s
+[base] 36/50 elapsed=920.1s
+[base] 37/50 elapsed=945.6s
+[base] 38/50 elapsed=971.2s
+[base] 39/50 elapsed=996.7s
+[base] 40/50 elapsed=1022.3s
+[base] 41/50 elapsed=1047.9s
+[base] 42/50 elapsed=1073.4s
+[base] 43/50 elapsed=1099.0s
+[base] 44/50 elapsed=1124.5s
+[base] 45/50 elapsed=1150.1s
+[base] 46/50 elapsed=1175.6s
+[base] 47/50 elapsed=1201.2s
+[base] 48/50 elapsed=1226.7s
+[base] 49/50 elapsed=1252.3s
+[base] 50/50 elapsed=1277.9s
+[adapter] loaded {'lora': 480, 'source_patch': 2, 'other': 0} from /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/recommended/final_adapter/v2v_lora_and_source_patch.safetensors
+[adapter] 01/50 elapsed=25.6s
+[adapter] 02/50 elapsed=51.2s
+[adapter] 03/50 elapsed=76.8s
+[adapter] 04/50 elapsed=102.4s
+[adapter] 05/50 elapsed=128.0s
+[adapter] 06/50 elapsed=153.6s
+[adapter] 07/50 elapsed=179.2s
+[adapter] 08/50 elapsed=204.8s
+[adapter] 09/50 elapsed=230.4s
+[adapter] 10/50 elapsed=256.0s
+[adapter] 11/50 elapsed=281.5s
+[adapter] 12/50 elapsed=307.1s
+[adapter] 13/50 elapsed=332.7s
+[adapter] 14/50 elapsed=358.3s
+[adapter] 15/50 elapsed=383.9s
+[adapter] 16/50 elapsed=409.5s
+[adapter] 17/50 elapsed=435.1s
+[adapter] 18/50 elapsed=460.6s
+[adapter] 19/50 elapsed=486.2s
+[adapter] 20/50 elapsed=511.8s
+[adapter] 21/50 elapsed=537.4s
+[adapter] 22/50 elapsed=563.0s
+[adapter] 23/50 elapsed=588.6s
+[adapter] 24/50 elapsed=614.2s
+[adapter] 25/50 elapsed=639.8s
+[adapter] 26/50 elapsed=665.4s
+[adapter] 27/50 elapsed=691.0s
+[adapter] 28/50 elapsed=716.6s
+[adapter] 29/50 elapsed=742.1s
+[adapter] 30/50 elapsed=767.7s
+[adapter] 31/50 elapsed=793.3s
+[adapter] 32/50 elapsed=818.9s
+[adapter] 33/50 elapsed=844.4s
+[adapter] 34/50 elapsed=870.0s
+[adapter] 35/50 elapsed=895.6s
+[adapter] 36/50 elapsed=921.2s
+[adapter] 37/50 elapsed=946.8s
+[adapter] 38/50 elapsed=972.3s
+[adapter] 39/50 elapsed=997.9s
+[adapter] 40/50 elapsed=1023.5s
+[adapter] 41/50 elapsed=1049.1s
+[adapter] 42/50 elapsed=1074.7s
+[adapter] 43/50 elapsed=1100.2s
+[adapter] 44/50 elapsed=1125.8s
+[adapter] 45/50 elapsed=1151.4s
+[adapter] 46/50 elapsed=1176.9s
+[adapter] 47/50 elapsed=1202.5s
+[adapter] 48/50 elapsed=1228.1s
+[adapter] 49/50 elapsed=1253.7s
+[adapter] 50/50 elapsed=1279.2s
+VAE decoding:   0%|          | 0/8 [00:00<?, ?it/s]VAE decoding:  12%|█▎        | 1/8 [00:06<00:48,  6.90s/it]VAE decoding:  25%|██▌       | 2/8 [00:12<00:36,  6.11s/it]VAE decoding:  38%|███▊      | 3/8 [00:19<00:32,  6.46s/it]VAE decoding:  50%|█████     | 4/8 [00:24<00:24,  6.10s/it]VAE decoding:  62%|██████▎   | 5/8 [00:31<00:19,  6.37s/it]VAE decoding:  75%|███████▌  | 6/8 [00:37<00:12,  6.13s/it]VAE decoding:  88%|████████▊ | 7/8 [00:42<00:05,  5.86s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.41s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.89s/it]
+VAE decoding:   0%|          | 0/8 [00:00<?, ?it/s]VAE decoding:  12%|█▎        | 1/8 [00:06<00:48,  6.91s/it]VAE decoding:  25%|██▌       | 2/8 [00:12<00:37,  6.22s/it]VAE decoding:  38%|███▊      | 3/8 [00:19<00:32,  6.47s/it]VAE decoding:  50%|█████     | 4/8 [00:25<00:24,  6.17s/it]VAE decoding:  62%|██████▎   | 5/8 [00:32<00:19,  6.43s/it]VAE decoding:  75%|███████▌  | 6/8 [00:37<00:12,  6.17s/it]VAE decoding:  88%|████████▊ | 7/8 [00:42<00:05,  5.87s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.38s/it]VAE decoding: 100%|██████████| 8/8 [00:47<00:00,  5.91s/it]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   1%|          | 1/97 [00:00<00:18,  5.19it/s]Saving video:   7%|▋         | 7/97 [00:00<00:03, 27.62it/s]Saving video:  15%|█▌        | 15/97 [00:00<00:01, 46.99it/s]Saving video:  24%|██▎       | 23/97 [00:00<00:01, 57.39it/s]Saving video:  34%|███▍      | 33/97 [00:00<00:00, 69.53it/s]Saving video:  46%|████▋     | 45/97 [00:00<00:00, 83.16it/s]Saving video:  59%|█████▉    | 57/97 [00:00<00:00, 94.05it/s]Saving video:  75%|███████▌  | 73/97 [00:00<00:00, 111.75it/s]Saving video:  91%|█████████ | 88/97 [00:01<00:00, 122.58it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 88.75it/s] 
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:16,  5.69it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   6%|▌         | 6/97 [00:00<00:03, 24.30it/s]Saving video:  15%|█▌        | 15/97 [00:00<00:01, 47.32it/s]Saving video:  22%|██▏       | 21/97 [00:00<00:01, 51.47it/s]Saving video:  31%|███       | 30/97 [00:00<00:01, 63.55it/s]Saving video:  38%|███▊      | 37/97 [00:00<00:00, 64.39it/s]Saving video:  46%|████▋     | 45/97 [00:00<00:00, 68.23it/s]Saving video:  62%|██████▏   | 60/97 [00:00<00:00, 92.08it/s]Saving video:  73%|███████▎  | 71/97 [00:01<00:00, 96.17it/s]Saving video:  84%|████████▎ | 81/97 [00:01<00:00, 91.11it/s]Saving video:  94%|█████████▍| 91/97 [00:01<00:00, 90.69it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 73.29it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:22,  4.34it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:  11%|█▏        | 11/97 [00:00<00:02, 40.86it/s]Saving video:  21%|██        | 20/97 [00:00<00:01, 57.17it/s]Saving video:  30%|██▉       | 29/97 [00:00<00:01, 67.10it/s]Saving video:  39%|███▉      | 38/97 [00:00<00:00, 74.11it/s]Saving video:  48%|████▊     | 47/97 [00:00<00:00, 77.95it/s]Saving video:  58%|█████▊    | 56/97 [00:00<00:00, 75.27it/s]Saving video:  67%|██████▋   | 65/97 [00:00<00:00, 77.72it/s]Saving video:  76%|███████▋  | 74/97 [00:01<00:00, 76.79it/s]Saving video:  89%|████████▊ | 86/97 [00:01<00:00, 87.33it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 93.55it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 74.10it/s]
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:14,  6.80it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   7%|▋         | 7/97 [00:00<00:02, 31.51it/s]Saving video:  15%|█▌        | 15/97 [00:00<00:01, 49.24it/s]Saving video:  25%|██▍       | 24/97 [00:00<00:01, 61.52it/s]Saving video:  34%|███▍      | 33/97 [00:00<00:00, 69.67it/s]Saving video:  49%|████▉     | 48/97 [00:00<00:00, 93.12it/s]Saving video:  65%|██████▍   | 63/97 [00:00<00:00, 108.86it/s]Saving video:  81%|████████▏ | 79/97 [00:00<00:00, 122.11it/s]Saving video:  98%|█████████▊| 95/97 [00:01<00:00, 131.73it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 95.31it/s] 
+Saving video:   0%|          | 0/97 [00:00<?, ?it/s]Saving video:   1%|          | 1/97 [00:00<00:14,  6.78it/s]Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+Saving video:   8%|▊         | 8/97 [00:00<00:02, 36.77it/s]Saving video:  16%|█▋        | 16/97 [00:00<00:01, 53.68it/s]Saving video:  29%|██▉       | 28/97 [00:00<00:00, 75.59it/s]Saving video:  41%|████      | 40/97 [00:00<00:00, 88.89it/s]Saving video:  60%|█████▉    | 58/97 [00:00<00:00, 115.83it/s]Saving video:  75%|███████▌  | 73/97 [00:00<00:00, 123.28it/s]Saving video:  89%|████████▊ | 86/97 [00:00<00:00, 112.23it/s]Saving video: 100%|██████████| 97/97 [00:01<00:00, 94.83it/s] 
+[done] comparison=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__humandance__batch1_mingxing_cropped__002/videos/mymotion__humandance__batch1_mingxing_cropped__002_comparison_4grid.mp4
+[done] manifest=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_native_resolution_scheme3_0727/validation/mymotion__humandance__batch1_mingxing_cropped__002/reports/mymotion__humandance__batch1_mingxing_cropped__002_run_manifest.json
+[controller] 2026-07-29T07:42:33+08:00 Scheme 3 training and inference complete

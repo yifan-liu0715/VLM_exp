@@ -1,0 +1,116 @@
+{
+  "run_id": "autonomous_batch_20261011",
+  "created_at": "2026-10-11T20:05:00+08:00",
+  "source_root": "G:\\data\\raw_data\\2026_10_04\\DJI_001",
+  "output_root": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011",
+  "remote_root": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011",
+  "remote_staging": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw",
+  "preflight": {
+    "source_count": 130,
+    "total_size_bytes": 39352442436,
+    "total_size_gib": 36.65,
+    "total_duration_s": 9837.396691,
+    "total_duration_h": 2.7326,
+    "orientation_counts": {
+      "landscape_16_9_or_wider": 130
+    },
+    "codec_counts": {
+      "hevc": 130
+    },
+    "probe_failures": 0,
+    "local_remote_same_G_path": false,
+    "initial_remote_disk_available": "192G (99% used)",
+    "existing_10_03_dir": "/nvmedata/workspace2/users/nina/batch_runs/animal_gpu_pilot_20261010",
+    "existing_10_03_active_processes": false
+  },
+  "processing": {
+    "first_pass_completed_sources": 130,
+    "interaction_sources_with_candidate_files": 129,
+    "unprocessed_sources": 46,
+    "unprocessed_sources_by_authoritative_source_manifests": 0,
+    "failed_sources": 0,
+    "candidate_records": 597,
+    "candidate_files": 596,
+    "no_hand_detection_records": 1,
+    "detector_failed_records": 0,
+    "states": {
+      "motion_proposal": 597,
+      "second_pass_required": 597,
+      "semantic_valid_short": 0,
+      "video_approved_pending_loader": 0,
+      "review_needed": 0,
+      "reject": 0,
+      "accepted_for_training": 0
+    }
+  },
+  "validation": {
+    "format_verified": 596,
+    "format_failed": 0,
+    "decode_verified": 596,
+    "decode_failed": 0,
+    "temp_encoding_files": 0,
+    "missing_candidate_files": 0,
+    "duplicate_manifest_paths": 0
+  },
+  "privacy": {
+    "face_detection_hits": 518,
+    "face_count_nonnull": 596,
+    "privacy_reviewed_true": 0,
+    "fixed_face_crop_applied": 0,
+    "face_crop_destroyed_subject_clarity": 0,
+    "recognizable_face_remaining": 0,
+    "note": "Candidate stage only; face hits remain review evidence and are not privacy approval."
+  },
+  "method": {
+    "low_resolution_first_pass_used": true,
+    "low_resolution_sampling": "3 FPS at 640x360 for hand-proposal localization; not semantic approval",
+    "source_context_second_pass_completed": false,
+    "vlm_used": false,
+    "keypoint_detection_started": false,
+    "training_started": false
+  },
+  "monitoring": {
+    "recovery_session": "batch_recovery_20261011_ui completed and exited normally",
+    "audit_session": "batch_audit_20261011 completed and exited normally",
+    "current_gpu_snapshot": "GPU 2 and 3 idle; GPUs 0,1,4,5,6,7 occupied by unrelated processes at final check",
+    "current_remote_disk": "102G available, 99% used at final check",
+    "no_new_worker_started_after_completion": true
+  },
+  "artifacts": {
+    "source_manifest": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\source_manifest.jsonl",
+    "transfer_manifest": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\transfer_manifest.jsonl",
+    "progress": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\progress.json",
+    "full_inventory": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\full_inventory.json",
+    "preflight_report": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\preflight_report.json",
+    "remote_validation_report": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\full_remote_validation_v3.json",
+    "candidate_audit_json": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\full_candidate_audit_20261011.json",
+    "candidate_audit_markdown": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\full_candidate_audit_20261011.md",
+    "recovery_results": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\recovery_v4_auto_batch_results_20261011.json",
+    "second_pass_queue": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\recovery_v4_second_pass_queue_20261011.jsonl",
+    "uncertain_interactions": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\recovery_v4_uncertain_interactions_20261011.md",
+    "remote_clips": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips",
+    "remote_report": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/reports/full_candidate_audit_20261011.json",
+    "clips_manifest_all": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\clips_manifest_all.jsonl",
+    "source_context_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\source_context",
+    "proposals_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\proposals",
+    "plans_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\plans",
+    "clips_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\clips",
+    "reviews_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reviews",
+    "uncertain_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\uncertain",
+    "encoded_review_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\encoded_review",
+    "logs_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\logs",
+    "locks_dir": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\locks"
+  },
+  "limitations": [
+    "The 46 source IDs absent from the aggregated auto_batch_results JSON are covered by per-source clip manifests, clip directories, and verified receipts; run JSON is not the authoritative coverage count.",
+    "No candidate has passed human causal, privacy, crop, and loader review; candidate count is not final training-set count.",
+    "Current remote disk has only about 102G free, so further derived outputs should wait for review/cleanup planning."
+  ],
+  "feedback_update": {
+    "source_id": "DJI_20261004214634_0132_D",
+    "reject_count": 1,
+    "recut_required_count": 1,
+    "feedback_file": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reviews\\feedback_0132_20261011.jsonl",
+    "skill_gap_report": "G:\\data\\clips_new_10_04\\autonomous_batch_20261011\\reports\\skill_gap_0132_20261011.md"
+  }
+}

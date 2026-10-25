@@ -1,0 +1,99 @@
+[2026-07-12T11:38:58+08:00] Waiting for formal ranking and DOVER-Mobile weights
+divided
+Setting backbone: technical_backbone
+divided
+Setting backbone: aesthetic_backbone
+Setting head: technical_head
+Setting head: aesthetic_head
+[1/60] mymotion__humandance__batch1_mote_cropped__360 base fused=0.6026
+[2/60] mymotion__humandance__batch1_mote_cropped__360 formal_v2_step-4500 fused=0.6154
+[3/60] mymotion__humandance__batch1_mote_cropped__360 formal_v2_step-5250 fused=0.6060
+[4/60] mymotion__humandance__batch1_mote_cropped__360 formal_v2_step-750 fused=0.6169
+[5/60] mymotion__humandance__batch1_mote_cropped__445 base fused=0.6058
+[6/60] mymotion__humandance__batch1_mote_cropped__445 formal_v2_step-4500 fused=0.6238
+[7/60] mymotion__humandance__batch1_mote_cropped__445 formal_v2_step-5250 fused=0.6223
+[8/60] mymotion__humandance__batch1_mote_cropped__445 formal_v2_step-750 fused=0.6332
+[9/60] mymotion__humandance__batch1_mote_cropped__468 base fused=0.5678
+[10/60] mymotion__humandance__batch1_mote_cropped__468 formal_v2_step-4500 fused=0.5918
+[11/60] mymotion__humandance__batch1_mote_cropped__468 formal_v2_step-5250 fused=0.5894
+[12/60] mymotion__humandance__batch1_mote_cropped__468 formal_v2_step-750 fused=0.5757
+[13/60] mymotion__humandance__batch1_mote_cropped__498 base fused=0.5867
+[14/60] mymotion__humandance__batch1_mote_cropped__498 formal_v2_step-4500 fused=0.6073
+[15/60] mymotion__humandance__batch1_mote_cropped__498 formal_v2_step-5250 fused=0.6096
+[16/60] mymotion__humandance__batch1_mote_cropped__498 formal_v2_step-750 fused=0.6117
+[17/60] mymotion__humandance__batch1_mote_cropped__514 base fused=0.6045
+[18/60] mymotion__humandance__batch1_mote_cropped__514 formal_v2_step-4500 fused=0.6131
+[19/60] mymotion__humandance__batch1_mote_cropped__514 formal_v2_step-5250 fused=0.6170
+[20/60] mymotion__humandance__batch1_mote_cropped__514 formal_v2_step-750 fused=0.6204
+[21/60] mymotion__multi_talking_face_video_copy__073 base fused=0.6085
+[22/60] mymotion__multi_talking_face_video_copy__073 formal_v2_step-4500 fused=0.6259
+[23/60] mymotion__multi_talking_face_video_copy__073 formal_v2_step-5250 fused=0.6202
+[24/60] mymotion__multi_talking_face_video_copy__073 formal_v2_step-750 fused=0.6168
+[25/60] mymotion__multi_talking_face_video_copy__133 base fused=0.6405
+[26/60] mymotion__multi_talking_face_video_copy__133 formal_v2_step-4500 fused=0.6458
+[27/60] mymotion__multi_talking_face_video_copy__133 formal_v2_step-5250 fused=0.6493
+[28/60] mymotion__multi_talking_face_video_copy__133 formal_v2_step-750 fused=0.6508
+[29/60] mymotion__multi_talking_face_video_copy__143 base fused=0.6041
+[30/60] mymotion__multi_talking_face_video_copy__143 formal_v2_step-4500 fused=0.6249
+[31/60] mymotion__multi_talking_face_video_copy__143 formal_v2_step-5250 fused=0.6280
+[32/60] mymotion__multi_talking_face_video_copy__143 formal_v2_step-750 fused=0.6220
+[33/60] mymotion__multi_talking_face_video_copy__156 base fused=0.6383
+[34/60] mymotion__multi_talking_face_video_copy__156 formal_v2_step-4500 fused=0.6320
+[35/60] mymotion__multi_talking_face_video_copy__156 formal_v2_step-5250 fused=0.6318
+[36/60] mymotion__multi_talking_face_video_copy__156 formal_v2_step-750 fused=0.6356
+[37/60] mymotion__multi_talking_face_video_copy__339 base fused=0.6395
+[38/60] mymotion__multi_talking_face_video_copy__339 formal_v2_step-4500 fused=0.6391
+[39/60] mymotion__multi_talking_face_video_copy__339 formal_v2_step-5250 fused=0.6395
+[40/60] mymotion__multi_talking_face_video_copy__339 formal_v2_step-750 fused=0.6422
+[41/60] mymotion__multi_talking_face_video_copy__351 base fused=0.6126
+[42/60] mymotion__multi_talking_face_video_copy__351 formal_v2_step-4500 fused=0.6177
+[43/60] mymotion__multi_talking_face_video_copy__351 formal_v2_step-5250 fused=0.6108
+[44/60] mymotion__multi_talking_face_video_copy__351 formal_v2_step-750 fused=0.6222
+[45/60] mymotion__single_talking_face__datatrain_youtube_clip__004 base fused=0.6230
+[46/60] mymotion__single_talking_face__datatrain_youtube_clip__004 formal_v2_step-4500 fused=0.6467
+[47/60] mymotion__single_talking_face__datatrain_youtube_clip__004 formal_v2_step-5250 fused=0.6435
+[48/60] mymotion__single_talking_face__datatrain_youtube_clip__004 formal_v2_step-750 fused=0.6404
+[49/60] mymotion__single_talking_face__datatrain_youtube_clip__017 base fused=0.6178
+[50/60] mymotion__single_talking_face__datatrain_youtube_clip__017 formal_v2_step-4500 fused=0.6107
+[51/60] mymotion__single_talking_face__datatrain_youtube_clip__017 formal_v2_step-5250 fused=0.6165
+[52/60] mymotion__single_talking_face__datatrain_youtube_clip__017 formal_v2_step-750 fused=0.6139
+[53/60] mymotion__single_talking_face__datatrain_youtube_clip__046 base fused=0.6356
+[54/60] mymotion__single_talking_face__datatrain_youtube_clip__046 formal_v2_step-4500 fused=0.6483
+[55/60] mymotion__single_talking_face__datatrain_youtube_clip__046 formal_v2_step-5250 fused=0.6463
+[56/60] mymotion__single_talking_face__datatrain_youtube_clip__046 formal_v2_step-750 fused=0.6404
+[57/60] mymotion__single_talking_face__datatrain_youtube_clip__082 base fused=0.6138
+[58/60] mymotion__single_talking_face__datatrain_youtube_clip__082 formal_v2_step-4500 fused=0.6309
+[59/60] mymotion__single_talking_face__datatrain_youtube_clip__082 formal_v2_step-5250 fused=0.6256
+[60/60] mymotion__single_talking_face__datatrain_youtube_clip__082 formal_v2_step-750 fused=0.6200
+Dashboard written to /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_val_v2/formal_validation_dashboard.html
+[
+  {
+    "variant": "base",
+    "samples": 15,
+    "mean_dover_technical": 0.11635649601618449,
+    "mean_dover_aesthetic": -0.04260535935560862,
+    "mean_dover_fused": 0.6134035033734286
+  },
+  {
+    "variant": "formal_v2_step-4500",
+    "samples": 15,
+    "mean_dover_technical": 0.11734152734279632,
+    "mean_dover_aesthetic": -0.03869098797440529,
+    "mean_dover_fused": 0.6249089644082562
+  },
+  {
+    "variant": "formal_v2_step-5250",
+    "samples": 15,
+    "mean_dover_technical": 0.11738982647657395,
+    "mean_dover_aesthetic": -0.03921921364963055,
+    "mean_dover_fused": 0.62371768259936
+  },
+  {
+    "variant": "formal_v2_step-750",
+    "samples": 15,
+    "mean_dover_technical": 0.11742152472337088,
+    "mean_dover_aesthetic": -0.03906012264390787,
+    "mean_dover_fused": 0.6241486551701113
+  }
+]
+[2026-07-12T17:47:56+08:00] DOVER-Mobile evaluation completed

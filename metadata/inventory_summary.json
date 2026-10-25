@@ -1,0 +1,15 @@
+{
+  "root": "/nvmedata/workspace2/users/nina",
+  "created_at": "2026-10-25T17:33:10+0800",
+  "files": 233053,
+  "bytes": 479313035408,
+  "text_files": 32009,
+  "text_bytes": 2227484911,
+  "payload_files": 194807,
+  "payload_bytes": 439253291370,
+  "excluded_files": 6263,
+  "excluded_bytes": 37832259127,
+  "symlinks": 2792,
+  "directories": 25107,
+  "errors": 0
+}

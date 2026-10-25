@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "experiment": "scail2_sam2_fallback_base_dpo_segment65_retry",
+  "authorized_change": {
+    "segment_len": {
+      "from": 81,
+      "to": 65
+    }
+  },
+  "non_semantic_environment": {
+    "PYTORCH_ALLOC_CONF": "expandable_segments:True"
+  },
+  "unchanged": {
+    "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+    "target_width": 704,
+    "target_height": 1280,
+    "output_frames": 97,
+    "fps": 24,
+    "sample_solver": "unipc",
+    "sample_steps": 40,
+    "sample_shift": 3.0,
+    "cfg": 5.0,
+    "seed": 42,
+    "segment_overlap": 5,
+    "offload_model": true,
+    "base_dpo_same_settings": true
+  },
+  "verified_artifacts": {
+    "original_plan_sha256": "28b0a345e85c9f5736553950778175a0f8fa748599bda126f7f0a0b3a11dc58f",
+    "segment65_plan_sha256": "67b0261bf0777d438730f6a9d350f6800db8ef5efac6e6e9108678181a8cf519",
+    "plan_builder_sha256": "e8602d72158f9b7b4de548d72f647b911a271f8e17c1d74da3fe21efeec42e12",
+    "plan_test_sha256": "b6d4fe132d9eb5ecaefa5f0e52cc1b0a1b0d1513026b9fcac6ae7b58a0714d0f",
+    "equivalence_check": "passed; after normalizing segment_len 65 back to 81 and removing the audit field, the generated plan equals the frozen original plan"
+  },
+  "gpu_policy": {
+    "physical_gpu_0_forbidden": true
+  },
+  "failure_policy": "If segment_len=65 still OOMs, preserve evidence and stop without further parameter reduction."
+}

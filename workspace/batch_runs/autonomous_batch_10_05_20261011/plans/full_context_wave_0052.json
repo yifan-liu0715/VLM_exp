@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "dji__DJI_20261005212715_0160_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/dji__DJI_20261005212715_0160_D.MP4",
+    "source_relative": "DJI_20261005212715_0160_D.MP4",
+    "collection": "dji",
+    "local_source": "G:\\data\\raw_data\\2026_10_05\\DJI_001\\DJI_20261005212715_0160_D.MP4",
+    "bytes": 911890089,
+    "size_bytes": 911890089,
+    "edge_sha256": "95605b882a07b2505484b6702fba4d0deacf04f02f9236586a22b0d0c7929b54",
+    "sha256": "95605b882a07b2505484b6702fba4d0deacf04f02f9236586a22b0d0c7929b54",
+    "duration": 150.016,
+    "width": 3840,
+    "height": 2160,
+    "display_width": 3840,
+    "display_height": 2160,
+    "rotation_deg": 0.0,
+    "landscape": true,
+    "reference_available": false,
+    "status": "pending"
+  }
+]

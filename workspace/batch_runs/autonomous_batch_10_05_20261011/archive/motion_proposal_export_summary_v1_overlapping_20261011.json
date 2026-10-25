@@ -1,0 +1,20 @@
+{
+  "state": "motion_proposals_exported_review_needed",
+  "finished_at": "2026-10-11T20:35:13.299912+08:00",
+  "source_count": 219,
+  "proposal_files": 214,
+  "proposal_intervals": 894,
+  "encoded_success": 894,
+  "encoded_failed": 0,
+  "total_output_duration_s": 6937.195,
+  "portrait_candidates": 41,
+  "long_candidates_gt15s": 119,
+  "short_candidates_lt3s": 348,
+  "semantic_reviewed": 0,
+  "privacy_reviewed": 0,
+  "accepted_for_training": 0,
+  "keypoints_started": false,
+  "training_started": false,
+  "output_root": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/motion_proposal_clips",
+  "manifest": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/motion_proposal_manifest.jsonl"
+}

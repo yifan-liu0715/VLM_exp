@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "loss": 0.37592625617980957,
+  "loss_is_finite": true,
+  "global_step": 1,
+  "num_frames": 97,
+  "max_long_side": 704,
+  "physical_gpus": [
+    "5"
+  ],
+  "train_rows": 2993,
+  "trainable_tensor_contract": {
+    "lora": 480,
+    "source_patch": 2,
+    "other": 0
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "status": "passed",
+  "root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000",
+  "samples": [
+    {
+      "sample_id": "mymotion__051",
+      "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/run_manifest.json",
+      "videos": {
+        "Source.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/Source.mp4",
+          "bytes": 1543444,
+          "sha256": "1724f8c0e1283809fe4de568b013b41021cae02a02a94aa49433d0bc34efc43d",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 960,
+            "height": 384,
+            "codec": "h264"
+          }
+        },
+        "Target.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/Target.mp4",
+          "bytes": 1244323,
+          "sha256": "96b98f33759354d7b333270250e36d8d9f8f10cc6230de85028977eb1c3087db",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 960,
+            "height": 384,
+            "codec": "h264"
+          }
+        },
+        "Base.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/Base.mp4",
+          "bytes": 1988345,
+          "sha256": "3c5c1edfa27fa87a02c376cbd7a878fc2cb8307fb86a53eea815a41403077820",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 960,
+            "height": 384,
+            "codec": "h264"
+          }
+        },
+        "Scheme3.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/Scheme3.mp4",
+          "bytes": 1633883,
+          "sha256": "788aab510ab3e135a76d62efb738e6db3fbf92aa1a32cf04718a13e78d5e6d95",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 960,
+            "height": 384,
+            "codec": "h264"
+          }
+        },
+        "Scheme4.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/Scheme4.mp4",
+          "bytes": 1758207,
+          "sha256": "c61cc19c6b65ed489baa261705770447fa30fd7a39bef4d50bc7759f68bf1a84",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 960,
+            "height": 384,
+            "codec": "h264"
+          }
+        },
+        "comparison_base_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/comparison_base_scheme4_4grid.mp4",
+          "bytes": 6348122,
+          "sha256": "b603bb7a7a9eec09ad88d21d0f3a63a074ce62975342c7569045b37a854c2b3f",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 1920,
+            "height": 768,
+            "codec": "h264"
+          }
+        },
+        "comparison_scheme3_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__051/videos/comparison_scheme3_scheme4_4grid.mp4",
+          "bytes": 5948472,
+          "sha256": "fdd7184f031f4299c544fdc1d584e5a18d082424eb46a879c90dc0062bec6830",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 1920,
+            "height": 768,
+            "codec": "h264"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain__002",
+      "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/run_manifest.json",
+      "videos": {
+        "Source.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/Source.mp4",
+          "bytes": 795262,
+          "sha256": "a5e8783bd8e940dfe93cfb075e0a293186cfd88772539ef7324f9d4b5a8ee73b",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 640,
+            "height": 352,
+            "codec": "h264"
+          }
+        },
+        "Target.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/Target.mp4",
+          "bytes": 579989,
+          "sha256": "d6afd689bf5646d7c1668b218fd01a9e8d24068c1f21000e1980734bbb7daa2c",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 640,
+            "height": 352,
+            "codec": "h264"
+          }
+        },
+        "Base.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/Base.mp4",
+          "bytes": 1902056,
+          "sha256": "0e11ff64a8a9b6fa04d2722cadd783a8d12af8cf8c074f25abd63ef8571b49c1",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 640,
+            "height": 352,
+            "codec": "h264"
+          }
+        },
+        "Scheme3.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/Scheme3.mp4",
+          "bytes": 1805025,
+          "sha256": "07cdf289ad42f116c3c9d9ed0bff684dff1378de7834e0380eb00e705ba00718",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 640,
+            "height": 352,
+            "codec": "h264"
+          }
+        },
+        "Scheme4.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/Scheme4.mp4",
+          "bytes": 1595481,
+          "sha256": "e82a3cb038ad8d1a62d20a67579941c5f3a0381192e2580d7d8dee1d5bbc8541",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 640,
+            "height": 352,
+            "codec": "h264"
+          }
+        },
+        "comparison_base_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/comparison_base_scheme4_4grid.mp4",
+          "bytes": 4531587,
+          "sha256": "f734a780b8921f330bfff2c4c6dd85c5fcdd003895e0894adb4cae2b7a49ee24",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 1280,
+            "height": 704,
+            "codec": "h264"
+          }
+        },
+        "comparison_scheme3_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__single_talking_face__datatrain__002/videos/comparison_scheme3_scheme4_4grid.mp4",
+          "bytes": 4457451,
+          "sha256": "82e64eb6025ef601b7754a3b24c7f5065381b530e0c49ad80faac6b7d6d07d71",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 1280,
+            "height": 704,
+            "codec": "h264"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+      "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/run_manifest.json",
+      "videos": {
+        "Source.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/Source.mp4",
+          "bytes": 536359,
+          "sha256": "82d9866a999c1a7757b5a90624bda50d3deab02a5e59644bd63fcee84d7a1cd7",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 352,
+            "height": 640,
+            "codec": "h264"
+          }
+        },
+        "Target.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/Target.mp4",
+          "bytes": 456129,
+          "sha256": "13819de33998909e36e381f7514f9f8bf0f778a8fcb0391b9a21439bbb92e555",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 352,
+            "height": 640,
+            "codec": "h264"
+          }
+        },
+        "Base.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/Base.mp4",
+          "bytes": 853325,
+          "sha256": "902580147ab629dffc0fde56730c38523eccadb8c66a614e3dd12123958c1e1e",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 352,
+            "height": 640,
+            "codec": "h264"
+          }
+        },
+        "Scheme3.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/Scheme3.mp4",
+          "bytes": 639027,
+          "sha256": "f892b7843df80b59c18b04a3c0ad40b41aa7c5a9baafb78316ab111f5863d892",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 352,
+            "height": 640,
+            "codec": "h264"
+          }
+        },
+        "Scheme4.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/Scheme4.mp4",
+          "bytes": 803196,
+          "sha256": "198a542fe8cea40097a01d7e8e328db3836c8e8a60fcdfba576577d21db79b1f",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 352,
+            "height": 640,
+            "codec": "h264"
+          }
+        },
+        "comparison_base_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/comparison_base_scheme4_4grid.mp4",
+          "bytes": 2588307,
+          "sha256": "379ce5e465ab8e0085997f92ec56b6a9b80a84fbe00c4c1a3c5d80a321a51123",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 704,
+            "height": 1280,
+            "codec": "h264"
+          }
+        },
+        "comparison_scheme3_scheme4_4grid.mp4": {
+          "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_reference_independent_posenc_scheme4_0729/validation/gate_1000/mymotion__humandance__batch1_mingxing_cropped__002/videos/comparison_scheme3_scheme4_4grid.mp4",
+          "bytes": 2388298,
+          "sha256": "db809154af4c6be242c85ece2c197dd45462e327546d93a4861a7f76d7872a4b",
+          "probe": {
+            "frames": 97,
+            "fps": 24.0,
+            "width": 704,
+            "height": 1280,
+            "codec": "h264"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "expected": 597,
+  "input_rows": 597,
+  "canonical_rows": 597,
+  "completed_valid": 580,
+  "malformed_retry": 17,
+  "missing_indices": [],
+  "duplicate_indices": [],
+  "state_counts": {
+    "review_needed": 580,
+    "semantic_backend_failed": 17
+  },
+  "parser_version": "strict_top_level_v1",
+  "promotion_performed": false
+}

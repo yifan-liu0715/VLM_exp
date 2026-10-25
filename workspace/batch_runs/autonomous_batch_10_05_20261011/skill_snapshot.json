@@ -1,0 +1,74 @@
+[
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\SKILL.md",
+    "last_write": "2026-10-11T14:26:18.2227665+08:00",
+    "bytes": 14263,
+    "sha256": "922d80e15909195d685bb27ed8edbd633e3ce6d08d6190d8b57d23fdba438e56"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\agents\\openai.yaml",
+    "last_write": "2026-10-08T00:14:36.5743546+08:00",
+    "bytes": 492,
+    "sha256": "c771915ecc8f5994199477a143689c6336ed47988bc58410bac5d29d075dcd31"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\action-taxonomy.md",
+    "last_write": "2026-10-07T23:18:56.9121790+08:00",
+    "bytes": 6006,
+    "sha256": "d3c4aac7f300c7e019bfefc98a2c77c71cbb4c3d4e41530100762adca4578b14"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\calibration-cases.md",
+    "last_write": "2026-10-07T23:23:38.7029306+08:00",
+    "bytes": 5430,
+    "sha256": "69ceb5ef0968ec256cf782b8fb8d85a0e5395649ddb83235db82ba9e3ec4ab5f"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\implementation-contract.md",
+    "last_write": "2026-10-08T00:59:00.7630317+08:00",
+    "bytes": 8081,
+    "sha256": "94d1a6ad56d4fc6b91d29c6eb1073097417eb16164fec53baf972bb349936502"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\review-and-output.md",
+    "last_write": "2026-10-08T00:59:00.7640061+08:00",
+    "bytes": 8519,
+    "sha256": "ddaac7629187f7892651d901f9a12330be7d4d50155191279ad5123c58b03dea"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\selection-and-boundaries.md",
+    "last_write": "2026-10-11T14:26:18.2241439+08:00",
+    "bytes": 10670,
+    "sha256": "99f89e96f70e16c99d8f77ed57ea59d8a4fd687c35a231398ba016d2eaab0b8c"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\cutting-first-person-animal-interactions\\references\\semantic-review.md",
+    "last_write": "2026-10-08T00:59:00.7640061+08:00",
+    "bytes": 8798,
+    "sha256": "0b5d2e8af3c096b8f086021c8bbd12db7159c34f44e245130a5ae8e35d47e89c"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\batch-video-processing\\SKILL.md",
+    "last_write": "2026-10-11T14:26:18.2251503+08:00",
+    "bytes": 6357,
+    "sha256": "f10e55715b00aa8e32558b8bd5f80a21772fbd4dab786e9d24a6fbc4a4f66d7b"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\batch-video-processing\\agents\\openai.yaml",
+    "last_write": "2026-10-06T10:32:20.2173214+08:00",
+    "bytes": 280,
+    "sha256": "34bf799208c194142bc947f84ddc81443c6529b23c294a9d2975d554f86e2e1c"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\batch-video-processing\\references\\remote-runbook.md",
+    "last_write": "2026-10-06T10:31:56.8476526+08:00",
+    "bytes": 1627,
+    "sha256": "7cf9074604119ab2a8df9814b49a9618ba1d2094074299ccc302ae04bcd0159b"
+  },
+  {
+    "path": "C:\\Users\\86173\\.codex\\skills\\batch-video-processing\\scripts\\inventory_videos.py",
+    "last_write": "2026-10-06T10:31:56.8486535+08:00",
+    "bytes": 2102,
+    "sha256": "a217c82ff9d43db64d199aeb6a7a6a325106f12c6f22009e9d67ae32c6201858"
+  }
+]

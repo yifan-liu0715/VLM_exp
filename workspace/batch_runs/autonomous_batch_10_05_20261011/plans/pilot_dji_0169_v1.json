@@ -1,0 +1,348 @@
+{
+  "plan_version": "native-source-context-v1",
+  "source_id": "dji__DJI_20261005220906_0169_D",
+  "source_sha256": "56bb6e07063d4ad0f987d405e39b96075c90553f25e98594152c9fc5aebe1554",
+  "source_review_sample_fps": 8,
+  "source_review_complete": true,
+  "source_review_pages": [
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_001.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_002.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_003.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_004.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_005.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_006.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_007.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_008.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_009.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_010.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_011.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_012.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_013.jpg",
+    "source_context/dji__DJI_20261005220906_0169_D/native_8fps/review_page_014.jpg"
+  ],
+  "native_anchor_frames": [],
+  "coverage": [
+    {
+      "start_s": 0,
+      "end_s": 3.25,
+      "state": "uncovered_reviewed",
+      "reason": "camera/device handling; early possible contact is unclear"
+    },
+    {
+      "start_s": 3.25,
+      "end_s": 7.375,
+      "state": "review_needed",
+      "reason": "left-palm signal followed by dogs moving toward doorway; causal attribution and object delivery unclear"
+    },
+    {
+      "start_s": 7.375,
+      "end_s": 9.125,
+      "state": "uncovered_reviewed",
+      "reason": "walking/reframing before black-dog contact"
+    },
+    {
+      "start_s": 9.125,
+      "end_s": 10.9375,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 10.9375,
+      "end_s": 13.625,
+      "state": "review_needed",
+      "reason": "brief hand gesture and dogs return, competing doorway/people cue cannot be excluded"
+    },
+    {
+      "start_s": 13.625,
+      "end_s": 37.3125,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 37.3125,
+      "end_s": 39.573333,
+      "state": "review_needed",
+      "reason": "renewed brown-dog contact followed by person entering; head orientation may respond to the person"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "001",
+      "start_s": 9.125,
+      "end_s": 10.9375,
+      "causal_start_s": 9.125,
+      "action_or_condition_onset_s": 9.5,
+      "response_onset_s": 9.75,
+      "response_evidence_s": [
+        9.75,
+        10.625
+      ],
+      "causal_end_s": 10.9375,
+      "tail_checked_until_s": 11.5,
+      "hand_action": "stroke_black_dog_back",
+      "contact_region": "back",
+      "animal_response": "dog_remains_lying_on_mat",
+      "interaction_mode": "verified_non_response",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_black",
+      "secondary_animals": [
+        "dog_spotted",
+        "dog_brown"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_remains_lying_on_mat"
+      ],
+      "caption_text": "stroke_black_dog_back -> dog_remains_lying_on_mat",
+      "caption_zh": "摸黑狗背部，狗在垫子上保持趴卧。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "One back-touch execution, followed by hand withdrawal; retain as brief weak/negative evidence."
+    },
+    {
+      "event_id": "002",
+      "start_s": 13.625,
+      "end_s": 20.125,
+      "causal_start_s": 13.625,
+      "action_or_condition_onset_s": 14.125,
+      "response_onset_s": 14.125,
+      "response_evidence_s": [
+        14.125,
+        18.875
+      ],
+      "causal_end_s": 20.125,
+      "tail_checked_until_s": 20.75,
+      "hand_action": "offer_hand_and_maintain_neck_contact",
+      "contact_region": "neck",
+      "animal_response": "spotted_dog_approaches_and_raises_head_during_contact",
+      "interaction_mode": "animal_led",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_spotted",
+      "secondary_animals": [
+        "dog_black",
+        "dog_brown"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "spotted_dog_approaches_and_raises_head_during_contact"
+      ],
+      "caption_text": "offer_hand_and_maintain_neck_contact -> spotted_dog_approaches_and_raises_head_during_contact",
+      "caption_zh": "伸左手，花色狗凑近，颈部持续接触时抬头转向手。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": null,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Approach transitions into sustained contact; distinguish continuous contact from an independent neck rub before promotion."
+    },
+    {
+      "event_id": "003",
+      "start_s": 20.375,
+      "end_s": 29.625,
+      "causal_start_s": 20.375,
+      "action_or_condition_onset_s": 20.625,
+      "response_onset_s": 21.875,
+      "response_evidence_s": [
+        21.875,
+        28.25
+      ],
+      "causal_end_s": 29.625,
+      "tail_checked_until_s": 30.375,
+      "hand_action": "stroke_brown_dog_back",
+      "contact_region": "back",
+      "animal_response": "dog_stays_standing_then_turns_head_toward_hand",
+      "interaction_mode": "sustained_contact",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_brown",
+      "secondary_animals": [
+        "dog_spotted",
+        "dog_black"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": null,
+      "response_sequence": [
+        "dog_stays_standing_then_turns_head_toward_hand"
+      ],
+      "caption_text": "stroke_brown_dog_back -> dog_stays_standing_then_turns_head_toward_hand",
+      "caption_zh": "摸棕狗背部，狗持续站立，后面转头朝手；旁边黑狗同时移动，反馈归因待确认。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": null,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Target changes from spotted dog to brown dog; repeated back strokes form one event. Turn near29s may also relate to the neighboring dog."
+    },
+    {
+      "event_id": "004",
+      "start_s": 29.5,
+      "end_s": 30.6875,
+      "causal_start_s": 29.5,
+      "action_or_condition_onset_s": 29.875,
+      "response_onset_s": 30.0,
+      "response_evidence_s": [
+        30.0,
+        30.5
+      ],
+      "causal_end_s": 30.6875,
+      "tail_checked_until_s": 31.0,
+      "hand_action": "offer_palm_under_dog_chin",
+      "contact_region": "chin",
+      "animal_response": "dog_brings_muzzle_to_palm_then_turns_head_away",
+      "interaction_mode": "animal_led",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_brown",
+      "secondary_animals": [
+        "dog_spotted",
+        "dog_black"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_brings_muzzle_to_palm_then_turns_head_away"
+      ],
+      "caption_text": "offer_palm_under_dog_chin -> dog_brings_muzzle_to_palm_then_turns_head_away",
+      "caption_zh": "手掌放到棕狗下巴下，狗把嘴部凑向手掌，随后转头。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Palm rotates upward toward muzzle, distinct from preceding back stroke and following renewed back stroke."
+    },
+    {
+      "event_id": "005",
+      "start_s": 30.5625,
+      "end_s": 32.5625,
+      "causal_start_s": 30.5625,
+      "action_or_condition_onset_s": 30.75,
+      "response_onset_s": 31.0,
+      "response_evidence_s": [
+        31.0,
+        32.125
+      ],
+      "causal_end_s": 32.5625,
+      "tail_checked_until_s": 33.125,
+      "hand_action": "renew_stroke_brown_dog_back",
+      "contact_region": "back",
+      "animal_response": "dog_keeps_standing_with_head_facing_away",
+      "interaction_mode": "verified_non_response",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_brown",
+      "secondary_animals": [
+        "dog_spotted",
+        "dog_black"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_keeps_standing_with_head_facing_away"
+      ],
+      "caption_text": "renew_stroke_brown_dog_back -> dog_keeps_standing_with_head_facing_away",
+      "caption_zh": "再次摸棕狗背部，狗保持站立和朝前状态。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "New back contact after palm offer has ended; stop at hand withdrawal before target change."
+    },
+    {
+      "event_id": "006",
+      "start_s": 32.5625,
+      "end_s": 37.3125,
+      "causal_start_s": 32.5625,
+      "action_or_condition_onset_s": 32.875,
+      "response_onset_s": 33.125,
+      "response_evidence_s": [
+        33.125,
+        36.875
+      ],
+      "causal_end_s": 37.3125,
+      "tail_checked_until_s": 38.0,
+      "hand_action": "stroke_spotted_dog_back",
+      "contact_region": "back",
+      "animal_response": "dog_stays_beside_leg_with_head_lowered",
+      "interaction_mode": "sustained_contact",
+      "hand_mode": "single_left_hand",
+      "delivery_type": "direct_contact",
+      "animal_type": "dog",
+      "primary_target_id": "dog_spotted",
+      "secondary_animals": [
+        "dog_black",
+        "dog_brown"
+      ],
+      "competition_state": "adjacent_animals_present",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "dog_stays_beside_leg_with_head_lowered"
+      ],
+      "caption_text": "stroke_spotted_dog_back -> dog_stays_beside_leg_with_head_lowered",
+      "caption_zh": "改为摸花色狗背部，狗留在腿旁并保持低头状态。",
+      "caption_verified": true,
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": null,
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Explicit target redirection to spotted dog; repeated strokes remain one event, stop before brown-dog contact renews."
+    }
+  ],
+  "uncertainty": [
+    "events002/003 await causal/split attribution; several brief negative phases require final output checks"
+  ],
+  "updated_at": "2026-10-11T17:20:29.162888+08:00"
+}

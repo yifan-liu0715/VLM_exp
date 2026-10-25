@@ -1,0 +1,25 @@
+{
+  "source_id": "iphone__video_20261005_160632",
+  "source_sha256": "de97339a76a763b66d0eab7f2ec5fcb7c305a8f0e3682a47291f001f2124ebde",
+  "job": {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 4.125,
+    "end_s": 6.625,
+    "fps": 8,
+    "crop": [
+      2560,
+      1440,
+      0,
+      0
+    ],
+    "job_id": "dog_head_privacy"
+  },
+  "frames": 20,
+  "pages": [
+    "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/source_context/iphone__video_20261005_160632/crop_trials/dog_head_privacy/page_001.jpg"
+  ],
+  "orientation_correction": "metadata autorotation exactly once, then crop in display coordinates",
+  "privacy_reviewed": false,
+  "semantic_reviewed": false,
+  "updated_at": "2026-10-11T17:01:59.301866+08:00"
+}

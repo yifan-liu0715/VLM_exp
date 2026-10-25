@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "video_generation_dataset_ready",
+  "dataset_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928",
+  "manifest_count": 1058,
+  "clip_count": 1058,
+  "keypoint_json_count": 1058,
+  "source_coverage_count": 91,
+  "total_clip_size_bytes": 2649309336,
+  "total_keypoint_size_bytes": 226656994,
+  "total_frames_sampled": 137411,
+  "hand_visible_ge_30_count": 1025,
+  "hand_visible_ge_50_count": 957,
+  "hand_visible_ge_70_count": 800,
+  "two_hand_ge_50_count": 268,
+  "zero_hand_count": 0,
+  "zero_hand_clip_ids": [],
+  "excluded_zero_hand_ids": [
+    "semantic_review_e79bd78c90e341de86a7",
+    "semantic_review_ebfe86a7b93fe0471640",
+    "semantic_review_f6f249f016a53feab880"
+  ],
+  "old_root_path_hit_count": 0,
+  "landmarks_per_hand": 21,
+  "coordinates_per_landmark": 3,
+  "manifest_sha256": "32c5529418feba7167868caa1be7a5bfb67e38cc944a31f0b0ae4dfbf67780bf",
+  "hand_detection_run": true,
+  "training_run": false,
+  "error_count": 0,
+  "errors": []
+}

@@ -1,0 +1,153 @@
+{
+  "guardrails": {
+    "sharpness_retention": 0.85,
+    "motion_retention": 0.7,
+    "reference_ssim_delta": -0.005
+  },
+  "summary": {
+    "formal_v2_step-5250": {
+      "all_subgroups_pass": false,
+      "worst_sharpness_retention": 0.7157881325409055,
+      "worst_motion_retention": 0.6015037593984962,
+      "worst_reference_ssim_delta": -0.0005904316902161089,
+      "failed_subgroups": [
+        "bucket=1280x512",
+        "bucket=704x1280",
+        "content=dance",
+        "content=talking_face"
+      ]
+    },
+    "formal_v2_step-750": {
+      "all_subgroups_pass": false,
+      "worst_sharpness_retention": 0.6777060393298343,
+      "worst_motion_retention": 0.7142857142857143,
+      "worst_reference_ssim_delta": -0.0004762887954712358,
+      "failed_subgroups": [
+        "bucket=704x1280",
+        "content=dance"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "variant": "formal_v2_step-5250",
+      "group_type": "bucket",
+      "group": "1280x512",
+      "samples": 5,
+      "sharpness_retention": 1.2659558777352125,
+      "motion_retention": 0.6015037593984962,
+      "warp_error_reduction": 0.521810618658985,
+      "target_motion_mae_reduction": 0.48884043132922494,
+      "reference_ssim_delta": 0.0020446538925170676,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-5250",
+      "group_type": "bucket",
+      "group": "1280x704",
+      "samples": 5,
+      "sharpness_retention": 0.9289966733494732,
+      "motion_retention": 0.7142857142857143,
+      "warp_error_reduction": 0.17455351434769595,
+      "target_motion_mae_reduction": 0.0325838390363109,
+      "reference_ssim_delta": 0.0014992952346801758,
+      "passes_group_guardrails": true
+    },
+    {
+      "variant": "formal_v2_step-5250",
+      "group_type": "bucket",
+      "group": "704x1280",
+      "samples": 5,
+      "sharpness_retention": 0.7157881325409055,
+      "motion_retention": 1.3157894736842104,
+      "warp_error_reduction": 0.2727739840729698,
+      "target_motion_mae_reduction": 0.1566996205889818,
+      "reference_ssim_delta": -0.0005904316902161089,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-5250",
+      "group_type": "content",
+      "group": "dance",
+      "samples": 5,
+      "sharpness_retention": 0.7157881325409055,
+      "motion_retention": 1.3157894736842104,
+      "warp_error_reduction": 0.2727739840729698,
+      "target_motion_mae_reduction": 0.1566996205889818,
+      "reference_ssim_delta": -0.0005904316902161089,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-5250",
+      "group_type": "content",
+      "group": "talking_face",
+      "samples": 10,
+      "sharpness_retention": 1.1164490158151212,
+      "motion_retention": 0.6473214285714286,
+      "warp_error_reduction": 0.3797641239979138,
+      "target_motion_mae_reduction": 0.2939781712186066,
+      "reference_ssim_delta": 0.0017719745635986772,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "group_type": "bucket",
+      "group": "1280x512",
+      "samples": 5,
+      "sharpness_retention": 1.1478352131526728,
+      "motion_retention": 0.7142857142857143,
+      "warp_error_reduction": 0.41013031245242026,
+      "target_motion_mae_reduction": 0.4548563721512566,
+      "reference_ssim_delta": 0.0015155553817748357,
+      "passes_group_guardrails": true
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "group_type": "bucket",
+      "group": "1280x704",
+      "samples": 5,
+      "sharpness_retention": 0.92470718528103,
+      "motion_retention": 0.7362637362637363,
+      "warp_error_reduction": 0.23196947498614795,
+      "target_motion_mae_reduction": -0.011394686931638587,
+      "reference_ssim_delta": 0.0012544870376587358,
+      "passes_group_guardrails": true
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "group_type": "bucket",
+      "group": "704x1280",
+      "samples": 5,
+      "sharpness_retention": 0.6777060393298343,
+      "motion_retention": 1.1403508771929824,
+      "warp_error_reduction": 0.33831162117606395,
+      "target_motion_mae_reduction": 0.11706742033921225,
+      "reference_ssim_delta": -0.0004762887954712358,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "group_type": "content",
+      "group": "dance",
+      "samples": 5,
+      "sharpness_retention": 0.6777060393298343,
+      "motion_retention": 1.1403508771929824,
+      "warp_error_reduction": 0.33831162117606395,
+      "target_motion_mae_reduction": 0.11706742033921225,
+      "reference_ssim_delta": -0.0004762887954712358,
+      "passes_group_guardrails": false
+    },
+    {
+      "variant": "formal_v2_step-750",
+      "group_type": "content",
+      "group": "talking_face",
+      "samples": 10,
+      "sharpness_retention": 1.0488345898744924,
+      "motion_retention": 0.7232142857142857,
+      "warp_error_reduction": 0.3372531210752816,
+      "target_motion_mae_reduction": 0.25572558327810824,
+      "reference_ssim_delta": 0.0013850212097168413,
+      "passes_group_guardrails": true
+    }
+  ]
+}

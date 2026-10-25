@@ -1,0 +1,99 @@
+START_iphone__video_20261005_154621
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721227.027649 1428610 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721227.073486 1428892 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721227.134651 1428858 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721227.143361 1428870 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721227.170937 1428854 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1428610 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_162646
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721242.897415 1429057 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721242.972081 1429378 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721243.029935 1429332 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721243.038701 1429351 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721243.102523 1429373 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1429057 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_160949
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721247.760100 1429501 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721247.811901 1429766 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721247.870396 1429719 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721247.879348 1429742 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721247.919575 1429755 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"source_id": "iphone__video_20261005_160949", "state": "source_context_ready", "proposals": 2, "detector_status": "ready", "hand_frames": 174}
+START_iphone__video_20261005_161507
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721257.169791 1429909 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721257.218949 1430217 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721257.279940 1430179 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721257.288550 1430195 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721257.361615 1430170 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"source_id": "iphone__video_20261005_161507", "state": "source_context_ready", "proposals": 5, "detector_status": "ready", "hand_frames": 161}
+START_iphone__video_20261005_163444
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721290.010492 1430342 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721290.057441 1430804 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721290.095847 1430759 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721290.104330 1430777 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721290.179779 1430779 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1430342 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_163059
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721300.031855 1430945 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721300.081835 1431215 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721300.141667 1431168 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721300.150052 1431193 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721300.179912 1431168 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"source_id": "iphone__video_20261005_163059", "state": "source_context_ready", "proposals": 8, "detector_status": "ready", "hand_frames": 180}
+START_iphone__video_20261005_155526
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721313.560635 1431339 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721313.611188 1431655 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721313.672940 1431601 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721313.688538 1431627 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721313.703128 1431608 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1431339 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_161300
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721321.788527 1431779 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721321.835675 1432058 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721321.898310 1432008 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721321.910376 1432035 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721321.931506 1432023 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1431779 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_164046
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721504.986738 1432183 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721505.036385 1454128 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721505.098290 1454078 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721505.110177 1454101 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721505.147063 1454091 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1432183 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_154858
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721685.139551 1455873 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721685.198184 1526624 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721685.258301 1526577 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721685.267497 1526600 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721685.293186 1526573 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1455873 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid
+START_iphone__video_20261005_164329
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791721787.311485 1529079 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791721787.356569 1540674 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 550.144.03), renderer: NVIDIA A100-SXM4-80GB/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791721787.413457 1540623 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721787.422286 1540648 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791721787.738983 1540672 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+bash: line 1: 1529079 Killed                  env CUDA_VISIBLE_DEVICES=2 PYTHONPATH=/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code:/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/deps/mediapipe /nvmedata/workspace2/conda_data/envs/LTX2_hxh/bin/python -u /nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/code/recover_one_pts_source.py --sid $sid

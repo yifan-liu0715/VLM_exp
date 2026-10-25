@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-10-13T01:54:21+0800",
+  "queue_source": "review_artifacts/qwen_semantic_retry_v3_20261013/queue.jsonl",
+  "attempted_indices": [
+    79
+  ],
+  "not_attempted_indices": [
+    137,
+    266,
+    346,
+    366,
+    536
+  ],
+  "excluded_missing_candidate_index": 504,
+  "completed_valid": 0,
+  "malformed_indices": [
+    79
+  ],
+  "state_effect": "all seven original backend-failed indices remain semantic_backend_failed in the authoritative final merge; no main result was overwritten",
+  "reason": "sidecar emitted an unclosed repetitive action string under both 192 and 384 token caps",
+  "keypoints_started": false,
+  "training_started": false,
+  "promotion_performed": false,
+  "note": "Retry artifacts are diagnostic only; they do not change semantic or privacy acceptance."
+}

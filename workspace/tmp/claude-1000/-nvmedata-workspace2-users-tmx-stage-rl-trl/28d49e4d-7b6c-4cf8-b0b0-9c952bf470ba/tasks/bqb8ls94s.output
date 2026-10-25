@@ -1,0 +1,15 @@
+  iou30           637    151    161   0.7982     0.8084   0.8033
+  iou50           560    228    238   0.7018     0.7107   0.7062
+  iou80           335    453    463   0.4198     0.4251   0.4224
+
+  Defect samples (555): detect_rate=0.9964 R_cls=1.1369 R_loc=5.0098
+  Clean samples (445): correct_reject=0.9865
+
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7030   0.9537     561     535    798
+                  iou80   0.4198   0.9552     335     320    798
+======================================================================
+
+[Eval] Results saved to: results/exp044_ckpt4500_new.json
+[Eval] Detailed per-sample results: results/exp044_ckpt4500_new_details.json

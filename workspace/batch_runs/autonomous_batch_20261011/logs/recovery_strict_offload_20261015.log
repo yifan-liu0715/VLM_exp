@@ -1,0 +1,20 @@
+{"stage": "load_processor", "worker": 0, "assigned": 2, "already_done": 0}
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 198/760 [00:00<00:00, 1944.95it/s]Loading weights:  52%|█████▎    | 399/760 [00:00<00:00, 1967.68it/s]Loading weights:  78%|███████▊  | 596/760 [00:00<00:00, 654.69it/s] Loading weights:  95%|█████████▍| 720/760 [00:01<00:00, 521.26it/s]Loading weights: 100%|██████████| 760/760 [00:01<00:00, 596.23it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+{"stage": "model_loaded", "worker": 0, "device": "cuda:0"}
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/transformers/video_processing_utils.py:829: UserWarning: `torchcodec` is not installed and cannot be used to decode the video by default. Falling back to `torchvision`. Note that `torchvision` decoding is deprecated and will be removed in future versions. 
+  warnings.warn(
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/transformers/video_utils.py:534: UserWarning: Using `torchvision` for video decoding is deprecated and will be removed in future versions. Please use `torchcodec` instead.
+  warnings.warn(
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+{"worker": 0, "done": 1, "assigned": 2, "queue_index": 9, "status": "completed", "elapsed_s": 802.58}
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/transformers/video_processing_utils.py:829: UserWarning: `torchcodec` is not installed and cannot be used to decode the video by default. Falling back to `torchvision`. Note that `torchvision` decoding is deprecated and will be removed in future versions. 
+  warnings.warn(
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/transformers/video_utils.py:534: UserWarning: Using `torchvision` for video decoding is deprecated and will be removed in future versions. Please use `torchcodec` instead.
+  warnings.warn(
+/nvmedata/workspace2/users/nina/conda_envs/sam2_mask_0808/lib/python3.11/site-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+{"worker": 0, "done": 2, "assigned": 2, "queue_index": 504, "status": "completed", "elapsed_s": 522.76}
+{"worker": 0, "stage": "complete", "assigned": 2}

@@ -1,0 +1,30 @@
+  [150] coarse: 1 boxes, final: 2 boxes
+  [200] coarse: 1 boxes, final: 2 boxes
+  [250] coarse: 2 boxes, final: 8 boxes
+  [300] coarse: 0 boxes, final: 0 boxes
+  [350] coarse: 3 boxes, final: 8 boxes
+  [400] coarse: 2 boxes, final: 6 boxes
+  [450] coarse: 1 boxes, final: 1 boxes
+  [500] coarse: 1 boxes, final: 3 boxes
+  [550] coarse: 1 boxes, final: 3 boxes
+  [600] coarse: 1 boxes, final: 2 boxes
+  [650] coarse: 1 boxes, final: 2 boxes
+  [700] coarse: 1 boxes, final: 1 boxes
+  [750] coarse: 0 boxes, final: 0 boxes
+  [800] coarse: 0 boxes, final: 0 boxes
+  [850] coarse: 0 boxes, final: 0 boxes
+  [900] coarse: 1 boxes, final: 4 boxes
+  [950] coarse: 0 boxes, final: 0 boxes
+
+[Two-Stage] Done in 3142.0s (3.14s/sample)
+
+============================================================
+  TWO-STAGE RESULTS: /nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828
+============================================================
+  R@0.5: 68.80%
+  R@0.8: 37.34%
+  DefAcc: 98.60%
+============================================================
+
+[Eval] Results saved to: results/sft_baseline_two_stage.json
+[Eval] Details: results/sft_baseline_two_stage_details.json

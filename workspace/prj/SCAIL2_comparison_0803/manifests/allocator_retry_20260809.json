@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "experiment": "scail2_sam2_fallback_base_dpo_allocator_retry",
+  "reason": "Retry the unchanged single-GPU plan after an allocator-fragmentation OOM.",
+  "only_change": {
+    "environment": {
+      "PYTORCH_ALLOC_CONF": "expandable_segments:True"
+    }
+  },
+  "unchanged": {
+    "sample_id": "mymotion__humandance__batch1_mingxing_cropped__002",
+    "target_width": 704,
+    "target_height": 1280,
+    "output_frames": 97,
+    "fps": 24,
+    "sample_solver": "unipc",
+    "sample_steps": 40,
+    "sample_shift": 3.0,
+    "cfg": 5.0,
+    "seed": 42,
+    "segment_len": 81,
+    "segment_overlap": 5,
+    "offload_model": true,
+    "base_dpo_same_settings": true
+  },
+  "frozen_inputs": {
+    "inference_plan_sam2.json": "28b0a345e85c9f5736553950778175a0f8fa748599bda126f7f0a0b3a11dc58f",
+    "run_scail2_sam2_gate.py": "d177bcbc2482b44cba65c9752fe60af0723e6e84708eff56d3f81d6636607964",
+    "run_scail2_sam2_gate_controller.sh": "837fa01bff047877ad00e858ccf705970da195997632a04a9ee5621b8bca52b4"
+  },
+  "gpu_policy": {
+    "physical_gpu": 2,
+    "physical_gpu_0_forbidden": true
+  },
+  "fallback_not_authorized_in_this_run": {
+    "segment_len": 65
+  }
+}

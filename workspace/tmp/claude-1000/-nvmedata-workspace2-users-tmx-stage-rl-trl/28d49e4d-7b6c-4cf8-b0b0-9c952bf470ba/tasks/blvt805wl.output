@@ -1,0 +1,5 @@
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 879, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3615286 got signal: 15

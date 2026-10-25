@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "conclusion": "hand_presence_detection_is_available_but_old_segmentation_used_motion_as_a_hard_gate",
+  "evidence_source": "causal_capture_full_20260920/scan_full_highrecall_6fps/reports/causal_proposal_scan.json",
+  "scanner": {
+    "mediapipe_version": "1.0.1",
+    "sample_fps": 6.0,
+    "frame_scale": "320x240",
+    "source_count": 377,
+    "ok_source_count": 375,
+    "too_short_source_count": 2,
+    "high_recall_candidate_count": 2202,
+    "high_recall_candidate_source_count": 350
+  },
+  "zero_candidate_ok_sources": {
+    "count": 25,
+    "hand_visible_any_count": 23,
+    "hand_visible_rate_at_least_50_percent_count": 9,
+    "hand_visible_rate_100_percent_count": 5,
+    "examples": [
+      {"source_rel": "DJI_20260913110201_0004_D.MP4", "hand_visible_rate": 1.0, "candidate_count": 0},
+      {"source_rel": "DJI_20260916200706_0302_D.MP4", "hand_visible_rate": 1.0, "candidate_count": 0},
+      {"source_rel": "DJI_20260913110118_0003_D.MP4", "hand_visible_rate": 0.9777777778, "candidate_count": 0}
+    ]
+  },
+  "why": [
+    "scan_video samples at 6 FPS and downsizes frames before MediaPipe inference",
+    "activity score is matched hand-center displacement plus a one-time appearance signal",
+    "build_high_recall_runs requires hand_count > 0 and score >= threshold",
+    "a visible but static or slow hand can therefore have no proposal",
+    "proposal windows are motion anchors, not full hand-presence intervals or semantic actions"
+  ],
+  "v3_effect": {
+    "semantic_seeds_added_sources_to_high_recall_coverage": 12,
+    "remaining_uncovered_sources_in_v3_pool": 15,
+    "uncovered_sources_are_not_proof_of_no_hand": true
+  },
+  "next_pass_policy": {
+    "first_pass": "hand-presence coverage for every source, retaining static and slow hands",
+    "second_pass": "action boundaries from object/animal state change, reset, mirror direction and meaningful static context",
+    "keypoint_json": false,
+    "training": false,
+    "manual_review_required": true
+  }
+}

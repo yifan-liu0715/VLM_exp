@@ -1,0 +1,116 @@
+{
+  "plan_version": "native-source-context-v1",
+  "source_id": "iphone__video_20261005_163316",
+  "source_sha256": "7fd7e608aa8175f3f875ec6090af060ff2b792a91d50175968bf9640039366f0",
+  "source_review_sample_fps": 4,
+  "source_review_complete": true,
+  "source_review_pages": [
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_001.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_002.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_003.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_004.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_005.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_006.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_007.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_008.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_009.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_010.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_011.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_012.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_013.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_014.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_015.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_016.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_017.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_018.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_019.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_020.jpg",
+    "source_context/iphone__video_20261005_163316/native_4fps/review_page_021.jpg"
+  ],
+  "native_anchor_frames": [],
+  "coverage": [
+    {
+      "start_s": 0,
+      "end_s": 9.875,
+      "state": "portrait_reframe_review",
+      "reason": "earlier continuous rubbing cannot be approved using the current crop; muzzle leaves crop near6s"
+    },
+    {
+      "start_s": 9.875,
+      "end_s": 12.75,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 12.75,
+      "end_s": 16.75,
+      "state": "second_pass_required",
+      "reason": "renewed head contact and intervening preparation require fixed-crop review"
+    },
+    {
+      "start_s": 16.75,
+      "end_s": 25.75,
+      "state": "portrait_reframe_review",
+      "reason": "current crop loses part of hand onset or the second cat; no group promotion"
+    },
+    {
+      "start_s": 25.75,
+      "end_s": 60.2249,
+      "state": "second_pass_required",
+      "reason": "later head/back rubbing and target/contact changes await individual crop plans"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "001",
+      "start_s": 9.875,
+      "end_s": 12.75,
+      "causal_start_s": 9.875,
+      "action_or_condition_onset_s": 10.0,
+      "response_onset_s": 10.875,
+      "response_evidence_s": [
+        10.875,
+        12.5
+      ],
+      "causal_end_s": 12.75,
+      "tail_checked_until_s": 14.25,
+      "hand_action": "present_pouch_to_cat_nose",
+      "contact_region": "nose_and_mouth",
+      "animal_response": "cat_brings_nose_close_and_shows_tongue_contact",
+      "interaction_mode": "trigger_response",
+      "hand_mode": "single_right_hand",
+      "delivery_type": "held_pouch",
+      "animal_type": "cat",
+      "primary_target_id": "animal_01",
+      "secondary_animals": [],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "response_sequence": [
+        "cat_brings_nose_close_and_shows_tongue_contact"
+      ],
+      "caption_text": "present_pouch_to_cat_nose -> cat_brings_nose_close_and_shows_tongue_contact",
+      "caption_zh": "把蓝色袋状物移到猫鼻子旁，猫凑近并出现舌部接触；不据包装猜测实际进食。",
+      "caption_verified": true,
+      "source_orientation": "portrait",
+      "metadata_rotation_deg": -90.0,
+      "orientation_correction": "metadata autorotation once before fixed display-coordinate crop",
+      "crop": [
+        2144,
+        1206,
+        8,
+        1780
+      ],
+      "second_pass_completed": true,
+      "temporal_envelope": "full",
+      "state": "review_needed",
+      "semantic_valid": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "review_reason": "Final encoded timeline, face-hit and subject-clarity review pending.",
+      "split_or_merge_reason": "Independent carrier reorientation toward the nose at about9.875; end before renewed forehead contact at12.75. Do not split earlier continuous cheek rubbing just to pass a crop."
+    }
+  ],
+  "uncertainty": [
+    "whole portrait source is not finished; only one explicit candidate planned"
+  ],
+  "updated_at": "2026-10-11T17:20:29.162888+08:00"
+}

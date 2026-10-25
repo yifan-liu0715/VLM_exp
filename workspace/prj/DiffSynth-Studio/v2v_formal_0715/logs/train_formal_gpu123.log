@@ -1,0 +1,244 @@
+{
+  "started_at_utc": "2026-07-15T04:58:08.161009+00:00",
+  "training_pid": 2728329,
+  "hostname": "is-dcrc324uvsgyc6mv-devmachine-0",
+  "user": "student",
+  "project_root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio",
+  "formal_root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715",
+  "command": "/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/bin/python /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py --config /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/configs/train_v2v_lora_0715.yaml",
+  "physical_gpu_ids": [
+    "1",
+    "2",
+    "3"
+  ],
+  "gpu0_forbidden": true,
+  "gpu_snapshot": [
+    "0, NVIDIA A100-SXM4-80GB, 81920, 1, 81222, 0",
+    "1, NVIDIA A100-SXM4-80GB, 81920, 4, 81219, 0",
+    "2, NVIDIA A100-SXM4-80GB, 81920, 4, 81219, 0",
+    "3, NVIDIA A100-SXM4-80GB, 81920, 4, 81219, 0",
+    "4, NVIDIA A100-SXM4-80GB, 81920, 1, 81222, 0",
+    "5, NVIDIA A100-SXM4-80GB, 81920, 1, 81222, 0",
+    "6, NVIDIA A100-SXM4-80GB, 81920, 76465, 4757, 100",
+    "7, NVIDIA A100-SXM4-80GB, 81920, 1, 81222, 0"
+  ],
+  "git_commit": "0db15b19fa2be05d22211d6097478c873a4b2c56",
+  "git_status": "D README.md\n D README_zh.md\n M diffsynth/configs/model_configs.py\n M diffsynth/core/loader/model.py\n M diffsynth/diffusion/base_pipeline.py\n M diffsynth/models/model_loader.py\n?? .venvs/\n?? data_0713/\n?? data_splits/\n?? data_v2v_formal_0713/\n?? output_models/\n?? pretrain_weights/\n?? scripts_0713/\n?? third_party/\n?? v2v_formal_0715/\n?? validation_results/\n?? validation_results_0713/",
+  "resolved_config": {
+    "experiment_name": "wan2.2_ti2v_5b_paired_v2v_lora_formal_0715",
+    "model": {
+      "transformer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+      "text_encoder": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/models_t5_umt5-xxl-enc-bf16.pth",
+      "vae": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/Wan2.2_VAE.pth",
+      "tokenizer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/google/umt5-xxl"
+    },
+    "data": {
+      "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/metadata/metadata_full_paired_0715.csv",
+      "num_frames": 33,
+      "batch_size": 1,
+      "num_workers": 4,
+      "bucket_target_sizes": {
+        "1280x512": [
+          256,
+          640
+        ],
+        "1280x704": [
+          320,
+          576
+        ],
+        "704x1280": [
+          576,
+          320
+        ]
+      }
+    },
+    "lora": {
+      "rank": 64,
+      "alpha": 64,
+      "dropout": 0.0
+    },
+    "optimizer": {
+      "learning_rate": 0.0001,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "weight_decay": 0.01,
+      "eps": 1e-08,
+      "warmup_steps": 250
+    },
+    "training": {
+      "seed": 42,
+      "max_epochs": 5,
+      "accumulate_grad_batches": 2,
+      "precision": "bf16-mixed",
+      "gradient_checkpointing": true,
+      "gradient_clip_val": 1.0,
+      "flow_shift": 5.0,
+      "checkpoint_every_n_steps": 500,
+      "deterministic": false
+    },
+    "output": {
+      "root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715"
+    }
+  },
+  "data_manifest": {
+    "manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/metadata/metadata_full_paired_0715.csv",
+    "manifest_sha256": "4fd0a1cd72b263c20bbc9b66870ba8883125f10ff5817ed94cca16fb9a02a3be",
+    "source_manifest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_v2v_formal_0713/metadata_full_paired_0713.csv",
+    "source_manifest_sha256": "2d698ad19f293dbafc81611137c86d893eecac4ab644bff326e526126d8cfaa4",
+    "dataset_root": "/nvmedata/workspace2/users/nina/dataset_video_train",
+    "sample_count": 3916,
+    "buckets": {
+      "1280x512": 1032,
+      "1280x704": 1225,
+      "704x1280": 1659
+    },
+    "source_splits": {
+      "test": 455,
+      "train": 2993,
+      "val": 468
+    },
+    "minimum_frames": 33,
+    "path_mode": "absolute",
+    "pair_contract": "input_video -> output_video, conditioned by reference_image and caption"
+  },
+  "transformer_conversion": {
+    "source_directory": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF",
+    "source_index": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model.safetensors.index.json",
+    "source_index_sha256": "bfa2337f1163e195d24151a72298daf34a620543898109be47e414c8daa5b3fe",
+    "output_directory": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+    "config_sha256": "0d287e38b4e29bbd085b335bafdc0087fde1f813bbf17442ef5db6a981dbf87e",
+    "tensor_count": 825,
+    "key_coverage": "100%",
+    "shards": [
+      {
+        "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00001-of-00003.safetensors",
+        "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00001-of-00003.safetensors",
+        "source_bytes": 9825014472,
+        "output_bytes": 9825014712,
+        "tensor_count": 413
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00002-of-00003.safetensors",
+        "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00002-of-00003.safetensors",
+        "source_bytes": 9995661736,
+        "output_bytes": 9995661832,
+        "tensor_count": 407
+      },
+      {
+        "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF/diffusion_pytorch_model-00003-of-00003.safetensors",
+        "output": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer/diffusion_pytorch_model-00003-of-00003.safetensors",
+        "source_bytes": 178558176,
+        "output_bytes": 178558152,
+        "tensor_count": 5
+      }
+    ]
+  },
+  "pretrained_input_format": "Wan-AI original checkpoint layout downloaded from Hugging Face",
+  "pretrained_input_root": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B-HF",
+  "runtime": {
+    "python": "3.11.15",
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4",
+    "diffusers": "0.38.0",
+    "transformers": "5.9.0",
+    "accelerate": "1.13.0",
+    "pytorch_lightning": "2.6.5",
+    "peft": "0.19.1"
+  },
+  "file_sha256": {
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/configs/train_v2v_lora_0715.yaml": "48dfac49362f8c4da8dea121573a21ad36cee47a98d8d4b22050c23b14c93114",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/configs/transformer_config.json": "0d287e38b4e29bbd085b335bafdc0087fde1f813bbf17442ef5db6a981dbf87e",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/configs/vae_config.json": "3776c0a7932b06ff116b7cf9f9a65039b0165185131de2a51b4f226515dc11bc",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/freeze_manifest.py": "d00df5891874c6b0c42bfb03989afeb259ec287e52883e1676b57be115fe6dd0",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/launch_train.sh": "e9670241e73991ffffe3ff610739c5ad04c60bc355d5a1e7a3fc64093504663c",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/wan2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/wan2/attn_process.py": "b8dbddc7acef43817cb0345af9eaaf117eaf6a7e40288fe2b133aab68f1467fe",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/wan2/transformer_wan.py": "d632fca6171d186778eda2d914004ee4d50c28c867cf44ee8c0276ab85dfebab",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/wan2/wan_block.py": "538b45ce7293753169a682af022ad2ef34a2b918e99555cec963f3159f47880b",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/models/wan2/wan_embedder.py": "fe1ba001a1d098000a1d42731e40e168bfdea0fa45e2b7aa5cbf13d915390304",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/paired_v2v_dataset.py": "07b5b25cfc7b2212e46ba78285f31a77233e7454b6ba3d2c33dfd39c80cb0ef1",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/prepare_transformer.py": "4a1582bc734cf05b366a64fe13634549261aa19123ca17dbcfeef5e223080c92",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/train_v2v_lora.py": "09c894f3dcf0ab9f1e1a92ecdc62102f1c639f902e03427f0022da77136f336f",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/training_utils.py": "885ee32ce55abab3fa2bf83bf9fabeada3f6722ebff0a0236203ccf84442246d",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/v2v_components.py": "cfca0be849b823ad3f07c89db9030daaa7f8cc18df8a341c6622660ce32eea06",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/wan_flow_scheduler.py": "0433157d7e88da31fd4e8a9a6492f1ec0aee472ded4979e9309505b2c79c6440",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/scripts/write_run_manifest.py": "67af49034539ecfcb5e671bdc9244611e9ed6a9a7284b9ad61fa2e71b54f3ed0"
+  },
+  "checkpoint_policy": {
+    "latest": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors",
+    "overwrite_interval_steps": 500,
+    "contents": "LoRA attention weights + patch_embedding_extra only",
+    "optimizer_state_saved": false
+  }
+}
+Seed set to 42
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+`Trainer(limit_train_batches=1.0)` was configured so 100% of the batches per epoch will be used..
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/3
+[rank: 2] Seed set to 42
+[rank: 1] Seed set to 42
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/3
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/3
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 3 processes
+----------------------------------------------------------------------------------------------------
+
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.20it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.00it/s]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [1,2,3]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [1,2,3]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1,2,3]
+Loading `train_dataloader` to estimate number of stepping batches.
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 95.0 M                                                        
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 45,921.406                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 500, 'epoch': 0}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 500, 'epoch': 0}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1000, 'epoch': 1}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1000, 'epoch': 1}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1500, 'epoch': 2}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1500, 'epoch': 2}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2000, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2000, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2500, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 2500, 'epoch': 3}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3000, 'epoch': 4}
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 3000, 'epoch': 4}
+`Trainer.fit` stopped: `max_epochs=5` reached.
+Epoch 4/4  ━━━━━━━━━━━━━━━━ 1306/1306 0:43:19 •       0.50it/s v_num: 0.000     
+                                      0:00:00                  train/loss_step: 
+                                                               0.112            
+                                                               train/loss_epoch:
+                                                               0.147            

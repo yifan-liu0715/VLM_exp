@@ -1,0 +1,24 @@
+validated 25/596
+validated 50/596
+validated 75/596
+validated 100/596
+validated 125/596
+validated 150/596
+validated 175/596
+validated 200/596
+validated 225/596
+validated 250/596
+validated 275/596
+validated 300/596
+validated 325/596
+validated 350/596
+validated 375/596
+validated 400/596
+validated 425/596
+validated 450/596
+validated 475/596
+validated 500/596
+validated 525/596
+validated 550/596
+validated 575/596
+{"out": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/reports/full_candidate_audit_20261011.json", "sources": 130, "candidate_records": 597, "validated": 596, "format_failed": 0, "decode_failed": 0, "elapsed_s": 49.49}

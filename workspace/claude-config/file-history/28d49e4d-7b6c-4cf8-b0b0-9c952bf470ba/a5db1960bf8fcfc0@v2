@@ -1,0 +1,364 @@
+#!/usr/bin/env python3
+"""
+两阶段检测评测脚本：
+Stage 1: 用当前模型在 1M 分辨率下粗定位缺陷区域
+Stage 2: 裁剪缺陷区域，放大到 4M 分辨率，重新精确定位
+用法: python scripts/eval_two_stage.py --checkpoint <path> --gpu 2
+"""
+import argparse, json, os, re, sys, time
+import torch
+import numpy as np
+from PIL import Image, ImageOps
+from tqdm import tqdm
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from src.rewards.accuracy_reward import _compute_reward_core, parse_defect_entries
+from src.rewards.location_reward import calculate_ciou
+from scipy.optimize import linear_sum_assignment
+
+
+# ── 模型加载 ──────────────────────────────────────────
+def load_model(checkpoint_path, base_model_path, device="cuda"):
+    from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+    from peft import PeftModel
+
+    is_lora = os.path.exists(os.path.join(checkpoint_path, "adapter_config.json"))
+    if is_lora:
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            base_model_path, torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2", device_map=device)
+        model = PeftModel.from_pretrained(model, checkpoint_path)
+        model = model.merge_and_unload()
+    else:
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            checkpoint_path, torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2", device_map=device)
+    model.eval()
+
+    processor_path = checkpoint_path
+    if not os.path.exists(os.path.join(processor_path, "preprocessor_config.json")):
+        processor_path = base_model_path
+    processor = AutoProcessor.from_pretrained(processor_path)
+    processor.image_processor.max_pixels = 1003520
+    processor.image_processor.min_pixels = 3136
+    return model, processor
+
+
+def run_inference(model, processor, image_path_or_pil, prompt, max_new_tokens=256, max_pixels=None):
+    """推理，支持文件路径或 PIL Image"""
+    if isinstance(image_path_or_pil, Image.Image):
+        img = image_path_or_pil
+        tmp_path = "/tmp/two_stage_tmp.png"
+        img.save(tmp_path)
+        image_input = tmp_path
+    else:
+        image_input = image_path_or_pil
+
+    messages = [{"role": "user", "content": [
+        {"type": "image", "image": image_input},
+        {"type": "text", "text": prompt},
+    ]}]
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+    image = Image.open(image_input).convert("RGB") if isinstance(image_input, str) else image_input
+    inputs = processor(text=[text], images=image, return_tensors="pt", padding=True).to(model.device)
+
+    if max_pixels is not None:
+        # 动态调整 processor 的 max_pixels
+        pass  # 已在 processor 设置中控制
+
+    with torch.no_grad():
+        out = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    return processor.decode(out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+
+
+def parse_boxes_from_text(text):
+    entries = []
+    pattern = re.compile(r"a\s+['\"]([^'\"]+)['\"]\s+defect.*?(\{.*?\})", re.IGNORECASE | re.DOTALL)
+    for m in pattern.finditer(text):
+        try:
+            label = m.group(1).strip()
+            bbox = json.loads(m.group(2)).get('bbox_2d')
+            if bbox and isinstance(bbox, list) and len(bbox) == 4 and all(isinstance(v, (int, float)) for v in bbox):
+                entries.append({'label': label, 'bbox': bbox})
+        except:
+            continue
+    return entries
+
+
+# ── Stage 2: 裁剪放大重新推理 ────────────────────────
+def crop_and_refine(model, processor, image_path, coarse_entries, prompt,
+                    max_new_tokens=256, crop_margin_ratio=0.3, upscale_factor=4):
+    """
+    Stage 2: 对每个粗定位的缺陷区域，裁剪放大后重新推理
+    """
+    img = Image.open(image_path).convert("RGB")
+    img_w, img_h = img.size
+
+    refined_entries = []
+
+    for entry in coarse_entries:
+        label = entry['label']
+        x1, y1, x2, y2 = entry['bbox']
+
+        # 计算裁剪区域（带 margin）
+        bw, bh = x2 - x1, y2 - y1
+        margin_x = bw * crop_margin_ratio
+        margin_y = bh * crop_margin_ratio
+
+        cx1 = max(0, int(x1 - margin_x))
+        cy1 = max(0, int(y1 - margin_y))
+        cx2 = min(img_w, int(x2 + margin_x))
+        cy2 = min(img_h, int(y2 + margin_y))
+
+        # 裁剪
+        cropped = img.crop((cx1, cy1, cx2, cy2))
+
+        # 放大（保持长边不超过 4M pixels）
+        crop_w, crop_h = cropped.size
+        target_pixels = 4_000_000
+        current_pixels = crop_w * crop_h
+        if current_pixels < target_pixels:
+            scale = (target_pixels / current_pixels) ** 0.5
+            new_w = min(int(crop_w * scale), 2048)
+            new_h = min(int(crop_h * scale), 2048)
+            cropped = cropped.resize((new_w, new_h), Image.LANCZOS)
+
+        # 在裁剪区域上推理
+        stage2_prompt = f"Are there any defects in this image? If so, please box and describe them."
+        pred_text = run_inference(model, processor, cropped, stage2_prompt, max_new_tokens)
+
+        # 解析预测框
+        pred_entries = parse_boxes_from_text(pred_text)
+
+        # 将裁剪区域的坐标转换回原图坐标
+        for pe in pred_entries:
+            bx1, by1, bx2, by2 = pe['bbox']
+            # 缩放回裁剪区域大小
+            orig_crop_w, orig_crop_h = img.crop((cx1, cy1, cx2, cy2)).size
+            scale_x = (cx2 - cx1) / orig_crop_w if orig_crop_w > 0 else 1
+            scale_y = (cy2 - cy1) / orig_crop_h if orig_crop_h > 0 else 1
+            # 转换到原图坐标
+            refined_entries.append({
+                'label': pe['label'],
+                'bbox': [
+                    cx1 + bx1 * scale_x,
+                    cy1 + by1 * scale_y,
+                    cx1 + bx2 * scale_x,
+                    cy2 + by2 * scale_y,
+                ]
+            })
+
+    return refined_entries
+
+
+def nms_merge(orig_entries, refined_entries, iou_thresh=0.3):
+    """合并原始粗定位和精确定位的结果"""
+    all_entries = []
+
+    # 精确定位的优先
+    for e in refined_entries:
+        all_entries.append({**e, 'source': 'refined'})
+
+    # 原始定位（如果没有对应的精确定位）
+    for e in orig_entries:
+        has_refined = False
+        for re_entry in refined_entries:
+            iou, _ = calculate_ciou(e['bbox'], re_entry['bbox'])
+            if iou > iou_thresh:
+                has_refined = True
+                break
+        if not has_refined:
+            all_entries.append({**e, 'source': 'coarse'})
+
+    return all_entries
+
+
+def compute_metrics(predictions, ground_truths):
+    total = len(predictions)
+    correct_defect = 0
+    iou_metrics = {t: {"TP": 0, "FP": 0, "FN": 0} for t in [0.3, 0.5, 0.8]}
+    test_style = {0.5: {"tp_det": 0, "tp_cls": 0, "total_gt": 0},
+                  0.8: {"tp_det": 0, "tp_cls": 0, "total_gt": 0}}
+    per_sample = []
+
+    for i, (pred, gt) in enumerate(zip(predictions, ground_truths)):
+        r_ans, r_cls, r_loc, detail = _compute_reward_core(pred, gt)
+        if detail["gt_has_defect"] == detail["pred_has_defect"]:
+            correct_defect += 1
+
+        gt_entries = parse_defect_entries(gt)
+        pred_entries = parse_defect_entries(pred)
+        gt_boxes = [e[1] for e in gt_entries]
+        pred_boxes = [e[1] for e in pred_entries]
+
+        for t in [0.5, 0.8]:
+            test_style[t]["total_gt"] += len(gt_entries)
+            matched_idx = set()
+            for gt_type, g_box in gt_entries:
+                best_iou, best_idx = 0.0, -1
+                for pi, (pt, p_box) in enumerate(pred_entries):
+                    if pi in matched_idx: continue
+                    iou_val = calculate_ciou(g_box, p_box)[0]
+                    if iou_val > best_iou:
+                        best_iou, best_idx = iou_val, pi
+                if best_iou >= t and best_idx >= 0:
+                    test_style[t]["tp_det"] += 1
+                    if gt_type.lower() == pred_entries[best_idx][0].lower():
+                        test_style[t]["tp_cls"] += 1
+                    matched_idx.add(best_idx)
+
+        for thresh in [0.3, 0.5, 0.8]:
+            matched, up, ug = hungarian_match(pred_boxes, gt_boxes, thresh)
+            iou_metrics[thresh]["TP"] += len(matched)
+            iou_metrics[thresh]["FP"] += len(up)
+            iou_metrics[thresh]["FN"] += len(ug)
+
+        per_sample.append({
+            "index": i, "r_ans": r_ans, "r_cls": r_cls, "r_loc": r_loc,
+            "gt_has_defect": detail["gt_has_defect"], "pred_has_defect": detail["pred_has_defect"],
+            "gt_boxes": detail["gt_boxes"], "pred_boxes": detail["pred_boxes"],
+            "matched": detail["matched"], "miss": detail["miss"], "extra": detail["extra"],
+            "matched_ious": detail["matched_ious"],
+        })
+
+    def safe_div(a, b): return a / b if b > 0 else 0
+    results = {"total_samples": total, "defect_accuracy": correct_defect / total, "per_iou": {}}
+    for thresh, m in iou_metrics.items():
+        tp, fp, fn = m["TP"], m["FP"], m["FN"]
+        r = safe_div(tp, tp+fn); p = safe_div(tp, tp+fp)
+        results["per_iou"][f"iou{thresh*100:.0f}"] = {
+            "TP": tp, "FP": fp, "FN": fn,
+            "recall": round(r, 4), "precision": round(p, 4),
+            "f1": round(safe_div(2*p*r, p+r), 4)
+        }
+    results["test_style"] = {}
+    for t, ts in test_style.items():
+        tg = ts["total_gt"]
+        r = ts["tp_det"] / tg if tg > 0 else 0
+        c = ts["tp_cls"] / ts["tp_det"] if ts["tp_det"] > 0 else 0
+        results["test_style"][f"iou{t*100:.0f}"] = {
+            "recall": round(r, 4), "cls_accuracy": round(c, 4),
+            "tp_det": ts["tp_det"], "tp_cls": ts["tp_cls"], "total_gt": tg
+        }
+    results["per_sample"] = per_sample
+    return results
+
+
+def hungarian_match(pred_boxes, gt_boxes, iou_thresh=0.1):
+    m, n = len(pred_boxes), len(gt_boxes)
+    if m == 0: return [], [], list(range(n))
+    if n == 0: return [], list(range(m)), []
+    mat = np.zeros((m, n))
+    for i in range(m):
+        for j in range(n):
+            mat[i, j] = calculate_ciou(pred_boxes[i], gt_boxes[j])[0]
+    row, col = linear_sum_assignment(1.0 - mat)
+    matched, mp, mg = [], set(), set()
+    for i, j in zip(row, col):
+        if mat[i, j] >= iou_thresh:
+            matched.append((int(i), int(j), float(mat[i, j])))
+            mp.add(i); mg.add(j)
+    return matched, [i for i in range(m) if i not in mp], [j for j in range(n) if j not in mg]
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--checkpoint", type=str, required=True)
+    parser.add_argument("--base-model", type=str,
+                        default="/nvmedata/workspace2/share_model/qwen2.5_vl_full_finetuned_checkpoint-2828")
+    parser.add_argument("--val-data", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json")
+    parser.add_argument("--image-path", type=str,
+                        default="/nvmedata/workspace2/users/tmx/val_dataset/images")
+    parser.add_argument("--gpu", type=str, default="2")
+    parser.add_argument("--output", type=str, default=None)
+    parser.add_argument("--max-new-tokens", type=int, default=256)
+    args = parser.parse_args()
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+
+    if args.output is None:
+        ckpt_name = args.checkpoint.rstrip("/").split("/")[-1]
+        args.output = f"results/{ckpt_name}_two_stage.json"
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+
+    with open(args.val_data) as f:
+        val_data = json.load(f)
+
+    ground_truths = [s["conversations"][1]["value"] for s in val_data]
+    image_paths = [os.path.join(args.image_path, s["image"]) for s in val_data]
+
+    model, processor = load_model(args.checkpoint, args.base_model)
+    prompt = "Are there any defects in this image? If so, please box and describe them."
+
+    print(f"\n[Two-Stage] Evaluating {len(val_data)} samples")
+    predictions = []
+    start_time = time.time()
+
+    for i, img_path in enumerate(tqdm(image_paths, desc="Two-Stage Eval")):
+        # Stage 1: 粗定位（1M 分辨率）
+        pred_coarse = run_inference(model, processor, img_path, prompt, args.max_new_tokens)
+        coarse_entries = parse_boxes_from_text(pred_coarse)
+
+        if coarse_entries and len(coarse_entries) > 0:
+            # Stage 2: 裁剪放大精确定位
+            refined_entries = crop_and_refine(
+                model, processor, img_path, coarse_entries, prompt,
+                max_new_tokens=args.max_new_tokens
+            )
+
+            # 合并结果
+            merged = nms_merge(coarse_entries, refined_entries, iou_thresh=0.3)
+
+            # 构造最终文本
+            defect_parts = []
+            for e in merged:
+                b = e['bbox']
+                defect_parts.append(
+                    f"a '{e['label']}' defect was found at "
+                    f"{{\"bbox_2d\": [{b[0]:.0f}, {b[1]:.0f}, {b[2]:.0f}, {b[3]:.0f}]}}"
+                )
+            final_pred = "Yes, " + " and ".join(defect_parts) + "."
+        else:
+            final_pred = pred_coarse
+
+        predictions.append(final_pred)
+
+        if i < 3 or i % 50 == 0:
+            print(f"  [{i}] coarse: {len(coarse_entries)} boxes, final: {len(parse_boxes_from_text(final_pred))} boxes")
+
+    elapsed = time.time() - start_time
+    print(f"\n[Two-Stage] Done in {elapsed:.1f}s ({elapsed/len(val_data):.2f}s/sample)")
+
+    results = compute_metrics(predictions, ground_truths)
+    results["checkpoint"] = args.checkpoint
+    results["eval_time_seconds"] = elapsed
+    results["two_stage"] = True
+
+    print(f"\n{'='*60}")
+    print(f"  TWO-STAGE RESULTS: {args.checkpoint}")
+    print(f"{'='*60}")
+    print(f"  R@0.5: {results['test_style']['iou50']['recall']*100:.2f}%")
+    print(f"  R@0.8: {results['test_style']['iou80']['recall']*100:.2f}%")
+    print(f"  DefAcc: {results['defect_accuracy']*100:.2f}%")
+    print(f"{'='*60}")
+
+    save_results = {k: v for k, v in results.items() if k != "per_sample"}
+    save_results["per_sample"] = []
+    for s in results["per_sample"]:
+        save_results["per_sample"].append({k: v for k, v in s.items()})
+
+    with open(args.output, "w") as f:
+        json.dump(save_results, f, indent=2, ensure_ascii=False)
+    print(f"\n[Eval] Results saved to: {args.output}")
+
+    detail_path = args.output.replace(".json", "_details.json")
+    with open(detail_path, "w") as f:
+        json.dump(results["per_sample"], f, indent=2, ensure_ascii=False)
+    print(f"[Eval] Details: {detail_path}")
+
+
+if __name__ == "__main__":
+    main()

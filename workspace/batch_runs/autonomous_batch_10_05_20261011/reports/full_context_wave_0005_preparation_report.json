@@ -1,0 +1,15 @@
+{
+  "stage": "full_context_wave_0005",
+  "sources": 8,
+  "source_context_ready": 8,
+  "failed_sources": [],
+  "mechanical_proposal_count": 12,
+  "second_pass_count": 19,
+  "accepted_for_training": 0,
+  "semantic_reviewed_sources": 0,
+  "finished_at": "2026-10-11T16:24:17.568961+08:00",
+  "needs_visual_semantic_boundary_and_crop_review": true,
+  "keypoints_started": false,
+  "training_started": false,
+  "vlm_used": false
+}

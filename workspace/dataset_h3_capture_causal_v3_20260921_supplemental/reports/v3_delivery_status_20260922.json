@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "pipeline": "h3-causal-v3-20260921",
+  "source_inventory": {
+    "source_count": 377,
+    "total_duration_sec": 9725.563,
+    "total_duration_hours": 2.701545,
+    "source_sha_verified": true
+  },
+  "review_pool": {
+    "candidate_count": 2106,
+    "candidate_source_count": 362,
+    "exportable_candidate_count": 2039,
+    "pending_boundary_count": 67,
+    "pending_boundary_reason": "under_2_seconds_without_padding",
+    "semantic_feedback_verified_count": 0,
+    "review_status": "pending_user_review"
+  },
+  "physical_exports": {
+    "primary": {
+      "count": 962,
+      "source_count": 359,
+      "duration_sum_sec": 6442.01,
+      "remote_root": "/mnt/highspeed/users/nina/dataset_h3_capture_causal_v3_20260921/batches/primary_exportable",
+      "validation": {"manifest_count": 962, "valid_count": 962, "error_count": 0}
+    },
+    "supplemental_seed_overlap": {
+      "count": 767,
+      "source_count": 222,
+      "duration_sum_sec": 3765.8,
+      "remote_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_causal_v3_20260921_supplemental/batches/seed_overlap",
+      "validation": {"manifest_count": 767, "valid_count": 767, "error_count": 0}
+    },
+    "supplemental_auto_overlap": {
+      "count": 312,
+      "source_count": 106,
+      "duration_sum_sec": 1511.43,
+      "remote_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_causal_v3_20260921_supplemental/batches/auto_overlap",
+      "validation": {"manifest_count": 312, "valid_count": 312, "error_count": 0}
+    },
+    "semantic_corrections": {
+      "count": 7,
+      "source_count": 3,
+      "duration_sum_sec": 53.1,
+      "remote_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_causal_v3_20260921_supplemental/batches/semantic_corrections",
+      "validation": {"manifest_count": 7, "valid_count": 7, "error_count": 0},
+      "counting_rule": "replacement_or_boundary_correction; do not add to effective count without retiring overlapping rows"
+    }
+  },
+  "physical_export_total": {
+    "count": 2048,
+    "source_count": 363,
+    "duration_sum_sec": 11772.344258,
+    "source_time_union_sec": 8144.582744,
+    "overlap_excess_sec": 3627.761514,
+    "all_batches_valid": true,
+    "hand_keypoints_run": false,
+    "training_run": false
+  },
+  "interpretation": {
+    "physical_files_are_not_approved_actions": true,
+    "primary_and_supplemental_overlap": true,
+    "human_review_required_fields": [
+      "action completeness",
+      "object or animal target change",
+      "mirror direction or reset state",
+      "camera-only footage",
+      "duplicate boundary handling"
+    ]
+  }
+}

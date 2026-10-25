@@ -1,0 +1,352 @@
+#!/usr/bin/env python3
+"""
+生成论文级可视化图：SFT vs RL 对比。
+用法: python scripts/visualize_paper.py
+"""
+import json, re, os, sys
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont, ImageOps
+
+# ── 配置 ──────────────────────────────────────────────
+SFT_DETAILS  = 'results/sft_baseline_details.json'
+RL_DETAILS   = 'results/exp044_ckpt2700_details.json'
+VAL_JSON     = '/nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json'
+IMG_DIR      = '/nvmedata/workspace2/dataset/U-IAD/all_images_processed'
+OUT_DIR      = 'results/figures_paper'
+os.makedirs(OUT_DIR, exist_ok=True)
+
+# 颜色方案 (colorblind-friendly)
+C_GT   = '#2CA02C'   # 绿色 - Ground Truth
+C_SFT  = '#D62728'   # 红色 - SFT Prediction
+C_RL   = '#1F77B4'   # 蓝色 - RL Prediction
+C_BG   = '#FFFFFF'
+
+# ── 数据加载 ──────────────────────────────────────────
+print("Loading data...")
+with open(SFT_DETAILS) as f:  sft_data = json.load(f)
+with open(RL_DETAILS)  as f:  rl_data  = json.load(f)
+with open(VAL_JSON)    as f:  val_data = json.load(f)
+
+# ── 工具函数 ──────────────────────────────────────────
+def parse_entries(text):
+    """从模型输出中解析 defect type + bbox"""
+    pattern = re.compile(r"a\s+['\"]([^'\"]+)['\"]\s+defect.*?(\{.*?\})", re.IGNORECASE | re.DOTALL)
+    entries = []
+    for m in pattern.finditer(text):
+        try:
+            label = m.group(1).strip()
+            bbox = json.loads(m.group(2)).get('bbox_2d')
+            if bbox and len(bbox) == 4:
+                entries.append({'label': label, 'bbox_2d': bbox})
+        except:
+            continue
+    if not entries and any(kw in text.lower() for kw in ["defect-free", "defect free"]):
+        return []
+    return entries
+
+def calc_iou(a, b):
+    x1, y1 = max(a[0], b[0]), max(a[1], b[1])
+    x2, y2 = min(a[2], b[2]), min(a[3], b[3])
+    inter = max(0, x2-x1) * max(0, y2-y1)
+    area_a = (a[2]-a[0]) * (a[3]-a[1])
+    area_b = (b[2]-b[0]) * (b[3]-b[1])
+    union = area_a + area_b - inter
+    return inter / union if union > 0 else 0.0
+
+def get_best_iou(iou_list):
+    return max(iou_list) if iou_list else 0.0
+
+def draw_boxes_on_image(img, gt_boxes, sft_boxes, rl_boxes,
+                        gt_labels=None, sft_labels=None, rl_labels=None,
+                        line_width=3):
+    """在图片上画框：GT(绿), SFT(红), RL(蓝)"""
+    draw = ImageDraw.Draw(img)
+
+    # GT - 绿色实线
+    for i, box in enumerate(gt_boxes):
+        x1, y1, x2, y2 = box
+        draw.rectangle([x1, y1, x2, y2], outline=C_GT, width=line_width)
+        if gt_labels and i < len(gt_labels):
+            draw.text((x1+2, y1-12), f"GT: {gt_labels[i]}", fill=C_GT)
+
+    # SFT - 红色虚线 (用多条短线模拟)
+    for i, box in enumerate(sft_boxes):
+        x1, y1, x2, y2 = box
+        draw_dashed_rect(draw, x1, y1, x2, y2, C_SFT, line_width)
+        if sft_labels and i < len(sft_labels):
+            draw.text((x1+2, y2+2), f"SFT: {sft_labels[i]}", fill=C_SFT)
+
+    # RL - 蓝色实线
+    for i, box in enumerate(rl_boxes):
+        x1, y1, x2, y2 = box
+        draw.rectangle([x1, y1, x2, y2], outline=C_RL, width=line_width)
+        if rl_labels and i < len(rl_labels):
+            draw.text((x1+2, y2+14), f"RL: {rl_labels[i]}", fill=C_RL)
+
+    return img
+
+def draw_dashed_rect(draw, x1, y1, x2, y2, color, width=2, dash_len=8):
+    """画虚线矩形"""
+    points = [
+        (x1, y1, x2, y1),  # top
+        (x2, y1, x2, y2),  # right
+        (x2, y2, x1, y2),  # bottom
+        (x1, y2, x1, y1),  # left
+    ]
+    for x1l, y1l, x2l, y2l in points:
+        length = ((x2l-x1l)**2 + (y2l-y1l)**2) ** 0.5
+        if length == 0: continue
+        dx = (x2l-x1l) / length
+        dy = (y2l-y1l) / length
+        steps = int(length / dash_len)
+        for s in range(0, steps, 2):
+            sx = x1l + dx * s * dash_len
+            sy = y1l + dy * s * dash_len
+            ex = x1l + dx * min((s+1) * dash_len, length)
+            ey = y1l + dy * min((s+1) * dash_len, length)
+            draw.line([(sx, sy), (ex, ey)], fill=color, width=width)
+
+def crop_around_boxes(img, boxes, margin=80):
+    """裁剪到 boxes 区域附近"""
+    if not boxes:
+        return img
+    all_x = [b[0] for b in boxes] + [b[2] for b in boxes]
+    all_y = [b[1] for b in boxes] + [b[3] for b in boxes]
+    x1 = max(0, min(all_x) - margin)
+    y1 = max(0, min(all_y) - margin)
+    x2 = min(img.width, max(all_x) + margin)
+    y2 = min(img.height, max(all_y) + margin)
+    return img.crop((x1, y1, x2, y2))
+
+def adjust_boxes_for_crop(boxes, crop_x1, crop_y1):
+    """调整 box 坐标以匹配裁剪后的图片"""
+    return [[b[0]-crop_x1, b[1]-crop_y1, b[2]-crop_x1, b[3]-crop_y1] for b in boxes]
+
+# ── 分析每个样本 ──────────────────────────────────────
+print("Analyzing samples...")
+changes = []
+for i, (s, r, v) in enumerate(zip(sft_data, rl_data, val_data)):
+    s_iou = get_best_iou(s.get('matched_ious', []))
+    r_iou = get_best_iou(r.get('matched_ious', []))
+
+    gt_text   = v['conversations'][1]['value']
+    pred_sft  = s.get('pred_text', '')
+    pred_rl   = r.get('pred_text', '')
+
+    gt_entries  = parse_entries(gt_text)
+    sft_entries = parse_entries(pred_sft)
+    rl_entries  = parse_entries(pred_rl)
+
+    changes.append({
+        'index': i,
+        'sft_iou': s_iou,
+        'rl_iou': r_iou,
+        'diff': r_iou - s_iou,
+        'gt_entries': gt_entries,
+        'sft_entries': sft_entries,
+        'rl_entries': rl_entries,
+        'image': v['image'],
+        'gt_has_defect': s.get('gt_has_defect', False),
+    })
+
+# ── 挑选典型样本 ──────────────────────────────────────
+# 1. RL 提升最显著的 (SFT ∈ [0.6, 0.8), RL ≥ 0.85)
+improved = sorted(
+    [c for c in changes if 0.6 <= c['sft_iou'] < 0.8 and c['rl_iou'] >= 0.85],
+    key=lambda x: -x['diff']
+)[:4]
+
+# 2. SFT 接近阈值, RL 刚推过 0.8
+near_threshold = sorted(
+    [c for c in changes if 0.73 <= c['sft_iou'] < 0.8 and 0.8 <= c['rl_iou'] < 0.88],
+    key=lambda x: x['sft_iou']
+)[:4]
+
+# 3. RL 退化的 (SFT ≥ 0.8, RL < 0.6)
+degraded = sorted(
+    [c for c in changes if c['sft_iou'] >= 0.8 and c['rl_iou'] < 0.6],
+    key=lambda x: x['diff']
+)[:4]
+
+# 4. SFT 漏检 → RL 检到
+miss_to_hit = sorted(
+    [c for c in changes if c['sft_iou'] == 0 and c['rl_iou'] > 0.5],
+    key=lambda x: -x['rl_iou']
+)[:4]
+
+print(f"  improved: {len(improved)}, near_threshold: {len(near_threshold)}, "
+      f"degraded: {len(degraded)}, miss_to_hit: {len(miss_to_hit)}")
+
+# ── 生成 Figure 1: 定性对比 (2x2 面板) ────────────────
+print("\nGenerating Figure 1: qualitative comparison...")
+
+def make_comparison_panel(samples, category_name, out_path):
+    """为一组样本生成对比图"""
+    images = []
+    for c in samples:
+        img_path = os.path.join(IMG_DIR, c['image'])
+        if not os.path.exists(img_path):
+            continue
+
+        img = Image.open(img_path).convert('RGB')
+        gt_boxes  = [e['bbox_2d'] for e in c['gt_entries']]
+        sft_boxes = [e['bbox_2d'] for e in c['sft_entries']]
+        rl_boxes  = [e['bbox_2d'] for e in c['rl_entries']]
+
+        # 裁剪到缺陷区域
+        all_boxes = gt_boxes + sft_boxes + rl_boxes
+        if all_boxes:
+            margin = 100
+            all_x = [b[0] for b in all_boxes] + [b[2] for b in all_boxes]
+            all_y = [b[1] for b in all_boxes] + [b[3] for b in all_boxes]
+            cx1 = max(0, min(all_x) - margin)
+            cy1 = max(0, min(all_y) - margin)
+            cx2 = min(img.width, max(all_x) + margin)
+            cy2 = min(img.height, max(all_y) + margin)
+            img = img.crop((cx1, cy1, cx2, cy2))
+            gt_boxes  = adjust_boxes_for_crop(gt_boxes, cx1, cy1)
+            sft_boxes = adjust_boxes_for_crop(sft_boxes, cx1, cy1)
+            rl_boxes  = adjust_boxes_for_crop(rl_boxes, cx1, cy1)
+
+        # 画框
+        gt_labels  = [e['label'] for e in c['gt_entries']]
+        sft_labels = [e['label'] for e in c['sft_entries']]
+        rl_labels  = [e['label'] for e in c['rl_entries']]
+
+        img = draw_boxes_on_image(img, gt_boxes, sft_boxes, rl_boxes,
+                                  gt_labels, sft_labels, rl_labels, line_width=3)
+
+        # 添加 IoU 标注
+        draw = ImageDraw.Draw(img)
+        iou_text = f"SFT: {c['sft_iou']:.2f} → RL: {c['rl_iou']:.2f}"
+        draw.text((5, 5), iou_text, fill='black')
+
+        # 统一尺寸
+        img = img.resize((400, 300), Image.LANCZOS)
+        images.append(img)
+
+    if not images:
+        return
+
+    # 2x2 grid
+    panel = Image.new('RGB', (800, 600), C_BG)
+    for idx, img in enumerate(images[:4]):
+        x = (idx % 2) * 400
+        y = (idx // 2) * 300
+        panel.paste(img, (x, y))
+
+    panel.save(out_path, quality=95)
+    print(f"  Saved: {out_path}")
+
+make_comparison_panel(improved, "improved", os.path.join(OUT_DIR, 'fig1a_improved.png'))
+make_comparison_panel(near_threshold, "near_threshold", os.path.join(OUT_DIR, 'fig1b_near_threshold.png'))
+make_comparison_panel(degraded, "degraded", os.path.join(OUT_DIR, 'fig1c_degraded.png'))
+make_comparison_panel(miss_to_hit, "miss_to_hit", os.path.join(OUT_DIR, 'fig1d_miss_to_hit.png'))
+
+# ── 生成 Figure 2-4: 统计图 ──────────────────────────
+print("\nGenerating statistical figures...")
+try:
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from matplotlib.ticker import PercentFormatter
+
+    # 设置论文风格
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.labelsize': 13,
+        'axes.titlesize': 14,
+        'legend.fontsize': 11,
+        'xtick.labelsize': 11,
+        'ytick.labelsize': 11,
+        'figure.dpi': 150,
+        'savefig.dpi': 300,
+        'savefig.bbox': 'tight',
+    })
+
+    # 收集所有有缺陷样本的 IoU
+    sft_ious = [c['sft_iou'] for c in changes if c['gt_has_defect']]
+    rl_ious  = [c['rl_iou']  for c in changes if c['gt_has_defect']]
+
+    # ── Figure 2: IoU 分布直方图 ──
+    fig, ax = plt.subplots(figsize=(7, 4.5))
+    bins = np.linspace(0, 1, 41)
+    ax.hist(sft_ious, bins=bins, alpha=0.5, label='SFT Baseline', color=C_SFT, edgecolor='white')
+    ax.hist(rl_ious,  bins=bins, alpha=0.5, label='RL (exp044)', color=C_RL, edgecolor='white')
+    ax.axvline(x=0.8, color='gray', linestyle='--', linewidth=1, alpha=0.7, label='IoU = 0.8')
+    ax.axvline(x=0.5, color='gray', linestyle=':', linewidth=1, alpha=0.5, label='IoU = 0.5')
+    ax.set_xlabel('IoU')
+    ax.set_ylabel('Number of Samples')
+    ax.set_title('IoU Distribution: SFT vs RL')
+    ax.legend(loc='upper left')
+    ax.set_xlim(0, 1)
+    fig.savefig(os.path.join(OUT_DIR, 'fig2_iou_distribution.png'))
+    plt.close(fig)
+    print("  Saved: fig2_iou_distribution.png")
+
+    # ── Figure 3: Recall at IoU Thresholds ──
+    thresholds = np.arange(0.1, 1.0, 0.05)
+    sft_recall = []
+    rl_recall = []
+    total_defect = sum(1 for c in changes if c['gt_has_defect'])
+    for t in thresholds:
+        sft_recall.append(sum(1 for c in changes if c['gt_has_defect'] and c['sft_iou'] >= t) / total_defect * 100)
+        rl_recall.append(sum(1 for c in changes if c['gt_has_defect'] and c['rl_iou'] >= t) / total_defect * 100)
+
+    fig, ax = plt.subplots(figsize=(7, 4.5))
+    ax.plot(thresholds, sft_recall, 'o-', color=C_SFT, label='SFT Baseline', markersize=4)
+    ax.plot(thresholds, rl_recall, 's-', color=C_RL, label='RL (exp044)', markersize=4)
+    ax.axvline(x=0.5, color='gray', linestyle=':', alpha=0.5)
+    ax.axvline(x=0.8, color='gray', linestyle='--', alpha=0.5)
+    ax.set_xlabel('IoU Threshold')
+    ax.set_ylabel('Recall (%)')
+    ax.set_title('Recall at Different IoU Thresholds')
+    ax.legend()
+    ax.set_xlim(0.1, 0.95)
+    ax.set_ylim(0, 100)
+    ax.grid(True, alpha=0.3)
+    fig.savefig(os.path.join(OUT_DIR, 'fig3_recall_curve.png'))
+    plt.close(fig)
+    print("  Saved: fig3_recall_curve.png")
+
+    # ── Figure 4: 散点图 (SFT vs RL IoU) ──
+    fig, ax = plt.subplots(figsize=(6, 6))
+    sft_arr = np.array([c['sft_iou'] for c in changes if c['gt_has_defect']])
+    rl_arr  = np.array([c['rl_iou']  for c in changes if c['gt_has_defect']])
+
+    # 颜色表示变化方向
+    colors = ['#2CA02C' if r > s + 0.05 else '#D62728' if r < s - 0.05 else '#888888'
+              for s, r in zip(sft_arr, rl_arr)]
+    ax.scatter(sft_arr, rl_arr, c=colors, alpha=0.4, s=15, edgecolors='none')
+    ax.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
+    ax.axhline(y=0.8, color='gray', linestyle='--', alpha=0.3)
+    ax.axvline(x=0.8, color='gray', linestyle='--', alpha=0.3)
+
+    # 统计
+    improved_count = sum(1 for s, r in zip(sft_arr, rl_arr) if r > s + 0.05)
+    degraded_count = sum(1 for s, r in zip(sft_arr, rl_arr) if r < s - 0.05)
+    stable_count = len(sft_arr) - improved_count - degraded_count
+    ax.text(0.05, 0.92, f'Improved: {improved_count}', transform=ax.transAxes, color='#2CA02C', fontsize=10)
+    ax.text(0.05, 0.87, f'Degraded: {degraded_count}', transform=ax.transAxes, color='#D62728', fontsize=10)
+    ax.text(0.05, 0.82, f'Stable: {stable_count}', transform=ax.transAxes, color='#888888', fontsize=10)
+
+    ax.set_xlabel('SFT IoU')
+    ax.set_ylabel('RL IoU')
+    ax.set_title('Per-sample IoU: SFT vs RL')
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.set_aspect('equal')
+    ax.grid(True, alpha=0.2)
+    fig.savefig(os.path.join(OUT_DIR, 'fig4_scatter_iou.png'))
+    plt.close(fig)
+    print("  Saved: fig4_scatter_iou.png")
+
+except ImportError as e:
+    print(f"matplotlib error: {e}")
+
+# ── 汇总 ─────────────────────────────────────────────
+print(f"\nDone! All figures saved to {OUT_DIR}/")
+print("Files generated:")
+for f in sorted(os.listdir(OUT_DIR)):
+    size = os.path.getsize(os.path.join(OUT_DIR, f))
+    print(f"  {f} ({size/1024:.0f} KB)")

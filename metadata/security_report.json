@@ -1,0 +1,131 @@
+{
+  "scanner": "gitleaks 8.30.1",
+  "scanned_text_files": 32009,
+  "candidate_findings": 185,
+  "dispositions": {
+    "allow_code_identifier_false_positive": 9,
+    "allow_random_generator_test_hash": 18,
+    "redact_sensitive_value": 17,
+    "allow_commit_sha": 141
+  },
+  "distinct_sensitive_values_redacted": 8,
+  "changed_files": [
+    {
+      "repository_path": "workspace/claude-config/.claude.json",
+      "redactions": 1,
+      "original_sha256": "ac75c7e5994c37ade769b5ccd5cc68843c82161325bab7e7afb34ffbdb1a330d",
+      "exported_sha256": "0644556fff804b3be219c3b83d9b749583b27a69185034d94dc03aff42f33334",
+      "original_bytes": 31688,
+      "exported_bytes": 31691
+    },
+    {
+      "repository_path": "workspace/claude-config/backups/.claude.json.backup.1780158415316",
+      "redactions": 1,
+      "original_sha256": "d88a4579647373bacbdb90ac98b64f1562a52f472b20f7fc741746ae164530e7",
+      "exported_sha256": "379e9e9c8b036d34f9b99152c9e4fe26f9759f57a64566c16a8040520d78a5d7",
+      "original_bytes": 28685,
+      "exported_bytes": 28688
+    },
+    {
+      "repository_path": "workspace/claude-config/backups/.claude.json.backup.1780158967671",
+      "redactions": 1,
+      "original_sha256": "17bb5cfde6f5c11842b5e1fb083bd4f4c40b48aa44c58db862218786768ed55b",
+      "exported_sha256": "d6f8a2eedfc6ce00d9d119f60348b19862c5450ab6b802306f43863d3edb9a7a",
+      "original_bytes": 28685,
+      "exported_bytes": 28688
+    },
+    {
+      "repository_path": "workspace/claude-config/backups/.claude.json.backup.1780159294675",
+      "redactions": 1,
+      "original_sha256": "16acc753f7761a4c1a46400853eb2e8a28f0edeedcc2f5c742a0a2068bf23739",
+      "exported_sha256": "3dc9860bfb7a0936e9b308954e131317c430a2e5caa225100e590a5452d43153",
+      "original_bytes": 28685,
+      "exported_bytes": 28688
+    },
+    {
+      "repository_path": "workspace/claude-config/backups/.claude.json.backup.1780166073821",
+      "redactions": 1,
+      "original_sha256": "28a07f976e90ce337ea748b9c3b50291594d4c3cc94d4cc2e7c587450d6f1f8a",
+      "exported_sha256": "2526469529a902dfc554cd82f3f40aa9b4262660084f69565b4cedcdf0fa40a6",
+      "original_bytes": 28685,
+      "exported_bytes": 28688
+    },
+    {
+      "repository_path": "workspace/claude-config/backups/.claude.json.backup.1780174211534",
+      "redactions": 1,
+      "original_sha256": "d8cfdb0375eef2455aefbccf8c917fa7520bd18e70f5d17ce6173075a3f430c4",
+      "exported_sha256": "9759fda1e552d4269c7169d301a89abb42a82146cfb2f7a1ba4c656ba5adf098",
+      "original_bytes": 28685,
+      "exported_bytes": 28688
+    },
+    {
+      "repository_path": "workspace/claude-config/projects/-nvmedata-workspace2-users-tmx-stage-rl-trl/28d49e4d-7b6c-4cf8-b0b0-9c952bf470ba.jsonl",
+      "redactions": 12,
+      "original_sha256": "e809280fe00ba3503da07b4d22a50aff728a8aed13fab7b59107b6d11aa8e4d4",
+      "exported_sha256": "1e983c2ef049778ca7ee5b29fe708ee4b1321eb6aa0a934be97021963b95da83",
+      "original_bytes": 4874530,
+      "exported_bytes": 4874446
+    },
+    {
+      "repository_path": "workspace/claude-config/projects/-nvmedata-workspace2-users-tmx-stage-rl-trl/28d49e4d-7b6c-4cf8-b0b0-9c952bf470ba/subagents/agent-aabe7e37e869d061b.jsonl",
+      "redactions": 3,
+      "original_sha256": "e67cb3e02d3123ad49d8d587c562cbcd97462f3d2f28260c781701dff9cd35c5",
+      "exported_sha256": "0d08a75a703572187c2feef460fb2b455a0a8a6ce4ccf30ca7c89b9fd7758f1f",
+      "original_bytes": 292773,
+      "exported_bytes": 292660
+    },
+    {
+      "repository_path": "workspace/prj/SCAIL2_comparison_0803/code/DWPose-3dca5db79d9f9ffdd378753ddf6ec66535aace88/mmpose/tests/data/humanart/test_humanart.json",
+      "redactions": 1,
+      "original_sha256": "509c04c460c6edd379fd42d357d64996227268fb698b1089af059c6f724e0863",
+      "exported_sha256": "8357ee5ea41f37a871263d91b8eacbda8565f408ac3ab38acee81875fc18ec3e",
+      "original_bytes": 18516,
+      "exported_bytes": 18077
+    },
+    {
+      "repository_path": "workspace/prj/SCAIL2_comparison_0803/code/SCAIL-2/eval/image2video_recaption.py",
+      "redactions": 1,
+      "original_sha256": "02303789dd4e7a64cb9591a616733bb5d9a8f7ff4e35213b5f1599ea1ae51de8",
+      "exported_sha256": "d9286cc38fd318f63bb18d61785f07cd0fa6cdce79123c6bb7ba230ec8e2fb77",
+      "original_bytes": 2809,
+      "exported_bytes": 2782
+    },
+    {
+      "repository_path": "workspace/prj/SCAIL2_comparison_0803/code/SCAIL-2/sat/resources/download.py",
+      "redactions": 2,
+      "original_sha256": "f90427558bf92822c185ee7d492cad4d1fec45b51f6c6a93a8b18ca4fcfb03c8",
+      "exported_sha256": "5324ee7d67353a7e3eaf6367cd9a0d84f23545e977be1fae5cdcd99040b07d52",
+      "original_bytes": 6770,
+      "exported_bytes": 6722
+    },
+    {
+      "repository_path": "workspace/prj/SCAIL2_comparison_0803/code/SCAIL-2-relay-crlf-invalid/eval/image2video_recaption.py",
+      "redactions": 1,
+      "original_sha256": "217529de33b74861529dfa03a58f86cc27f87d4891de6a9b4cce0c2959434555",
+      "exported_sha256": "4ce903dc99652cf1859c1b0c4d00ae36192602ddbfb406426505122729544951",
+      "original_bytes": 2874,
+      "exported_bytes": 2847
+    },
+    {
+      "repository_path": "workspace/prj/SCAIL2_comparison_0803/code/SCAIL-2-relay-crlf-invalid/sat/resources/download.py",
+      "redactions": 2,
+      "original_sha256": "fad3d1e3d259b0cae52ddf592db9455a2987dae013adcb12b27c5c9378b5d719",
+      "exported_sha256": "90c76ca94adfa9b3920927b8a2b609dec1cc16ac38a6cd3cee8e0c932d80c6df",
+      "original_bytes": 6941,
+      "exported_bytes": 6893
+    },
+    {
+      "repository_path": "workspace/tmp/.tensorboard-info/pid-2192528.info",
+      "redactions": 1,
+      "original_sha256": "54d37e9a06d3be34751b970116dd06bcd44eb5eed8e58f875af72223c116dc2c",
+      "exported_sha256": "f714f8e2dafde24ba3efd38d79f9f8f49c00642c8fba2ad74643bb845584639f",
+      "original_bytes": 620,
+      "exported_bytes": 328
+    }
+  ],
+  "unhandled_findings": 0,
+  "original_workspace_modified": false,
+  "created_at": "2026-10-25T17:44:20+0800",
+  "scan_method_file": "security_scan_method.json",
+  "identified_sensitive_values_residual_files": 0
+}

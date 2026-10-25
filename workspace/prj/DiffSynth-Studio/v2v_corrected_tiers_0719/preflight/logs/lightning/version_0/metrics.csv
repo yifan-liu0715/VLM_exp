@@ -1,0 +1,5 @@
+epoch,lr-AdamW,step,train/epoch,train/loss_epoch,train/loss_step
+,0.0001,0,,,
+,0.0001,0,,,
+0,,0,0.0,,0.14334769546985626
+0,,0,,0.2545876204967499,

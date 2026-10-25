@@ -1,0 +1,96 @@
+Source:      /nvmedata/workspace2/conda_data/envs/diffsynth_fixed
+Destination: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v
+Packages: 32
+Files: 49452
+
+Downloading and Extracting Packages: ...working... done
+
+## Package Plan ##
+
+  environment location: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v
+
+  added / updated specs:
+    - defaults/linux-64::_libgcc_mutex==0.1=main
+    - defaults/linux-64::_openmp_mutex==5.1=52_gnu
+    - defaults/linux-64::bzip2==1.0.8=h5eee18b_6
+    - defaults/linux-64::ca-certificates==2026.5.14=h06a4308_0
+    - defaults/linux-64::ld_impl_linux-64==2.44=h9e0c5a2_3
+    - defaults/linux-64::libexpat==2.8.1=h7354ed3_0
+    - defaults/linux-64::libffi==3.4.8=hc5d346e_2
+    - defaults/linux-64::libgcc-ng==15.2.0=h166f726_8
+    - defaults/linux-64::libgcc==15.2.0=h69a1729_8
+    - defaults/linux-64::libnsl==2.0.0=h5eee18b_0
+    - defaults/linux-64::libstdcxx==15.2.0=h39759b7_8
+    - defaults/linux-64::libuuid==1.41.5=h5eee18b_0
+    - defaults/linux-64::libxcb==1.17.0=h9b100fa_0
+    - defaults/linux-64::libzlib==1.3.1=h47b2149_1
+    - defaults/linux-64::ncurses==6.5=h7934f7d_0
+    - defaults/linux-64::openssl==3.5.6=h1b28b03_0
+    - defaults/linux-64::packaging==26.0=py311h06a4308_0
+    - defaults/linux-64::pthread-stubs==0.3=h0ce48e5_1
+    - defaults/linux-64::python==3.11.15=h741d88c_0
+    - defaults/linux-64::readline==8.3=hc2a1206_0
+    - defaults/linux-64::setuptools==82.0.1=py311h06a4308_0
+    - defaults/linux-64::sqlite==3.51.2=h3e8d24a_0
+    - defaults/linux-64::tk==8.6.15=h54e0aa7_0
+    - defaults/linux-64::wheel==0.46.3=py311h06a4308_0
+    - defaults/linux-64::xorg-libx11==1.8.12=h9b100fa_1
+    - defaults/linux-64::xorg-libxau==1.0.12=h9b100fa_0
+    - defaults/linux-64::xorg-libxdmcp==1.1.5=h9b100fa_0
+    - defaults/linux-64::xorg-xorgproto==2024.1=h5eee18b_1
+    - defaults/linux-64::xz==5.8.2=h448239c_0
+    - defaults/linux-64::zlib==1.3.1=h47b2149_1
+    - defaults/noarch::pip==26.0.1=pyhc872135_1
+    - defaults/noarch::tzdata==2026a=he532380_0
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      anaconda/pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      anaconda/pkgs/main/linux-64::_openmp_mutex-5.1-52_gnu 
+  bzip2              anaconda/pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6 
+  ca-certificates    anaconda/pkgs/main/linux-64::ca-certificates-2026.5.14-h06a4308_0 
+  ld_impl_linux-64   anaconda/pkgs/main/linux-64::ld_impl_linux-64-2.44-h9e0c5a2_3 
+  libexpat           anaconda/pkgs/main/linux-64::libexpat-2.8.1-h7354ed3_0 
+  libffi             anaconda/pkgs/main/linux-64::libffi-3.4.8-hc5d346e_2 
+  libgcc             anaconda/pkgs/main/linux-64::libgcc-15.2.0-h69a1729_8 
+  libgcc-ng          anaconda/pkgs/main/linux-64::libgcc-ng-15.2.0-h166f726_8 
+  libnsl             anaconda/pkgs/main/linux-64::libnsl-2.0.0-h5eee18b_0 
+  libstdcxx          anaconda/pkgs/main/linux-64::libstdcxx-15.2.0-h39759b7_8 
+  libuuid            anaconda/pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libxcb             anaconda/pkgs/main/linux-64::libxcb-1.17.0-h9b100fa_0 
+  libzlib            anaconda/pkgs/main/linux-64::libzlib-1.3.1-h47b2149_1 
+  ncurses            anaconda/pkgs/main/linux-64::ncurses-6.5-h7934f7d_0 
+  openssl            anaconda/pkgs/main/linux-64::openssl-3.5.6-h1b28b03_0 
+  packaging          anaconda/pkgs/main/linux-64::packaging-26.0-py311h06a4308_0 
+  pip                anaconda/pkgs/main/noarch::pip-26.0.1-pyhc872135_1 
+  pthread-stubs      anaconda/pkgs/main/linux-64::pthread-stubs-0.3-h0ce48e5_1 
+  python             anaconda/pkgs/main/linux-64::python-3.11.15-h741d88c_0 
+  readline           anaconda/pkgs/main/linux-64::readline-8.3-hc2a1206_0 
+  setuptools         anaconda/pkgs/main/linux-64::setuptools-82.0.1-py311h06a4308_0 
+  sqlite             anaconda/pkgs/main/linux-64::sqlite-3.51.2-h3e8d24a_0 
+  tk                 anaconda/pkgs/main/linux-64::tk-8.6.15-h54e0aa7_0 
+  tzdata             anaconda/pkgs/main/noarch::tzdata-2026a-he532380_0 
+  wheel              anaconda/pkgs/main/linux-64::wheel-0.46.3-py311h06a4308_0 
+  xorg-libx11        anaconda/pkgs/main/linux-64::xorg-libx11-1.8.12-h9b100fa_1 
+  xorg-libxau        anaconda/pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0 
+  xorg-libxdmcp      anaconda/pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0 
+  xorg-xorgproto     anaconda/pkgs/main/linux-64::xorg-xorgproto-2024.1-h5eee18b_1 
+  xz                 anaconda/pkgs/main/linux-64::xz-5.8.2-h448239c_0 
+  zlib               anaconda/pkgs/main/linux-64::zlib-1.3.1-h47b2149_1 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/environment/effectv2v
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

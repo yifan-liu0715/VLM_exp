@@ -1,0 +1,6 @@
+{
+  "parent_v2_root": "/nvmedata/workspace2/users/nina/dataset_h3_capture_semantic_rescreen_v2_2045_coverage357_20260923",
+  "policy_id": "h3-continuous-long-event-filter-v3-20260923",
+  "selection_rule": "Do not export short interaction_unverified fragments derived from a reviewed continuous long event without a reliable semantic reset boundary.",
+  "disposition": "Keep the long parent pending for future semantic boundary review; do not fabricate independent actions."
+}

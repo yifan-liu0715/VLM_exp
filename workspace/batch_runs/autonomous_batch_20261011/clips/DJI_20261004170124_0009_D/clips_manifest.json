@@ -1,0 +1,3941 @@
+[
+  {
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004170124_0009_D.MP4",
+    "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__001__000000000-000002667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+    "start_s": 0.0,
+    "end_s": 2.667,
+    "state": "motion_proposal",
+    "status": "motion_proposal",
+    "next_state": "second_pass_required",
+    "second_pass_required": true,
+    "second_pass_completed": false,
+    "action": "unreviewed_hand_activity",
+    "response": "unreviewed_animal_response",
+    "interaction_mode": null,
+    "animal_type": null,
+    "caption_text": null,
+    "caption_verified": false,
+    "semantic_valid": false,
+    "training_ready": false,
+    "semantic_reviewed": false,
+    "privacy_reviewed": false,
+    "accepted_for_training": false,
+    "keypoint_ready": false,
+    "pipeline_version": "autonomous_batch_20261011-hand-presence-motion-proposals-v4",
+    "analysis": {
+      "sample_fps": 3.0,
+      "detector_backend": "mediapipe_solutions_hands",
+      "detector_version": "0.10.21",
+      "model_sha256": null,
+      "detector_status": "ready",
+      "hand_frames": 55,
+      "frames": 95,
+      "proposal_count": 3,
+      "sample_times_s": [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        1.0,
+        1.3333333333333333,
+        1.6666666666666667,
+        2.0,
+        2.3333333333333335,
+        2.6666666666666665,
+        3.0,
+        3.3333333333333335,
+        3.6666666666666665,
+        4.0,
+        4.333333333333333,
+        4.666666666666667,
+        5.0,
+        5.333333333333333,
+        5.666666666666667,
+        6.0,
+        6.333333333333333,
+        6.666666666666667,
+        7.0,
+        7.333333333333333,
+        7.666666666666667,
+        8.0,
+        8.333333333333334,
+        8.666666666666666,
+        9.0,
+        9.333333333333334,
+        9.666666666666666,
+        10.0,
+        10.333333333333334,
+        10.666666666666666,
+        11.0,
+        11.333333333333334,
+        11.666666666666666,
+        12.0,
+        12.333333333333334,
+        12.666666666666666,
+        13.0,
+        13.333333333333334,
+        13.666666666666666,
+        14.0,
+        14.333333333333334,
+        14.666666666666666,
+        15.0,
+        15.333333333333334,
+        15.666666666666666,
+        16.0,
+        16.333333333333332,
+        16.666666666666668,
+        17.0,
+        17.333333333333332,
+        17.666666666666668,
+        18.0,
+        18.333333333333332,
+        18.666666666666668,
+        19.0,
+        19.333333333333332,
+        19.666666666666668,
+        20.0,
+        20.333333333333332,
+        20.666666666666668,
+        21.0,
+        21.333333333333332,
+        21.666666666666668,
+        22.0,
+        22.333333333333332,
+        22.666666666666668,
+        23.0,
+        23.333333333333332,
+        23.666666666666668,
+        24.0,
+        24.333333333333332,
+        24.666666666666668,
+        25.0,
+        25.333333333333332,
+        25.666666666666668,
+        26.0,
+        26.333333333333332,
+        26.666666666666668,
+        27.0,
+        27.333333333333332,
+        27.666666666666668,
+        28.0,
+        28.333333333333332,
+        28.666666666666668,
+        29.0,
+        29.333333333333332,
+        29.666666666666668,
+        30.0,
+        30.333333333333332,
+        30.666666666666668,
+        31.0,
+        31.333333333333332
+      ],
+      "hand_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        0,
+        2,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_sampled_frames_decoded": true
+    },
+    "source_orientation": "landscape",
+    "source_coverage_status": "proposal_only",
+    "face_count_detected": 10,
+    "face_removal_method": "fixed_crop_or_reject_required",
+    "faces_remaining_after_crop": null,
+    "subject_clarity_after_crop": null,
+    "review_reason": "recognizable_face_remaining_or_fixed_crop_required",
+    "boundary_evidence": {
+      "hand_transition_checked": false,
+      "split_or_merge_reason": "broad hand-presence proposal; semantic review required",
+      "causal_start_s": null,
+      "action_or_condition_onset_s": null,
+      "response_onset_s": null,
+      "response_evidence_s": null,
+      "tail_checked_until_s": null,
+      "response_complete": false,
+      "source_end_truncated": null,
+      "temporal_envelope": "motion_proposal",
+      "encoded_format_verified": true,
+      "encoded_semantics_verified": false
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": "16/1",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "duration": 2.688,
+    "decoded_frames": 43,
+    "normalized_frame_count": 43,
+    "audio": false,
+    "face_detection": {
+      "status": "faces_detected_fixed_crop_or_reject",
+      "detector_backend": "opencv_yunet",
+      "detector_version": "4.13.0",
+      "all_frames_checked": true,
+      "frames_checked": 43,
+      "frames_with_faces": 9,
+      "face_count_detected": 10,
+      "hits": [
+        {
+          "frame_index": 2,
+          "time_s": 0.125,
+          "bbox_xywh": [
+            426.84,
+            345.7,
+            199.98,
+            315.19
+          ],
+          "score": 0.610669
+        },
+        {
+          "frame_index": 6,
+          "time_s": 0.375,
+          "bbox_xywh": [
+            537.15,
+            200.76,
+            45.13,
+            60.21
+          ],
+          "score": 0.62453
+        },
+        {
+          "frame_index": 8,
+          "time_s": 0.5,
+          "bbox_xywh": [
+            537.91,
+            206.6,
+            44.34,
+            57.54
+          ],
+          "score": 0.613532
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            611.1,
+            399.55,
+            70.14,
+            92.46
+          ],
+          "score": 0.615484
+        },
+        {
+          "frame_index": 27,
+          "time_s": 1.6875,
+          "bbox_xywh": [
+            617.38,
+            421.61,
+            62.65,
+            79.54
+          ],
+          "score": 0.787621
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            616.65,
+            423.37,
+            62.13,
+            77.45
+          ],
+          "score": 0.726714
+        },
+        {
+          "frame_index": 29,
+          "time_s": 1.8125,
+          "bbox_xywh": [
+            616.05,
+            427.62,
+            64.04,
+            80.47
+          ],
+          "score": 0.68767
+        },
+        {
+          "frame_index": 30,
+          "time_s": 1.875,
+          "bbox_xywh": [
+            611.79,
+            433.71,
+            63.1,
+            81.15
+          ],
+          "score": 0.695362
+        },
+        {
+          "frame_index": 30,
+          "time_s": 1.875,
+          "bbox_xywh": [
+            449.76,
+            504.47,
+            172.16,
+            171.02
+          ],
+          "score": 0.610577
+        },
+        {
+          "frame_index": 31,
+          "time_s": 1.9375,
+          "bbox_xywh": [
+            610.34,
+            439.34,
+            60.31,
+            76.31
+          ],
+          "score": 0.685146
+        }
+      ],
+      "error": null,
+      "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__001__000000000-000002667__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+      "scan_fps": 16.0,
+      "width": 1280,
+      "height": 720,
+      "expected_frames": 43
+    },
+    "face_crop_required": true,
+    "source_edge_sha256": "34a2ada8e23997ee6d4de2fb1b60fb27f2fae63fac83f9abb838ad3684482285",
+    "source_bytes": 214168975
+  },
+  {
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004170124_0009_D.MP4",
+    "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__002__000011750-000020333__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+    "start_s": 11.75,
+    "end_s": 20.333,
+    "state": "motion_proposal",
+    "status": "motion_proposal",
+    "next_state": "second_pass_required",
+    "second_pass_required": true,
+    "second_pass_completed": false,
+    "action": "unreviewed_hand_activity",
+    "response": "unreviewed_animal_response",
+    "interaction_mode": null,
+    "animal_type": null,
+    "caption_text": null,
+    "caption_verified": false,
+    "semantic_valid": false,
+    "training_ready": false,
+    "semantic_reviewed": false,
+    "privacy_reviewed": false,
+    "accepted_for_training": false,
+    "keypoint_ready": false,
+    "pipeline_version": "autonomous_batch_20261011-hand-presence-motion-proposals-v4",
+    "analysis": {
+      "sample_fps": 3.0,
+      "detector_backend": "mediapipe_solutions_hands",
+      "detector_version": "0.10.21",
+      "model_sha256": null,
+      "detector_status": "ready",
+      "hand_frames": 55,
+      "frames": 95,
+      "proposal_count": 3,
+      "sample_times_s": [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        1.0,
+        1.3333333333333333,
+        1.6666666666666667,
+        2.0,
+        2.3333333333333335,
+        2.6666666666666665,
+        3.0,
+        3.3333333333333335,
+        3.6666666666666665,
+        4.0,
+        4.333333333333333,
+        4.666666666666667,
+        5.0,
+        5.333333333333333,
+        5.666666666666667,
+        6.0,
+        6.333333333333333,
+        6.666666666666667,
+        7.0,
+        7.333333333333333,
+        7.666666666666667,
+        8.0,
+        8.333333333333334,
+        8.666666666666666,
+        9.0,
+        9.333333333333334,
+        9.666666666666666,
+        10.0,
+        10.333333333333334,
+        10.666666666666666,
+        11.0,
+        11.333333333333334,
+        11.666666666666666,
+        12.0,
+        12.333333333333334,
+        12.666666666666666,
+        13.0,
+        13.333333333333334,
+        13.666666666666666,
+        14.0,
+        14.333333333333334,
+        14.666666666666666,
+        15.0,
+        15.333333333333334,
+        15.666666666666666,
+        16.0,
+        16.333333333333332,
+        16.666666666666668,
+        17.0,
+        17.333333333333332,
+        17.666666666666668,
+        18.0,
+        18.333333333333332,
+        18.666666666666668,
+        19.0,
+        19.333333333333332,
+        19.666666666666668,
+        20.0,
+        20.333333333333332,
+        20.666666666666668,
+        21.0,
+        21.333333333333332,
+        21.666666666666668,
+        22.0,
+        22.333333333333332,
+        22.666666666666668,
+        23.0,
+        23.333333333333332,
+        23.666666666666668,
+        24.0,
+        24.333333333333332,
+        24.666666666666668,
+        25.0,
+        25.333333333333332,
+        25.666666666666668,
+        26.0,
+        26.333333333333332,
+        26.666666666666668,
+        27.0,
+        27.333333333333332,
+        27.666666666666668,
+        28.0,
+        28.333333333333332,
+        28.666666666666668,
+        29.0,
+        29.333333333333332,
+        29.666666666666668,
+        30.0,
+        30.333333333333332,
+        30.666666666666668,
+        31.0,
+        31.333333333333332
+      ],
+      "hand_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        0,
+        2,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_sampled_frames_decoded": true
+    },
+    "source_orientation": "landscape",
+    "source_coverage_status": "proposal_only",
+    "face_count_detected": 240,
+    "face_removal_method": "fixed_crop_or_reject_required",
+    "faces_remaining_after_crop": null,
+    "subject_clarity_after_crop": null,
+    "review_reason": "recognizable_face_remaining_or_fixed_crop_required",
+    "boundary_evidence": {
+      "hand_transition_checked": false,
+      "split_or_merge_reason": "broad hand-presence proposal; semantic review required",
+      "causal_start_s": null,
+      "action_or_condition_onset_s": null,
+      "response_onset_s": null,
+      "response_evidence_s": null,
+      "tail_checked_until_s": null,
+      "response_complete": false,
+      "source_end_truncated": null,
+      "temporal_envelope": "motion_proposal",
+      "encoded_format_verified": true,
+      "encoded_semantics_verified": false
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": "16/1",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "duration": 8.563,
+    "decoded_frames": 137,
+    "normalized_frame_count": 137,
+    "audio": false,
+    "face_detection": {
+      "status": "faces_detected_fixed_crop_or_reject",
+      "detector_backend": "opencv_yunet",
+      "detector_version": "4.13.0",
+      "all_frames_checked": true,
+      "frames_checked": 137,
+      "frames_with_faces": 112,
+      "face_count_detected": 240,
+      "hits": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "bbox_xywh": [
+            583.76,
+            476.88,
+            55.63,
+            64.38
+          ],
+          "score": 0.792812
+        },
+        {
+          "frame_index": 4,
+          "time_s": 0.25,
+          "bbox_xywh": [
+            762.57,
+            86.69,
+            29.35,
+            37.58
+          ],
+          "score": 0.669199
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.3125,
+          "bbox_xywh": [
+            999.62,
+            -0.73,
+            59.24,
+            49.78
+          ],
+          "score": 0.912546
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.3125,
+          "bbox_xywh": [
+            535.44,
+            578.08,
+            52.59,
+            69.43
+          ],
+          "score": 0.612387
+        },
+        {
+          "frame_index": 6,
+          "time_s": 0.375,
+          "bbox_xywh": [
+            945.05,
+            15.3,
+            57.35,
+            72.64
+          ],
+          "score": 0.934319
+        },
+        {
+          "frame_index": 6,
+          "time_s": 0.375,
+          "bbox_xywh": [
+            1242.78,
+            231.04,
+            37.56,
+            57.89
+          ],
+          "score": 0.853449
+        },
+        {
+          "frame_index": 7,
+          "time_s": 0.4375,
+          "bbox_xywh": [
+            883.44,
+            60.92,
+            56.67,
+            71.06
+          ],
+          "score": 0.930472
+        },
+        {
+          "frame_index": 7,
+          "time_s": 0.4375,
+          "bbox_xywh": [
+            1196.39,
+            264.0,
+            44.16,
+            52.33
+          ],
+          "score": 0.89403
+        },
+        {
+          "frame_index": 7,
+          "time_s": 0.4375,
+          "bbox_xywh": [
+            661.76,
+            63.08,
+            21.38,
+            24.74
+          ],
+          "score": 0.749085
+        },
+        {
+          "frame_index": 7,
+          "time_s": 0.4375,
+          "bbox_xywh": [
+            1241.1,
+            252.9,
+            24.53,
+            30.71
+          ],
+          "score": 0.62403
+        },
+        {
+          "frame_index": 8,
+          "time_s": 0.5,
+          "bbox_xywh": [
+            827.33,
+            98.62,
+            56.11,
+            74.21
+          ],
+          "score": 0.946904
+        },
+        {
+          "frame_index": 8,
+          "time_s": 0.5,
+          "bbox_xywh": [
+            1146.44,
+            296.68,
+            43.54,
+            50.33
+          ],
+          "score": 0.904775
+        },
+        {
+          "frame_index": 8,
+          "time_s": 0.5,
+          "bbox_xywh": [
+            628.14,
+            106.07,
+            20.0,
+            21.8
+          ],
+          "score": 0.75291
+        },
+        {
+          "frame_index": 9,
+          "time_s": 0.5625,
+          "bbox_xywh": [
+            800.04,
+            119.13,
+            56.98,
+            76.62
+          ],
+          "score": 0.931431
+        },
+        {
+          "frame_index": 9,
+          "time_s": 0.5625,
+          "bbox_xywh": [
+            1124.8,
+            310.24,
+            43.45,
+            51.57
+          ],
+          "score": 0.902468
+        },
+        {
+          "frame_index": 10,
+          "time_s": 0.625,
+          "bbox_xywh": [
+            1233.16,
+            259.18,
+            26.75,
+            33.58
+          ],
+          "score": 0.927694
+        },
+        {
+          "frame_index": 10,
+          "time_s": 0.625,
+          "bbox_xywh": [
+            755.58,
+            152.98,
+            54.2,
+            73.7
+          ],
+          "score": 0.923539
+        },
+        {
+          "frame_index": 10,
+          "time_s": 0.625,
+          "bbox_xywh": [
+            1093.15,
+            335.56,
+            41.89,
+            49.86
+          ],
+          "score": 0.923213
+        },
+        {
+          "frame_index": 10,
+          "time_s": 0.625,
+          "bbox_xywh": [
+            1264.53,
+            279.16,
+            20.05,
+            25.23
+          ],
+          "score": 0.797885
+        },
+        {
+          "frame_index": 10,
+          "time_s": 0.625,
+          "bbox_xywh": [
+            592.68,
+            163.14,
+            18.54,
+            20.57
+          ],
+          "score": 0.710566
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            719.26,
+            177.88,
+            56.52,
+            74.67
+          ],
+          "score": 0.929166
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            1198.63,
+            276.57,
+            24.53,
+            30.72
+          ],
+          "score": 0.916394
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            1073.0,
+            353.7,
+            39.53,
+            50.43
+          ],
+          "score": 0.915799
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            1238.62,
+            296.42,
+            21.34,
+            26.23
+          ],
+          "score": 0.902162
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            575.7,
+            191.62,
+            20.02,
+            22.18
+          ],
+          "score": 0.707216
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            687.73,
+            196.9,
+            58.45,
+            76.69
+          ],
+          "score": 0.931508
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            1060.85,
+            370.39,
+            40.32,
+            49.48
+          ],
+          "score": 0.924727
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            1174.65,
+            288.09,
+            26.04,
+            32.15
+          ],
+          "score": 0.919275
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            1221.95,
+            307.61,
+            21.1,
+            26.46
+          ],
+          "score": 0.898281
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            565.14,
+            213.38,
+            17.72,
+            19.63
+          ],
+          "score": 0.70384
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            664.59,
+            206.35,
+            58.19,
+            77.63
+          ],
+          "score": 0.929862
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            1162.67,
+            297.13,
+            24.87,
+            31.87
+          ],
+          "score": 0.917511
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            1060.04,
+            380.46,
+            38.49,
+            47.93
+          ],
+          "score": 0.916934
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            1217.22,
+            316.93,
+            20.52,
+            24.64
+          ],
+          "score": 0.901968
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            562.95,
+            227.7,
+            17.9,
+            19.99
+          ],
+          "score": 0.756576
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            648.09,
+            208.68,
+            58.41,
+            79.4
+          ],
+          "score": 0.928209
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            1062.83,
+            384.91,
+            41.41,
+            50.43
+          ],
+          "score": 0.920066
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            1158.89,
+            304.35,
+            24.91,
+            29.98
+          ],
+          "score": 0.916947
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            1223.47,
+            320.87,
+            20.72,
+            24.94
+          ],
+          "score": 0.901922
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            565.78,
+            236.32,
+            18.4,
+            21.2
+          ],
+          "score": 0.729505
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            1077.27,
+            387.22,
+            40.83,
+            50.2
+          ],
+          "score": 0.922745
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            635.28,
+            206.05,
+            60.14,
+            79.86
+          ],
+          "score": 0.919649
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            1162.77,
+            303.21,
+            26.67,
+            31.71
+          ],
+          "score": 0.915979
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            1237.36,
+            322.02,
+            21.04,
+            25.93
+          ],
+          "score": 0.89815
+        },
+        {
+          "frame_index": 16,
+          "time_s": 1.0,
+          "bbox_xywh": [
+            626.74,
+            199.09,
+            62.62,
+            83.87
+          ],
+          "score": 0.925508
+        },
+        {
+          "frame_index": 16,
+          "time_s": 1.0,
+          "bbox_xywh": [
+            1172.31,
+            300.99,
+            26.13,
+            32.99
+          ],
+          "score": 0.91828
+        },
+        {
+          "frame_index": 16,
+          "time_s": 1.0,
+          "bbox_xywh": [
+            1094.67,
+            385.86,
+            41.24,
+            52.08
+          ],
+          "score": 0.916696
+        },
+        {
+          "frame_index": 16,
+          "time_s": 1.0,
+          "bbox_xywh": [
+            1260.09,
+            319.83,
+            19.91,
+            27.36
+          ],
+          "score": 0.890451
+        },
+        {
+          "frame_index": 17,
+          "time_s": 1.0625,
+          "bbox_xywh": [
+            625.41,
+            197.5,
+            63.13,
+            82.09
+          ],
+          "score": 0.924306
+        },
+        {
+          "frame_index": 17,
+          "time_s": 1.0625,
+          "bbox_xywh": [
+            1108.02,
+            385.87,
+            40.04,
+            50.98
+          ],
+          "score": 0.919977
+        },
+        {
+          "frame_index": 17,
+          "time_s": 1.0625,
+          "bbox_xywh": [
+            1179.3,
+            299.71,
+            26.16,
+            33.23
+          ],
+          "score": 0.919549
+        },
+        {
+          "frame_index": 18,
+          "time_s": 1.125,
+          "bbox_xywh": [
+            623.59,
+            187.18,
+            64.32,
+            88.17
+          ],
+          "score": 0.938048
+        },
+        {
+          "frame_index": 18,
+          "time_s": 1.125,
+          "bbox_xywh": [
+            1133.69,
+            385.61,
+            40.61,
+            50.44
+          ],
+          "score": 0.912515
+        },
+        {
+          "frame_index": 18,
+          "time_s": 1.125,
+          "bbox_xywh": [
+            1198.22,
+            297.14,
+            25.31,
+            32.66
+          ],
+          "score": 0.901538
+        },
+        {
+          "frame_index": 19,
+          "time_s": 1.1875,
+          "bbox_xywh": [
+            621.09,
+            180.96,
+            65.96,
+            93.14
+          ],
+          "score": 0.925654
+        },
+        {
+          "frame_index": 19,
+          "time_s": 1.1875,
+          "bbox_xywh": [
+            1163.99,
+            383.51,
+            41.85,
+            51.3
+          ],
+          "score": 0.902019
+        },
+        {
+          "frame_index": 19,
+          "time_s": 1.1875,
+          "bbox_xywh": [
+            1219.85,
+            292.51,
+            25.21,
+            32.4
+          ],
+          "score": 0.892308
+        },
+        {
+          "frame_index": 20,
+          "time_s": 1.25,
+          "bbox_xywh": [
+            624.38,
+            176.05,
+            68.53,
+            92.87
+          ],
+          "score": 0.92782
+        },
+        {
+          "frame_index": 20,
+          "time_s": 1.25,
+          "bbox_xywh": [
+            1196.36,
+            379.7,
+            44.43,
+            54.34
+          ],
+          "score": 0.913055
+        },
+        {
+          "frame_index": 20,
+          "time_s": 1.25,
+          "bbox_xywh": [
+            1245.84,
+            285.92,
+            26.31,
+            37.07
+          ],
+          "score": 0.880872
+        },
+        {
+          "frame_index": 21,
+          "time_s": 1.3125,
+          "bbox_xywh": [
+            625.34,
+            160.27,
+            73.06,
+            101.32
+          ],
+          "score": 0.938085
+        },
+        {
+          "frame_index": 21,
+          "time_s": 1.3125,
+          "bbox_xywh": [
+            1235.57,
+            376.1,
+            43.86,
+            56.47
+          ],
+          "score": 0.920079
+        },
+        {
+          "frame_index": 22,
+          "time_s": 1.375,
+          "bbox_xywh": [
+            627.51,
+            146.56,
+            75.95,
+            106.92
+          ],
+          "score": 0.93563
+        },
+        {
+          "frame_index": 23,
+          "time_s": 1.4375,
+          "bbox_xywh": [
+            629.89,
+            130.86,
+            79.36,
+            114.33
+          ],
+          "score": 0.932287
+        },
+        {
+          "frame_index": 23,
+          "time_s": 1.4375,
+          "bbox_xywh": [
+            33.09,
+            147.36,
+            14.68,
+            18.41
+          ],
+          "score": 0.658173
+        },
+        {
+          "frame_index": 24,
+          "time_s": 1.5,
+          "bbox_xywh": [
+            630.68,
+            119.39,
+            83.94,
+            111.22
+          ],
+          "score": 0.928253
+        },
+        {
+          "frame_index": 24,
+          "time_s": 1.5,
+          "bbox_xywh": [
+            771.82,
+            211.76,
+            14.86,
+            17.81
+          ],
+          "score": 0.665062
+        },
+        {
+          "frame_index": 25,
+          "time_s": 1.5625,
+          "bbox_xywh": [
+            633.75,
+            114.68,
+            85.08,
+            113.97
+          ],
+          "score": 0.926358
+        },
+        {
+          "frame_index": 25,
+          "time_s": 1.5625,
+          "bbox_xywh": [
+            778.32,
+            207.8,
+            24.92,
+            26.73
+          ],
+          "score": 0.650205
+        },
+        {
+          "frame_index": 26,
+          "time_s": 1.625,
+          "bbox_xywh": [
+            636.98,
+            103.0,
+            80.1,
+            117.8
+          ],
+          "score": 0.921764
+        },
+        {
+          "frame_index": 26,
+          "time_s": 1.625,
+          "bbox_xywh": [
+            809.89,
+            207.89,
+            18.69,
+            20.19
+          ],
+          "score": 0.70127
+        },
+        {
+          "frame_index": 27,
+          "time_s": 1.6875,
+          "bbox_xywh": [
+            638.19,
+            98.69,
+            83.13,
+            119.74
+          ],
+          "score": 0.917674
+        },
+        {
+          "frame_index": 27,
+          "time_s": 1.6875,
+          "bbox_xywh": [
+            837.92,
+            202.06,
+            19.85,
+            22.51
+          ],
+          "score": 0.799609
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            635.43,
+            97.28,
+            86.73,
+            124.36
+          ],
+          "score": 0.917044
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            862.39,
+            199.34,
+            22.81,
+            25.67
+          ],
+          "score": 0.671076
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            1267.22,
+            302.85,
+            10.81,
+            13.98
+          ],
+          "score": 0.64264
+        },
+        {
+          "frame_index": 29,
+          "time_s": 1.8125,
+          "bbox_xywh": [
+            628.6,
+            100.51,
+            86.82,
+            124.57
+          ],
+          "score": 0.916256
+        },
+        {
+          "frame_index": 29,
+          "time_s": 1.8125,
+          "bbox_xywh": [
+            885.47,
+            199.73,
+            22.6,
+            23.93
+          ],
+          "score": 0.714876
+        },
+        {
+          "frame_index": 30,
+          "time_s": 1.875,
+          "bbox_xywh": [
+            618.79,
+            101.5,
+            87.98,
+            124.31
+          ],
+          "score": 0.927609
+        },
+        {
+          "frame_index": 30,
+          "time_s": 1.875,
+          "bbox_xywh": [
+            909.52,
+            199.59,
+            18.69,
+            21.41
+          ],
+          "score": 0.799135
+        },
+        {
+          "frame_index": 31,
+          "time_s": 1.9375,
+          "bbox_xywh": [
+            606.45,
+            103.41,
+            86.11,
+            118.75
+          ],
+          "score": 0.926369
+        },
+        {
+          "frame_index": 31,
+          "time_s": 1.9375,
+          "bbox_xywh": [
+            925.29,
+            198.59,
+            19.88,
+            22.23
+          ],
+          "score": 0.741447
+        },
+        {
+          "frame_index": 32,
+          "time_s": 2.0,
+          "bbox_xywh": [
+            594.23,
+            101.22,
+            88.37,
+            127.41
+          ],
+          "score": 0.924437
+        },
+        {
+          "frame_index": 32,
+          "time_s": 2.0,
+          "bbox_xywh": [
+            937.42,
+            199.26,
+            20.71,
+            23.23
+          ],
+          "score": 0.801834
+        },
+        {
+          "frame_index": 33,
+          "time_s": 2.0625,
+          "bbox_xywh": [
+            590.7,
+            101.7,
+            86.08,
+            128.39
+          ],
+          "score": 0.931447
+        },
+        {
+          "frame_index": 33,
+          "time_s": 2.0625,
+          "bbox_xywh": [
+            943.91,
+            200.03,
+            19.42,
+            21.46
+          ],
+          "score": 0.779151
+        },
+        {
+          "frame_index": 34,
+          "time_s": 2.125,
+          "bbox_xywh": [
+            583.09,
+            109.76,
+            84.7,
+            119.45
+          ],
+          "score": 0.923731
+        },
+        {
+          "frame_index": 34,
+          "time_s": 2.125,
+          "bbox_xywh": [
+            951.58,
+            200.37,
+            19.81,
+            21.59
+          ],
+          "score": 0.771171
+        },
+        {
+          "frame_index": 35,
+          "time_s": 2.1875,
+          "bbox_xywh": [
+            574.76,
+            112.02,
+            81.43,
+            115.71
+          ],
+          "score": 0.923815
+        },
+        {
+          "frame_index": 35,
+          "time_s": 2.1875,
+          "bbox_xywh": [
+            953.65,
+            196.81,
+            24.58,
+            27.14
+          ],
+          "score": 0.7531
+        },
+        {
+          "frame_index": 36,
+          "time_s": 2.25,
+          "bbox_xywh": [
+            567.8,
+            113.73,
+            80.88,
+            115.61
+          ],
+          "score": 0.921496
+        },
+        {
+          "frame_index": 36,
+          "time_s": 2.25,
+          "bbox_xywh": [
+            956.77,
+            196.07,
+            23.85,
+            26.5
+          ],
+          "score": 0.660769
+        },
+        {
+          "frame_index": 37,
+          "time_s": 2.3125,
+          "bbox_xywh": [
+            559.11,
+            107.92,
+            81.34,
+            115.09
+          ],
+          "score": 0.930789
+        },
+        {
+          "frame_index": 37,
+          "time_s": 2.3125,
+          "bbox_xywh": [
+            957.75,
+            193.34,
+            19.93,
+            23.49
+          ],
+          "score": 0.785277
+        },
+        {
+          "frame_index": 38,
+          "time_s": 2.375,
+          "bbox_xywh": [
+            547.99,
+            100.66,
+            90.73,
+            117.22
+          ],
+          "score": 0.923064
+        },
+        {
+          "frame_index": 38,
+          "time_s": 2.375,
+          "bbox_xywh": [
+            954.36,
+            191.89,
+            20.6,
+            22.25
+          ],
+          "score": 0.818852
+        },
+        {
+          "frame_index": 39,
+          "time_s": 2.4375,
+          "bbox_xywh": [
+            541.79,
+            105.84,
+            88.14,
+            113.04
+          ],
+          "score": 0.922723
+        },
+        {
+          "frame_index": 39,
+          "time_s": 2.4375,
+          "bbox_xywh": [
+            948.48,
+            190.12,
+            22.46,
+            24.55
+          ],
+          "score": 0.725097
+        },
+        {
+          "frame_index": 40,
+          "time_s": 2.5,
+          "bbox_xywh": [
+            542.18,
+            102.58,
+            84.28,
+            115.25
+          ],
+          "score": 0.927187
+        },
+        {
+          "frame_index": 40,
+          "time_s": 2.5,
+          "bbox_xywh": [
+            941.3,
+            187.83,
+            25.01,
+            26.42
+          ],
+          "score": 0.737256
+        },
+        {
+          "frame_index": 41,
+          "time_s": 2.5625,
+          "bbox_xywh": [
+            540.71,
+            109.24,
+            81.46,
+            109.48
+          ],
+          "score": 0.922477
+        },
+        {
+          "frame_index": 41,
+          "time_s": 2.5625,
+          "bbox_xywh": [
+            941.93,
+            187.52,
+            21.27,
+            22.49
+          ],
+          "score": 0.701212
+        },
+        {
+          "frame_index": 42,
+          "time_s": 2.625,
+          "bbox_xywh": [
+            538.07,
+            105.43,
+            83.18,
+            116.48
+          ],
+          "score": 0.920768
+        },
+        {
+          "frame_index": 42,
+          "time_s": 2.625,
+          "bbox_xywh": [
+            935.75,
+            187.52,
+            20.34,
+            22.18
+          ],
+          "score": 0.765811
+        },
+        {
+          "frame_index": 43,
+          "time_s": 2.6875,
+          "bbox_xywh": [
+            537.08,
+            108.55,
+            81.55,
+            118.02
+          ],
+          "score": 0.924743
+        },
+        {
+          "frame_index": 43,
+          "time_s": 2.6875,
+          "bbox_xywh": [
+            930.15,
+            186.28,
+            19.51,
+            21.9
+          ],
+          "score": 0.80268
+        },
+        {
+          "frame_index": 44,
+          "time_s": 2.75,
+          "bbox_xywh": [
+            535.52,
+            117.2,
+            79.26,
+            111.85
+          ],
+          "score": 0.925035
+        },
+        {
+          "frame_index": 44,
+          "time_s": 2.75,
+          "bbox_xywh": [
+            924.75,
+            185.27,
+            21.08,
+            23.57
+          ],
+          "score": 0.746729
+        },
+        {
+          "frame_index": 45,
+          "time_s": 2.8125,
+          "bbox_xywh": [
+            532.18,
+            121.41,
+            80.66,
+            107.81
+          ],
+          "score": 0.924352
+        },
+        {
+          "frame_index": 45,
+          "time_s": 2.8125,
+          "bbox_xywh": [
+            924.67,
+            185.08,
+            21.06,
+            23.58
+          ],
+          "score": 0.726656
+        },
+        {
+          "frame_index": 46,
+          "time_s": 2.875,
+          "bbox_xywh": [
+            531.45,
+            121.72,
+            80.55,
+            107.38
+          ],
+          "score": 0.929023
+        },
+        {
+          "frame_index": 46,
+          "time_s": 2.875,
+          "bbox_xywh": [
+            923.36,
+            182.85,
+            26.98,
+            29.25
+          ],
+          "score": 0.698971
+        },
+        {
+          "frame_index": 47,
+          "time_s": 2.9375,
+          "bbox_xywh": [
+            531.51,
+            121.94,
+            80.35,
+            106.95
+          ],
+          "score": 0.927128
+        },
+        {
+          "frame_index": 47,
+          "time_s": 2.9375,
+          "bbox_xywh": [
+            934.74,
+            183.79,
+            20.06,
+            21.93
+          ],
+          "score": 0.687727
+        },
+        {
+          "frame_index": 48,
+          "time_s": 3.0,
+          "bbox_xywh": [
+            531.05,
+            122.39,
+            80.86,
+            107.15
+          ],
+          "score": 0.92438
+        },
+        {
+          "frame_index": 48,
+          "time_s": 3.0,
+          "bbox_xywh": [
+            936.62,
+            182.99,
+            20.54,
+            22.72
+          ],
+          "score": 0.740268
+        },
+        {
+          "frame_index": 49,
+          "time_s": 3.0625,
+          "bbox_xywh": [
+            530.77,
+            122.39,
+            81.6,
+            108.93
+          ],
+          "score": 0.922045
+        },
+        {
+          "frame_index": 49,
+          "time_s": 3.0625,
+          "bbox_xywh": [
+            947.94,
+            180.83,
+            25.26,
+            27.76
+          ],
+          "score": 0.776112
+        },
+        {
+          "frame_index": 50,
+          "time_s": 3.125,
+          "bbox_xywh": [
+            528.1,
+            121.51,
+            84.3,
+            111.53
+          ],
+          "score": 0.921934
+        },
+        {
+          "frame_index": 50,
+          "time_s": 3.125,
+          "bbox_xywh": [
+            966.3,
+            177.48,
+            20.52,
+            23.63
+          ],
+          "score": 0.78555
+        },
+        {
+          "frame_index": 51,
+          "time_s": 3.1875,
+          "bbox_xywh": [
+            527.78,
+            122.39,
+            79.14,
+            112.01
+          ],
+          "score": 0.933238
+        },
+        {
+          "frame_index": 51,
+          "time_s": 3.1875,
+          "bbox_xywh": [
+            986.51,
+            174.37,
+            21.11,
+            23.2
+          ],
+          "score": 0.696582
+        },
+        {
+          "frame_index": 52,
+          "time_s": 3.25,
+          "bbox_xywh": [
+            518.2,
+            119.82,
+            84.83,
+            112.52
+          ],
+          "score": 0.920396
+        },
+        {
+          "frame_index": 52,
+          "time_s": 3.25,
+          "bbox_xywh": [
+            1004.81,
+            168.53,
+            24.96,
+            26.96
+          ],
+          "score": 0.816815
+        },
+        {
+          "frame_index": 53,
+          "time_s": 3.3125,
+          "bbox_xywh": [
+            509.32,
+            114.74,
+            85.08,
+            114.06
+          ],
+          "score": 0.922421
+        },
+        {
+          "frame_index": 54,
+          "time_s": 3.375,
+          "bbox_xywh": [
+            501.88,
+            100.5,
+            85.52,
+            117.14
+          ],
+          "score": 0.917373
+        },
+        {
+          "frame_index": 54,
+          "time_s": 3.375,
+          "bbox_xywh": [
+            1054.25,
+            158.46,
+            22.42,
+            24.06
+          ],
+          "score": 0.823237
+        },
+        {
+          "frame_index": 55,
+          "time_s": 3.4375,
+          "bbox_xywh": [
+            496.39,
+            86.48,
+            88.27,
+            121.95
+          ],
+          "score": 0.90876
+        },
+        {
+          "frame_index": 55,
+          "time_s": 3.4375,
+          "bbox_xywh": [
+            1078.78,
+            148.02,
+            27.12,
+            29.73
+          ],
+          "score": 0.797531
+        },
+        {
+          "frame_index": 56,
+          "time_s": 3.5,
+          "bbox_xywh": [
+            497.35,
+            79.99,
+            86.5,
+            121.58
+          ],
+          "score": 0.915978
+        },
+        {
+          "frame_index": 57,
+          "time_s": 3.5625,
+          "bbox_xywh": [
+            492.34,
+            69.32,
+            91.02,
+            126.52
+          ],
+          "score": 0.925091
+        },
+        {
+          "frame_index": 57,
+          "time_s": 3.5625,
+          "bbox_xywh": [
+            1117.44,
+            135.38,
+            25.25,
+            26.78
+          ],
+          "score": 0.758607
+        },
+        {
+          "frame_index": 58,
+          "time_s": 3.625,
+          "bbox_xywh": [
+            494.78,
+            59.11,
+            90.2,
+            123.36
+          ],
+          "score": 0.916589
+        },
+        {
+          "frame_index": 58,
+          "time_s": 3.625,
+          "bbox_xywh": [
+            1139.58,
+            125.28,
+            28.18,
+            30.0
+          ],
+          "score": 0.809889
+        },
+        {
+          "frame_index": 59,
+          "time_s": 3.6875,
+          "bbox_xywh": [
+            494.94,
+            38.63,
+            90.62,
+            133.86
+          ],
+          "score": 0.924424
+        },
+        {
+          "frame_index": 59,
+          "time_s": 3.6875,
+          "bbox_xywh": [
+            1163.61,
+            117.52,
+            28.0,
+            27.97
+          ],
+          "score": 0.783323
+        },
+        {
+          "frame_index": 60,
+          "time_s": 3.75,
+          "bbox_xywh": [
+            489.2,
+            22.06,
+            97.86,
+            143.48
+          ],
+          "score": 0.93471
+        },
+        {
+          "frame_index": 60,
+          "time_s": 3.75,
+          "bbox_xywh": [
+            1182.6,
+            109.2,
+            30.62,
+            30.15
+          ],
+          "score": 0.731665
+        },
+        {
+          "frame_index": 61,
+          "time_s": 3.8125,
+          "bbox_xywh": [
+            488.29,
+            4.26,
+            99.57,
+            149.61
+          ],
+          "score": 0.928296
+        },
+        {
+          "frame_index": 61,
+          "time_s": 3.8125,
+          "bbox_xywh": [
+            1204.59,
+            102.37,
+            29.43,
+            30.76
+          ],
+          "score": 0.719567
+        },
+        {
+          "frame_index": 62,
+          "time_s": 3.875,
+          "bbox_xywh": [
+            478.68,
+            3.64,
+            109.72,
+            147.14
+          ],
+          "score": 0.930776
+        },
+        {
+          "frame_index": 62,
+          "time_s": 3.875,
+          "bbox_xywh": [
+            1223.61,
+            91.33,
+            29.8,
+            31.95
+          ],
+          "score": 0.778462
+        },
+        {
+          "frame_index": 63,
+          "time_s": 3.9375,
+          "bbox_xywh": [
+            471.6,
+            0.26,
+            113.44,
+            144.29
+          ],
+          "score": 0.930127
+        },
+        {
+          "frame_index": 63,
+          "time_s": 3.9375,
+          "bbox_xywh": [
+            1242.9,
+            86.24,
+            27.71,
+            29.21
+          ],
+          "score": 0.810692
+        },
+        {
+          "frame_index": 64,
+          "time_s": 4.0,
+          "bbox_xywh": [
+            466.18,
+            -0.0,
+            119.69,
+            138.51
+          ],
+          "score": 0.933613
+        },
+        {
+          "frame_index": 64,
+          "time_s": 4.0,
+          "bbox_xywh": [
+            1248.24,
+            80.81,
+            29.39,
+            32.08
+          ],
+          "score": 0.735465
+        },
+        {
+          "frame_index": 64,
+          "time_s": 4.0,
+          "bbox_xywh": [
+            153.55,
+            357.67,
+            154.9,
+            154.93
+          ],
+          "score": 0.6024
+        },
+        {
+          "frame_index": 65,
+          "time_s": 4.0625,
+          "bbox_xywh": [
+            461.3,
+            1.6,
+            123.38,
+            123.12
+          ],
+          "score": 0.951919
+        },
+        {
+          "frame_index": 66,
+          "time_s": 4.125,
+          "bbox_xywh": [
+            445.65,
+            2.46,
+            135.59,
+            105.71
+          ],
+          "score": 0.933642
+        },
+        {
+          "frame_index": 67,
+          "time_s": 4.1875,
+          "bbox_xywh": [
+            440.0,
+            0.2,
+            130.86,
+            83.4
+          ],
+          "score": 0.849214
+        },
+        {
+          "frame_index": 87,
+          "time_s": 5.4375,
+          "bbox_xywh": [
+            530.31,
+            -0.48,
+            100.14,
+            76.26
+          ],
+          "score": 0.618964
+        },
+        {
+          "frame_index": 88,
+          "time_s": 5.5,
+          "bbox_xywh": [
+            549.97,
+            -1.89,
+            99.07,
+            83.31
+          ],
+          "score": 0.873605
+        },
+        {
+          "frame_index": 89,
+          "time_s": 5.5625,
+          "bbox_xywh": [
+            569.6,
+            1.27,
+            111.72,
+            122.23
+          ],
+          "score": 0.91515
+        },
+        {
+          "frame_index": 90,
+          "time_s": 5.625,
+          "bbox_xywh": [
+            582.83,
+            -1.95,
+            114.12,
+            167.84
+          ],
+          "score": 0.892261
+        },
+        {
+          "frame_index": 90,
+          "time_s": 5.625,
+          "bbox_xywh": [
+            1249.12,
+            220.73,
+            29.47,
+            40.95
+          ],
+          "score": 0.738472
+        },
+        {
+          "frame_index": 90,
+          "time_s": 5.625,
+          "bbox_xywh": [
+            1241.13,
+            43.3,
+            32.68,
+            34.81
+          ],
+          "score": 0.709909
+        },
+        {
+          "frame_index": 91,
+          "time_s": 5.6875,
+          "bbox_xywh": [
+            598.59,
+            4.65,
+            112.82,
+            177.43
+          ],
+          "score": 0.800138
+        },
+        {
+          "frame_index": 91,
+          "time_s": 5.6875,
+          "bbox_xywh": [
+            1224.01,
+            51.05,
+            34.44,
+            35.36
+          ],
+          "score": 0.749732
+        },
+        {
+          "frame_index": 91,
+          "time_s": 5.6875,
+          "bbox_xywh": [
+            1233.71,
+            229.44,
+            35.89,
+            40.92
+          ],
+          "score": 0.724154
+        },
+        {
+          "frame_index": 92,
+          "time_s": 5.75,
+          "bbox_xywh": [
+            1215.48,
+            63.93,
+            23.4,
+            25.6
+          ],
+          "score": 0.787179
+        },
+        {
+          "frame_index": 92,
+          "time_s": 5.75,
+          "bbox_xywh": [
+            880.18,
+            -2.92,
+            55.05,
+            49.42
+          ],
+          "score": 0.765966
+        },
+        {
+          "frame_index": 92,
+          "time_s": 5.75,
+          "bbox_xywh": [
+            1218.45,
+            233.78,
+            34.38,
+            40.06
+          ],
+          "score": 0.600628
+        },
+        {
+          "frame_index": 93,
+          "time_s": 5.8125,
+          "bbox_xywh": [
+            827.3,
+            0.03,
+            72.04,
+            62.02
+          ],
+          "score": 0.8487
+        },
+        {
+          "frame_index": 94,
+          "time_s": 5.875,
+          "bbox_xywh": [
+            782.69,
+            1.58,
+            77.36,
+            81.31
+          ],
+          "score": 0.91081
+        },
+        {
+          "frame_index": 94,
+          "time_s": 5.875,
+          "bbox_xywh": [
+            1176.46,
+            78.92,
+            30.78,
+            31.31
+          ],
+          "score": 0.654047
+        },
+        {
+          "frame_index": 95,
+          "time_s": 5.9375,
+          "bbox_xywh": [
+            743.87,
+            4.45,
+            75.38,
+            88.37
+          ],
+          "score": 0.895452
+        },
+        {
+          "frame_index": 96,
+          "time_s": 6.0,
+          "bbox_xywh": [
+            723.56,
+            -4.01,
+            77.57,
+            113.36
+          ],
+          "score": 0.867983
+        },
+        {
+          "frame_index": 97,
+          "time_s": 6.0625,
+          "bbox_xywh": [
+            697.24,
+            19.47,
+            72.81,
+            108.73
+          ],
+          "score": 0.861971
+        },
+        {
+          "frame_index": 98,
+          "time_s": 6.125,
+          "bbox_xywh": [
+            671.62,
+            38.95,
+            64.51,
+            90.82
+          ],
+          "score": 0.841659
+        },
+        {
+          "frame_index": 98,
+          "time_s": 6.125,
+          "bbox_xywh": [
+            1120.8,
+            117.97,
+            25.78,
+            25.5
+          ],
+          "score": 0.607692
+        },
+        {
+          "frame_index": 99,
+          "time_s": 6.1875,
+          "bbox_xywh": [
+            650.98,
+            46.32,
+            69.93,
+            93.61
+          ],
+          "score": 0.867102
+        },
+        {
+          "frame_index": 99,
+          "time_s": 6.1875,
+          "bbox_xywh": [
+            1106.89,
+            126.75,
+            24.69,
+            25.98
+          ],
+          "score": 0.702919
+        },
+        {
+          "frame_index": 100,
+          "time_s": 6.25,
+          "bbox_xywh": [
+            632.87,
+            63.87,
+            77.61,
+            92.27
+          ],
+          "score": 0.860867
+        },
+        {
+          "frame_index": 101,
+          "time_s": 6.3125,
+          "bbox_xywh": [
+            627.92,
+            76.44,
+            74.64,
+            86.01
+          ],
+          "score": 0.879998
+        },
+        {
+          "frame_index": 101,
+          "time_s": 6.3125,
+          "bbox_xywh": [
+            1084.67,
+            140.48,
+            24.75,
+            25.67
+          ],
+          "score": 0.626854
+        },
+        {
+          "frame_index": 102,
+          "time_s": 6.375,
+          "bbox_xywh": [
+            620.35,
+            84.44,
+            75.6,
+            87.46
+          ],
+          "score": 0.900284
+        },
+        {
+          "frame_index": 102,
+          "time_s": 6.375,
+          "bbox_xywh": [
+            1075.18,
+            142.08,
+            25.14,
+            26.42
+          ],
+          "score": 0.621606
+        },
+        {
+          "frame_index": 103,
+          "time_s": 6.4375,
+          "bbox_xywh": [
+            615.57,
+            82.84,
+            79.62,
+            98.44
+          ],
+          "score": 0.903123
+        },
+        {
+          "frame_index": 104,
+          "time_s": 6.5,
+          "bbox_xywh": [
+            614.41,
+            92.01,
+            72.42,
+            89.01
+          ],
+          "score": 0.9099
+        },
+        {
+          "frame_index": 105,
+          "time_s": 6.5625,
+          "bbox_xywh": [
+            616.42,
+            93.9,
+            65.12,
+            90.66
+          ],
+          "score": 0.913406
+        },
+        {
+          "frame_index": 106,
+          "time_s": 6.625,
+          "bbox_xywh": [
+            613.05,
+            92.65,
+            68.9,
+            104.12
+          ],
+          "score": 0.903277
+        },
+        {
+          "frame_index": 106,
+          "time_s": 6.625,
+          "bbox_xywh": [
+            1046.42,
+            146.39,
+            20.25,
+            22.15
+          ],
+          "score": 0.600064
+        },
+        {
+          "frame_index": 107,
+          "time_s": 6.6875,
+          "bbox_xywh": [
+            611.25,
+            92.07,
+            66.31,
+            97.44
+          ],
+          "score": 0.91674
+        },
+        {
+          "frame_index": 107,
+          "time_s": 6.6875,
+          "bbox_xywh": [
+            1035.03,
+            143.19,
+            22.89,
+            24.64
+          ],
+          "score": 0.690221
+        },
+        {
+          "frame_index": 108,
+          "time_s": 6.75,
+          "bbox_xywh": [
+            612.24,
+            87.78,
+            66.12,
+            97.15
+          ],
+          "score": 0.910387
+        },
+        {
+          "frame_index": 108,
+          "time_s": 6.75,
+          "bbox_xywh": [
+            1026.96,
+            141.22,
+            21.71,
+            23.49
+          ],
+          "score": 0.720569
+        },
+        {
+          "frame_index": 109,
+          "time_s": 6.8125,
+          "bbox_xywh": [
+            614.36,
+            83.44,
+            63.6,
+            92.67
+          ],
+          "score": 0.909739
+        },
+        {
+          "frame_index": 109,
+          "time_s": 6.8125,
+          "bbox_xywh": [
+            1020.52,
+            137.75,
+            21.42,
+            23.59
+          ],
+          "score": 0.680869
+        },
+        {
+          "frame_index": 110,
+          "time_s": 6.875,
+          "bbox_xywh": [
+            618.4,
+            70.47,
+            66.32,
+            95.69
+          ],
+          "score": 0.915357
+        },
+        {
+          "frame_index": 110,
+          "time_s": 6.875,
+          "bbox_xywh": [
+            1011.15,
+            132.9,
+            23.99,
+            25.57
+          ],
+          "score": 0.772199
+        },
+        {
+          "frame_index": 111,
+          "time_s": 6.9375,
+          "bbox_xywh": [
+            622.47,
+            62.96,
+            64.78,
+            90.99
+          ],
+          "score": 0.926011
+        },
+        {
+          "frame_index": 111,
+          "time_s": 6.9375,
+          "bbox_xywh": [
+            1004.43,
+            125.14,
+            23.33,
+            25.49
+          ],
+          "score": 0.766392
+        },
+        {
+          "frame_index": 112,
+          "time_s": 7.0,
+          "bbox_xywh": [
+            631.09,
+            58.12,
+            60.05,
+            89.86
+          ],
+          "score": 0.926416
+        },
+        {
+          "frame_index": 112,
+          "time_s": 7.0,
+          "bbox_xywh": [
+            1002.66,
+            120.51,
+            21.38,
+            24.21
+          ],
+          "score": 0.674741
+        },
+        {
+          "frame_index": 113,
+          "time_s": 7.0625,
+          "bbox_xywh": [
+            639.2,
+            49.61,
+            61.34,
+            90.25
+          ],
+          "score": 0.916367
+        },
+        {
+          "frame_index": 113,
+          "time_s": 7.0625,
+          "bbox_xywh": [
+            997.0,
+            112.06,
+            20.65,
+            23.53
+          ],
+          "score": 0.775521
+        },
+        {
+          "frame_index": 114,
+          "time_s": 7.125,
+          "bbox_xywh": [
+            653.05,
+            48.19,
+            60.79,
+            86.9
+          ],
+          "score": 0.922645
+        },
+        {
+          "frame_index": 114,
+          "time_s": 7.125,
+          "bbox_xywh": [
+            987.99,
+            104.89,
+            23.25,
+            25.79
+          ],
+          "score": 0.786133
+        },
+        {
+          "frame_index": 114,
+          "time_s": 7.125,
+          "bbox_xywh": [
+            543.59,
+            66.73,
+            70.79,
+            123.79
+          ],
+          "score": 0.665846
+        },
+        {
+          "frame_index": 115,
+          "time_s": 7.1875,
+          "bbox_xywh": [
+            669.65,
+            38.92,
+            61.33,
+            96.04
+          ],
+          "score": 0.909586
+        },
+        {
+          "frame_index": 115,
+          "time_s": 7.1875,
+          "bbox_xywh": [
+            980.12,
+            95.83,
+            23.8,
+            26.59
+          ],
+          "score": 0.742156
+        },
+        {
+          "frame_index": 115,
+          "time_s": 7.1875,
+          "bbox_xywh": [
+            545.43,
+            37.39,
+            68.3,
+            139.46
+          ],
+          "score": 0.72632
+        },
+        {
+          "frame_index": 116,
+          "time_s": 7.25,
+          "bbox_xywh": [
+            686.54,
+            36.75,
+            57.13,
+            87.51
+          ],
+          "score": 0.910426
+        },
+        {
+          "frame_index": 116,
+          "time_s": 7.25,
+          "bbox_xywh": [
+            541.29,
+            12.12,
+            85.12,
+            144.09
+          ],
+          "score": 0.862058
+        },
+        {
+          "frame_index": 116,
+          "time_s": 7.25,
+          "bbox_xywh": [
+            972.84,
+            88.86,
+            23.0,
+            25.32
+          ],
+          "score": 0.81907
+        },
+        {
+          "frame_index": 117,
+          "time_s": 7.3125,
+          "bbox_xywh": [
+            706.51,
+            22.87,
+            56.28,
+            88.28
+          ],
+          "score": 0.925116
+        },
+        {
+          "frame_index": 117,
+          "time_s": 7.3125,
+          "bbox_xywh": [
+            545.55,
+            6.87,
+            82.09,
+            148.47
+          ],
+          "score": 0.886223
+        },
+        {
+          "frame_index": 117,
+          "time_s": 7.3125,
+          "bbox_xywh": [
+            965.05,
+            80.06,
+            22.22,
+            24.67
+          ],
+          "score": 0.767834
+        },
+        {
+          "frame_index": 118,
+          "time_s": 7.375,
+          "bbox_xywh": [
+            718.13,
+            14.38,
+            56.67,
+            83.74
+          ],
+          "score": 0.925271
+        },
+        {
+          "frame_index": 118,
+          "time_s": 7.375,
+          "bbox_xywh": [
+            558.02,
+            4.23,
+            86.28,
+            142.03
+          ],
+          "score": 0.873492
+        },
+        {
+          "frame_index": 118,
+          "time_s": 7.375,
+          "bbox_xywh": [
+            955.08,
+            70.73,
+            24.67,
+            27.39
+          ],
+          "score": 0.770812
+        },
+        {
+          "frame_index": 119,
+          "time_s": 7.4375,
+          "bbox_xywh": [
+            722.62,
+            7.62,
+            57.47,
+            84.09
+          ],
+          "score": 0.927547
+        },
+        {
+          "frame_index": 119,
+          "time_s": 7.4375,
+          "bbox_xywh": [
+            568.59,
+            1.69,
+            81.28,
+            125.45
+          ],
+          "score": 0.907325
+        },
+        {
+          "frame_index": 119,
+          "time_s": 7.4375,
+          "bbox_xywh": [
+            948.68,
+            66.85,
+            29.06,
+            31.86
+          ],
+          "score": 0.775256
+        },
+        {
+          "frame_index": 120,
+          "time_s": 7.5,
+          "bbox_xywh": [
+            732.84,
+            -0.28,
+            59.14,
+            78.95
+          ],
+          "score": 0.923348
+        },
+        {
+          "frame_index": 120,
+          "time_s": 7.5,
+          "bbox_xywh": [
+            585.94,
+            1.31,
+            87.34,
+            114.07
+          ],
+          "score": 0.902523
+        },
+        {
+          "frame_index": 120,
+          "time_s": 7.5,
+          "bbox_xywh": [
+            753.89,
+            676.53,
+            46.55,
+            54.93
+          ],
+          "score": 0.707554
+        },
+        {
+          "frame_index": 120,
+          "time_s": 7.5,
+          "bbox_xywh": [
+            942.98,
+            58.42,
+            26.25,
+            29.16
+          ],
+          "score": 0.632542
+        },
+        {
+          "frame_index": 121,
+          "time_s": 7.5625,
+          "bbox_xywh": [
+            748.49,
+            -2.43,
+            52.74,
+            72.89
+          ],
+          "score": 0.918816
+        },
+        {
+          "frame_index": 121,
+          "time_s": 7.5625,
+          "bbox_xywh": [
+            613.72,
+            -0.93,
+            81.79,
+            100.63
+          ],
+          "score": 0.887812
+        },
+        {
+          "frame_index": 121,
+          "time_s": 7.5625,
+          "bbox_xywh": [
+            931.7,
+            50.51,
+            27.24,
+            28.99
+          ],
+          "score": 0.738449
+        },
+        {
+          "frame_index": 121,
+          "time_s": 7.5625,
+          "bbox_xywh": [
+            736.86,
+            663.01,
+            44.69,
+            60.59
+          ],
+          "score": 0.652192
+        },
+        {
+          "frame_index": 122,
+          "time_s": 7.625,
+          "bbox_xywh": [
+            757.17,
+            -2.48,
+            54.77,
+            62.98
+          ],
+          "score": 0.923541
+        },
+        {
+          "frame_index": 122,
+          "time_s": 7.625,
+          "bbox_xywh": [
+            665.42,
+            -3.16,
+            62.06,
+            86.12
+          ],
+          "score": 0.859914
+        },
+        {
+          "frame_index": 122,
+          "time_s": 7.625,
+          "bbox_xywh": [
+            921.84,
+            41.72,
+            28.65,
+            29.96
+          ],
+          "score": 0.677036
+        },
+        {
+          "frame_index": 123,
+          "time_s": 7.6875,
+          "bbox_xywh": [
+            775.74,
+            -0.54,
+            53.7,
+            57.52
+          ],
+          "score": 0.912727
+        },
+        {
+          "frame_index": 123,
+          "time_s": 7.6875,
+          "bbox_xywh": [
+            913.27,
+            33.77,
+            28.94,
+            31.55
+          ],
+          "score": 0.804686
+        },
+        {
+          "frame_index": 123,
+          "time_s": 7.6875,
+          "bbox_xywh": [
+            712.33,
+            -3.37,
+            51.18,
+            56.26
+          ],
+          "score": 0.70216
+        },
+        {
+          "frame_index": 124,
+          "time_s": 7.75,
+          "bbox_xywh": [
+            793.01,
+            0.32,
+            47.67,
+            48.79
+          ],
+          "score": 0.871889
+        },
+        {
+          "frame_index": 124,
+          "time_s": 7.75,
+          "bbox_xywh": [
+            905.0,
+            27.55,
+            27.05,
+            28.5
+          ],
+          "score": 0.817829
+        },
+        {
+          "frame_index": 125,
+          "time_s": 7.8125,
+          "bbox_xywh": [
+            803.66,
+            -2.02,
+            55.52,
+            51.69
+          ],
+          "score": 0.876735
+        },
+        {
+          "frame_index": 125,
+          "time_s": 7.8125,
+          "bbox_xywh": [
+            898.84,
+            20.81,
+            23.27,
+            26.08
+          ],
+          "score": 0.779867
+        },
+        {
+          "frame_index": 126,
+          "time_s": 7.875,
+          "bbox_xywh": [
+            836.34,
+            0.61,
+            36.99,
+            35.54
+          ],
+          "score": 0.768388
+        },
+        {
+          "frame_index": 127,
+          "time_s": 7.9375,
+          "bbox_xywh": [
+            645.92,
+            615.6,
+            51.6,
+            69.84
+          ],
+          "score": 0.627337
+        },
+        {
+          "frame_index": 128,
+          "time_s": 8.0,
+          "bbox_xywh": [
+            139.4,
+            12.91,
+            14.67,
+            18.48
+          ],
+          "score": 0.710402
+        },
+        {
+          "frame_index": 130,
+          "time_s": 8.125,
+          "bbox_xywh": [
+            613.03,
+            599.92,
+            52.07,
+            65.2
+          ],
+          "score": 0.631818
+        },
+        {
+          "frame_index": 133,
+          "time_s": 8.3125,
+          "bbox_xywh": [
+            484.48,
+            454.02,
+            34.2,
+            44.6
+          ],
+          "score": 0.734936
+        },
+        {
+          "frame_index": 134,
+          "time_s": 8.375,
+          "bbox_xywh": [
+            475.53,
+            459.24,
+            33.35,
+            42.54
+          ],
+          "score": 0.727245
+        },
+        {
+          "frame_index": 135,
+          "time_s": 8.4375,
+          "bbox_xywh": [
+            471.25,
+            459.52,
+            31.87,
+            40.88
+          ],
+          "score": 0.75851
+        },
+        {
+          "frame_index": 136,
+          "time_s": 8.5,
+          "bbox_xywh": [
+            458.64,
+            454.98,
+            33.81,
+            43.33
+          ],
+          "score": 0.773928
+        }
+      ],
+      "error": null,
+      "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__002__000011750-000020333__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+      "scan_fps": 16.0,
+      "width": 1280,
+      "height": 720,
+      "expected_frames": 137
+    },
+    "face_crop_required": true,
+    "source_edge_sha256": "34a2ada8e23997ee6d4de2fb1b60fb27f2fae63fac83f9abb838ad3684482285",
+    "source_bytes": 214168975
+  },
+  {
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004170124_0009_D.MP4",
+    "file": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__003__000020417-000031659__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+    "start_s": 20.417,
+    "end_s": 31.659,
+    "state": "motion_proposal",
+    "status": "motion_proposal",
+    "next_state": "second_pass_required",
+    "second_pass_required": true,
+    "second_pass_completed": false,
+    "action": "unreviewed_hand_activity",
+    "response": "unreviewed_animal_response",
+    "interaction_mode": null,
+    "animal_type": null,
+    "caption_text": null,
+    "caption_verified": false,
+    "semantic_valid": false,
+    "training_ready": false,
+    "semantic_reviewed": false,
+    "privacy_reviewed": false,
+    "accepted_for_training": false,
+    "keypoint_ready": false,
+    "pipeline_version": "autonomous_batch_20261011-hand-presence-motion-proposals-v4",
+    "analysis": {
+      "sample_fps": 3.0,
+      "detector_backend": "mediapipe_solutions_hands",
+      "detector_version": "0.10.21",
+      "model_sha256": null,
+      "detector_status": "ready",
+      "hand_frames": 55,
+      "frames": 95,
+      "proposal_count": 3,
+      "sample_times_s": [
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        1.0,
+        1.3333333333333333,
+        1.6666666666666667,
+        2.0,
+        2.3333333333333335,
+        2.6666666666666665,
+        3.0,
+        3.3333333333333335,
+        3.6666666666666665,
+        4.0,
+        4.333333333333333,
+        4.666666666666667,
+        5.0,
+        5.333333333333333,
+        5.666666666666667,
+        6.0,
+        6.333333333333333,
+        6.666666666666667,
+        7.0,
+        7.333333333333333,
+        7.666666666666667,
+        8.0,
+        8.333333333333334,
+        8.666666666666666,
+        9.0,
+        9.333333333333334,
+        9.666666666666666,
+        10.0,
+        10.333333333333334,
+        10.666666666666666,
+        11.0,
+        11.333333333333334,
+        11.666666666666666,
+        12.0,
+        12.333333333333334,
+        12.666666666666666,
+        13.0,
+        13.333333333333334,
+        13.666666666666666,
+        14.0,
+        14.333333333333334,
+        14.666666666666666,
+        15.0,
+        15.333333333333334,
+        15.666666666666666,
+        16.0,
+        16.333333333333332,
+        16.666666666666668,
+        17.0,
+        17.333333333333332,
+        17.666666666666668,
+        18.0,
+        18.333333333333332,
+        18.666666666666668,
+        19.0,
+        19.333333333333332,
+        19.666666666666668,
+        20.0,
+        20.333333333333332,
+        20.666666666666668,
+        21.0,
+        21.333333333333332,
+        21.666666666666668,
+        22.0,
+        22.333333333333332,
+        22.666666666666668,
+        23.0,
+        23.333333333333332,
+        23.666666666666668,
+        24.0,
+        24.333333333333332,
+        24.666666666666668,
+        25.0,
+        25.333333333333332,
+        25.666666666666668,
+        26.0,
+        26.333333333333332,
+        26.666666666666668,
+        27.0,
+        27.333333333333332,
+        27.666666666666668,
+        28.0,
+        28.333333333333332,
+        28.666666666666668,
+        29.0,
+        29.333333333333332,
+        29.666666666666668,
+        30.0,
+        30.333333333333332,
+        30.666666666666668,
+        31.0,
+        31.333333333333332
+      ],
+      "hand_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        0,
+        2,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_sampled_frames_decoded": true
+    },
+    "source_orientation": "landscape",
+    "source_coverage_status": "proposal_only",
+    "face_count_detected": 32,
+    "face_removal_method": "fixed_crop_or_reject_required",
+    "faces_remaining_after_crop": null,
+    "subject_clarity_after_crop": null,
+    "review_reason": "recognizable_face_remaining_or_fixed_crop_required",
+    "boundary_evidence": {
+      "hand_transition_checked": false,
+      "split_or_merge_reason": "broad hand-presence proposal; semantic review required",
+      "causal_start_s": null,
+      "action_or_condition_onset_s": null,
+      "response_onset_s": null,
+      "response_evidence_s": null,
+      "tail_checked_until_s": null,
+      "response_complete": false,
+      "source_end_truncated": null,
+      "temporal_envelope": "motion_proposal",
+      "encoded_format_verified": true,
+      "encoded_semantics_verified": false
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": "16/1",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "duration": 11.125,
+    "decoded_frames": 178,
+    "normalized_frame_count": 178,
+    "audio": false,
+    "face_detection": {
+      "status": "faces_detected_fixed_crop_or_reject",
+      "detector_backend": "opencv_yunet",
+      "detector_version": "4.13.0",
+      "all_frames_checked": true,
+      "frames_checked": 178,
+      "frames_with_faces": 30,
+      "face_count_detected": 32,
+      "hits": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "bbox_xywh": [
+            432.82,
+            469.5,
+            31.69,
+            39.88
+          ],
+          "score": 0.693465
+        },
+        {
+          "frame_index": 1,
+          "time_s": 0.0625,
+          "bbox_xywh": [
+            416.16,
+            475.61,
+            27.96,
+            35.83
+          ],
+          "score": 0.680185
+        },
+        {
+          "frame_index": 2,
+          "time_s": 0.125,
+          "bbox_xywh": [
+            401.26,
+            482.25,
+            27.68,
+            35.38
+          ],
+          "score": 0.641054
+        },
+        {
+          "frame_index": 3,
+          "time_s": 0.1875,
+          "bbox_xywh": [
+            378.84,
+            478.7,
+            27.98,
+            35.54
+          ],
+          "score": 0.614481
+        },
+        {
+          "frame_index": 4,
+          "time_s": 0.25,
+          "bbox_xywh": [
+            359.25,
+            480.9,
+            32.55,
+            39.18
+          ],
+          "score": 0.749279
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.3125,
+          "bbox_xywh": [
+            340.54,
+            488.38,
+            35.1,
+            42.73
+          ],
+          "score": 0.765595
+        },
+        {
+          "frame_index": 8,
+          "time_s": 0.5,
+          "bbox_xywh": [
+            292.28,
+            499.49,
+            41.3,
+            46.58
+          ],
+          "score": 0.682417
+        },
+        {
+          "frame_index": 11,
+          "time_s": 0.6875,
+          "bbox_xywh": [
+            243.83,
+            504.98,
+            43.3,
+            53.32
+          ],
+          "score": 0.673125
+        },
+        {
+          "frame_index": 12,
+          "time_s": 0.75,
+          "bbox_xywh": [
+            231.11,
+            513.06,
+            42.66,
+            51.52
+          ],
+          "score": 0.61043
+        },
+        {
+          "frame_index": 13,
+          "time_s": 0.8125,
+          "bbox_xywh": [
+            218.01,
+            508.9,
+            45.38,
+            55.59
+          ],
+          "score": 0.784756
+        },
+        {
+          "frame_index": 14,
+          "time_s": 0.875,
+          "bbox_xywh": [
+            210.8,
+            516.97,
+            42.73,
+            50.66
+          ],
+          "score": 0.641381
+        },
+        {
+          "frame_index": 15,
+          "time_s": 0.9375,
+          "bbox_xywh": [
+            206.51,
+            516.37,
+            42.14,
+            47.79
+          ],
+          "score": 0.661552
+        },
+        {
+          "frame_index": 17,
+          "time_s": 1.0625,
+          "bbox_xywh": [
+            197.7,
+            517.4,
+            42.3,
+            54.16
+          ],
+          "score": 0.760282
+        },
+        {
+          "frame_index": 18,
+          "time_s": 1.125,
+          "bbox_xywh": [
+            191.23,
+            516.99,
+            45.75,
+            55.97
+          ],
+          "score": 0.763113
+        },
+        {
+          "frame_index": 19,
+          "time_s": 1.1875,
+          "bbox_xywh": [
+            193.62,
+            513.87,
+            44.23,
+            53.81
+          ],
+          "score": 0.793324
+        },
+        {
+          "frame_index": 20,
+          "time_s": 1.25,
+          "bbox_xywh": [
+            195.14,
+            519.07,
+            43.38,
+            51.84
+          ],
+          "score": 0.714291
+        },
+        {
+          "frame_index": 21,
+          "time_s": 1.3125,
+          "bbox_xywh": [
+            187.59,
+            510.64,
+            45.09,
+            54.98
+          ],
+          "score": 0.760352
+        },
+        {
+          "frame_index": 22,
+          "time_s": 1.375,
+          "bbox_xywh": [
+            183.7,
+            506.88,
+            45.97,
+            53.32
+          ],
+          "score": 0.689013
+        },
+        {
+          "frame_index": 23,
+          "time_s": 1.4375,
+          "bbox_xywh": [
+            177.02,
+            496.17,
+            47.13,
+            54.81
+          ],
+          "score": 0.703904
+        },
+        {
+          "frame_index": 24,
+          "time_s": 1.5,
+          "bbox_xywh": [
+            181.48,
+            504.57,
+            43.79,
+            50.99
+          ],
+          "score": 0.688697
+        },
+        {
+          "frame_index": 26,
+          "time_s": 1.625,
+          "bbox_xywh": [
+            173.23,
+            479.98,
+            50.31,
+            54.93
+          ],
+          "score": 0.61988
+        },
+        {
+          "frame_index": 27,
+          "time_s": 1.6875,
+          "bbox_xywh": [
+            765.66,
+            39.3,
+            30.08,
+            40.79
+          ],
+          "score": 0.694692
+        },
+        {
+          "frame_index": 27,
+          "time_s": 1.6875,
+          "bbox_xywh": [
+            174.93,
+            479.87,
+            47.11,
+            54.24
+          ],
+          "score": 0.622396
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            176.65,
+            473.71,
+            47.97,
+            51.1
+          ],
+          "score": 0.67785
+        },
+        {
+          "frame_index": 28,
+          "time_s": 1.75,
+          "bbox_xywh": [
+            766.66,
+            29.48,
+            31.38,
+            44.77
+          ],
+          "score": 0.63108
+        },
+        {
+          "frame_index": 30,
+          "time_s": 1.875,
+          "bbox_xywh": [
+            171.96,
+            452.39,
+            45.19,
+            51.68
+          ],
+          "score": 0.772664
+        },
+        {
+          "frame_index": 31,
+          "time_s": 1.9375,
+          "bbox_xywh": [
+            769.51,
+            6.07,
+            34.06,
+            43.25
+          ],
+          "score": 0.615005
+        },
+        {
+          "frame_index": 32,
+          "time_s": 2.0,
+          "bbox_xywh": [
+            770.48,
+            0.48,
+            36.01,
+            41.08
+          ],
+          "score": 0.65686
+        },
+        {
+          "frame_index": 54,
+          "time_s": 3.375,
+          "bbox_xywh": [
+            183.36,
+            273.1,
+            126.43,
+            150.62
+          ],
+          "score": 0.603124
+        },
+        {
+          "frame_index": 61,
+          "time_s": 3.8125,
+          "bbox_xywh": [
+            227.16,
+            303.82,
+            79.46,
+            110.1
+          ],
+          "score": 0.65256
+        },
+        {
+          "frame_index": 62,
+          "time_s": 3.875,
+          "bbox_xywh": [
+            230.49,
+            306.48,
+            75.21,
+            102.27
+          ],
+          "score": 0.676948
+        },
+        {
+          "frame_index": 176,
+          "time_s": 11.0,
+          "bbox_xywh": [
+            650.98,
+            37.61,
+            14.64,
+            17.0
+          ],
+          "score": 0.626413
+        }
+      ],
+      "error": null,
+      "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/clips/DJI_20261004170124_0009_D/DJI_20261004170124_0009_D__003__000020417-000031659__unreviewed_hand_activity__unreviewed_animal_response.mp4",
+      "scan_fps": 16.0,
+      "width": 1280,
+      "height": 720,
+      "expected_frames": 178
+    },
+    "face_crop_required": true,
+    "source_edge_sha256": "34a2ada8e23997ee6d4de2fb1b60fb27f2fae63fac83f9abb838ad3684482285",
+    "source_bytes": 214168975
+  }
+]

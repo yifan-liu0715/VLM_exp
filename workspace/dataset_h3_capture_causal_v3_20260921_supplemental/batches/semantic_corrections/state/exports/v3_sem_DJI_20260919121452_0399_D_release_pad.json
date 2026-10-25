@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260919121452_0399_D_release_pad",
+  "boundary_signature": "63275dffa06922b222ddc0e33bb008a939e05e1983ebda4dc3d4793dc9928b30",
+  "export_signature": "b61d2c0bb71c0a01b52a72c14a057c519106b531eac069cf927a56ffdf14b184",
+  "output_sha256": "9f6f25f3dc81864b5232e34d766a199884e5a776c6c5c38987d3a4572596d7f3",
+  "output": {
+    "duration_sec": 3.584,
+    "size_bytes": 1275387,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 86,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

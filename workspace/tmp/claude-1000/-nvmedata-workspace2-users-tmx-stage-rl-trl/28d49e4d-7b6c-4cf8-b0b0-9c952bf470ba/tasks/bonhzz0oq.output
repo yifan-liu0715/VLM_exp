@@ -1,0 +1,7 @@
+[Eval] Loading val dataset: /nvmedata/workspace2/users/tmx/val_dataset/qwen25vl_annotations_val.json
+[Eval] 1000 samples to evaluate
+[Eval] Loading full-parameter checkpoint: /nvmedata/workspace2/users/tmx/stage_rl_trl/outputs/exp044_no_tiny_lr5e7_beta01/checkpoint-5100
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.01it/s]
+[Eval] Resuming from sample 20 (loaded 20 existing predictions)
+[Eval] Running inference from sample 20...
+Evaluating:   2%|▏         | 20/1000 [00:00<?, ?it/s]Evaluating:   2%|▏         | 21/1000 [00:01<17:39,  1.08s/it]Evaluating:   2%|▏         | 22/1000 [00:02<20:47,  1.28s/it]Evaluating:   2%|▏         | 23/1000 [00:03<21:39,  1.33s/it]Evaluating:   2%|▏         | 24/1000 [00:04<15:39,  1.04it/s]Evaluating:   2%|▎         | 25/1000 [00:04<12:20,  1.32it/s]Evaluating:   3%|▎         | 26/1000 [00:06<15:30,  1.05it/s]Evaluating:   3%|▎         | 27/1000 [00:07<17:48,  1.10s/it]Evaluating:   3%|▎         | 28/1000 [00:07<14:17,  1.13it/s]

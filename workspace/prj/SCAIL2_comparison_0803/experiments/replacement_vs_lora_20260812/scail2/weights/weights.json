@@ -1,0 +1,8 @@
+{
+  "policy": "pointer_only_no_weight_copy",
+  "weight": {
+    "path": "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/weights/converted/SCAIL-2.safetensors",
+    "sha256": "8b844f026510f0b94d3209d66444b403a089ec179dc149d85513c13b2fa37118",
+    "role": "official converted SCAIL-2 inference weight"
+  }
+}

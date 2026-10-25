@@ -1,0 +1,490 @@
+# Second-pass review queue
+
+These are mechanical proposals or uncovered/uncertain source intervals. No item is semantically accepted.
+
+- `DJI_20261004171001_0023_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004171052_0024_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004171110_0025_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004171755_0026_D`: status=motion_proposals_created; clips=5; second_pass_required=11; reason=semantic review required.
+- `DJI_20261004171900_0027_D`: status=motion_proposals_created; clips=5; second_pass_required=11; reason=semantic review required.
+- `DJI_20261004172109_0028_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004172218_0029_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172302_0030_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172325_0031_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172358_0032_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172430_0033_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172449_0034_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172500_0035_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172513_0036_D`: status=motion_proposals_created; clips=2; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172525_0037_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004172625_0038_D`: status=motion_proposals_created; clips=2; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004172835_0039_D`: status=motion_proposals_created; clips=2; second_pass_required=4; reason=semantic review required.
+- `DJI_20261004173143_0040_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004173321_0041_D`: status=motion_proposals_created; clips=2; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004173522_0042_D`: status=motion_proposals_created; clips=1; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004173539_0043_D`: status=exists_valid; clips=2; second_pass_required=4; reason=semantic review required.
+- `DJI_20261004173556_0044_D`: status=motion_proposals_created; clips=3; second_pass_required=6; reason=semantic review required.
+- `DJI_20261004173926_0045_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004173948_0046_D`: status=motion_proposals_created; clips=2; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004174009_0047_D`: status=motion_proposals_created; clips=4; second_pass_required=7; reason=semantic review required.
+- `DJI_20261004174250_0048_D`: status=exists_valid; clips=3; second_pass_required=5; reason=semantic review required.
+- `DJI_20261004175505_0049_D`: status=motion_proposals_created; clips=7; second_pass_required=12; reason=semantic review required.
+- `DJI_20261004183427_0050_D`: status=motion_proposals_created; clips=3; second_pass_required=6; reason=semantic review required.
+- `DJI_20261004183656_0051_D`: status=motion_proposals_created; clips=2; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004183831_0052_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004184024_0053_D`: status=motion_proposals_created; clips=33; second_pass_required=62; reason=semantic review required.
+- `DJI_20261004184518_0054_D`: status=motion_proposals_created; clips=20; second_pass_required=40; reason=semantic review required.
+- `DJI_20261004185120_0055_D`: status=motion_proposals_created; clips=3; second_pass_required=6; reason=semantic review required.
+- `DJI_20261004185159_0056_D`: status=motion_proposals_created; clips=19; second_pass_required=39; reason=semantic review required.
+- `DJI_20261004185402_0057_D`: status=motion_proposals_created; clips=20; second_pass_required=38; reason=semantic review required.
+- `DJI_20261004185500_0058_D`: status=motion_proposals_created; clips=3; second_pass_required=7; reason=semantic review required.
+- `DJI_20261004185513_0059_D`: status=motion_proposals_created; clips=2; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004185526_0060_D`: status=motion_proposals_created; clips=3; second_pass_required=5; reason=semantic review required.
+- `DJI_20261004185539_0061_D`: status=motion_proposals_created; clips=1; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004185556_0062_D`: status=motion_proposals_created; clips=4; second_pass_required=8; reason=semantic review required.
+- `DJI_20261004185616_0063_D`: status=motion_proposals_created; clips=5; second_pass_required=11; reason=semantic review required.
+- `DJI_20261004185657_0064_D`: status=motion_proposals_created; clips=1; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004185723_0065_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004185733_0066_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004185747_0067_D`: status=motion_proposals_created; clips=1; second_pass_required=1; reason=semantic review required.
+- `DJI_20261004185811_0068_D`: status=motion_proposals_created; clips=2; second_pass_required=5; reason=semantic review required.
+- `DJI_20261004185856_0069_D`: status=motion_proposals_created; clips=1; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004185954_0070_D`: status=motion_proposals_created; clips=1; second_pass_required=3; reason=semantic review required.
+- `DJI_20261004190023_0071_D`: status=exists_valid; clips=6; second_pass_required=12; reason=semantic review required.
+- `DJI_20261004190104_0072_D`: status=motion_proposals_created; clips=1; second_pass_required=2; reason=semantic review required.
+- `DJI_20261004190125_0073_D`: status=motion_proposals_created; clips=2; second_pass_required=5; reason=semantic review required.
+- `DJI_20261004190154_0074_D`: status=motion_proposals_created; clips=5; second_pass_required=10; reason=semantic review required.
+- `DJI_20261004192447_0075_D`: status=motion_proposals_created; clips=9; second_pass_required=17; reason=semantic review required.
+- `DJI_20261004192634_0076_D`: status=motion_proposals_created; clips=19; second_pass_required=36; reason=semantic review required.
+- `DJI_20261004192922_0077_D`: status=motion_proposals_created; clips=4; second_pass_required=8; reason=semantic review required.
+
+## Intervals requiring second pass
+
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171001_0023_D.MP4` [0.0–6.167] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171001_0023_D.MP4` [6.167–6.912] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171052_0024_D.MP4` [0.0–12.608] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171110_0025_D.MP4` [0.0–7.018667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [0.0–1.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [1.083–2.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [2.667–4.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [4.083–5.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [5.667–9.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [9.083–20.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [20.333–22.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [22.083–24.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [24.0–28.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [28.75–30.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171755_0026_D.MP4` [30.333–40.426667] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [0.0–5.25] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [5.25–9.167] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [9.167–9.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [9.583–11.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [11.667–12.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [12.583–19.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [19.0–19.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [19.583–22.167] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [22.167–23.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [23.75–25.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004171900_0027_D.MP4` [25.0–28.48] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172109_0028_D.MP4` [0.0–0.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172109_0028_D.MP4` [0.583–10.944] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172218_0029_D.MP4` [0.0–16.789] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172302_0030_D.MP4` [0.0–17.216] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172325_0031_D.MP4` [0.0–28.501] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172358_0032_D.MP4` [0.0–7.594667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172430_0033_D.MP4` [0.0–13.568] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172449_0034_D.MP4` [0.0–6.293] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172500_0035_D.MP4` [0.0–8.576] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172513_0036_D.MP4` [0.0–7.722667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172525_0037_D.MP4` [0.0–12.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172525_0037_D.MP4` [12.0–12.352] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172625_0038_D.MP4` [0.0–26.474667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172835_0039_D.MP4` [0.0–1.833] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172835_0039_D.MP4` [1.833–5.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172835_0039_D.MP4` [5.417–7.5] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004172835_0039_D.MP4` [7.5–7.850667] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173143_0040_D.MP4` [0.0–13.5] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173143_0040_D.MP4` [13.5–18.581333] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173321_0041_D.MP4` [0.0–1.25] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173321_0041_D.MP4` [1.25–4.833] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173321_0041_D.MP4` [4.833–5.44] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173522_0042_D.MP4` [0.0–7.25] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173522_0042_D.MP4` [7.25–10.833] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173522_0042_D.MP4` [10.833–12.522667] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173539_0043_D.MP4` [0.0–0.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173539_0043_D.MP4` [0.75–2.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173539_0043_D.MP4` [2.0–9.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173539_0043_D.MP4` [9.083–11.221] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [0.0–1.167] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [1.167–3.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [3.417–5.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [5.0–8.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [8.75–10.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173556_0044_D.MP4` [10.333–11.605333] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173926_0045_D.MP4` [0.0–16.384] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173948_0046_D.MP4` [0.0–9.167] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173948_0046_D.MP4` [9.167–9.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004173948_0046_D.MP4` [9.583–10.816] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [0.0–7.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [7.667–8.25] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [8.25–14.5] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [14.5–15.583] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [15.583–16.833] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [16.833–20.917] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174009_0047_D.MP4` [20.917–23.104] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174250_0048_D.MP4` [0.0–1.5] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174250_0048_D.MP4` [1.5–2.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174250_0048_D.MP4` [2.75–10.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174250_0048_D.MP4` [10.0–11.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004174250_0048_D.MP4` [11.75–13.12] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [0.0–1.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [1.083–2.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [2.333–5.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [5.75–16.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [16.0–16.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [16.417–20.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [20.0–20.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [20.75–23.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [23.083–29.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [29.083–31.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [31.75–34.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004175505_0049_D.MP4` [34.0–34.56] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [0.0–5.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [5.417–6.833] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [6.833–12.25] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [12.25–19.5] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [19.5–20.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183427_0050_D.MP4` [20.083–21.653] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183656_0051_D.MP4` [0.0–1.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183656_0051_D.MP4` [1.75–31.872] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004183831_0052_D.MP4` [0.0–12.181] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [0.083–1.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [1.667–3.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [3.417–10.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [10.0–11.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [11.083–14.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [14.333–15.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [15.083–17.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [17.083–22.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [22.667–24.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [24.417–29.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [29.667–35.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [35.417–37.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [37.333–39.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [39.083–40.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [40.333–41.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [41.083–42.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [42.667–43.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [43.75–45.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [45.667–46.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [46.083–53.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [53.0–54.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [54.083–57.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [57.0–58.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [58.417–60.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [60.0–60.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [60.75–64.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [64.667–66.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [66.083–68.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [68.0–70.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [70.083–71.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [71.333–72.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [72.083–73.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [73.667–74.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [74.417–75.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [75.667–76.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [76.083–85.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [85.0–85.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [85.75–91.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [91.333–91.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [91.75–93.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [93.417–95.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [95.0–96.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [96.083–101.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [101.333–103.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [103.083–110.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [110.0–111.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [111.083–113.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [113.0–115.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [115.083–117.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [117.0–119.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [119.417–123.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [123.333–124.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [124.417–126.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [126.0–126.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [126.75–129.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [129.0–131.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [131.083–132.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [132.333–134.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [134.417–138.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [138.417–153.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [153.333–155.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184024_0053_D.MP4` [155.417–156.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [0.0–2.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [2.417–4.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [4.333–22.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [22.417–29.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [29.333–56.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [56.417–81.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [81.333–94.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [94.083–117.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [117.667–151.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [151.417–153.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [153.667–155.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [155.417–157.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [157.333–172.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [172.083–189.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [189.0–206.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [206.417–208.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [208.0–214.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [214.083–215.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [215.333–239.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [239.417–240.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [240.667–264.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [264.75–268.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [268.667–269.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [269.75–275.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [275.667–276.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [276.083–278.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [278.0–343.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [343.75–345.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [345.75–347.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [347.0–363.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [363.083–364.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [364.333–400.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [400.417–403.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [403.667–435.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [435.75–437.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [437.667–454.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [454.417–455.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [455.667–482.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [482.083–483.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004184518_0054_D.MP4` [483.333–509.342167] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [0.0–53.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [53.667–59.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [59.417–62.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [62.0–62.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [62.417–64.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185120_0055_D.MP4` [64.333–66.6666] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [0.0–6.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [6.75–64.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [64.333–74.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [74.417–83.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [83.333–85.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [85.417–93.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [93.667–102.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [102.417–110.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [110.667–143.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [143.417–150.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [150.0–164.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [164.75–169.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [169.333–171.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [171.083–180.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [180.333–195.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [195.083–197.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [197.0–200.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [200.417–201.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [201.667–202.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [202.75–204.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [204.0–210.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [210.75–226.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [226.333–230.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [230.417–244.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [244.0–244.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [244.417–252.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [252.667–255.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [255.417–259.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [259.0–271.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [271.417–276.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [276.333–301.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [301.083–308.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [308.333–333.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [333.083–334.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [334.333–339.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [339.417–340.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [340.667–354.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [354.083–355.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185159_0056_D.MP4` [355.667–419.485733] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [0.0–8.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [8.417–15.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [15.333–19.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [19.75–45.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [45.0–45.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [45.417–48.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [48.0–51.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [51.417–61.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [61.083–110.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [110.667–111.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [111.083–134.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [134.667–135.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [135.75–137.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [137.333–139.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [139.083–142.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [142.333–143.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [143.083–149.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [149.333–152.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [152.417–153.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [153.667–156.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [156.417–157.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [157.667–158.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [158.083–160.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [160.333–165.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [165.75–167.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [167.0–171.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [171.75–176.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [176.0–179.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [179.417–183.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [183.0–185.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [185.083–186.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [186.667–188.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [188.75–295.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [295.083–297.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [297.0–312.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [312.75–319.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [319.333–334.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185402_0057_D.MP4` [334.75–337.003] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [0.0–10.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [10.417–12.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [12.0–15.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [15.417–38.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [38.667–40.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [40.417–59.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185500_0058_D.MP4` [59.667–60.627233] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185513_0059_D.MP4` [0.0–3.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185513_0059_D.MP4` [3.083–44.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185513_0059_D.MP4` [44.75–84.751] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185526_0060_D.MP4` [0.0–59.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185526_0060_D.MP4` [59.667–71.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185526_0060_D.MP4` [71.083–72.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185526_0060_D.MP4` [72.333–74.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185526_0060_D.MP4` [74.417–75.141733] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185539_0061_D.MP4` [0.0–8.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185539_0061_D.MP4` [8.75–59.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185539_0061_D.MP4` [59.333–69.2692] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [0.0–4.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [4.083–24.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [24.0–30.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [30.417–35.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [35.667–37.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [37.083–81.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [81.417–82.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185556_0062_D.MP4` [82.667–88.7887] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [0.0–8.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [8.083–20.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [20.667–23.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [23.75–26.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [26.667–31.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [31.083–34.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [34.0–34.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [34.75–84.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [84.333–93.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [93.083–135.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185616_0063_D.MP4` [135.333–143.076267] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185657_0064_D.MP4` [0.0–7.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185657_0064_D.MP4` [7.417–35.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185657_0064_D.MP4` [35.333–87.520767] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185723_0065_D.MP4` [0.0–0.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185723_0065_D.MP4` [0.75–44.677967] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185733_0066_D.MP4` [0.0–76.743] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185747_0067_D.MP4` [0.0–102.7026] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185811_0068_D.MP4` [0.0–9.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185811_0068_D.MP4` [9.75–76.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185811_0068_D.MP4` [76.333–82.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185811_0068_D.MP4` [82.417–83.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185811_0068_D.MP4` [83.667–84.050633] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185856_0069_D.MP4` [0.0–11.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185856_0069_D.MP4` [11.417–20.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185856_0069_D.MP4` [20.667–82.082] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185954_0070_D.MP4` [0.0–9.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185954_0070_D.MP4` [9.75–69.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004185954_0070_D.MP4` [69.0–76.743333] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [0.0–7.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [7.75–9.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [9.0–9.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [9.417–11.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [11.333–14.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [14.417–35.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [35.333–70.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [70.75–72.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [72.083–73.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [73.667–83.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [83.417–117.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190023_0071_D.MP4` [117.333–125.3252] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190104_0072_D.MP4` [0.0–48.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190104_0072_D.MP4` [48.333–54.9549] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190125_0073_D.MP4` [0.0–6.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190125_0073_D.MP4` [6.083–17.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190125_0073_D.MP4` [17.667–29.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190125_0073_D.MP4` [29.083–77.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190125_0073_D.MP4` [77.0–95.095] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [0.0–6.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [6.75–11.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [11.333–15.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [15.083–23.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [23.0–23.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [23.417–69.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [69.0–74.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [74.083–75.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [75.333–80.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004190154_0074_D.MP4` [80.417–154.521] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [0.0–8.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [8.0–10.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [10.083–66.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [66.667–67.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [67.417–68.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [68.667–72.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [72.75–150.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [150.333–154.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [154.083–213.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [213.333–227.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [227.417–477.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [477.667–485.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [485.75–490.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [490.0–495.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [495.083–496.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [496.417–527.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192447_0075_D.MP4` [527.333–539.772567] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [0.0–6.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [6.417–95.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [95.333–101.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [101.75–104.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [104.667–105.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [105.083–107.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [107.333–109.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [109.417–111.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [111.667–112.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [112.417–167.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [167.0–174.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [174.75–192.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [192.667–219.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [219.75–221.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [221.0–231.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [231.417–259.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [259.333–260.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [260.083–264.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [264.0–265.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [265.75–268.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [268.667–271.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [271.417–274.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [274.333–299.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [299.083–323.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [323.333–326.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [326.417–329.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [329.0–340.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [340.417–388.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [388.083–391.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [391.333–391.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [391.75–396.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [396.333–397.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [397.083–409.667] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [409.667–413.417] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [413.417–423.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192634_0076_D.MP4` [423.417–425.091] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [0.0–54.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [54.083–59.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [59.333–72.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [72.75–126.333] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [126.333–127.75] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [127.75–176.0] `hand_proposal`: mechanical_hand_proposal
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [176.0–192.083] `uncovered_source_interval`: uncovered_source_interval
+- `/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_20261011/staging/raw/DJI_20261004192922_0077_D.MP4` [192.083–203.269733] `hand_proposal`: mechanical_hand_proposal

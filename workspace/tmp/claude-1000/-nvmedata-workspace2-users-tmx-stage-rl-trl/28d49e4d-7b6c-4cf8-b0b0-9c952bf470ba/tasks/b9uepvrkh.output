@@ -1,0 +1,23 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.25s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+
+[TTA] Evaluating 1000 samples with horizontal flip augmentation
+TTA Eval:   0%|          | 0/1000 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   0%|          | 1/1000 [00:02<36:57,  2.22s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+TTA Eval:   0%|          | 1/1000 [00:06<1:48:56,  6.54s/it]
+  [0] orig: This is a good, defect-free sample....
+  [0] flip: This is a good, defect-free sample....
+  [0] merged boxes: 0
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_tta.py", line 340, in <module>
+    main()
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_tta.py", line 283, in main
+    entries_flip = [{'label': e['label'], 'bbox': flip_boxes_horizontal(e['bbox'], img.width)}
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/tmx/stage_rl_trl/scripts/eval_tta.py", line 90, in flip_boxes_horizontal
+    x1, y1, x2, y2 = box
+    ^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable int object

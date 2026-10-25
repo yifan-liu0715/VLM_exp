@@ -1,0 +1,127 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 76,
+  "frames_with_faces": 10,
+  "face_count_detected": 10,
+  "hits": [
+    {
+      "frame_index": 18,
+      "time_s": 1.125,
+      "bbox_xywh": [
+        517.94,
+        298.93,
+        127.35,
+        200.61
+      ],
+      "score": 0.670835
+    },
+    {
+      "frame_index": 22,
+      "time_s": 1.375,
+      "bbox_xywh": [
+        804.93,
+        1.67,
+        86.74,
+        71.65
+      ],
+      "score": 0.720396
+    },
+    {
+      "frame_index": 30,
+      "time_s": 1.875,
+      "bbox_xywh": [
+        820.1,
+        -1.33,
+        76.44,
+        85.05
+      ],
+      "score": 0.78007
+    },
+    {
+      "frame_index": 31,
+      "time_s": 1.9375,
+      "bbox_xywh": [
+        820.54,
+        -1.11,
+        77.38,
+        82.3
+      ],
+      "score": 0.758313
+    },
+    {
+      "frame_index": 32,
+      "time_s": 2.0,
+      "bbox_xywh": [
+        819.19,
+        3.42,
+        81.33,
+        79.93
+      ],
+      "score": 0.698708
+    },
+    {
+      "frame_index": 34,
+      "time_s": 2.125,
+      "bbox_xywh": [
+        765.32,
+        128.71,
+        172.69,
+        249.56
+      ],
+      "score": 0.642561
+    },
+    {
+      "frame_index": 40,
+      "time_s": 2.5,
+      "bbox_xywh": [
+        691.86,
+        178.47,
+        51.62,
+        73.79
+      ],
+      "score": 0.636541
+    },
+    {
+      "frame_index": 45,
+      "time_s": 2.8125,
+      "bbox_xywh": [
+        689.51,
+        178.41,
+        55.46,
+        77.06
+      ],
+      "score": 0.621524
+    },
+    {
+      "frame_index": 46,
+      "time_s": 2.875,
+      "bbox_xywh": [
+        688.09,
+        177.51,
+        54.04,
+        75.48
+      ],
+      "score": 0.615293
+    },
+    {
+      "frame_index": 47,
+      "time_s": 2.9375,
+      "bbox_xywh": [
+        688.4,
+        180.86,
+        50.99,
+        69.47
+      ],
+      "score": 0.69725
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/dji__DJI_20261005220906_0169_D/dji__DJI_20261005220906_0169_D__006__000032562-000037312__stroke_spotted_dog_back.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 76
+}

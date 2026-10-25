@@ -1,0 +1,16 @@
+Looking in indexes: https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+Collecting omegaconf==2.3.0
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Collecting av==13.1.0
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/e5/bb/2e03acb9b27591d97f700a3a6c27cfd1bc53fa148177747eda8a70cca1e9/av-13.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.0 MB)
+Collecting decord==0.6.0
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/11/79/936af42edf90a7bd4e41a6cac89c913d4b47fa48a26b042d5129a9242ee3/decord-0.6.0-py3-none-manylinux2010_x86_64.whl (13.6 MB)
+Collecting antlr4-python3-runtime==4.9.* (from omegaconf==2.3.0)
+  Using cached antlr4_python3_runtime-4.9.3-py3-none-any.whl
+Collecting PyYAML>=5.1.0 (from omegaconf==2.3.0)
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/71/60/917329f640924b18ff085ab889a11c763e0b573da888e8404ff486657602/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+Collecting numpy>=1.14.0 (from decord==0.6.0)
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/02/03/74fe2a4cb3817d94d86402f2506554130a2f01414e299b5a843e5a8a957f/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+Installing collected packages: antlr4-python3-runtime, PyYAML, numpy, av, omegaconf, decord
+
+Successfully installed PyYAML-6.0.3 antlr4-python3-runtime-4.9.3 av-13.1.0 decord-0.6.0 numpy-2.4.6 omegaconf-2.3.0

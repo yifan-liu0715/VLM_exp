@@ -1,0 +1,33 @@
+{
+  "sample_id": "mymotion__002",
+  "source_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+  "target_video": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+  "reference_image": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg",
+  "prompt": "Two women sit in green armchairs indoors. On the left, a woman with long blonde hair wears a denim jacket over an orange patterned dress, speaking and gesturing actively. On the right, a woman with short, wavy brown hair in a white sleeveless top listens while resting her hand near a small white dog sitting between them. The background features a wooden table with books, a Cafe Society sign, and a large window overlooking a city.",
+  "bucket": "1280x704",
+  "width": 576,
+  "height": 320,
+  "num_frames": 33,
+  "fps": 24.0,
+  "steps": 30,
+  "seed": 42,
+  "cfg_enabled": true,
+  "guidance_scale": 5.0,
+  "physical_gpu": "2",
+  "base_transformer": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer",
+  "adapter": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/final_adapter/v2v_lora_and_source_patch.safetensors",
+  "adapter_sha256": "b7b92ccc9437c595b83f9d4810d647ce3b24151b5ee1e3e890a484fad0c4802d",
+  "adapter_summary": {
+    "lora": 480,
+    "source_patch": 2,
+    "other": 0
+  },
+  "outputs": {
+    "source": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5/videos/mymotion__002_source.mp4",
+    "target": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5/videos/mymotion__002_target.mp4",
+    "base": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5/videos/mymotion__002_base.mp4",
+    "lora": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5/videos/mymotion__002_lora.mp4",
+    "comparison": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5/videos/mymotion__002_comparison.mp4"
+  },
+  "quality_metrics_computed": false
+}

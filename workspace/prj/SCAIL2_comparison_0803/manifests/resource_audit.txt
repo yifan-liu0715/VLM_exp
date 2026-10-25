@@ -1,0 +1,19 @@
+2026-08-03T23:02:09+08:00
+is-dcrc324uvsgyc6mv-devmachine-0
+Filesystem                 Size  Used Avail Use% Mounted on
+overlay                    100G   58G   43G  58% /
+overlay                    100G   58G   43G  58% /
+/dev/mapper/myvg-mylv      9.9T  8.3T  1.2T  88% /nvmedata
+fs_vepfs-cnbj21438f634dca  6.0T  5.7T  376G  94% /mnt/highspeed
+index, name, memory.total [MiB], memory.used [MiB], memory.free [MiB], utilization.gpu [%]
+0, NVIDIA A100-SXM4-80GB, 81920 MiB, 32347 MiB, 48875 MiB, 62 %
+1, NVIDIA A100-SXM4-80GB, 81920 MiB, 32147 MiB, 49075 MiB, 25 %
+2, NVIDIA A100-SXM4-80GB, 81920 MiB, 1 MiB, 81222 MiB, 0 %
+3, NVIDIA A100-SXM4-80GB, 81920 MiB, 1 MiB, 81222 MiB, 0 %
+4, NVIDIA A100-SXM4-80GB, 81920 MiB, 10267 MiB, 70956 MiB, 96 %
+5, NVIDIA A100-SXM4-80GB, 81920 MiB, 1 MiB, 81222 MiB, 0 %
+6, NVIDIA A100-SXM4-80GB, 81920 MiB, 1 MiB, 81222 MiB, 0 %
+7, NVIDIA A100-SXM4-80GB, 81920 MiB, 44227 MiB, 36995 MiB, 100 %
+conda 25.1.1
+git version 2.34.1
+ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "policy_id": "h3-continuous-long-event-filter-v3-20260923",
+  "expected_input_count": 2045,
+  "expected_removed_count": 29,
+  "expected_output_count": 2016,
+  "expected_output_source_coverage_count": 357,
+  "expected_manual_presence_override_reason_count": 14,
+  "expected_review_additions_count": 14,
+  "expected_removed_parent_counts": {
+    "manual02_0024_001": 7,
+    "manual02_0024_002": 9,
+    "semantic_early_remaining_i0078_01": 13
+  },
+  "allowed_removed_action_families": ["interaction_unverified"],
+  "allowed_removed_action_labels": ["hand_activity_unverified", "interaction_unverified"],
+  "excluded_parent_ids": [
+    "manual02_0024_001",
+    "manual02_0024_002",
+    "semantic_early_remaining_i0078_01"
+  ],
+  "rule": "Do not export short interaction_unverified fragments derived from a reviewed continuous long event without a reliable semantic reset boundary.",
+  "disposition": "Keep the long parent pending for future semantic boundary review; do not fabricate independent actions."
+}

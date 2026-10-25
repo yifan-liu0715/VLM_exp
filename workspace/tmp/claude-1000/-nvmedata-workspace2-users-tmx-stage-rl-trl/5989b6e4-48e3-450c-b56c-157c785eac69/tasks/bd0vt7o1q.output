@@ -1,0 +1,10 @@
+  Clean samples (445): correct_reject=0.9843
+
+  [test.py style]    IoU   Recall   ClsAcc  TP_det  TP_cls    nGT
+  --------------------------------------------------
+                  iou50   0.7018   0.9482     560     531    798
+                  iou80   0.4223   0.9525     337     321    798
+======================================================================
+
+[Eval] Results saved to: results/exp042_ckpt3300.json
+[Eval] Detailed per-sample results: results/exp042_ckpt3300_details.json

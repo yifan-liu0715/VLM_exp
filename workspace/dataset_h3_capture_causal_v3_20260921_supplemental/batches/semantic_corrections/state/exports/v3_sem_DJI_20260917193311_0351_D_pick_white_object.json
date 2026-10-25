@@ -1,0 +1,17 @@
+{
+  "clip_id": "v3_sem_DJI_20260917193311_0351_D_pick_white_object",
+  "boundary_signature": "1dd46d5014536a428870dc668e2d33863ef0a1a2f92bd219a04071851e4a69c0",
+  "export_signature": "2a9ea1bf98e22b4667381eaadb8cbad511de6fb2e481084e14af9bc07dee1a79",
+  "output_sha256": "323e597cec19740136f5bffbd5868a729d07f407d7eb936bd2758e5b470b76d7",
+  "output": {
+    "duration_sec": 3.709,
+    "size_bytes": 733616,
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nb_frames": 89,
+    "audio_streams": 0,
+    "full_decode_verified": true
+  }
+}

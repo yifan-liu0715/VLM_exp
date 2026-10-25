@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "iphone__video_20261005_160510",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/iphone__video_20261005_160510.mp4",
+    "source_relative": "video_20261005_160510.mp4",
+    "collection": "iphone",
+    "local_source": "G:\\data\\raw_data\\iphone_10_05\\video_20261005_160510.mp4",
+    "bytes": 477092665,
+    "size_bytes": 477092665,
+    "edge_sha256": "ab17ea3e4114cd54263596597ab0cfc67d1b897f8ed4e43d4d3651707fb52f7b",
+    "sha256": "ab17ea3e4114cd54263596597ab0cfc67d1b897f8ed4e43d4d3651707fb52f7b",
+    "duration": 53.0599,
+    "width": 3840,
+    "height": 2160,
+    "display_width": 3840,
+    "display_height": 2160,
+    "rotation_deg": -180.0,
+    "landscape": true,
+    "reference_available": false,
+    "status": "pending"
+  },
+  {
+    "source_id": "dji__DJI_20261005160451_0003_D",
+    "source": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/staging/raw/dji__DJI_20261005160451_0003_D.MP4",
+    "source_relative": "DJI_20261005160451_0003_D.MP4",
+    "collection": "dji",
+    "local_source": "G:\\data\\raw_data\\2026_10_05\\DJI_001\\DJI_20261005160451_0003_D.MP4",
+    "bytes": 478508675,
+    "size_bytes": 478508675,
+    "edge_sha256": "e70cdf650cca11b6df108e6504994c7ac1a025e8b94d6cc6d46144db9679c8b8",
+    "sha256": "e70cdf650cca11b6df108e6504994c7ac1a025e8b94d6cc6d46144db9679c8b8",
+    "duration": 78.229333,
+    "width": 3840,
+    "height": 2160,
+    "display_width": 3840,
+    "display_height": 2160,
+    "rotation_deg": 0.0,
+    "landscape": true,
+    "reference_available": false,
+    "status": "pending"
+  }
+]

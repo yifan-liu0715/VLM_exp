@@ -1,0 +1,13 @@
+IMPORT_OK torch 2.9.1+cu126 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torch/__init__.py
+IMPORT_OK torchvision 0.24.1+cu126 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/torchvision/__init__.py
+IMPORT_OK diffusers 0.39.0 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/diffusers/__init__.py
+IMPORT_OK transformers 5.14.1 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/transformers/__init__.py
+IMPORT_OK accelerate 1.14.0 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/accelerate/__init__.py
+IMPORT_OK deepspeed 0.19.3 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/deepspeed/__init__.py
+IMPORT_OK av 18.0.0 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/av/__init__.py
+IMPORT_OK decord 0.6.0 /nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/site-packages/decord/__init__.py
+IMPORT_OK sat source-tree /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2/sat/__init__.py
+no module 'xformers'. Processing without...
+no module 'xformers'. Processing without...
+IMPORT_OK sgm source-tree /nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/code/SCAIL-2/sgm/__init__.py
+ALL_IMPORTS_OK

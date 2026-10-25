@@ -1,0 +1,58 @@
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1323, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1369, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1318, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1078, in _send_output
+    self.send(msg)
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1016, in send
+    self.connect()
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 1488, in connect
+    super().connect()
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/http/client.py", line 982, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/socket.py", line 863, in create_connection
+    raise exceptions[0]
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/socket.py", line 848, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/fetch_sam2_fallback_assets.py", line 151, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/fetch_sam2_fallback_assets.py", line 145, in main
+    data = build_manifest(root, args.verify_only)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/fetch_sam2_fallback_assets.py", line 118, in build_manifest
+    "yolox": fetch_or_verify(
+             ^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/fetch_sam2_fallback_assets.py", line 90, in fetch_or_verify
+    download_atomic(spec.url, path)
+  File "/nvmedata/workspace2/users/nina/prj/SCAIL2_comparison_0803/scripts/fetch_sam2_fallback_assets.py", line 70, in download_atomic
+    with urllib.request.urlopen(request, timeout=120) as response, temporary.open("wb") as handle:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvmedata/workspace2/users/nina/conda_envs/scail2_0803/lib/python3.11/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>

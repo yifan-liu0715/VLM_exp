@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "iphone__video_20261005_163316",
+    "start_s": 0,
+    "end_s": 13.8125,
+    "fps": 8,
+    "crop": [
+      2144,
+      1206,
+      8,
+      1780
+    ],
+    "job_id": "portrait_first_cat"
+  },
+  {
+    "source_id": "iphone__video_20261005_163316",
+    "start_s": 16.75,
+    "end_s": 25.75,
+    "fps": 8,
+    "crop": [
+      2144,
+      1206,
+      8,
+      1450
+    ],
+    "job_id": "portrait_two_cats"
+  },
+  {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 0.25,
+    "end_s": 6.5625,
+    "fps": 8,
+    "crop": [
+      2560,
+      1440,
+      0,
+      0
+    ],
+    "job_id": "dog_neck_and_head_privacy"
+  },
+  {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 0.375,
+    "end_s": 4.375,
+    "fps": 8,
+    "crop": [
+      2752,
+      1548,
+      0,
+      0
+    ],
+    "job_id": "dog_neck_privacy_wide"
+  },
+  {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 4.125,
+    "end_s": 6.625,
+    "fps": 8,
+    "crop": [
+      2560,
+      1440,
+      0,
+      0
+    ],
+    "job_id": "dog_head_privacy"
+  },
+  {
+    "source_id": "iphone__video_20261005_160632",
+    "start_s": 6.5,
+    "end_s": 9.4375,
+    "fps": 8,
+    "crop": [
+      2752,
+      1548,
+      0,
+      0
+    ],
+    "job_id": "dog_chin_privacy"
+  }
+]

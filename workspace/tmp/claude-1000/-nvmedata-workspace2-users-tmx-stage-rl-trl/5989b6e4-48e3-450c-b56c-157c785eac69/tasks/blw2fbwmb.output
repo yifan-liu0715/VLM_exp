@@ -1,0 +1,12 @@
+[19:39:26] exp042_ckpt1800
+/bin/bash: line 26: 2141206 Killed                  nohup env PYTHONPATH=$(pwd):$PYTHONPATH /nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/bin/python scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[19:39:46] exp042_ckpt1800 FAILED (exit 137)
+[19:39:46] exp042_ckpt2100
+/bin/bash: line 26: 2142124 Killed                  nohup env PYTHONPATH=$(pwd):$PYTHONPATH /nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/bin/python scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[19:40:16] exp042_ckpt2100 FAILED (exit 137)
+[19:40:16] exp044_ckpt1800
+/bin/bash: line 26: 2143361 Killed                  nohup env PYTHONPATH=$(pwd):$PYTHONPATH /nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/bin/python scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[19:40:46] exp044_ckpt1800 FAILED (exit 137)
+[19:40:46] exp044_ckpt2400
+/bin/bash: line 26: 2144451 Killed                  nohup env PYTHONPATH=$(pwd):$PYTHONPATH /nvmedata/workspace2/users/tmx/conda_envs/qwen_iad_tmx/bin/python scripts/eval.py --checkpoint "$ckpt" --gpu 2 --output "results/${name}.json" > /tmp/eval_${name}.log 2>&1
+[19:41:16] exp044_ckpt2400 FAILED (exit 137)

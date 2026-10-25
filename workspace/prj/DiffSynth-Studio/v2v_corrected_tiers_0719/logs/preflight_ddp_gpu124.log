@@ -1,0 +1,62 @@
+[launch] physical GPUs=1,2,4; GPU0 forbidden; config=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/configs/train_v2v_corrected_tiers_0719.yaml
+Seed set to 42
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/3
+[rank: 2] Seed set to 42
+[rank: 1] Seed set to 42
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/3
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/3
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 3 processes
+----------------------------------------------------------------------------------------------------
+
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading tokenizer
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native UMT5 encoder
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading native Wan2.2 VAE38
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+[model] loading converted Wan transformer
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:09,  4.89s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:10<00:05,  5.10s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  2.86s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.44s/it]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [1,2,4]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1,2,4]
+[model] transformer parameters=5,094,752,448; trainable parameters=94,964,736
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [1,2,4]
+Loading `train_dataloader` to estimate number of stepping batches.
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:434: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=36` in the `DataLoader` to improve performance.
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:242: Precision bf16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃   ┃ Name         ┃ Type                  ┃ Params ┃ Mode ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ 0 │ text_encoder │ WanTextEncoder        │  5.7 B │ eval │     0 │
+│ 1 │ vae          │ WanVideoVAE38         │  704 M │ eval │     0 │
+│ 2 │ transformer  │ WanTransformer3DModel │  5.1 B │ eval │     0 │
+└───┴──────────────┴───────────────────────┴────────┴──────┴───────┘
+Trainable params: 95.0 M                                                        
+Non-trainable params: 11.4 B                                                    
+Total params: 11.5 B                                                            
+Total estimated model params size (MB): 45,921.406                              
+Modules in train mode: 2400                                                     
+Modules in eval mode: 1615                                                      
+Total FLOPs: 0                                                                  
+/nvmedata/workspace2/conda_data/envs/diffsynth_fixed/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py:538: Found 1615 module(s) in eval mode at the start of training. This may lead to unexpected behavior during training. If this is intentional, you can ignore this warning.
+[checkpoint] wrote compact latest: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/checkpoints/latest_v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1, 'epoch': 0}
+[milestone] wrote immutable tier: {'tier': 'recommended', 'global_step': 1, 'adapter': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'metadata': {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1, 'epoch': 0}}
+`Trainer.fit` stopped: `max_steps=1` reached.
+[milestone] ensured final recommended adapter: {'weights': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/preflight/recommended/final_adapter/v2v_lora_and_source_patch.safetensors', 'tensor_count': 482, 'tensor_bytes': 189929472, 'base_model': '/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_formal_0715/base_components/transformer', 'lora_rank': 64, 'lora_alpha': 64, 'target_modules': ['to_q', 'to_k', 'to_v', 'to_out.0'], 'condition_branch': 'patch_embedding_extra', 'global_step': 1, 'epoch': 1}
+Epoch 0/0                    2/1306 0:00:25 • 2:02:01 0.18it/s v_num: 0.000     
+                                                               train/loss_step: 
+                                                               0.143            
+                                                               train/loss_epoch:
+                                                               0.255            

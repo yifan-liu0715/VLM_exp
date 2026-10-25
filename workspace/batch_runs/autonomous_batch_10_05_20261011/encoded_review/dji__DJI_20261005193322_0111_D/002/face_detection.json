@@ -1,0 +1,50 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 65,
+  "frames_with_faces": 3,
+  "face_count_detected": 3,
+  "hits": [
+    {
+      "frame_index": 8,
+      "time_s": 0.5,
+      "bbox_xywh": [
+        1004.0,
+        204.11,
+        60.34,
+        107.87
+      ],
+      "score": 0.615238
+    },
+    {
+      "frame_index": 18,
+      "time_s": 1.125,
+      "bbox_xywh": [
+        975.85,
+        228.58,
+        67.02,
+        108.63
+      ],
+      "score": 0.63768
+    },
+    {
+      "frame_index": 20,
+      "time_s": 1.25,
+      "bbox_xywh": [
+        970.82,
+        225.38,
+        65.39,
+        106.39
+      ],
+      "score": 0.631773
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/dji__DJI_20261005193322_0111_D/dji__DJI_20261005193322_0111_D__002__000006438-000010500__rub_cat_forehead.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 65
+}

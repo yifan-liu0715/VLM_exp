@@ -1,0 +1,248 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 88,
+  "frames_with_faces": 21,
+  "face_count_detected": 21,
+  "hits": [
+    {
+      "frame_index": 1,
+      "time_s": 0.0625,
+      "bbox_xywh": [
+        690.23,
+        64.58,
+        367.13,
+        501.37
+      ],
+      "score": 0.664021
+    },
+    {
+      "frame_index": 2,
+      "time_s": 0.125,
+      "bbox_xywh": [
+        684.99,
+        194.69,
+        282.34,
+        318.53
+      ],
+      "score": 0.729376
+    },
+    {
+      "frame_index": 3,
+      "time_s": 0.1875,
+      "bbox_xywh": [
+        691.31,
+        235.94,
+        265.24,
+        294.61
+      ],
+      "score": 0.669841
+    },
+    {
+      "frame_index": 4,
+      "time_s": 0.25,
+      "bbox_xywh": [
+        688.26,
+        210.9,
+        318.94,
+        341.27
+      ],
+      "score": 0.725622
+    },
+    {
+      "frame_index": 5,
+      "time_s": 0.3125,
+      "bbox_xywh": [
+        681.64,
+        207.68,
+        308.29,
+        352.38
+      ],
+      "score": 0.783673
+    },
+    {
+      "frame_index": 6,
+      "time_s": 0.375,
+      "bbox_xywh": [
+        685.66,
+        203.56,
+        331.54,
+        340.37
+      ],
+      "score": 0.740697
+    },
+    {
+      "frame_index": 7,
+      "time_s": 0.4375,
+      "bbox_xywh": [
+        604.26,
+        38.37,
+        442.1,
+        539.62
+      ],
+      "score": 0.723173
+    },
+    {
+      "frame_index": 8,
+      "time_s": 0.5,
+      "bbox_xywh": [
+        585.61,
+        70.22,
+        481.26,
+        540.45
+      ],
+      "score": 0.712583
+    },
+    {
+      "frame_index": 9,
+      "time_s": 0.5625,
+      "bbox_xywh": [
+        629.68,
+        102.97,
+        439.57,
+        466.48
+      ],
+      "score": 0.787782
+    },
+    {
+      "frame_index": 10,
+      "time_s": 0.625,
+      "bbox_xywh": [
+        670.21,
+        116.07,
+        413.95,
+        450.7
+      ],
+      "score": 0.654017
+    },
+    {
+      "frame_index": 11,
+      "time_s": 0.6875,
+      "bbox_xywh": [
+        696.35,
+        152.02,
+        419.11,
+        399.44
+      ],
+      "score": 0.698664
+    },
+    {
+      "frame_index": 12,
+      "time_s": 0.75,
+      "bbox_xywh": [
+        677.74,
+        148.5,
+        448.04,
+        413.97
+      ],
+      "score": 0.613463
+    },
+    {
+      "frame_index": 13,
+      "time_s": 0.8125,
+      "bbox_xywh": [
+        656.57,
+        100.4,
+        440.13,
+        468.59
+      ],
+      "score": 0.731357
+    },
+    {
+      "frame_index": 14,
+      "time_s": 0.875,
+      "bbox_xywh": [
+        661.05,
+        165.07,
+        431.21,
+        386.84
+      ],
+      "score": 0.6686
+    },
+    {
+      "frame_index": 17,
+      "time_s": 1.0625,
+      "bbox_xywh": [
+        670.63,
+        167.36,
+        402.59,
+        383.11
+      ],
+      "score": 0.694299
+    },
+    {
+      "frame_index": 20,
+      "time_s": 1.25,
+      "bbox_xywh": [
+        664.71,
+        167.14,
+        407.96,
+        382.51
+      ],
+      "score": 0.619825
+    },
+    {
+      "frame_index": 21,
+      "time_s": 1.3125,
+      "bbox_xywh": [
+        655.28,
+        163.2,
+        413.3,
+        386.37
+      ],
+      "score": 0.628718
+    },
+    {
+      "frame_index": 23,
+      "time_s": 1.4375,
+      "bbox_xywh": [
+        628.65,
+        115.29,
+        430.56,
+        449.76
+      ],
+      "score": 0.661339
+    },
+    {
+      "frame_index": 24,
+      "time_s": 1.5,
+      "bbox_xywh": [
+        675.21,
+        175.48,
+        392.48,
+        364.9
+      ],
+      "score": 0.630673
+    },
+    {
+      "frame_index": 26,
+      "time_s": 1.625,
+      "bbox_xywh": [
+        679.83,
+        161.99,
+        374.92,
+        375.37
+      ],
+      "score": 0.667199
+    },
+    {
+      "frame_index": 46,
+      "time_s": 2.875,
+      "bbox_xywh": [
+        717.45,
+        87.1,
+        346.95,
+        375.04
+      ],
+      "score": 0.628312
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_161938/iphone__video_20261005_161938__003__000014250-000019750__rub_cat_forehead_with_finger.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 88
+}

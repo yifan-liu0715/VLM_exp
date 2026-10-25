@@ -1,0 +1,10 @@
+{
+    "cache_key": "REDACTED_SENSITIVE_VALUE",
+    "db": "",
+    "logdir": "/nvmedata/workspace2/users/tmx/stage_rl_trl/outputs/exp044_no_tiny_lr5e7_beta01/runs/May28_23-03-59_is-dcrc324uvsgyc6mv-devmachine-0",
+    "path_prefix": "",
+    "pid": 2192528,
+    "port": 6006,
+    "start_time": 1780056222,
+    "version": "2.20.0"
+}

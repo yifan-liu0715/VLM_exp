@@ -1,0 +1,229 @@
+{
+  "model": "Wan2.2-TI2V-5B",
+  "lora": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_formal_v2_r16_lr5e5/step-5250.safetensors",
+  "lora_alpha": 1.0,
+  "lora_label": "formal_v2_step-5250",
+  "parameters": {
+    "resolution_mode": "fixed",
+    "height": 320,
+    "width": 576,
+    "sample_resolutions": {
+      "mymotion__multi_talking_face_video_copy__339": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__single_talking_face__datatrain_youtube_clip__004": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__multi_talking_face_video_copy__073": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__multi_talking_face_video_copy__133": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__multi_talking_face_video_copy__351": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__single_talking_face__datatrain_youtube_clip__082": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__multi_talking_face_video_copy__156": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__single_talking_face__datatrain_youtube_clip__046": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__multi_talking_face_video_copy__143": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__single_talking_face__datatrain_youtube_clip__017": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__humandance__batch1_mote_cropped__445": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__humandance__batch1_mote_cropped__498": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__humandance__batch1_mote_cropped__360": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__humandance__batch1_mote_cropped__468": {
+        "height": 320,
+        "width": 576
+      },
+      "mymotion__humandance__batch1_mote_cropped__514": {
+        "height": 320,
+        "width": 576
+      }
+    },
+    "num_frames": 33,
+    "seed": 123,
+    "tiled": true,
+    "fps": 15
+  },
+  "outputs": [
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__339_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__004_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__073_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__133_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__351_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__082_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__156_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__046_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__143_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__017_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__445_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__498_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__360_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__468_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "base",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__514_base.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__339",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__339_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__004",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__004_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__073",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__073_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__133",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__133_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__351",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__351_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__082",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__082_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__156",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__156_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__046",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__046_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__multi_talking_face_video_copy__143",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__multi_talking_face_video_copy__143_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__single_talking_face__datatrain_youtube_clip__017",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__single_talking_face__datatrain_youtube_clip__017_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__445",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__445_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__498",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__498_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__360",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__360_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__468",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__468_formal_v2_step-5250.mp4"
+    },
+    {
+      "sample_id": "mymotion__humandance__batch1_mote_cropped__514",
+      "variant": "formal_v2_step-5250",
+      "path": "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results/formal_multiseed/seed-123/mymotion__humandance__batch1_mote_cropped__514_formal_v2_step-5250.mp4"
+    }
+  ]
+}

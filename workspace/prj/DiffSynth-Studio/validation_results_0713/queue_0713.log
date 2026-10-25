@@ -1,0 +1,197 @@
+[2026-07-13T01:28:32+08:00] Queue started; waiting for isolated _0713 training.
+[2026-07-13T01:28:32+08:00] Training still running.
+[2026-07-13T01:29:32+08:00] Training still running.
+[2026-07-13T01:30:32+08:00] Training still running.
+[2026-07-13T01:31:32+08:00] Training still running.
+[2026-07-13T01:32:32+08:00] Training still running.
+[2026-07-13T01:33:33+08:00] Training still running.
+[2026-07-13T01:34:33+08:00] Training still running.
+[2026-07-13T01:35:33+08:00] Training still running.
+[2026-07-13T01:36:33+08:00] Training still running.
+[2026-07-13T01:37:33+08:00] Training still running.
+[2026-07-13T01:38:33+08:00] Training still running.
+[2026-07-13T01:39:23+08:00] Queue started; waiting for isolated _0713 training. Post-training inference GPU: 1.
+[2026-07-13T01:39:23+08:00] Training still running.
+[2026-07-13T01:39:33+08:00] Training still running.
+[2026-07-13T01:40:23+08:00] Training still running.
+[2026-07-13T01:41:23+08:00] Training still running.
+[2026-07-13T01:42:23+08:00] Training still running.
+[2026-07-13T01:43:23+08:00] Training still running.
+[2026-07-13T01:44:23+08:00] Training still running.
+[2026-07-13T01:45:24+08:00] Training still running.
+[2026-07-13T01:46:24+08:00] Training still running.
+[2026-07-13T01:47:24+08:00] Training still running.
+[2026-07-13T01:48:24+08:00] Training still running.
+[2026-07-13T01:49:24+08:00] Training still running.
+[2026-07-13T01:50:24+08:00] Training still running.
+[2026-07-13T01:51:24+08:00] Training still running.
+[2026-07-13T01:52:24+08:00] Training still running.
+[2026-07-13T01:53:24+08:00] Training still running.
+[2026-07-13T01:54:24+08:00] Training still running.
+[2026-07-13T01:55:24+08:00] Training still running.
+[2026-07-13T01:56:24+08:00] Training still running.
+[2026-07-13T01:57:24+08:00] Training still running.
+[2026-07-13T01:58:24+08:00] Training still running.
+[2026-07-13T01:59:24+08:00] Training still running.
+[2026-07-13T02:00:24+08:00] Training still running.
+[2026-07-13T02:01:24+08:00] Training still running.
+[2026-07-13T02:02:24+08:00] Training still running.
+[2026-07-13T02:03:24+08:00] Training still running.
+[2026-07-13T02:04:24+08:00] Training still running.
+[2026-07-13T02:05:24+08:00] Training still running.
+[2026-07-13T02:06:24+08:00] Training still running.
+[2026-07-13T02:07:24+08:00] Training still running.
+[2026-07-13T02:08:24+08:00] Training still running.
+[2026-07-13T02:09:24+08:00] Training still running.
+[2026-07-13T02:10:24+08:00] Training still running.
+[2026-07-13T02:11:24+08:00] Training still running.
+[2026-07-13T02:12:24+08:00] Training still running.
+[2026-07-13T02:13:24+08:00] Training still running.
+[2026-07-13T02:14:24+08:00] Training still running.
+[2026-07-13T02:15:24+08:00] Training still running.
+[2026-07-13T02:16:24+08:00] Training still running.
+[2026-07-13T02:17:24+08:00] Training still running.
+[2026-07-13T02:18:24+08:00] Training still running.
+[2026-07-13T02:19:24+08:00] Training still running.
+[2026-07-13T02:20:24+08:00] Training ended; validating checkpoint: /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_quick_v2v_0713/step-4096.safetensors
+2026-07-13 02:20:27,488 - modelscope - INFO - PyTorch version 2.3.1+cu121 Found.
+2026-07-13 02:20:27,489 - modelscope - INFO - Loading ast index from /home/student/.cache/modelscope/ast_indexer
+2026-07-13 02:20:27,521 - modelscope - INFO - Loading done! Current index file version is 1.13.0, with md5 ff125777727a86450d55db0aa9124ce7 and a total number of 972 components indexed
+Loading models from: "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth"
+Detected non-safetensors files, which may cause slower loading. It's recommended to convert it to a safetensors file.
+Loaded model: {
+    "model_name": "wan_video_text_encoder",
+    "model_class": "diffsynth.models.wan_video_text_encoder.WanTextEncoder",
+    "extra_kwargs": null
+}
+Loading models from: [
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+]
+Loaded model: {
+    "model_name": "wan_video_dit",
+    "model_class": "diffsynth.models.wan_video_dit.WanModel",
+    "extra_kwargs": {
+        "has_image_input": false,
+        "patch_size": [
+            1,
+            2,
+            2
+        ],
+        "in_dim": 48,
+        "dim": 3072,
+        "ffn_dim": 14336,
+        "freq_dim": 256,
+        "text_dim": 4096,
+        "out_dim": 48,
+        "num_heads": 24,
+        "num_layers": 30,
+        "eps": 1e-06,
+        "seperated_timestep": true,
+        "require_clip_embedding": false,
+        "require_vae_embedding": false,
+        "fuse_vae_embedding_in_latents": true
+    }
+}
+Loading models from: "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/Wan2.2_VAE.pth"
+Detected non-safetensors files, which may cause slower loading. It's recommended to convert it to a safetensors file.
+Loaded model: {
+    "model_name": "wan_video_vae",
+    "model_class": "diffsynth.models.wan_video_vae.WanVideoVAE38",
+    "extra_kwargs": null
+}
+Using wan_video_text_encoder from "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth".
+Using wan_video_dit from [
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+].
+Using wan_video_vae from "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/pretrain_weights/Wan2.2-TI2V-5B/Wan-AI/Wan2.2-TI2V-5B/Wan2.2_VAE.pth".
+No wan_video_image_encoder models available. This is not an error.
+No wan_video_motion_controller models available. This is not an error.
+No wan_video_vace models available. This is not an error.
+No wan_video_vap models available. This is not an error.
+No wans2v_audio_encoder models available. This is not an error.
+No wan_video_animate_adapter models available. This is not an error.
+[generate] mymotion__002 base source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__002_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  2.58it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  2.58it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:05,  5.50it/s]  7%|▋         | 2/30 [00:00<00:05,  4.99it/s] 10%|█         | 3/30 [00:00<00:05,  4.86it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.79it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.74it/s] 20%|██        | 6/30 [00:01<00:05,  4.72it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.70it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.70it/s] 30%|███       | 9/30 [00:01<00:04,  4.69it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.69it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.69it/s] 40%|████      | 12/30 [00:02<00:03,  4.68it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.67it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.67it/s] 50%|█████     | 15/30 [00:03<00:03,  4.68it/s] 53%|█████▎    | 16/30 [00:03<00:02,  4.67it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.67it/s] 60%|██████    | 18/30 [00:03<00:02,  4.67it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.66it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.66it/s] 70%|███████   | 21/30 [00:04<00:01,  4.66it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.66it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.66it/s] 80%|████████  | 24/30 [00:05<00:01,  4.66it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.66it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.65it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.65it/s] 93%|█████████▎| 28/30 [00:05<00:00,  4.66it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.66it/s]100%|██████████| 30/30 [00:06<00:00,  4.66it/s]100%|██████████| 30/30 [00:06<00:00,  4.69it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video:   3%|▎         | 1/33 [00:00<00:03,  9.50it/s]Saving video: 100%|██████████| 33/33 [00:00<00:00, 219.58it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[generate] mymotion__012 base source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__012_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.24it/s]  7%|▋         | 2/30 [00:00<00:05,  5.19it/s] 10%|█         | 3/30 [00:00<00:05,  4.94it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.82it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.76it/s] 20%|██        | 6/30 [00:01<00:05,  4.71it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.69it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.68it/s] 30%|███       | 9/30 [00:01<00:04,  4.67it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.66it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.66it/s] 40%|████      | 12/30 [00:02<00:03,  4.66it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.66it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.66it/s] 50%|█████     | 15/30 [00:03<00:03,  4.65it/s] 53%|█████▎    | 16/30 [00:03<00:03,  4.65it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.65it/s] 60%|██████    | 18/30 [00:03<00:02,  4.65it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.65it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.65it/s] 70%|███████   | 21/30 [00:04<00:01,  4.65it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.65it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.65it/s] 80%|████████  | 24/30 [00:05<00:01,  4.65it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.63it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.62it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.63it/s] 93%|█████████▎| 28/30 [00:05<00:00,  4.63it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.63it/s]100%|██████████| 30/30 [00:06<00:00,  4.63it/s]100%|██████████| 30/30 [00:06<00:00,  4.68it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 341.68it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[generate] mymotion__015 base source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__015_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.19it/s]  7%|▋         | 2/30 [00:00<00:05,  5.17it/s] 10%|█         | 3/30 [00:00<00:05,  4.87it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.77it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.72it/s] 20%|██        | 6/30 [00:01<00:05,  4.69it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.67it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.66it/s] 30%|███       | 9/30 [00:01<00:04,  4.66it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.65it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.64it/s] 40%|████      | 12/30 [00:02<00:03,  4.64it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.63it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.63it/s] 50%|█████     | 15/30 [00:03<00:03,  4.63it/s] 53%|█████▎    | 16/30 [00:03<00:03,  4.63it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.63it/s] 60%|██████    | 18/30 [00:03<00:02,  4.63it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.63it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.63it/s] 70%|███████   | 21/30 [00:04<00:01,  4.63it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.63it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.63it/s] 80%|████████  | 24/30 [00:05<00:01,  4.63it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.63it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.63it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.63it/s] 93%|█████████▎| 28/30 [00:05<00:00,  4.63it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.62it/s]100%|██████████| 30/30 [00:06<00:00,  4.62it/s]100%|██████████| 30/30 [00:06<00:00,  4.67it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 344.01it/s]
+[lora] loading /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/output_models/wan2.2_lora_quick_v2v_0713/step-4096.safetensors alpha=1.0
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+300 tensors are fused by LoRA. Fused LoRA layers cannot be cleared by `pipe.clear_lora()`.
+[generate] mymotion__002 lora source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__002_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.08it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.16it/s]  7%|▋         | 2/30 [00:00<00:05,  5.17it/s] 10%|█         | 3/30 [00:00<00:05,  4.92it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.81it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.74it/s] 20%|██        | 6/30 [00:01<00:05,  4.69it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.67it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.65it/s] 30%|███       | 9/30 [00:01<00:04,  4.64it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.64it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.63it/s] 40%|████      | 12/30 [00:02<00:03,  4.63it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.63it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.63it/s] 50%|█████     | 15/30 [00:03<00:03,  4.63it/s] 53%|█████▎    | 16/30 [00:03<00:03,  4.63it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.63it/s] 60%|██████    | 18/30 [00:03<00:02,  4.62it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.62it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.62it/s] 70%|███████   | 21/30 [00:04<00:01,  4.62it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.62it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.62it/s] 80%|████████  | 24/30 [00:05<00:01,  4.61it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.62it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.62it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.62it/s] 93%|█████████▎| 28/30 [00:06<00:00,  4.62it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.62it/s]100%|██████████| 30/30 [00:06<00:00,  4.62it/s]100%|██████████| 30/30 [00:06<00:00,  4.66it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 355.20it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[generate] mymotion__012 lora source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__012_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.06it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.06it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.18it/s]  7%|▋         | 2/30 [00:00<00:05,  5.16it/s] 10%|█         | 3/30 [00:00<00:05,  4.90it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.78it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.72it/s] 20%|██        | 6/30 [00:01<00:05,  4.69it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.67it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.65it/s] 30%|███       | 9/30 [00:01<00:04,  4.64it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.63it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.63it/s] 40%|████      | 12/30 [00:02<00:03,  4.62it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.62it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.62it/s] 50%|█████     | 15/30 [00:03<00:03,  4.63it/s] 53%|█████▎    | 16/30 [00:03<00:03,  4.62it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.62it/s] 60%|██████    | 18/30 [00:03<00:02,  4.62it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.62it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.62it/s] 70%|███████   | 21/30 [00:04<00:01,  4.62it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.62it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.62it/s] 80%|████████  | 24/30 [00:05<00:01,  4.62it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.62it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.62it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.62it/s] 93%|█████████▎| 28/30 [00:06<00:00,  4.62it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.61it/s]100%|██████████| 30/30 [00:06<00:00,  4.62it/s]100%|██████████| 30/30 [00:06<00:00,  4.66it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 359.92it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[generate] mymotion__015 lora source=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/data_0713/v2v_quick_0713/source_videos/mymotion__015_source_degraded.mp4
+VAE encoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.06it/s]VAE encoding: 100%|██████████| 1/1 [00:00<00:00,  4.05it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.18it/s]  7%|▋         | 2/30 [00:00<00:05,  5.15it/s] 10%|█         | 3/30 [00:00<00:05,  4.90it/s] 13%|█▎        | 4/30 [00:00<00:05,  4.78it/s] 17%|█▋        | 5/30 [00:01<00:05,  4.72it/s] 20%|██        | 6/30 [00:01<00:05,  4.68it/s] 23%|██▎       | 7/30 [00:01<00:04,  4.66it/s] 27%|██▋       | 8/30 [00:01<00:04,  4.65it/s] 30%|███       | 9/30 [00:01<00:04,  4.63it/s] 33%|███▎      | 10/30 [00:02<00:04,  4.63it/s] 37%|███▋      | 11/30 [00:02<00:04,  4.62it/s] 40%|████      | 12/30 [00:02<00:03,  4.62it/s] 43%|████▎     | 13/30 [00:02<00:03,  4.62it/s] 47%|████▋     | 14/30 [00:02<00:03,  4.62it/s] 50%|█████     | 15/30 [00:03<00:03,  4.61it/s] 53%|█████▎    | 16/30 [00:03<00:03,  4.61it/s] 57%|█████▋    | 17/30 [00:03<00:02,  4.61it/s] 60%|██████    | 18/30 [00:03<00:02,  4.61it/s] 63%|██████▎   | 19/30 [00:04<00:02,  4.61it/s] 67%|██████▋   | 20/30 [00:04<00:02,  4.61it/s] 70%|███████   | 21/30 [00:04<00:01,  4.62it/s] 73%|███████▎  | 22/30 [00:04<00:01,  4.62it/s] 77%|███████▋  | 23/30 [00:04<00:01,  4.62it/s] 80%|████████  | 24/30 [00:05<00:01,  4.61it/s] 83%|████████▎ | 25/30 [00:05<00:01,  4.61it/s] 87%|████████▋ | 26/30 [00:05<00:00,  4.61it/s] 90%|█████████ | 27/30 [00:05<00:00,  4.61it/s] 93%|█████████▎| 28/30 [00:06<00:00,  4.61it/s] 97%|█████████▋| 29/30 [00:06<00:00,  4.61it/s]100%|██████████| 30/30 [00:06<00:00,  4.61it/s]100%|██████████| 30/30 [00:06<00:00,  4.65it/s]
+VAE decoding:   0%|          | 0/1 [00:00<?, ?it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]VAE decoding: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+Saving video:   0%|          | 0/33 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Saving video: 100%|██████████| 33/33 [00:00<00:00, 359.18it/s]
+[done] /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/validation_results_0713
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/scripts_0713/evaluate_v2v_0713.py", line 9, in <module>
+    from skimage.metrics import structural_similarity
+ModuleNotFoundError: No module named 'skimage'

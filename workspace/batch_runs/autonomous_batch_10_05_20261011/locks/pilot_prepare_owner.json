@@ -1,0 +1,9 @@
+{
+  "pid": 820995,
+  "started_at": "2026-10-11T15:19:00.189722+08:00",
+  "stage": "pilot",
+  "workers": 1,
+  "backend": "MediaPipe CPU; FFmpeg CPU, threads=2",
+  "keypoints_started": false,
+  "training_started": false
+}

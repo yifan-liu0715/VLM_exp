@@ -1,0 +1,9 @@
+{
+  "proposal_count": 7,
+  "pipeline_version": "h3-causal-v3-20260921",
+  "duration_min_sec": 3.6,
+  "duration_max_sec": 15.0,
+  "review_status_counts": {
+    "pending_user_review": 7
+  }
+}

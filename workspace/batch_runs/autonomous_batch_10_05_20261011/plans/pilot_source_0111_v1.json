@@ -1,0 +1,169 @@
+{
+  "plan_version": "manual-source-context-v1",
+  "created_at": "2026-10-11T15:26:36.192623+08:00",
+  "source_id": "dji__DJI_20261005193322_0111_D",
+  "source_sha256": "4e156ecb2c36d9f199437453109a53df750e390301c7f17cdf4875e81605cc09",
+  "source_review_sample_fps": 8,
+  "source_review_pages": [
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_001.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_002.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_003.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_004.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_005.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_006.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/review_page_007.jpg"
+  ],
+  "native_anchor_frames": [
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/frame_000015.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/frame_000054.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/frame_000085.jpg",
+    "source_context/dji__DJI_20261005193322_0111_D/native_8fps/frame_000093.jpg"
+  ],
+  "source_review_complete": true,
+  "coverage": [
+    {
+      "start_s": 0,
+      "end_s": 0.625,
+      "state": "uncovered_reviewed",
+      "reason": "natural prior state before retained approach; no separate hand trigger"
+    },
+    {
+      "start_s": 0.625,
+      "end_s": 19.375,
+      "state": "covered_by_event_plans"
+    },
+    {
+      "start_s": 19.375,
+      "end_s": 19.456,
+      "state": "uncovered_reviewed",
+      "reason": "source ends after release and readable outcome"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "001",
+      "start_s": 0.625,
+      "end_s": 6.4375,
+      "hand_action": "stroke_cat_head",
+      "contact_region": "head",
+      "animal_response": "cat_keeps_head_low_and_stays_in_contact",
+      "interaction_mode": "sustained_contact",
+      "action_or_condition_onset_s": 1.5,
+      "response_onset_s": 1.75,
+      "response_evidence_s": [
+        2.0,
+        4.5
+      ],
+      "causal_end_s": 6.4375,
+      "tail_checked_until_s": 7.0,
+      "temporal_envelope": "full",
+      "semantic_valid": true,
+      "caption_text": "The camera operator strokes the cat's head; the cat keeps its head low and remains in contact with the hand.",
+      "caption_zh": "第一视角右手抚摸猫头，猫保持低头和与手接触的状态。",
+      "review_reason": null,
+      "animal_type": "cat",
+      "primary_target_id": "cat_01",
+      "secondary_animals": [
+        "cat_02",
+        "cat_03"
+      ],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "hand_mode": "single_right_hand",
+      "delivery_type": "direct_contact",
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "crop": null,
+      "second_pass_completed": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "causal_start_s": 0.625,
+      "state": "review_needed",
+      "split_or_merge_reason": "Broad head strokes change to localized forehead rubbing, then outer-ear contact; repeated cycles within each phase remain contiguous. The last transition remains a human-review question."
+    },
+    {
+      "event_id": "002",
+      "start_s": 6.4375,
+      "end_s": 10.5,
+      "hand_action": "rub_cat_forehead",
+      "contact_region": "forehead",
+      "animal_response": "cat_raises_head_toward_fingers",
+      "interaction_mode": "trigger_response",
+      "action_or_condition_onset_s": 6.5,
+      "response_onset_s": 6.75,
+      "response_evidence_s": [
+        7.0,
+        9.75
+      ],
+      "causal_end_s": 10.5,
+      "tail_checked_until_s": 11.25,
+      "temporal_envelope": "brief_event",
+      "semantic_valid": true,
+      "caption_text": "The camera operator rubs the cat's forehead with fingertips; the cat raises its head toward the fingers.",
+      "caption_zh": "右手指尖揉猫额头，猫向手指抬起头。",
+      "review_reason": "Boundary between forehead rubbing and the following ear contact needs human comparison; do not promote automatically.",
+      "animal_type": "cat",
+      "primary_target_id": "cat_01",
+      "secondary_animals": [
+        "cat_02",
+        "cat_03"
+      ],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "hand_mode": "single_right_hand",
+      "delivery_type": "direct_contact",
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "crop": null,
+      "second_pass_completed": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "causal_start_s": 6.4375,
+      "state": "review_needed",
+      "split_or_merge_reason": "Broad head strokes change to localized forehead rubbing, then outer-ear contact; repeated cycles within each phase remain contiguous. The last transition remains a human-review question."
+    },
+    {
+      "event_id": "003",
+      "start_s": 10.125,
+      "end_s": 19.375,
+      "hand_action": "rub_cat_outer_ear",
+      "contact_region": "outer_ear",
+      "animal_response": "cat_keeps_head_raised_and_eyes_narrow",
+      "interaction_mode": "verified_non_response",
+      "action_or_condition_onset_s": 10.5,
+      "response_onset_s": null,
+      "response_evidence_s": [
+        11.0,
+        12.25
+      ],
+      "causal_end_s": 19.375,
+      "tail_checked_until_s": 19.375,
+      "temporal_envelope": "full",
+      "semantic_valid": null,
+      "caption_text": "The camera operator rubs the cat's outer ear; the cat keeps its head raised with narrow eyes.",
+      "caption_zh": "右手揉猫耳外侧，猫保持抬头和眯眼状态。",
+      "review_reason": "Determine whether this is an independent weak-response event or the continuous response tail of forehead rubbing.",
+      "animal_type": "cat",
+      "primary_target_id": "cat_01",
+      "secondary_animals": [
+        "cat_02",
+        "cat_03"
+      ],
+      "competition_state": "none",
+      "animal_to_animal_mediation": false,
+      "hand_mode": "single_right_hand",
+      "delivery_type": "direct_contact",
+      "source_orientation": "landscape",
+      "metadata_rotation_deg": 0.0,
+      "crop": null,
+      "second_pass_completed": true,
+      "accepted_for_training": false,
+      "human_reviewed": false,
+      "causal_start_s": 10.125,
+      "state": "review_needed",
+      "split_or_merge_reason": "Broad head strokes change to localized forehead rubbing, then outer-ear contact; repeated cycles within each phase remain contiguous. The last transition remains a human-review question."
+    }
+  ],
+  "privacy_review_pending_encoded_output": true,
+  "no_keypoints_or_training": true
+}

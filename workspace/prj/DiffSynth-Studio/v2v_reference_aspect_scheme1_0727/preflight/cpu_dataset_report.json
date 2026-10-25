@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "scheme": "reference_aspect_scheme1",
+  "source_target_preprocessing": "unchanged",
+  "reference_preprocessing": "foreground-aware aspect crop with white-padding fallback",
+  "samples": [
+    {
+      "bucket": "1280x512",
+      "sample_id": "mymotion__001",
+      "source_shape": [
+        3,
+        97,
+        256,
+        704
+      ],
+      "target_shape": [
+        3,
+        97,
+        256,
+        704
+      ],
+      "reference_shape": [
+        3,
+        256,
+        704
+      ],
+      "source_range": [
+        -1.0,
+        1.0
+      ],
+      "target_range": [
+        -1.0,
+        1.0
+      ],
+      "reference_range": [
+        -1.0,
+        1.0
+      ],
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/output_video/mymotion__001.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/input_video/mymotion__001.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x512/reference/mymotion__001.jpg"
+    },
+    {
+      "bucket": "1280x704",
+      "sample_id": "mymotion__002",
+      "source_shape": [
+        3,
+        97,
+        384,
+        704
+      ],
+      "target_shape": [
+        3,
+        97,
+        384,
+        704
+      ],
+      "reference_shape": [
+        3,
+        384,
+        704
+      ],
+      "source_range": [
+        -1.0000001192092896,
+        0.9985321164131165
+      ],
+      "target_range": [
+        -1.0000001192092896,
+        1.0
+      ],
+      "reference_range": [
+        -1.0,
+        1.0
+      ],
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/output_video/mymotion__002.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/input_video/mymotion__002.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/1280x704/reference/mymotion__002.jpg"
+    },
+    {
+      "bucket": "704x1280",
+      "sample_id": "mymotion__humandance2__batch1_mote2_1__1007",
+      "source_shape": [
+        3,
+        97,
+        704,
+        384
+      ],
+      "target_shape": [
+        3,
+        97,
+        704,
+        384
+      ],
+      "reference_shape": [
+        3,
+        704,
+        384
+      ],
+      "source_range": [
+        -1.0000001192092896,
+        1.0
+      ],
+      "target_range": [
+        -1.0000001192092896,
+        1.0
+      ],
+      "reference_range": [
+        -1.0,
+        1.0
+      ],
+      "source_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/output_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "target_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/input_video/mymotion__humandance2__batch1_mote2_1__1007.mp4",
+      "reference_path": "/nvmedata/workspace2/users/nina/dataset_video_train/704x1280/reference/mymotion__humandance2__batch1_mote2_1__1007.jpg"
+    }
+  ]
+}

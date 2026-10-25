@@ -1,0 +1,109 @@
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/exception_handler.py", line 18, in __call__
+        return func(*args, **kwargs)
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/cli/main.py", line 61, in main_subshell
+        exit_code = do_call(args, parser)
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/cli/conda_argparse.py", line 205, in do_call
+        result = getattr(module, func_name)(args, parser)
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/cli/main_run.py", line 97, in execute
+        script, command = wrap_subprocess_call(
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/utils.py", line 482, in wrap_subprocess_call
+        with Utf8NamedTemporaryFile(mode="w", prefix=tmp_prefix, delete=False) as fh:
+      File "/usr/local/miniconda3/lib/python3.10/site-packages/conda/auxlib/compat.py", line 33, in Utf8NamedTemporaryFile
+        return NamedTemporaryFile(
+      File "/usr/local/miniconda3/lib/python3.10/tempfile.py", line 557, in NamedTemporaryFile
+        prefix, suffix, dir, output_type = _sanitize_params(prefix, suffix, dir)
+      File "/usr/local/miniconda3/lib/python3.10/tempfile.py", line 126, in _sanitize_params
+        dir = gettempdir()
+      File "/usr/local/miniconda3/lib/python3.10/tempfile.py", line 315, in gettempdir
+        return _os.fsdecode(_gettempdir())
+      File "/usr/local/miniconda3/lib/python3.10/tempfile.py", line 308, in _gettempdir
+        tempdir = _get_default_tempdir()
+      File "/usr/local/miniconda3/lib/python3.10/tempfile.py", line 223, in _get_default_tempdir
+        raise FileNotFoundError(_errno.ENOENT,
+    FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/usr/tmp', '/home/student']
+
+`$ /usr/local/miniconda3/bin/conda run --no-capture-output -n v2v_train python /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/scripts/infer_v2v_comparison_cfg.py --sample-id mymotion__002 --manifest /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/metadata/metadata_corrected_direction_0719.csv --config /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/resolved_train_config.yaml --adapter /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_corrected_tiers_0719/recommended/final_adapter/v2v_lora_and_source_patch.safetensors --output-dir /nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/validation_recommended_cfg5 --num-frames 33 --steps 30 --seed 42 --guidance-scale 5`
+
+  environment variables:
+                 CIO_TEST=<not set>
+        CONDA_DEFAULT_ENV=base
+                CONDA_EXE=/usr/local/miniconda3/bin/conda
+          CONDA_PKGS_DIRS=/nvmedata/workspace2/conda_data
+             CONDA_PREFIX=/usr/local/miniconda3
+    CONDA_PROMPT_MODIFIER=(base)
+         CONDA_PYTHON_EXE=/usr/local/miniconda3/bin/python
+               CONDA_ROOT=/usr/local/miniconda3
+              CONDA_SHLVL=1
+           CURL_CA_BUNDLE=<not set>
+          LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+               LD_PRELOAD=<not set>
+             LIBRARY_PATH=/usr/local/cuda/lib64/stubs
+                     PATH=/nvmedata/workspace2/users/Elon_huang/.npm-global/bin:/home/student/.l
+                          ocal/bin:/usr/local/miniconda3/bin:/home/student/.local/bin:/home/stud
+                          ent/local/go/bin:/usr/local/miniconda3/bin:/usr/local/miniconda3/conda
+                          bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/
+                          games:/usr/local/games:/snap/bin
+         PYTHONNOUSERSITE=1
+               PYTHONPATH=/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+                 no_proxy=<set>
+
+     active environment : base
+    active env location : /usr/local/miniconda3
+            shell level : 1
+       user config file : /home/student/.condarc
+ populated config files : /usr/local/miniconda3/.condarc
+                          /home/student/.condarc
+          conda version : 25.1.1
+    conda-build version : not installed
+         python version : 3.10.16.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=icelake
+                          __conda=25.1.1=0
+                          __cuda=12.4=0
+                          __glibc=2.35=0
+                          __linux=5.15.0=0
+                          __unix=0=0
+       base environment : /usr/local/miniconda3  (read only)
+      conda av data dir : /usr/local/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64
+                          https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch
+                          https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r/linux-64
+                          https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r/noarch
+                          https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2/linux-64
+                          https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /nvmedata/workspace2/conda_data
+       envs directories : /nvmedata/workspace2/conda_data/envs
+                          /home/student/conda/envs
+                          /usr/local/miniconda3/envs
+                          /nvmedata/workspace2/users/zh/envs
+                          /nvmedata/workspace2/users/wzt/envs
+                          /home/student/.conda/envs
+               platform : linux-64
+             user-agent : conda/25.1.1 requests/2.32.3 CPython/3.10.16 Linux/5.15.0-91-generic ubuntu/22.04.4 glibc/2.35 solver/libmamba conda-libmamba-solver/25.1.1 libmambapy/2.0.5
+                UID:GID : 1000:1000
+             netrc file : /home/student/.netrc
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+If you suspect this error is being caused by a malfunctioning plugin,
+consider using the --no-plugins option to turn off plugins.
+
+Example: conda --no-plugins install <package>
+
+Alternatively, you can set the CONDA_NO_PLUGINS environment variable on
+the command line to run the command without plugins enabled.
+
+Example: CONDA_NO_PLUGINS=true conda install <package>
+

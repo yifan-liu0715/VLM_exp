@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "source": "modelscope:ZhipuAI/SCAIL-2",
+  "official_source_reference": "SCAIL-2 SAT README",
+  "revision": "master",
+  "modelscope_version": "1.39.0",
+  "verified_at": "2026-08-04T06:48:57.586355+00:00",
+  "file_count": 13,
+  "total_bytes": 82456801375,
+  "expected_dpo_sha256": "cf29934c72fee6b24c3a5a82e8a9a4f3f4e93d76d988c9a20fac4e2b19e8fa09",
+  "actual_dpo_sha256": "cf29934c72fee6b24c3a5a82e8a9a4f3f4e93d76d988c9a20fac4e2b19e8fa09",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 2487,
+      "sha256": "6cb3b5e5f8e2cda3dfd8eb85b3b07de43f9bc8df964c7bce029ef5f45a13d9e8"
+    },
+    {
+      "path": "README.md",
+      "size": 3310,
+      "sha256": "cade35f0cf5dfec66510b9ec0e99eaf5bb4424fcdeeeb344d937516756cae1d3"
+    },
+    {
+      "path": "Wan2.1_VAE.pth",
+      "size": 507609880,
+      "sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981"
+    },
+    {
+      "path": "configuration.json",
+      "size": 73,
+      "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9"
+    },
+    {
+      "path": "model/1/fsdp2_rank_0000_checkpoint.pt",
+      "size": 65582563395,
+      "sha256": "d6c73e94c57eb36e6351c800d1228e41ed7e45db1ccf410dd875bcfdd2945e7f"
+    },
+    {
+      "path": "model/bias-aware-dpo-lora.pt",
+      "size": 1227381060,
+      "sha256": "cf29934c72fee6b24c3a5a82e8a9a4f3f4e93d76d988c9a20fac4e2b19e8fa09"
+    },
+    {
+      "path": "model/relighting-lora.pt",
+      "size": 1227381060,
+      "sha256": "80d338a7969c1b286c8f5c4996b37eb198d0864837fecb6c87c106ca74571a2b"
+    },
+    {
+      "path": "models_clip_open-clip-xlm-roberta-large-vit-huge-14-onlyvisual.pth",
+      "size": 2528485611,
+      "sha256": "020daacf4c0ce94284df584d243cefb6ddfadefff8772226a8e85431df5de2da"
+    },
+    {
+      "path": "umt5-xxl/models_t5_umt5-xxl-enc-bf16.pth",
+      "size": 11361920418,
+      "sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d"
+    },
+    {
+      "path": "umt5-xxl/special_tokens_map.json",
+      "size": 6623,
+      "sha256": "7b8a9f5040adb67b5805abdfd42c1f8d0f3d0e711f10726580eb3789cd0ad61d"
+    },
+    {
+      "path": "umt5-xxl/spiece.model",
+      "size": 4548313,
+      "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458"
+    },
+    {
+      "path": "umt5-xxl/tokenizer.json",
+      "size": 16837417,
+      "sha256": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b"
+    },
+    {
+      "path": "umt5-xxl/tokenizer_config.json",
+      "size": 61728,
+      "sha256": "ed9a3a8b0faa71a70a32847e0435fe036e6e112d4df4edb7bb48a921e344dc05"
+    }
+  ]
+}

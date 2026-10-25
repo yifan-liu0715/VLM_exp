@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "source_checkpoint": "weights/SCAIL-2/model/1/fsdp2_rank_0000_checkpoint.pt",
+  "source_checkpoint_sha256": "d6c73e94c57eb36e6351c800d1228e41ed7e45db1ccf410dd875bcfdd2945e7f",
+  "source_checkpoint_size_bytes": 65582563395,
+  "source_audit": {
+    "tensor_count_including_rng_state": 989,
+    "model_tensor_count": 987,
+    "model_dtype": "torch.float32",
+    "model_total_numel": 16395544384,
+    "meta_mmap_audit": true
+  },
+  "official_wan_source": {
+    "repository": "https://github.com/zai-org/SCAIL-2.git",
+    "branch": "wan-scail2",
+    "commit": "5cfe1b8daac8bcb22ee19794e6c04f1bf5de6ac5",
+    "codeload_zip_sha256": "2ec1a12633505e987d7ca7afaefec462bab69de22d2563efe07d125deaeee9b1",
+    "converter": "convert.py"
+  },
+  "compatibility_wrapper": "scripts/convert_scail2_base_py29.py",
+  "compatibility_changes": [
+    "Verify the trusted official checkpoint SHA256 before pickle loading.",
+    "Explicitly set torch.load(weights_only=False) for PyTorch 2.6+ compatibility.",
+    "Use mmap=True and map_location=cpu.",
+    "Clone mapped tensors once so split QKV tensors have independent safetensors storage."
+  ],
+  "gpu_used": false,
+  "output": "weights/converted/SCAIL-2.safetensors",
+  "output_sha256": "8b844f026510f0b94d3209d66444b403a089ec179dc149d85513c13b2fa37118",
+  "output_size_bytes": 65582313560,
+  "output_audit": {
+    "status": "passed",
+    "tensor_count": 1307,
+    "dtype": "F32",
+    "total_numel": 16395544384,
+    "header_size_bytes": 136016,
+    "payload_bytes": 65582177536,
+    "header_payload_size_matches_file": true
+  }
+}

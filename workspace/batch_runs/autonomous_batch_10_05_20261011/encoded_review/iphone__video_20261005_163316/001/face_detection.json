@@ -1,0 +1,149 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 46,
+  "frames_with_faces": 12,
+  "face_count_detected": 12,
+  "hits": [
+    {
+      "frame_index": 2,
+      "time_s": 0.125,
+      "bbox_xywh": [
+        160.06,
+        -8.08,
+        460.6,
+        452.7
+      ],
+      "score": 0.63286
+    },
+    {
+      "frame_index": 4,
+      "time_s": 0.25,
+      "bbox_xywh": [
+        -7.13,
+        42.91,
+        320.45,
+        453.5
+      ],
+      "score": 0.603627
+    },
+    {
+      "frame_index": 16,
+      "time_s": 1.0,
+      "bbox_xywh": [
+        443.25,
+        -20.13,
+        463.31,
+        453.3
+      ],
+      "score": 0.642564
+    },
+    {
+      "frame_index": 17,
+      "time_s": 1.0625,
+      "bbox_xywh": [
+        435.94,
+        -37.1,
+        481.73,
+        466.16
+      ],
+      "score": 0.676698
+    },
+    {
+      "frame_index": 18,
+      "time_s": 1.125,
+      "bbox_xywh": [
+        408.16,
+        -27.21,
+        474.22,
+        464.02
+      ],
+      "score": 0.639169
+    },
+    {
+      "frame_index": 19,
+      "time_s": 1.1875,
+      "bbox_xywh": [
+        411.96,
+        -22.53,
+        470.85,
+        455.68
+      ],
+      "score": 0.659082
+    },
+    {
+      "frame_index": 21,
+      "time_s": 1.3125,
+      "bbox_xywh": [
+        396.6,
+        76.02,
+        400.7,
+        393.32
+      ],
+      "score": 0.611174
+    },
+    {
+      "frame_index": 25,
+      "time_s": 1.5625,
+      "bbox_xywh": [
+        411.63,
+        15.06,
+        476.33,
+        529.66
+      ],
+      "score": 0.616829
+    },
+    {
+      "frame_index": 29,
+      "time_s": 1.8125,
+      "bbox_xywh": [
+        407.39,
+        88.22,
+        490.0,
+        515.87
+      ],
+      "score": 0.624285
+    },
+    {
+      "frame_index": 35,
+      "time_s": 2.1875,
+      "bbox_xywh": [
+        398.77,
+        155.42,
+        499.17,
+        540.9
+      ],
+      "score": 0.603087
+    },
+    {
+      "frame_index": 36,
+      "time_s": 2.25,
+      "bbox_xywh": [
+        409.96,
+        172.03,
+        476.32,
+        504.85
+      ],
+      "score": 0.662937
+    },
+    {
+      "frame_index": 41,
+      "time_s": 2.5625,
+      "bbox_xywh": [
+        404.37,
+        191.09,
+        485.14,
+        474.07
+      ],
+      "score": 0.609794
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/iphone__video_20261005_163316/iphone__video_20261005_163316__001__000009875-000012750__present_pouch_to_cat_nose.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 46
+}

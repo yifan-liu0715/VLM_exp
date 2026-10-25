@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/scripts/infer_v2v_comparison_cfg.py", line 513, in <module>
+    main()
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/scripts/infer_v2v_comparison_cfg.py", line 365, in main
+    sample = load_aligned_sample(row, args.num_frames)
+  File "/nvmedata/workspace2/users/nina/prj/DiffSynth-Studio/v2v_cfgfix_diagnostic_0720/scripts/infer_v2v_comparison_cfg.py", line 166, in load_aligned_sample
+    from decord import VideoReader, cpu
+ModuleNotFoundError: No module named 'decord'

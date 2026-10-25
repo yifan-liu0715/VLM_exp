@@ -1,0 +1,127 @@
+{
+  "status": "faces_detected_fixed_crop_or_reject",
+  "detector_backend": "opencv_yunet",
+  "detector_version": "4.13.0",
+  "all_frames_checked": true,
+  "frames_checked": 19,
+  "frames_with_faces": 10,
+  "face_count_detected": 10,
+  "hits": [
+    {
+      "frame_index": 0,
+      "time_s": 0.0,
+      "bbox_xywh": [
+        620.29,
+        323.22,
+        114.72,
+        138.57
+      ],
+      "score": 0.834853
+    },
+    {
+      "frame_index": 1,
+      "time_s": 0.0625,
+      "bbox_xywh": [
+        625.42,
+        324.12,
+        109.6,
+        130.44
+      ],
+      "score": 0.831579
+    },
+    {
+      "frame_index": 2,
+      "time_s": 0.125,
+      "bbox_xywh": [
+        620.0,
+        324.27,
+        115.37,
+        139.52
+      ],
+      "score": 0.864322
+    },
+    {
+      "frame_index": 3,
+      "time_s": 0.1875,
+      "bbox_xywh": [
+        621.8,
+        339.17,
+        116.22,
+        128.27
+      ],
+      "score": 0.867319
+    },
+    {
+      "frame_index": 4,
+      "time_s": 0.25,
+      "bbox_xywh": [
+        617.67,
+        341.58,
+        117.27,
+        143.94
+      ],
+      "score": 0.864617
+    },
+    {
+      "frame_index": 5,
+      "time_s": 0.3125,
+      "bbox_xywh": [
+        602.45,
+        337.15,
+        137.04,
+        158.08
+      ],
+      "score": 0.842739
+    },
+    {
+      "frame_index": 6,
+      "time_s": 0.375,
+      "bbox_xywh": [
+        607.13,
+        343.04,
+        127.05,
+        138.22
+      ],
+      "score": 0.862183
+    },
+    {
+      "frame_index": 7,
+      "time_s": 0.4375,
+      "bbox_xywh": [
+        607.7,
+        332.49,
+        122.6,
+        137.69
+      ],
+      "score": 0.881887
+    },
+    {
+      "frame_index": 8,
+      "time_s": 0.5,
+      "bbox_xywh": [
+        595.06,
+        309.14,
+        133.09,
+        150.32
+      ],
+      "score": 0.869947
+    },
+    {
+      "frame_index": 9,
+      "time_s": 0.5625,
+      "bbox_xywh": [
+        593.62,
+        297.96,
+        130.47,
+        153.26
+      ],
+      "score": 0.882099
+    }
+  ],
+  "error": null,
+  "path": "/nvmedata/workspace2/users/nina/batch_runs/autonomous_batch_10_05_20261011/candidate_clips/dji__DJI_20261005220906_0169_D/dji__DJI_20261005220906_0169_D__004__000029500-000030688__offer_palm_under_dog_chin.mp4",
+  "scan_fps": 16.0,
+  "width": 1280,
+  "height": 720,
+  "expected_frames": 19
+}
