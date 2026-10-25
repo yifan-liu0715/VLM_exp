@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-742a8baf81f8a850",
+  "asset_name": "dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-742a8baf81f8a850.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1071759704,
+  "sha256": "588d05f06fcd2a767a93b7c2de5ddf95ac7eb5003aa8670a3e7df937ba664ac3",
+  "logical_bytes": 1072345412,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675314610,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-742a8baf81f8a850.tar.zst",
+  "github_digest": "sha256:588d05f06fcd2a767a93b7c2de5ddf95ac7eb5003aa8670a3e7df937ba664ac3",
+  "uploaded_at": "2026-10-25T22:59:32+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_semantic_rescreen_v3_2016_coverage357_20260923-742a8baf81f8a850.json"
+}
