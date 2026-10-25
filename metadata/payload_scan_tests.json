@@ -1,0 +1,20 @@
+{
+  "checks": 9,
+  "failures": 0,
+  "executed_on": [
+    "Windows",
+    "remote Linux"
+  ],
+  "tested_cases": [
+    "cross-buffer credentials",
+    "recursive archive credentials",
+    "archive traversal",
+    "safetensors metadata secret",
+    "valid safetensors",
+    "invalid tensor ranges",
+    "credential filenames",
+    "source changed since inventory",
+    "clean archive"
+  ],
+  "all_requested_payload_scanned": false
+}

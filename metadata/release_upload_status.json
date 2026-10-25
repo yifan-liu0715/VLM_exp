@@ -1,9 +1,33 @@
 {
-  "state": "requires_github_api_login",
+  "state": "uploading",
+  "updated_at": "2026-10-25T20:40:11+0800",
+  "started_at": "2026-10-25T20:39:26+0800",
+  "pid": 3741856,
+  "repository": "yifan-liu0715/VLM_exp",
+  "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 0,
-  "uploaded_bytes": 0,
-  "command": "gh auth login --hostname github.com --git-protocol ssh --web --skip-ssh-key",
-  "note": "No archive upload was attempted. SSH Git authentication alone cannot call the Releases API."
+  "uploaded_jobs": 4,
+  "uploaded_archive_bytes": 1172754794,
+  "uploaded_logical_bytes": 1172928016,
+  "remaining_logical_bytes": 438080363354,
+  "aggregate_logical_MB_per_second_since_start": 2.2,
+  "estimated_remaining_transfer_hours": 55.32,
+  "active_jobs": {
+    "batch_raw_pending_and_results-fce848bf370b92f5": {
+      "stage": "content_check",
+      "logical_bytes": 80412193,
+      "started_at": "2026-10-25T20:39:30+0800"
+    },
+    "batch_raw_pending_and_results-ce31e8a65ab6ce79": {
+      "stage": "content_check",
+      "logical_bytes": 163128435,
+      "started_at": "2026-10-25T20:40:10+0800"
+    }
+  },
+  "held": [],
+  "failures": [],
+  "token_written_to_disk": false,
+  "original_workspace_modified": false,
+  "all_requested_content_uploaded": false
 }
