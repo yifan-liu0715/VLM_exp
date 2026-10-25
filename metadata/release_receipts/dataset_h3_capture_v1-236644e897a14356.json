@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_v1-236644e897a14356",
+  "asset_name": "dataset_h3_capture_v1-236644e897a14356.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1072455967,
+  "sha256": "7c4f787cb3cea1f4f5c39c79b216e45c87619caf9d1c18dd4d06730f000ccd7c",
+  "logical_bytes": 1072965956,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675340955,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_v1-236644e897a14356.tar.zst",
+  "github_digest": "sha256:7c4f787cb3cea1f4f5c39c79b216e45c87619caf9d1c18dd4d06730f000ccd7c",
+  "uploaded_at": "2026-10-25T23:10:19+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_v1-236644e897a14356.json"
+}
