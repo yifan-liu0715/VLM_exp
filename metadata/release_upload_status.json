@@ -1,29 +1,23 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T06:14:59+0800",
+  "updated_at": "2026-10-26T06:18:14+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 372,
-  "uploaded_archive_bytes": 411370016794,
-  "uploaded_logical_bytes": 420591878827,
-  "remaining_logical_bytes": 18661412543,
-  "aggregate_logical_MB_per_second_since_start": 12.148,
-  "estimated_remaining_transfer_hours": 0.43,
+  "uploaded_jobs": 374,
+  "uploaded_archive_bytes": 414591242266,
+  "uploaded_logical_bytes": 423813104299,
+  "remaining_logical_bytes": 15440187071,
+  "aggregate_logical_MB_per_second_since_start": 12.173,
+  "estimated_remaining_transfer_hours": 0.35,
   "active_jobs": {
     "projects_training_and_tests-a9228789b4aaaeb4": {
       "stage": "uploading",
       "logical_bytes": 1610612736,
       "started_at": "2026-10-26T04:55:48+0800",
-      "attempt": 1
-    },
-    "other_workspace_files-81d4c68fc1a3867d": {
-      "stage": "uploading",
-      "logical_bytes": 1610612736,
-      "started_at": "2026-10-26T06:11:57+0800",
       "attempt": 1
     }
   },
@@ -182,6 +176,11 @@
       "id": "projects_training_and_tests-0a45cf958e4c9ccc",
       "logical_bytes": 1056998226,
       "reason": "payload has 3 unclassified secret candidates"
+    },
+    {
+      "id": "git_history_needs_security_review-42d34316b9b44124",
+      "logical_bytes": 578113275,
+      "reason": "original nested Git history requires independent history scan"
     }
   ],
   "failures": [
