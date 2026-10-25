@@ -1,0 +1,31 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "environments-82efe4c0b43b8820",
+  "source_files": 4000,
+  "logical_bytes": 34502957,
+  "gitleaks_candidates": 3,
+  "classified_false_positives": 3,
+  "manual_review_evidence": [
+    {
+      "rule": "generic-api-key",
+      "line": 37,
+      "classification": "model task name equals assignment name with hyphens",
+      "target": "body_2d_keypoints"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 38,
+      "classification": "model task name equals assignment name with hyphens",
+      "target": "body_3d_keypoints"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 41,
+      "classification": "model task name equals assignment name with hyphens",
+      "target": "face_2d_keypoints"
+    }
+  ],
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T07:55:39+0800"
+}
