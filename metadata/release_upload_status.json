@@ -1,18 +1,18 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T05:16:14+0800",
+  "updated_at": "2026-10-26T05:19:14+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 353,
-  "uploaded_archive_bytes": 380768374810,
-  "uploaded_logical_bytes": 389990236843,
-  "remaining_logical_bytes": 49263054527,
-  "aggregate_logical_MB_per_second_since_start": 12.542,
-  "estimated_remaining_transfer_hours": 1.09,
+  "uploaded_jobs": 354,
+  "uploaded_archive_bytes": 382378987546,
+  "uploaded_logical_bytes": 391600849579,
+  "remaining_logical_bytes": 47652441791,
+  "aggregate_logical_MB_per_second_since_start": 12.522,
+  "estimated_remaining_transfer_hours": 1.06,
   "active_jobs": {
     "projects_training_and_tests-a9228789b4aaaeb4": {
       "stage": "uploading",
@@ -20,10 +20,10 @@
       "started_at": "2026-10-26T04:55:48+0800",
       "attempt": 1
     },
-    "projects_training_and_tests-c0a6d57c8fd18d63": {
+    "projects_training_and_tests-c377fce11e960890": {
       "stage": "uploading",
       "logical_bytes": 1610612736,
-      "started_at": "2026-10-26T05:13:40+0800",
+      "started_at": "2026-10-26T05:16:29+0800",
       "attempt": 1
     }
   },
