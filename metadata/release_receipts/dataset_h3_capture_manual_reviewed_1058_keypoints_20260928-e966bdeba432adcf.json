@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-e966bdeba432adcf",
+  "asset_name": "dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-e966bdeba432adcf.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 511294854,
+  "sha256": "f896f42db8ef006fd23d943e669b2ce701a85a505503c3e77d970254e0d9d1a3",
+  "logical_bytes": 513487630,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675823643,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-e966bdeba432adcf.tar.zst",
+  "github_digest": "sha256:f896f42db8ef006fd23d943e669b2ce701a85a505503c3e77d970254e0d9d1a3",
+  "uploaded_at": "2026-10-26T02:46:08+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-e966bdeba432adcf.json"
+}

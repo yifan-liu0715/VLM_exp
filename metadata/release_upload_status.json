@@ -1,30 +1,29 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T02:44:28+0800",
+  "updated_at": "2026-10-26T02:47:28+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 264,
-  "uploaded_archive_bytes": 270955984640,
-  "uploaded_logical_bytes": 273220893691,
-  "remaining_logical_bytes": 166032397679,
-  "aggregate_logical_MB_per_second_since_start": 12.426,
-  "estimated_remaining_transfer_hours": 3.71,
+  "uploaded_jobs": 269,
+  "uploaded_archive_bytes": 272970728646,
+  "uploaded_logical_bytes": 276080413358,
+  "remaining_logical_bytes": 163172878012,
+  "aggregate_logical_MB_per_second_since_start": 12.454,
+  "estimated_remaining_transfer_hours": 3.64,
   "active_jobs": {
-    "projects_training_and_tests-14878a207f44a274": {
+    "projects_training_and_tests-be0fb2ab22495f7f": {
       "stage": "uploading",
-      "logical_bytes": 484071933,
-      "started_at": "2026-10-26T02:43:55+0800",
+      "logical_bytes": 677403890,
+      "started_at": "2026-10-26T02:47:14+0800",
       "attempt": 1
     },
-    "dataset_h3_capture_manual_reviewed_1058_keypoints_20260928-e966bdeba432adcf": {
-      "stage": "uploading",
-      "logical_bytes": 513487630,
-      "started_at": "2026-10-26T02:44:05+0800",
-      "attempt": 1
+    "other_workspace_files-8b7a907d67042f0d": {
+      "stage": "content_check",
+      "logical_bytes": 707497431,
+      "started_at": "2026-10-26T02:47:25+0800"
     }
   },
   "held": [
@@ -142,6 +141,26 @@
       "id": "environments-0c07b2f50b842778",
       "logical_bytes": 393731958,
       "reason": "payload has 6 unclassified secret candidates"
+    },
+    {
+      "id": "environments-807db1e77597ea90",
+      "logical_bytes": 541422755,
+      "reason": "payload has 86 unclassified secret candidates"
+    },
+    {
+      "id": "environments-94693f4985c1d6ad",
+      "logical_bytes": 541422755,
+      "reason": "payload has 86 unclassified secret candidates"
+    },
+    {
+      "id": "environments-2eecff09dc8926a0",
+      "logical_bytes": 608691043,
+      "reason": "payload has 1 unclassified secret candidates"
+    },
+    {
+      "id": "projects_training_and_tests-78e6fad68c89bec6",
+      "logical_bytes": 616493965,
+      "reason": "unsupported compressed archive requires separate inspection"
     }
   ],
   "failures": [
