@@ -1,0 +1,15 @@
+{
+  "id": "dataset_h3_capture_semantic_review_2050_coverage355_20260923-ec423af69b981850",
+  "asset_name": "dataset_h3_capture_semantic_review_2050_coverage355_20260923-ec423af69b981850.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1069226661,
+  "sha256": "fa1745b82dccb81c9f930fd26caad6c8737d2021143f558106ad5ac180351be3",
+  "logical_bytes": 1069832358,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675268506,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_h3_capture_semantic_review_2050_coverage355_20260923-ec423af69b981850.tar.zst",
+  "github_digest": "sha256:fa1745b82dccb81c9f930fd26caad6c8737d2021143f558106ad5ac180351be3",
+  "uploaded_at": "2026-10-25T22:38:03+0800",
+  "payload_safety_receipt": "payload_safety/dataset_h3_capture_semantic_review_2050_coverage355_20260923-ec423af69b981850.json"
+}
