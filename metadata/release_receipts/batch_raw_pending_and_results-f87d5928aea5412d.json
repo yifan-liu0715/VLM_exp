@@ -1,0 +1,15 @@
+{
+  "id": "batch_raw_pending_and_results-f87d5928aea5412d",
+  "asset_name": "batch_raw_pending_and_results-f87d5928aea5412d.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 1006080919,
+  "sha256": "6bd6cc1c4282058b4f947adfc66924add861d1575f65edd34782f56f5268afaa",
+  "logical_bytes": 1006191035,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 675163626,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/batch_raw_pending_and_results-f87d5928aea5412d.tar.zst",
+  "github_digest": "sha256:6bd6cc1c4282058b4f947adfc66924add861d1575f65edd34782f56f5268afaa",
+  "uploaded_at": "2026-10-25T21:49:54+0800",
+  "payload_safety_receipt": "payload_safety/batch_raw_pending_and_results-f87d5928aea5412d.json"
+}
