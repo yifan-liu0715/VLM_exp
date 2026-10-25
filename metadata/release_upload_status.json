@@ -1,6 +1,6 @@
 {
   "state": "uploading",
-  "updated_at": "2026-10-26T06:11:59+0800",
+  "updated_at": "2026-10-26T06:14:59+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
@@ -11,8 +11,8 @@
   "uploaded_archive_bytes": 411370016794,
   "uploaded_logical_bytes": 420591878827,
   "remaining_logical_bytes": 18661412543,
-  "aggregate_logical_MB_per_second_since_start": 12.212,
-  "estimated_remaining_transfer_hours": 0.42,
+  "aggregate_logical_MB_per_second_since_start": 12.148,
+  "estimated_remaining_transfer_hours": 0.43,
   "active_jobs": {
     "projects_training_and_tests-a9228789b4aaaeb4": {
       "stage": "uploading",
@@ -21,9 +21,10 @@
       "attempt": 1
     },
     "other_workspace_files-81d4c68fc1a3867d": {
-      "stage": "preparing_archive",
+      "stage": "uploading",
       "logical_bytes": 1610612736,
-      "started_at": "2026-10-26T06:11:57+0800"
+      "started_at": "2026-10-26T06:11:57+0800",
+      "attempt": 1
     }
   },
   "held": [
