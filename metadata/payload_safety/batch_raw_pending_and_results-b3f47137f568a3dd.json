@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "batch_raw_pending_and_results-b3f47137f568a3dd",
+  "source_files": 2,
+  "logical_bytes": 1069339712,
+  "known_sensitive_values_checked": 8,
+  "gitleaks_candidates": 0,
+  "classified_false_positives": 0,
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-25T22:32:15+0800"
+}
