@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "created_at": "2026-10-26T22:45:03+0800",
+  "repository": "yifan-liu0715/VLM_exp",
+  "release_tag": "nina-workspace-20261025",
+  "source_root": "/nvmedata/workspace2/users/nina",
+  "export_root": "/nvmedata/workspace2/users/nina_export_20261025",
+  "policy": "User accepted exclusion of remaining failed/held/unverified payloads; original workspace remains unchanged.",
+  "integrity_check": {
+    "status": "passed",
+    "verified_jobs": 381,
+    "planned_jobs": 410,
+    "github_assets_checked": 381,
+    "receipt_assets_checked": 381,
+    "name_size_sha256_mismatches": 0,
+    "github_release_asset_state": "uploaded",
+    "method": "GitHub Release asset metadata matched server uploaded_verified receipts by asset name, byte size, and SHA-256 digest; no full re-download was required."
+  },
+  "verified": {
+    "jobs": 381,
+    "logical_bytes": 428216259369,
+    "archive_bytes": 418510209961
+  },
+  "excluded": {
+    "jobs": 29,
+    "logical_bytes": 11037032001,
+    "items": [
+      {
+        "id": "projects_training_and_tests-0a45cf958e4c9ccc",
+        "asset_name": "projects_training_and_tests-0a45cf958e4c9ccc.tar.zst",
+        "logical_bytes": 1056998226,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 3 unclassified secret candidates"
+      },
+      {
+        "id": "projects_training_and_tests-39d81757ef8f1741",
+        "asset_name": "projects_training_and_tests-39d81757ef8f1741.tar.zst",
+        "logical_bytes": 1054617657,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "projects_training_and_tests-721832a4cdda4379",
+        "asset_name": "projects_training_and_tests-721832a4cdda4379.tar.zst",
+        "logical_bytes": 979595693,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "projects_training_and_tests-78e6fad68c89bec6",
+        "asset_name": "projects_training_and_tests-78e6fad68c89bec6.tar.zst",
+        "logical_bytes": 616493965,
+        "classification": "held_excluded_by_user",
+        "reason": "unsupported compressed archive requires separate inspection"
+      },
+      {
+        "id": "projects_training_and_tests-c6612d23eb3643ae",
+        "asset_name": "projects_training_and_tests-c6612d23eb3643ae.tar.zst",
+        "logical_bytes": 1037022539,
+        "classification": "failed_excluded_by_user",
+        "reason": "upload_or_packaging_failure: EOFError"
+      },
+      {
+        "id": "projects_training_and_tests-e1eae9855753b154",
+        "asset_name": "projects_training_and_tests-e1eae9855753b154.tar.zst",
+        "logical_bytes": 949436378,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-0c07b2f50b842778",
+        "asset_name": "environments-0c07b2f50b842778.tar.zst",
+        "logical_bytes": 393731958,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 6 unclassified secret candidates"
+      },
+      {
+        "id": "environments-166246bfeb0e9fe5",
+        "asset_name": "environments-166246bfeb0e9fe5.tar.zst",
+        "logical_bytes": 299318142,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-1cb8b928334840d2",
+        "asset_name": "environments-1cb8b928334840d2.tar.zst",
+        "logical_bytes": 131534552,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-2725566539d4e2c8",
+        "asset_name": "environments-2725566539d4e2c8.tar.zst",
+        "logical_bytes": 115135694,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 1 unclassified secret candidates"
+      },
+      {
+        "id": "environments-2abf3af0c8f5815d",
+        "asset_name": "environments-2abf3af0c8f5815d.tar.zst",
+        "logical_bytes": 48713486,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-4b6c00def32d93d6",
+        "asset_name": "environments-4b6c00def32d93d6.tar.zst",
+        "logical_bytes": 145651422,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-6cd93854fed5befb",
+        "asset_name": "environments-6cd93854fed5befb.tar.zst",
+        "logical_bytes": 227553521,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 19 unclassified secret candidates"
+      },
+      {
+        "id": "environments-807db1e77597ea90",
+        "asset_name": "environments-807db1e77597ea90.tar.zst",
+        "logical_bytes": 541422755,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 86 unclassified secret candidates"
+      },
+      {
+        "id": "environments-84c2f2dd037b6d95",
+        "asset_name": "environments-84c2f2dd037b6d95.tar.zst",
+        "logical_bytes": 115349812,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-94693f4985c1d6ad",
+        "asset_name": "environments-94693f4985c1d6ad.tar.zst",
+        "logical_bytes": 541422755,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 86 unclassified secret candidates"
+      },
+      {
+        "id": "environments-9490b9424ec6fc2b",
+        "asset_name": "environments-9490b9424ec6fc2b.tar.zst",
+        "logical_bytes": 317445357,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-9d5ada14e04af35e",
+        "asset_name": "environments-9d5ada14e04af35e.tar.zst",
+        "logical_bytes": 299317926,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-b0e0f8fb4292f2de",
+        "asset_name": "environments-b0e0f8fb4292f2de.tar.zst",
+        "logical_bytes": 132435410,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 9 unclassified secret candidates"
+      },
+      {
+        "id": "environments-baa7eec07657713b",
+        "asset_name": "environments-baa7eec07657713b.tar.zst",
+        "logical_bytes": 227553521,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 19 unclassified secret candidates"
+      },
+      {
+        "id": "environments-c390ad1be251e124",
+        "asset_name": "environments-c390ad1be251e124.tar.zst",
+        "logical_bytes": 94462324,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 1 unclassified secret candidates"
+      },
+      {
+        "id": "environments-c6e2e2e4eb281e0c",
+        "asset_name": "environments-c6e2e2e4eb281e0c.tar.zst",
+        "logical_bytes": 315990112,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-c782e1a98ca7d941",
+        "asset_name": "environments-c782e1a98ca7d941.tar.zst",
+        "logical_bytes": 37124643,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 3 unclassified secret candidates"
+      },
+      {
+        "id": "environments-cf30268277743948",
+        "asset_name": "environments-cf30268277743948.tar.zst",
+        "logical_bytes": 179732185,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "environments-d1c8b3303a8dda62",
+        "asset_name": "environments-d1c8b3303a8dda62.tar.zst",
+        "logical_bytes": 121597056,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 9 unclassified secret candidates"
+      },
+      {
+        "id": "environments-eec9843b4c20912c",
+        "asset_name": "environments-eec9843b4c20912c.tar.zst",
+        "logical_bytes": 259256584,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 4 unclassified secret candidates"
+      },
+      {
+        "id": "environments-f6803c0aafe45bc8",
+        "asset_name": "environments-f6803c0aafe45bc8.tar.zst",
+        "logical_bytes": 215169452,
+        "classification": "held_excluded_by_user",
+        "reason": "payload has 3 unclassified secret candidates"
+      },
+      {
+        "id": "logs_and_tool_state-4e4edcd687d2798c",
+        "asset_name": "logs_and_tool_state-4e4edcd687d2798c.tar.zst",
+        "logical_bytes": 4835601,
+        "classification": "held_excluded_by_user",
+        "reason": "credential value or high-confidence credential pattern detected"
+      },
+      {
+        "id": "git_history_needs_security_review-42d34316b9b44124",
+        "asset_name": "git_history_needs_security_review-42d34316b9b44124.tar.zst",
+        "logical_bytes": 578113275,
+        "classification": "held_excluded_by_user",
+        "reason": "original nested Git history requires independent history scan"
+      }
+    ]
+  },
+  "original_workspace_modified": false,
+  "all_requested_content_uploaded": false
+}
