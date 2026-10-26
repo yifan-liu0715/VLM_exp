@@ -1,6 +1,6 @@
 {
-  "state": "partial_requires_attention",
-  "updated_at": "2026-10-26T11:34:33+0800",
+  "state": "partial_excluded_by_user",
+  "updated_at": "2026-10-26T22:45:03+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
@@ -164,5 +164,7 @@
   ],
   "token_written_to_disk": false,
   "original_workspace_modified": false,
-  "all_requested_content_uploaded": false
+  "all_requested_content_uploaded": false,
+  "user_accepted_exclusions": true,
+  "exclusion_report": "final_backup_coverage.json"
 }
