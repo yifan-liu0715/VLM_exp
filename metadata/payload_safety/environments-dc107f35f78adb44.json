@@ -1,0 +1,48 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "environments-dc107f35f78adb44",
+  "source_files": 4000,
+  "logical_bytes": 70386927,
+  "gitleaks_candidates": 7,
+  "classified_false_positives": 7,
+  "manual_review_evidence": [
+    {
+      "rule": "generic-api-key",
+      "line": 20,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 17,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 21,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 22,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 21,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 19,
+      "classification": "imported Python symbol"
+    },
+    {
+      "rule": "generic-api-key",
+      "line": 21,
+      "classification": "imported Python symbol"
+    }
+  ],
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T08:27:41+0800"
+}

@@ -1,0 +1,18 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "environments-2eecff09dc8926a0",
+  "source_files": 4000,
+  "logical_bytes": 608691043,
+  "gitleaks_candidates": 1,
+  "classified_false_positives": 1,
+  "manual_review_evidence": [
+    {
+      "rule": "generic-api-key",
+      "line": 2203,
+      "classification": "Python identifier expression, not a string literal"
+    }
+  ],
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T08:27:42+0800"
+}

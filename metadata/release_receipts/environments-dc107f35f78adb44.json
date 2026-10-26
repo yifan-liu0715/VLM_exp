@@ -1,0 +1,14 @@
+{
+  "id": "environments-dc107f35f78adb44",
+  "asset_name": "environments-dc107f35f78adb44.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 12999837,
+  "sha256": "94279d1bee28a30900734182c9e56d3ce2212378adf0dcc5886d817a59169ac9",
+  "logical_bytes": 70386927,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 676524295,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/environments-dc107f35f78adb44.tar.zst",
+  "github_digest": "sha256:94279d1bee28a30900734182c9e56d3ce2212378adf0dcc5886d817a59169ac9",
+  "uploaded_at": "2026-10-26T08:28:08+0800"
+}
