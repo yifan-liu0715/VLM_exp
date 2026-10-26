@@ -1,16 +1,16 @@
 {
   "state": "partial_requires_attention",
-  "updated_at": "2026-10-26T08:29:14+0800",
+  "updated_at": "2026-10-26T11:34:33+0800",
   "started_at": "2026-10-25T20:39:26+0800",
   "pid": 3741856,
   "repository": "yifan-liu0715/VLM_exp",
   "release_url": "https://github.com/yifan-liu0715/VLM_exp/releases/tag/nina-workspace-20261025",
   "planned_jobs": 410,
   "planned_bytes": 439253291370,
-  "uploaded_jobs": 380,
-  "uploaded_archive_bytes": 418456359539,
-  "uploaded_logical_bytes": 428056378515,
-  "remaining_logical_bytes": 11196912855,
+  "uploaded_jobs": 381,
+  "uploaded_archive_bytes": 418510209961,
+  "uploaded_logical_bytes": 428216259369,
+  "remaining_logical_bytes": 11037032001,
   "aggregate_logical_MB_per_second_since_start": 11.654,
   "estimated_remaining_transfer_hours": null,
   "active_jobs": {},
@@ -64,11 +64,6 @@
       "id": "environments-4b6c00def32d93d6",
       "logical_bytes": 145651422,
       "reason": "credential value or high-confidence credential pattern detected"
-    },
-    {
-      "id": "environments-227769274a29d218",
-      "logical_bytes": 159880854,
-      "reason": "payload has 4 unclassified secret candidates"
     },
     {
       "id": "environments-cf30268277743948",

@@ -1,0 +1,29 @@
+{
+  "state": "verified",
+  "scanner_version": 1,
+  "id": "environments-227769274a29d218",
+  "source_files": 4000,
+  "logical_bytes": 159880854,
+  "gitleaks_candidates": 4,
+  "classified_false_positives": 4,
+  "manual_review_evidence": [
+    {
+      "line": 39,
+      "classification": "Python attribute reference assigned to registry API alias"
+    },
+    {
+      "line": 426,
+      "classification": "C macro maps SQLite API identifier to identical member name"
+    },
+    {
+      "line": 582,
+      "classification": "C macro maps SQLite API identifier to identical member name"
+    },
+    {
+      "line": 674,
+      "classification": "C macro maps SQLite API identifier to identical member name"
+    }
+  ],
+  "original_workspace_modified": false,
+  "verified_at": "2026-10-26T11:33:47+0800"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "environments-227769274a29d218",
+  "asset_name": "environments-227769274a29d218.tar.zst",
+  "kind": "tar_zstd",
+  "bytes": 53850422,
+  "sha256": "5fd5dad104bec1acef580ec606afb082baf1fddd1e5beb7ffc2c1ab171aab644",
+  "logical_bytes": 159880854,
+  "source_stat_verified": true,
+  "state": "uploaded_verified",
+  "asset_id": 676894458,
+  "download_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/environments-227769274a29d218.tar.zst",
+  "github_digest": "sha256:5fd5dad104bec1acef580ec606afb082baf1fddd1e5beb7ffc2c1ab171aab644",
+  "uploaded_at": "2026-10-26T11:34:13+0800"
+}
