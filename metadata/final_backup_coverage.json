@@ -231,5 +231,26 @@
     ]
   },
   "original_workspace_modified": false,
-  "all_requested_content_uploaded": false
+  "all_requested_content_uploaded": false,
+  "supplemental_uploads": [
+    {
+      "asset_name": "dataset_video_train-supplement-20261028.tar.zst",
+      "github_asset_id": 683184304,
+      "package_bytes": 1081744,
+      "package_sha256": "afca628cefb6e5a026c31013066a04d06250015995bbfb37a1d55159f2a84e03",
+      "logical_bytes": 7608474,
+      "files": 4,
+      "status": "uploaded_verified"
+    }
+  ],
+  "dataset_video_train_coverage": {
+    "base_snapshot_files": 11748,
+    "supplemental_files": 4,
+    "current_source_files_observed": 11752,
+    "base_snapshot_logical_bytes": 10423925730,
+    "supplemental_logical_bytes": 7608474,
+    "current_source_bytes_observed": 10431534204,
+    "status": "complete_for_current_source_snapshot"
+  },
+  "updated_at": "2026-10-28T07:22:22+0800"
 }
