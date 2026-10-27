@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "created_at": "2026-10-28T07:20:31+0800",
+  "asset_name": "dataset_video_train-supplement-20261028.tar.zst",
+  "asset_path": "/nvmedata/workspace2/users/nina_export_20261025/chunks/dataset_video_train-supplement-20261028.tar.zst",
+  "package_bytes": 1081744,
+  "package_sha256": "afca628cefb6e5a026c31013066a04d06250015995bbfb37a1d55159f2a84e03",
+  "logical_bytes": 7608474,
+  "files": [
+    {
+      "path": "dataset_video_train/README.md",
+      "size": 731,
+      "mtime_ns": 1781587366000000000,
+      "sha256": "b03f3e9dce825f4cd8e4fd8609110386ce5513dd724791216c78c370e9a41721"
+    },
+    {
+      "path": "dataset_video_train/metadata.csv",
+      "size": 2511926,
+      "mtime_ns": 1781587366000000000,
+      "sha256": "7971ec2a97fc5d19085046a8c3671c00e1c76cfd503235d64ddff97309027752"
+    },
+    {
+      "path": "dataset_video_train/metadata.jsonl",
+      "size": 3225079,
+      "mtime_ns": 1781587366000000000,
+      "sha256": "c91fbfa8bff40abdb1e63ad0f1b73eeef91ad0dd38a473889a270645c2ca3c43"
+    },
+    {
+      "path": "dataset_video_train/metadata_train.csv",
+      "size": 1870738,
+      "mtime_ns": 1782570532426587603,
+      "sha256": "f0ba2281d2706293158e503de47f58db8003654323c8b25df970053cddfaf6b5"
+    }
+  ],
+  "restore_mapping": {
+    "dataset_target": "workspace/dataset_video_train",
+    "symlink_path": "workspace/prj/DiffSynth-Studio/data/dataset_video_train",
+    "symlink_target": "../../dataset_video_train"
+  },
+  "github_release": "yifan-liu0715/VLM_exp",
+  "github_release_tag": "nina-workspace-20261025",
+  "github_asset_id": 683184304,
+  "github_asset_state": "uploaded",
+  "github_asset_digest": "sha256:afca628cefb6e5a026c31013066a04d06250015995bbfb37a1d55159f2a84e03",
+  "github_asset_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/dataset_video_train-supplement-20261028.tar.zst"
+}
