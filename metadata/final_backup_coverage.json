@@ -241,6 +241,26 @@
       "logical_bytes": 7608474,
       "files": 4,
       "status": "uploaded_verified"
+    },
+    {
+      "asset_name": "h3-review-keypoints-supplement-20261028-part01.tar.zst",
+      "github_asset_id": 683298706,
+      "github_asset_state": "uploaded",
+      "github_asset_digest": "sha256:2932d54cb0a4609e371bba96735622dbb91fac8bf853216c738eab62100fd408",
+      "package_bytes": 429638881,
+      "logical_bytes": 1199983013,
+      "file_count": 13462,
+      "github_asset_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/h3-review-keypoints-supplement-20261028-part01.tar.zst"
+    },
+    {
+      "asset_name": "h3-review-keypoints-supplement-20261028-part02.tar.zst",
+      "github_asset_id": 683299788,
+      "github_asset_state": "uploaded",
+      "github_asset_digest": "sha256:0ca90029c01a863155a3e0ad0b3afc5d5312622831a345015f8193f41a1311ec",
+      "package_bytes": 423749563,
+      "logical_bytes": 1089503914,
+      "file_count": 6492,
+      "github_asset_url": "https://github.com/yifan-liu0715/VLM_exp/releases/download/nina-workspace-20261025/h3-review-keypoints-supplement-20261028-part02.tar.zst"
     }
   ],
   "dataset_video_train_coverage": {
@@ -252,5 +272,13 @@
     "current_source_bytes_observed": 10431534204,
     "status": "complete_for_current_source_snapshot"
   },
-  "updated_at": "2026-10-28T07:22:22+0800"
+  "updated_at": "2026-10-28T08:20:52+0800",
+  "review_keypoint_history": {
+    "status": "uploaded_verified",
+    "file_count": 19954,
+    "logical_bytes": 2289486927,
+    "package_count": 2,
+    "manifest": "h3_review_keypoints_supplement_20261028.json",
+    "scope": "H3 review decisions, manifests, reports, hand-keypoint JSON/JSONL and related batch review records not present in base release jobs."
+  }
 }
